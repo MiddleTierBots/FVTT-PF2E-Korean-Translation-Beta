@@ -1,0 +1,68 @@
+{
+  "id": "pf2e-ko",
+  "title": "PF2e Korean Translation Beta",
+  "description": "중급봇이 개발중인 패스파인더 2e 한국어 테스트.",
+  "authors": [
+    {
+      "name": "중급봇",
+      "discord": "middletierbot",
+      "url": ""
+    }
+  ],
+  "version": "0.0.3",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "esmodules": [
+    "scripts/init.js"
+  ],
+  "languages": [
+    {
+      "lang": "ko",
+      "name": "기본 (Korean)",
+      "path": "ko.json",
+      "flags": {}
+    },
+    {
+      "lang": "ko",
+      "name": "Actions (Korean)",
+      "path": "action-ko.json",
+      "flags": {}
+    }
+	,
+    {
+      "lang": "ko",
+      "name": "PF2e Workbench (Korean)",
+      "path": "pf2e-workbench-ko.json",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems":[
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/pf2e/master/system.json",
+        "compatibility": {
+          "minimum": "5.6.*"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+        "type": "module",
+				"compatibility": {}
+      },
+      {
+        "id": "babele",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "type": "module",
+				"compatibility": {}
+      }
+    ]
+  }
+}
