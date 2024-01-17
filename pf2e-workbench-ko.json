@@ -1,0 +1,744 @@
+{
+  "xdy-pf2e-workbench": {
+    "npcRoller": {
+      "title": "NPC 굴림",
+      "button-label": "NPC 굴림",
+      "nav-labels": {
+        "strike": "공격",
+        "damage": "피해",
+        "ac": "AC",
+        "save": "내성",
+        "hp": "체력",
+        "spell": "주문",
+        "dc": "DC",
+        "areaDamage": "광역 피해",
+        "perception": "지각",
+        "abilityScore": "능력치",
+        "skill": "기술"
+      }
+    },
+    "skillActions": {
+      "Title": "스킬 액션",
+      "assuranceLabel": "보증",
+      "Settings": {
+        "Position": {
+          "name": "스킬 동작 위치",
+          "hint": "스킬 페이지 내 위치; 위 : 공격 직후, 하단 : 끝 부분",
+          "bottom": "하단",
+          "disabled": "장애인",
+          "top": "Top"
+        },
+        "hideDuplicates": {
+          "name": "스킬 동작으로 중복 동작 숨기기",
+          "hint": "동작 목록 또는 스킬 동작 목록에서 중복 동작을 숨길지 여부",
+          "doNotHide": "숨기지 않음",
+          "hideActions": "작업 숨기기",
+          "hideSkillActions": "스킬 동작 숨기기"
+        },
+        "IconStyle": {
+          "name": "스킬 동작 아이콘 스타일",
+          "hint": "스킬의 아이콘 스타일, 행동 비용 아이콘: 행동 비용 아이콘, 스킬 아이콘: 사용 가능한 경우 스킬 아이콘",
+          "actionCostIcon": "행동 비용 아이콘",
+          "skillIcon": "스킬 아이콘"
+        },
+        "Description": {
+          "name": "스킬 동작 설명",
+          "hint": "굴림 시 채팅에 작업 설명을 표시할지 여부"
+        },
+        "variants": {
+          "administerFirstAid": {
+            "stabilize": "안정화",
+            "stopBleeding": "출혈 중지",
+            "stabilizeChirurgeon": "안정화(외과 의사)",
+            "stopBleedingChirurgeon": "지혈(외과 의사)"
+          },
+          "createADiversion": {
+            "distractingWords": "주의를 산만하게 하는 단어",
+            "gesture": "제스처",
+            "trick": "트릭"
+          },
+          "perform": {
+            "acting": "연기",
+            "comedy": "코미디",
+            "dance": "댄스",
+            "keyboards": "키보드 악기",
+            "oratory": "연설",
+            "percussion": "타악기",
+            "singing": "노래",
+            "strings": "현악기",
+            "winds": "관악기"
+          }
+        }
+      },
+      "UnequipAll": {
+        "Tooltip": "숨겨진 동작을 전환합니다. 클릭할 때 Alt 키를 누르고 있으면 모든 스킬을 장착/해제할 수 있습니다."
+      }
+    },
+    "spellCardNotFound": "주문 카드를 찾을 수 없습니다. 해당 주문의 최소 레벨로 {주문}을 시전합니다.",
+    "effects": {
+      "orcFerocityUsed": "오크 야성 사용량",
+      "bounceBackUsed": "바운스 백 사용",
+      "numbToDeathUsed": "죽음에 무감각 사용",
+      "deliberateDeathUsed": "고의적 죽음 사용"
+    },
+    "macros": {
+      "basicActionMacros": {
+        "title": "action ({name})",
+        "bamActionsPerColumn": {
+          "name": "행당 대략적인 작업",
+          "hint": "기본 동작 매크로 대화 상자의 행당 대략적인 동작 수입니다. 실제 행당 작업 수는 대화 상자에 맞는 행당 작업 수에 가장 가까운 작업 수입니다."
+        },
+        "noActorSelected": "PC, NPC 또는 패밀리어가 선택되지 않았습니다",
+        "gmMustImport": "GM은 개요 xdy-pf2e-workbench-macros를 마우스 오른쪽 버튼으로 클릭하고 '모든 콘텐츠 가져오기'를 선택한 후 가져올 때 '문서 ID 유지'를 선택해야 합니다.",
+        "cancel": "취소",
+        "YouAreTheBestInYourParty": "당신은 파티에서 최고입니다",
+        "second": "(-5)",
+        "third": "(-10)",
+        "settings": {
+          "showBestBonus": {
+            "name": "기본 동작 매크로에 가장 적합한 경우 표시",
+            "hint": "기본 액션 매크로 대화창에 선택된 액터에 최고 보너스가 있는지 표시할지 여부입니다"
+          }
+        },
+        "macroNotFound": "매크로 {매크로 이름}을(를) 찾을 수 없습니다",
+        "compendiumNotFound": "개요 {비교표 이름}을 찾을 수 없습니다",
+        "actions": {
+          "AdministerFirstAidStabilize": "응급 처치 실시 - 안정화",
+          "AdministerFirstAidStopBleeding": "응급 처치 - 지혈 관리",
+          "AidToggle": "지원 (토글)",
+          "AvoidNotice": "통지 피하기",
+          "Balance": "잔액",
+          "Climb": "Climb",
+          "Coerce": "Coerce",
+          "CommandAnAnimal": "동물에게 명령하기",
+          "ConcealAnObject": "개체 숨기기",
+          "Craft": "공예",
+          "CreateADiversionGesture": "전환 만들기 - 제스처",
+          "CreateADiversionTrick": "전환 생성 - 트릭",
+          "CreateForgery": "위조 생성",
+          "DecipherWritingArcana": "글 해독 - Arcana",
+          "DecipherWritingOccultism": "글 해독 - 초상학",
+          "DecipherWritingReligion": "글 해독 - 종교",
+          "DecipherWritingSociety": "글쓰기 해독 - 사회",
+          "Demoralize": "사기 저하",
+          "DisableDevice": "DisableDevice",
+          "Disarm": "무장 해제",
+          "Escape": "탈출 - 최고(??)",
+          "Feint": "Fine",
+          "FollowTheExpertToggle": "전문 팔로우하기(토글)",
+          "ForceOpen": "강제 개방",
+          "GatherInformation": "정보 수집",
+          "Grapple": "그래플",
+          "Hide": "숨기기",
+          "Impersonate": "가장",
+          "JumpHigh": "점프 - 높이",
+          "JumpLong": "점프 - 롱",
+          "Lie": "거짓말",
+          "MakeAnImpression": "깊은 인상을 남기세요",
+          "ManeuverInFlight": "비행 중 기동",
+          "PalmAnObject": "개체 손바닥",
+          "Perform": "수행",
+          "PickALock": "자물쇠 선택",
+          "RaiseAShieldToggle": "방패 들기 (토글)",
+          "RecallKnowledge": "지식 기억하기",
+          "Repair": "수리",
+          "Request": "요청",
+          "Seek": "Seek",
+          "SenseDirection": "방향 감지",
+          "SenseMotive": "감각적인 모티브",
+          "Shove": "Shove",
+          "Sneak": "Sneak",
+          "Squeeze": "스퀴즈",
+          "Steal": "훔치기",
+          "SubsistSociety": "서브시스트 - 사회",
+          "SubsistSurvival": "생존 - 생존",
+          "Swim": "수영",
+          "TakeCoverToggle": "엄폐하기 (토글)",
+          "Track": "트랙",
+          "TreatDisease": "질병 치료",
+          "TreatPoison": "독 치료",
+          "TreatWounds": "상처 치료",
+          "Trip": "여행",
+          "TumbleThrough": "공중제비"
+        }
+      },
+      "buildNpcSpellbookJournal": {
+        "title": "NPC 주문서 일지 작성",
+        "noSpellcastingEntry": "NPC 캐릭터 시트를 열어 선택했거나 NPC 토큰을 하나 선택했어야 합니다. 또한, 해당 NPC는 주문 시전 항목이 있어야 합니다.",
+        "generatedSpellbookFor": "이름}에 대한 주문서 생성"
+      },
+      "refocus": {
+        "regains": "포커스 포인트를 되찾습니다.",
+        "notPsychic": "최소 {회복} 포커스 포인트 사용",
+        "isPsychic": "포커스 포인트를 포커스 포인트 캔트립을 증폭하거나 초능력에 연료를 공급하는 데에만 사용 가능",
+        "regainOne": "포커스 포인트 1개를 되찾습니다.",
+        "disabled": "포커스 포인트를 1개 이상 회복할 수 없어 비활성화됩니다.",
+        "enabled": "포커스 포인트를 {회복}합니다.<br/>마지막 재초점 이후 {세부 정보}가 있는 경우에만 <b>온리</b>를 클릭합니다.",
+        "one": "하나",
+        "selectOneActor": "배우를 한 명만 선택해야 합니다."
+      },
+      "whirlwindStrike": {
+        "starts": "{name} 회오리바람 공격이 시작됩니다!",
+        "ends": "{name} 회오리바람 일격이 {targets} 공격 후 종료됩니다!",
+        "error": "회오리바람 일격으로 무장한 토큰과 손이 닿는 거리에 있는 파티원이 아닌 대상을 하나 이상 선택하세요!",
+        "reachAuraNotFound": "오라를 찾을 수 없는 경우, PF2e 워크벤치 아이템 개요에 있는 도달 범위 '오라'를 토큰에 넣고 적절하게 도달 범위를 조정하세요."
+      }
+    },
+    "modules": {
+      "pf2e-sheet-skill-actions": "Pf2e-sheet-skill-actions 모듈은 더 이상 유지 관리되지 않으며, 이 모듈의 모든 기능은 워크벤치의 일부이므로 이 모듈을 끄시기 바랍니다.",
+      "pf2e-toolbox": "Pf2e-toolbox 모듈은 더 이상 유지 관리되지 않으며, 대부분의 기능이 워크벤치의 일부이므로 이 모듈을 끄시기 바랍니다.",
+      "multilevel-tokens": "다단계 토큰 모듈(및 토큰을 순간이동하는 다른 모듈)은 토큰 애니메이션을 변경하는 워크벤치 설정을 옵션으로 활성화한 경우 순간이동과 관련된 문제가 발생할 수 있습니다."
+    },
+    "SETTINGS": {
+      "abpVariantAllowItemBonuses": {
+        "hint": "자동 보너스 진행률 변형 규칙을 사용할 때 아이템 보너스를 비활성화하지 않습니다.",
+        "name": "ABP 사용 시 아이템 보너스를 비활성화하지 마세요."
+      },
+      "actionsReminderAllow": {
+        "all": "모두",
+        "gm": "GM",
+        "hint": "작업 수 알림을 채팅 메시지로 표시하려면 확인란을 선택합니다.",
+        "name": "작업 알림을 받는 대상",
+        "none": "없음",
+        "players": "플레이어"
+      },
+      "addUserTargets": {
+        "addFor": "다음 대상 추가",
+        "clearFor": "다음 대상에 대한 명확한 목표",
+        "hint": "키 바인딩하여 선택한 토큰을 선택한 사용자의 타겟에 추가합니다.",
+        "name": "사용자 대상 추가",
+        "title": "대상을 추가할 사용자를 선택합니다"
+      },
+      "applyEncumbranceBasedOnBulk": {
+        "hint": "(더 이상 사용되지 않음, pf2e 5.2에 기능이 있음) 벌크에 따라 자동으로. 과중량 상태를 적용합니다. (5벌크 + 9광을 5벌크를 초과하지 않는 것으로 간주하는 시스템 코드 사용)",
+        "name": "(더 이상 사용되지 않음) 대량에 따라 인컴을 자동으로 적용합니다."
+      },
+      "applyPersistentAllow": {
+        "all": "모두",
+        "gm": "GM",
+        "hint": "지속 피해/치유를 자동으로 적용하는 옵션을 설정할 수 있는 사용자를 선택합니다. 설정을 저장하여 클라이언트 자동화 설정 메뉴에서 추가 옵션을 표시하거나 숨길 수 있습니다.",
+        "name": "지속 피해/치유를 자동으로 적용하는 옵션을 설정할 수 있는 사람.",
+        "none": "없음",
+        "players": "플레이어"
+      },
+      "applyPersistentDamage": {
+        "hint": "지속 피해를 자동으로 적용하도록 클라이언트 설정.",
+        "name": "지속 피해를 자동으로 적용합니다."
+      },
+      "applyPersistentDamageRecoveryRoll": {
+        "hint": "... 그 후 자동으로 회복 체크를 수행합니다. 위의 설정을 활성화해야 합니다.",
+        "name": "... 그 후 자동으로 롤백합니다."
+      },
+      "applyPersistentHealing": {
+        "FastHealingLabel": "빠른 치유를 받음",
+        "hint": "시스템에서 굴림한 영구 치유를 자동으로 적용하는 클라이언트 설정입니다. 설정을 저장하여 추가 옵션을 표시하거나 숨길 수 있습니다.",
+        "name": "시스템에서 굴림한 지속적 치유를 자동으로 적용합니다.",
+        "RegenerationLabel": "재생성 수신",
+        "wasHealed": "{healing} 치유가 자동으로 적용되었습니다."
+      },
+      "autoCollapseItemChatCardContent": {
+        "collapsedDefault": "기본적으로 접혀 있으며, 펼치려면 제목을 클릭합니다.",
+        "hint": "아이템 채팅 카드 콘텐츠를 자동으로 축소하는 클라이언트 설정(행동과 공격은 제외, 해당 내용은 아래 참조).",
+        "name": "아이템 채팅 카드 콘텐츠를 자동으로 축소합니다.",
+        "noCollapse": "붕괴되지 않음",
+        "nonCollapsedDefault": "기본적으로 펼쳐져 있으며 제목을 클릭하면 축소됩니다."
+      },
+      "autoCollapseItemActionChatCardContent": {
+        "collapsedDefault": "기본적으로 접혀 있으며, 펼치려면 제목을 클릭합니다.",
+        "hint": "액션 채팅 카드 콘텐츠를 자동으로 축소하도록 클라이언트 설정.",
+        "name": "액션 채팅 카드 콘텐츠를 자동으로 축소합니다.",
+        "noCollapse": "붕괴되지 않음",
+        "nonCollapsedDefault": "기본적으로 펼쳐져 있으며 제목을 클릭하면 축소됩니다."
+      },
+      "autoCollapseItemAttackChatCardContent": {
+        "collapsedDefault": "기본적으로 접혀 있으며, 펼치려면 제목을 클릭합니다.",
+        "hint": "공격 채팅 카드 콘텐츠를 자동으로 축소하도록 클라이언트 설정.",
+        "name": "공격 채팅 카드 콘텐츠를 자동으로 축소합니다.",
+        "noCollapse": "붕괴되지 않음",
+        "nonCollapsedDefault": "기본적으로 펼쳐져 있으며 제목을 클릭하면 축소됩니다."
+      },
+      "dropHeldItemsOnBecomingUnconscious": {
+        "hint": "캐릭터가 의식을 잃으면 보유 중인 아이템을 자동으로 떨어뜨립니다.",
+        "name": "캐릭터가 의식을 잃으면 보유 중인 아이템을 자동으로 떨어뜨립니다.",
+        "message": "{name}이 삭제되었습니다: {items}"
+      },
+      "autoExpandDamageRolls": {
+        "collapsedAll": "모든 피해 굴림이 축소되어 보입니다(기본 설정).",
+        "expandedAll": "모든 피해 굴림이 확장됩니다.",
+        "expandedNew": "새로운 피해 롤이 확장됩니다(새로 고침 시 마지막 세 번의 피해 롤도 확장됩니다).",
+        "expandedNewest": "새로운 피해 롤이 확장됩니다(새로 고침 시 가장 마지막 피해 롤도 확장됩니다).",
+        "hint": "피해 주사위를 자동으로 확장하는 클라이언트 설정(파운드리 기본값은 모든 피해 주사위가 접혀 있음). 주사위 굴림을 클릭하여 확장/축소합니다.",
+        "name": "피해 롤을 자동으로 확장합니다."
+      },
+      "autoGainDyingAtZeroHP": {
+        "addOne": "하나 추가",
+        "addOneForCharacters": "캐릭터+친구를 위해 하나 추가하기",
+        "addWoundedLevel": "모두의 부상자 레벨 1 + 추가",
+        "addWoundedLevelForCharacters": "캐릭터+동료의 경우, 부상자 레벨 1 + 추가",
+        "deliberateDeathMessage": "{name}은 다른 생물의 공격 또는 능력의 결과로 빈사을 얻기 전에, 그 생물이 근접거리 내에 있다면, 유발한 생물에게 근접공격을 가할 수 있습니다.<br>실제로 사용할 수 없는 경우 '고의적 죽음 사용' 효과를 제거합니다.",
+        "hint": "체력이 0일 때 자동으로 죽음이 증가하도록 설정합니다.",
+        "name": "체력이 0일 때 자동으로 죽음이 증가합니다.",
+        "no": "아니요",
+        "orcFerocityMessage": "{name}이 방금 @UUID[Compendium.pf2e.feats-srd.PlhPpdwIV0rIAJ8K]를 사용했으며 이제 무료 액션을 사용할 수 있습니다: @UUID[Compendium.pf2e.actionspf2e.FkfWKq9jhhPzKAbb]"
+      },
+      "autoGainDyingAtZeroHPIfCriticallyHitOneMore": {
+        "no": "아니요",
+        "add": "빈사 추가",
+        "addForCharacters": "캐릭터+친구를 위해 빈사 추가하기",
+        "hint": "적 행위자의 표적 피해 공격에 치명타를 받으면 빈사률이 한 단계 더 증가합니다. 위 드롭다운의 설정을 사용합니다. 위의 설정이 활성화되어 있어야 합니다.",
+        "name": "... 적에게 치명적인 피해를 입으면 한 번 더 죽습니다."
+      },
+      "autoGainDyingIfTakingDamageWhenAlreadyDying": {
+        "no": "아니요",
+        "add": "빈사 추가",
+        "addForCharacters": "캐릭터+친구를 위해 빈사 추가하기",
+        "hint": "이미 빈사한 상태에서 피해를 입었다면 빈사을 한 번 더 추가합니다(치명타로 추가 빈사이 활성화된 경우 두 번 추가할 수도 있습니다). 위의 드롭다운에서 설정을 사용합니다. 위의 설정을 활성화해야 합니다.",
+        "name": "... 빈사 시 피해를 입으면 추가 빈사 레벨이 추가됩니다."
+      },
+      "nonLethalIsNotLethal": {
+        "no": "치명적이지 않은 피해는 그냥 피해일 뿐입니다",
+        "unconscious": "치명적이지 않은 피해는 죽이지 않습니다",
+        "unconsciousForCharacters": "치명타가 캐릭터+동료를 죽이지 않습니다",
+        "hint": "마지막으로 받은 피해가 치명타가 아닌 경우, 죽지 않습니다. 대신 체력이 0이 되어 의식을 잃게 됩니다. 위의 설정을 활성화해야 합니다.",
+        "name": "... 마지막 피해가 치명적이지 않았는지에 따라 달라집니다."
+      },
+      "autoKillIfMassiveDamage": {
+        "yes": "예, 모두",
+        "yesForCharacters": "예, 캐릭터+친구의 경우",
+        "yesForNpcs": "예, NPC의 경우",
+        "hint": "대규모 피해를 받으면 자동으로 죽도록 설정합니다.",
+        "name": "... 하지만 대규모 피해를 받으면 자동으로 빈사합니다.",
+        "no": "아니요"
+      },
+      "autoKillIfDamageHasDeathTrait": {
+        "yes": "예, 모두",
+        "yesForCharacters": "예, 캐릭터+친구의 경우",
+        "yesForNpcs": "예, NPC의 경우",
+        "hint": "죽음 특성이 있는 대상에게 충분한 피해를 받으면 자동으로 죽도록 설정합니다.",
+        "name": "... 하지만 빈사 효과로 충분한 피해를 받으면 자동으로 빈사합니다.",
+        "no": "아니요"
+      },
+      "autoGainDyingIgnoresTargeting": {
+        "name": "... 선택한 토큰을 대상으로 피해를 입혔는지 여부입니다.",
+        "hint": "타겟이 선택한 토큰과 일치하는지 여부에 관계없이 위의 설정을 적용하려면 활성화합니다. (타겟팅/자동화를 사용하지 않는 경우에 주로 유용합니다.)"
+      },
+      "automationClientSettings": {
+        "hint": "로컬 자동화 설정, 즉 자신의 클라이언트에만 영향을 미치는 설정을 활성화하고 구성합니다.",
+        "label": "클라이언트 자동화 설정 관리",
+        "name": "클라이언트 자동화 설정"
+      },
+      "automationWorldSettings": {
+        "hint": "GM을 위한 자동화 활성화 및 구성하기",
+        "label": "월드 자동화 설정 관리",
+        "name": "월드 자동화 설정"
+      },
+      "autoReduceStunned": {
+        "hint": "턴 시작 시 기절이 자동으로 감소하도록 클라이언트 설정.",
+        "name": "턴 시작 시 자동으로 기절 감소"
+      },
+      "autoRemoveDyingAtGreaterThanZeroHP": {
+        "hint": "체력이 0 이상으로 회복되면 자동으로 빈사를 제거하도록 설정합니다.",
+        "name": "체력이 0 이상으로 회복되면 자동으로 빈사를 제거합니다.",
+        "no": "아니요",
+        "removeDying": "모두의 빈사 상태 제거",
+        "removeDyingForCharacters": "캐릭터 + 동맹만 빈사 제거"
+      },
+      "autoRemoveUnconsciousAtGreaterThanZeroHP": {
+        "hint": "체력이 0보다 많이 회복되면 자동으로 무의식을 해제하도록 설정합니다.",
+        "name": "체력이 0 이상으로 회복되면 자동으로 무의식 상태가 해제됩니다."
+      },
+      "autoRollDamageAllow": {
+        "all": "모두",
+        "gm": "GM",
+        "hint": "적중 시 피해 자동 굴림 옵션을 설정할 수 있는 사용자를 선택합니다. 설정을 저장하여 클라이언트 자동화 설정 메뉴에서 추가 옵션을 표시하거나 숨길 수 있습니다.",
+        "name": "적중 시 피해 자동 굴림 옵션을 설정할 수 있는 사람.",
+        "none": "없음",
+        "players": "플레이어"
+      },
+      "autoRollDamageForSpellAttack": {
+        "hint": "적중하는 주문 공격에 대한 피해를 자동 굴림하도록 클라이언트 설정. 치명타 공격은 항상 일반 피해를 줍니다.",
+        "name": "적중하는 주문 공격에 대한 자동 굴림 피해."
+      },
+      "autoRollDamageForSpellNotAnAttack": {
+        "hint": "클라이언트 설정에서 '비공격' 주문을 시전할 때 '항상' 일반 피해를 자동 적용하도록 설정합니다.",
+        "name": "공격이 아닌 시전 주문에 대한 자동 굴림 피해."
+      },
+      "autoRollDamageForStrike": {
+        "hint": "타격이 적중할 때 피해를 자동 굴림하도록 클라이언트 설정. 치명타 적중시 치명타 피해가 발생한다는 점에 유의하세요.",
+        "name": "적중 시 자동 굴림되는 타격의 피해량.",
+        "strike": "공격"
+      },
+      "autoRollDamageNotifyOnSpellCardNotFound": {
+        "hint": "주문 공격을 굴렸는데 피해를 줄 주문 카드를 찾지 못했을 때 이를 알려주는 클라이언트 설정입니다.",
+        "name": "주문 공격을 굴렸는데 주문 카드를 찾지 못했을 때 알려줍니다."
+      },
+      "callHotbarMacro": {
+        "hint": "페이지} 위치 {열}에서 핫바 매크로 호출",
+        "name": "페이지} 위치 {열}에서 핫바 매크로 호출"
+      },
+      "handleDyingRecoveryRollAllow": {
+        "all": "모두",
+        "gm": "GM",
+        "hint": "소유자가 캐릭터 시트에서 회복 버튼을 클릭한 후 빈사 회복 체크 결과를 자동으로 처리하는 옵션을 설정할 수 있는 사용자를 선택합니다. 설정을 저장하여 클라이언트 자동화 설정 메뉴에서 추가 옵션을 표시하거나 숨길 수 있습니다.",
+        "name": "회복 버튼을 클릭한 후 빈사 회복 체크 결과를 자동으로 처리하는 옵션을 설정할 수 있는 사람.",
+        "none": "없음",
+        "players": "플레이어"
+      },
+      "handleDyingRecoveryRoll": {
+        "hint": "회복 버튼을 클릭한 후 빈사 회복 체크 결과를 자동으로 처리하도록 클라이언트 설정.",
+        "name": "회복 버튼을 클릭한 후 빈사 회복 체크 결과를 자동으로 처리합니다.",
+        "handled": "빈사 회복 굴림 {roll} {outcome}이 자동으로 처리됩니다. {defeated}.",
+        "defeated": "{name}이 쓰러졌습니다."
+      },
+      "playerFeatsPrerequisiteHint": {
+        "hint": "클라이언트 설정에서 선결이 설정된 피트의 이름에 별표를 추가할 수 있습니다.",
+        "name": "선결이 있는 피트의 경우 이름에 별표를 추가합니다."
+      },
+      "playerFeatsRarityColour": {
+        "hint": "액터 시트에서 피트 이름을 희귀도 색상으로 표시하도록 클라이언트 설정.",
+        "name": "배우 시트에 희귀도 색상으로 피트 이름을 표시합니다."
+      },
+      "playerSpellsRarityColour": {
+        "hint": "액터 시트에서 주문 이름을 희귀도 색상으로 표시하도록 클라이언트 설정.",
+        "name": "배우 시트에 주문 이름을 희귀도 색상으로 표시합니다."
+      },
+      "castPrivateSpell": {
+        "hint": "주문을 시전할 때 시전하기를 Ctrl+클릭하여 시전자와 GM에게 귓속말로 시전하는 기능을 활성화하려면 체크합니다.",
+        "name": "비공개로 캐스팅하려면 Ctrl-클릭하여 캐스팅합니다.",
+        "aSpell": "주문"
+      },
+      "castPrivateSpellHideName": {
+        "hint": "피해 목록에서 개인적으로 시전하는 주문의 이름을 숨기는 대신 피해 목록에서 이름을 숨기려면 체크합니다.",
+        "name": "... 그리고 피해 목록에서 개인적으로 시전하는 주문의 이름을 숨깁니다."
+      },
+      "castPrivateSpellAlwaysForNPC": {
+        "hint": "NPC에게 항상 비공개 시전하려면 체크합니다. (비공개 시전하지 않으려면 Ctrl 키를 누릅니다.)",
+        "name": "... 그리고 항상 NPC를 위해 비공개로 시전합니다."
+      },
+      "castPrivateSpellWithPublicMessage": {
+        "cantrip": "Cantrip",
+        "firstPart": "{tokenName}은 <strong>{traditionString}</strong> 전통의 {type}을 캐스팅하기만 하면 됩니다",
+        "hint": "비공개로 시전하는 경우, 이 설정은 시전하는 동안 시전하는 동안 Shift 키와 Ctrl 키를 함께 누르지 않으면 주문이 시전되었다는 공개 메시지도 게시합니다.",
+        "name": "주문이 발동되었다는 공개 메시지를 게시합니다.",
+        "savePart": "<br>알 수 없는 주문에 대해 저장합니다: @Check[type:{dataSave}|dc:{dataDC}|traits:{traits}]",
+        "secondPartNoRk": ".<br>GM에게 자동으로 인식했는지 물어보고, 인식하지 못했다면 @UUID[Compendium.pf2e.feats-srd.MjQyTcV8Jiv1Jtln] 또는 @UUID[Compendium.pf2e.feats-srd.2rSyTfPgAmNAo01r 중 하나를 사용해볼 수 있습니다. 또는, 자신의 차례가 되면 액션을 사용해 식별을 시도합니다(자세한 내용은 GM에게 문의하세요).",
+        "secondPartRK": ".<br>GM에게 자동으로 인식했는지 물어보고, 인식하지 못했다면 @UUID[Compendium.pf2e.feats-srd.MjQyTcV8Jiv1Jtln] 또는 @UUID[Compendium.pf2e.feats-srd.2rSyTfPgAmNAo01r 중 하나를 사용해 볼 수 있습니다. 또는, 자신의 차례에 액션을 사용해 @Check[유형:{스킬}|dc:{dcRK}|traits:secret,행동:기억-지식]{rk}로 식별을 시도합니다",
+        "spell": "Spell",
+        "they": "그들"
+      },
+      "castPrivateSpellWithPublicMessageShowTraits": {
+        "hint": "공개 메시지에 주문 특성을 표시합니다.",
+        "name": "... 공개 메시지에서 주문 특성을 표시할 수 있습니다.",
+        "traitPart": " 이러한 특성을 가지고 있습니다: <strong>{traits}</strong>"
+      },
+      "customPauseImage": {
+        "hint": "일시 정지 이미지에 사용할 사용자 지정 이미지입니다. 기본 시계 아이콘을 사용하려면 비워 둡니다.",
+        "name": "일시 정지 이미지에 사용할 사용자 지정 이미지입니다."
+      },
+      "customPauseText": {
+        "hint": "일시 정지 텍스트에 사용할 사용자 지정 텍스트입니다. 기본값인 '게임 일시정지'를 사용하려면 비워 둡니다.",
+        "name": "일시 정지 텍스트에 사용할 사용자 지정 텍스트입니다."
+      },
+      "customPauseRelocation": {
+        "hint": "일시 정지 이미지를 화면 중앙에 배치하고 그 위에 텍스트를 표시합니다.",
+        "name": "이미지 가운데 일시정지하고 그 위에 텍스트를 표시합니다."
+      },
+      "decreaseFrightenedConditionEachTurn": {
+        "hint": "캐릭터, NPC, 동료의 겁에 질린 상태가 매 턴 자동으로 감소하도록 클라이언트 설정.",
+        "name": "매 턴 겁에 질린 상태가 자동으로 감소합니다."
+      },
+      "enableAutomaticMove": {
+        "hint": "현재 전투원이 선택한 전투원을 죽였을 때, 자신의 차례가 아닌 다른 전투원의 주도권을 현재 전투원 바로 전으로 설정하려면 선택합니다. 반올림으로 인해 여러 명의 전투원이 목록에 동일한 주도권을 표시할 수 있습니다.",
+        "name": "현재 전투원 바로 전으로 우선권을 설정합니다.",
+        "noAutomation": "절대로",
+        "reaching0HP": "캐릭터 또는 NPC 전투원이 체력이 0에 도달했을 때.",
+        "reaching0HPCharactersOnly": "캐릭터 전투원의 체력이 0이 되면."
+      },
+      "giveUnconsciousIfDyingRemovedAt0HP": {
+        "hint": "체력이 0인 상태에서 빈사 상태를 제거하면 자동으로 무의식 상태가 되도록 설정합니다.",
+        "name": "체력 0으로 빈사하면 자동으로 무의식 상태가 됩니다.",
+        "no": "아니요"
+      },
+      "giveWoundedWhenDyingRemoved": {
+        "hint": "빈사 상태가 제거되면 자동으로 부상 상태를 부여하도록 설정합니다.",
+        "name": "빈사 시 부상 자동 부여 기능이 제거되었습니다.",
+        "numbToDeathMessage": "{name}이 방금 @UUID[Compendium.pf2e.feats-srd.gfMP2aMs3YGONVeB]를 트리거했습니다. 수동으로 치유를 적용하세요."
+      },
+      "heroPointHandler": {
+        "add": "추가",
+        "addedFor": "{name}에 영웅점 1점 추가",
+        "addedToForAll": "{heroPoints} 모든 영웅에게 영웅점 추가",
+        "addOne": "<b>섹션 2</b> - 로그인한 캐릭터 중 선택한 캐릭터에게 영웅점 1점을 추가합니다(타이머가 만료되면 기본값은 무작위 캐릭터로 설정됨)",
+        "all": "모두",
+        "defaultTimeoutMinutes": 60,
+        "doWhat": "<b>섹션 1</b> - 다음 값을 가진 모든 캐릭터의 영웅점을 어떻게 처리할지 선택합니다",
+        "hint": "모든 캐릭터의 영웅점을 초기화하거나 추가할 수 있는 대화 상자를 열고, 무작위(또는 선택한) 캐릭터에 영웅점 1개를 추가하고, 가장 중요한 타이머를 시작하여 (기본값인) 60분 후에 대화 상자가 다시 나타나도록 하려면 영웅점 핸들러 기능을 활성화하려면 체크 표시하세요.",
+        "ignore": "없음",
+        "instructions": "이 대화 상자가 열려 있는 동안에는 타이머가 일시정지됩니다. 타이머를 일시 중지 해제하려면 이러한 버튼을 누르지 않고 이 대화 상자를 닫거나 해당 버튼을 눌러 버튼이 표시하는 작업을 수행합니다.",
+        "minutesLeft": "현재 타이머에 남은 시간(분)",
+        "name": "영웅점 핸들러를 활성화합니다.",
+        "none": "캐릭터 없음",
+        "noRunningTimer": "타이머 실행 중이 아님",
+        "noTimerLabel": "<b>아니요</b> 타이머로 변경 사항을 제출합니다. 기존 타이머를 <b>정지</b>합니다.",
+        "resetTo": "로 재설정",
+        "resetToForAll": "모든 영웅점이 {heroPoints}로 초기화됩니다",
+        "showAfter": "몇 분 후에 대화 상자 다시 표시",
+        "startTimerLabel": "변경 사항 제출 및 타이머 시작/계속하기",
+        "thisMany": "이 많은",
+        "timerStopped": "영웅점 타이머가 중지됩니다.",
+        "timerValue": "타이머 값(범위 0-60)",
+        "title": "영웅점 처리기",
+        "willBeResetIn": "영웅점 처리기는 {remainingMinutes} 분({time}) 후에 반환됩니다."
+      },
+      "heroPointHandlerDefaultTimeoutMinutes": {
+        "hint": "영웅점 핸들러가 다음에 열릴 때까지 기본값(및 최대값)을 몇 분으로 설정합니다.",
+        "name": "... 영웅점 처리기 대화 상자가 열릴 때까지 몇 분 남았습니다."
+      },
+      "heroPointHandlerKey": {
+        "hint": "매시간 알림과 함께 영웅점을 재설정하고 추가할 수 있는 영웅점 핸들러 대화 상자를 열려면 키 바인딩합니다.",
+        "name": "키 바인딩하여 영웅점 핸들러 대화 상자를 엽니다."
+      },
+      "heropointHandlerNotification": {
+        "name": "... 영웅점이 지급되면 알림을 게시합니다.",
+        "hint": "영웅점 처리자가 영웅점을 지급했을 때 자동으로 알림을 게시하려면 체크합니다."
+      },
+      "heroPointHandlerStartTimerOnReady": {
+        "hint": "게임이 준비되면 영웅점 처리기 타이머를 자동으로 시작하려면 체크합니다.",
+        "name": "... 영웅점 처리기를 자동으로 시작합니다."
+      },
+      "houseRulerI18n": {
+        "name": "하우스 규칙",
+        "hint": "Xdy가 좋아하는 몇 가지 하우스 규칙을 패치했습니다. 현재 도리깨와 망치 공격에 대한 저장이 추가되었습니다. 나중에 더 유연해질 예정입니다.",
+        "info": "집 규칙이 패치되었습니다(현재는 도리깨와 망치 공격에 취약한 상태로 저장됩니다).",
+        "flailCritical": "대상은 @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|name:하우스룰 플레일 치명타 전문화] 내성 굴림에 성공하거나 @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{넘어짐} 상태가 되어야 합니다.",
+        "hammerCritical": "대상은 @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|name:하우스룰 해머 치명타 전문화] 내성 굴림에 성공하거나 @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{넘어짐} 상태가 되어야 합니다."
+      },
+      "housepatcher": {
+        "hint": "(매우 실험적인 예시) 시스템 개요를 패치할 json 배열을 입력합니다. 설명서는 깃허브의 housepatcher.md를 참조하세요.",
+        "name": "(정말 실험적인) 하우스패처(하우스 규칙 패치). 변경 후 새로고침(f5)이 필요합니다.",
+        "notification": "하우스 패처: 시스템 개요의 항목에 {count} 하우스 규칙을 적용합니다."
+      },
+      "houseRulesSettings": {
+        "hint": "(실험 중) 다양한 하우스 규칙 활성화 및 구성하기",
+        "label": "하우스 규칙 설정 관리",
+        "name": "(실험적) 하우스 규칙 설정"
+      },
+      "keeleysHeroPointRule": {
+        "hint": "특정 파이조 개발자가 선호하는 하우스 규칙: 영웅점 재총회의 자연 결과가 10 이하일 경우, 사후에 보너스 10을 적용합니다.",
+        "name": "키리의 영웅점 규칙",
+        "bonusTag": "낮은 재연사 +10"
+      },
+      "legacyVariantRuleAncestryParagon": {
+        "hint": "(시스템이 종족의 표상 규칙을 지원하는 한 필요하지 않습니다.) 종족의 표상 피트에 대한 캠페인 피트 항목이 추가됩니다.",
+        "name": "종족의 표상 피트 슬롯이 추가됩니다. 변경 후 새로고침(F5)이 필요합니다.",
+        "title": "종족의 표상 피트"
+      },
+      "legacyVariantRuleDualClass": {
+        "hint": "(시스템에서 마스터 듀얼 클래스 변종 규칙이 계속 지원되는 한 필요하지 않습니다.) 이렇게 하면 듀얼 클래스에 대한 캠페인 피트 항목이 추가되며, 캐릭터가 사용할 클래스를 생성하려면 듀얼 클래스 매크로를 사용해야 합니다.",
+        "name": "듀얼 클래스 피트 슬롯이 추가됩니다. 변경 후 새로고침(F5)이 필요합니다.",
+        "title": "듀얼 클래스 특성"
+      },
+      "logLevel": {
+        "name": "로그 수준",
+        "hint": "로그 수준",
+        "trace": "추적",
+        "debug": "Debug",
+        "info": "정보",
+        "warn": "경고",
+        "error": "오류",
+        "off": "꺼짐"
+      },
+      "moveBeforeCurrentCombatantContextMenu": {
+        "name": "선택한 전투원을 현재 전투원보다 먼저 이동합니다."
+      },
+      "moveBeforeCurrentCombatantKey": {
+        "hint": "일반적으로 현재 전투원이 선택한 전투원을 죽였을 때 선택한 전투원을 현재 전투원 앞으로 이동하기 위한 월드 키 바인딩입니다. 반올림으로 인해 여러 명의 전투원이 목록에 동일한 우선권로 표시될 수 있습니다.",
+        "name": "(월드) 키 바인딩을 눌러 선택한 전투원을 현재 전투원 앞으로 이동합니다."
+      },
+      "mystificationSettings": {
+        "hint": "NPC 신비화 활성화 및 구성",
+        "label": "NPC 신비화 설정 관리",
+        "name": "NPC 신비화 설정"
+      },
+      "notifications": {
+        "cantMystify": "이 토큰은 신비화할 수 없습니다. 이 토큰이 활성 상태인지, 그리고 GM이신가요?"
+      },
+      "npcMystifier": {
+        "hint": "씬에 추가할 때 Ctrl(구성 가능)을 클릭하면 활성 씬에서 토큰의 특성에 따라 토큰 이름을 변경하는 NPC 미스터리파이어를 활성화하려면 체크합니다. 설정을 저장하여 추가 옵션을 표시하거나 숨깁니다.",
+        "name": "NPC 미스터리파이어를 활성화합니다."
+      },
+      "npcMystifierAddRandomProperty": {
+        "hint": "NPC를 신비화할 때 추가할 무작위 속성 유형을 선택하고, 선택적으로 유지할 수 있습니다.",
+        "name": "이름에 선택한 유형의 무작위 속성 추가",
+        "none": "없음",
+        "numberPostfix": "후위 번호로 숫자",
+        "wordPrefix": "접두사로 단어 사용"
+      },
+      "npcMystifierBlacklist": {
+        "hint": "쉼표로 구분된 이 차단 목록의 콘텐츠에서 신비한 이름을 필터링할 단어를 추가합니다.",
+        "name": "추가하지 말아야 할 차단 목록 특성"
+      },
+      "npcMystifierDemystifyAllTokensBasedOnTheSameActor": {
+        "hint": "모든 신비화가 동일한 액터를 기반으로 모든 토큰에 작용하도록 하려면 체크합니다.",
+        "name": "배우의 모든 토큰을 해독합니다"
+      },
+      "npcMystifierKeepRandomProperty": {
+        "hint": "NPC를 신비화/비신비화할 때 이름의 접두사/접두사로 숫자 접두사/단어 접두사 *현재 이 모듈에 구성된 것과 동일한 형식*(있는 경우)을 유지하도록 체크합니다.",
+        "name": "신비화/비신비화할 때 접두사/접미사를 유지하세요."
+      },
+      "npcMystifierModifierKey": {
+        "alt": "Alt",
+        "always": "항상",
+        "control": "제어",
+        "meta": "메타/⌘(명령)/⊞(윈도우)",
+        "disabled": "비활성화",
+        "hint": "선택하면 크리처를 활성 장면으로 드래그할 때 어떤 키를 누르고 있어야 신비화할 수 있는지 설정할 수 있습니다. 기본값이 아닌 Alt 키를 선택하면 NPC도 숨겨집니다.",
+        "name": "장면으로 드래그할 때 신비화 키"
+      },
+      "npcMystifierMystifyKey": {
+        "hint": "선택한 토큰을 신비화하도록 키 바인딩을 설정합니다.",
+        "name": "선택한 토큰을 신비화하기 위한 키 바인딩"
+      },
+      "npcMystifierNoMatch": {
+        "hint": "일치하는 특성을 찾을 수 없으므로 이름이 비어 있을 때 사용할 텍스트입니다. (여기서 빈 문자열은 '...'로 설정됩니다.)",
+        "name": "일치하는 텍스트 없음"
+      },
+      "npcMystifierPostfix": {
+        "hint": "새 이름 뒤에 붙일 텍스트를 추가합니다. 기본값은 ''(예: 'Creature')이며, 이 이름이 롤러블 테이블의 이름(기본값은 포함된 테이블 'Workbench Adjectives')과 일치하면 이 테이블의 임의 텍스트 결과가 대신 후첨자로 사용됩니다. 이는 임의의 속성 접두사 앞에 추가됩니다(접두사 옵션도 참조하세요)",
+        "name": "워드 또는 굴림 가능한 표 포스트픽스"
+      },
+      "npcMystifierPrefix": {
+        "hint": "새 이름 접두사로 사용할 텍스트를 추가합니다(위에서 임의 단어 속성을 선택한 경우 접두사). 기본값은 ''(예: '알 수 없음')이며, 이 이름이 굴림 가능한 테이블의 이름과 일치하면 이 테이블의 임의 텍스트 결과가 접두사로 대신 사용됩니다.  이 접두사는 임의의 속성 후미 뒤에 추가됩니다(접두사 옵션도 참조하세요)",
+        "name": "단어 또는 굴림 가능한 표 접두사"
+      },
+      "npcMystifierRandomPropertySkipForUnique": {
+        "hint": "체크하면 고유 NPC를 신비화할 때 무작위 속성 추가를 건너뜁니다. (즉, NPC를 신비화할 때 유지됩니다.)",
+        "name": "고유 NPC의 무작위 지속 속성을 건너뛰세요."
+      },
+      "npcMystifierUseAlignmentTraits": {
+        "hint": "신비화된 이름에 정렬 특성을 사용하려면 체크합니다.",
+        "name": "NPC 정렬 특성을 사용합니다."
+      },
+      "npcMystifierUseCreatureTraits": {
+        "hint": "신비화된 이름에 pf2e 시스템에 정의된 모든 '생물 특성'을 사용하는지 확인합니다.",
+        "name": "생물 특성을 사용합니다."
+      },
+      "npcMystifierUseCreatureTypesTraits": {
+        "hint": "신비화된 이름에 생물 유형 특성(https://2e.aonprd.com/Traits.aspx 참조)을 사용했는지 확인합니다.",
+        "name": "생물 유형 특성 사용"
+      },
+      "npcMystifierUseEliteWeak": {
+        "hint": "신비화된 이름에 엘리트/약자를 사용하려면 체크합니다.",
+        "name": "엘리트/약체 상태 사용"
+      },
+      "npcMystifierUseMystifiedNameInChat": {
+        "hint": "화자 및 내부 채팅 메시지에서 배우 이름을 신비화된 이름으로 바꾸어 신비화된 이름을 사용하려고 하는지 확인하세요. 메시지의 텍스트가 배우와 같은 이름을 사용하지 않거나 철자가 틀린 경우 대체되지 않는다는 점에 유의하세요.",
+        "name": "채팅 메시지에서 화자 및 이름 사용을 신비화해 보세요."
+      },
+      "npcMystifierUseOtherTraits": {
+        "hint": "위의 설정에 포함되지 않은 모든 NPC 특성을 신비한 이름에 사용하려면 체크합니다.",
+        "name": "다른 특성 사용"
+      },
+      "npcMystifierUseRarities": {
+        "hint": "신비한 이름에 희귀도를 사용하려면 확인합니다.",
+        "name": "희귀도 사용"
+      },
+      "npcMystifierUseRaritiesReplacement": {
+        "hint": "이 텍스트 필드에 일반보다 큰 희귀도를 대체할 단어(예: '이례적')를 입력합니다. 비어 있으면 표시된 희귀도를 변경하지 않습니다.",
+        "name": "일반보다 희귀한 희귀도를 대체합니다"
+      },
+      "npcMystifierUseSize": {
+        "hint": "신비화된 이름에 배우의 크기를 사용하려면 확인란을 선택합니다",
+        "name": "액터 크기 사용"
+      },
+      "npcMystifierWordPrefix": {
+        "hint": "'단어 접두사'를 선택한 경우 주어진 롤 테이블에서 임의의 단어를 접두사로 추가합니다).",
+        "name": "주어진 롤 테이블에서 무작위 단어 추가"
+      },
+      "npcMystifyAllPhysicalMagicalItems": {
+        "hint": "PF2e 시스템 설정 'NPC는 약탈 가능'이 활성화된 경우, 드롭다운에서 선택한 항목에 따라 연금술 또는 마법이 아닌 모든 일시적 물리 아이템을 자동으로 신비화합니다.",
+        "name": "PF2e 시스템 설정 'NPC는 약탈 가능'이 활성화된 경우, NPC의 연금술 및 마법 아이템을 신비화할 수 있습니다.",
+        "no": "아이템 신비화 없음",
+        "onScene": "씬에 NPC 추가 시 아이템 신비화",
+        "onZeroHp": "0마력에 도달한 NPC의 아이템을 신비화합니다"
+      },
+      "npcMystifyAllPhysicalMagicalItemsOfThisLevelOrGreater": {
+        "hint": "아이템이 이 레벨 이상인 경우에만 아이템을 신비화할 수 있습니다.",
+        "name": "아이템이 이 레벨 이상인 경우에만 아이템을 신비화할 수 있습니다."
+      },
+      "npcMystifyAllPhysicalMagicalItemsOfThisRarityOrGreater": {
+        "hint": "아이템이 이 희귀도 이상인 경우에만 아이템을 신비화할 수 있습니다.",
+        "name": "아이템이 이 희귀도 이상인 경우에만 아이템을 신비화할 수 있습니다."
+      },
+      "npcRoller": {
+        "hint": "NPC 퀵 롤러 유틸리티를 활성화하려면 체크합니다.",
+        "name": "NPC 롤러 유틸리티 활성화"
+      },
+      "npcScaler": {
+        "hint": "NPC 스케일링 허용 여부 확인",
+        "name": "NPC 스케일링 허용"
+      },
+      "qolWorldSettings": {
+        "hint": "GM의 삶의 질 설정 활성화 및 구성하기",
+        "label": "월드 품질 설정 관리",
+        "name": "월드 품질 설정"
+      },
+      "reminderBreathWeapon": {
+        "defaultName": "호흡",
+        "hint": "재충전 능력(예: 숨결 무기) 사용 알림을 설정하려면 체크합니다.",
+        "name": "충전 알림(예: 브레스 무기)",
+        "source": "PF2e 워크벤치에서 생성된 충전 알림",
+        "used": "사용됨"
+      },
+      "reminderBreathWeaponHidden": {
+        "hint": "플레이어에게 알림을 숨기려면 확인란을 선택합니다.",
+        "name": "...하지만 플레이어에게는 아이콘을 숨깁니다."
+      },
+      "reminderCannotAttack": {
+        "dead": "죽었습니다",
+        "defeated": "쓰러졌습니다",
+        "hasNoHp": "체력이 없습니다",
+        "hint": "무의식/빈사/쓰러짐/체력 없음 등으로 인해 공격할 수 없는 토큰으로 공격할 경우 알림을 표시하려면 체크합니다.",
+        "name": "토큰으로 공격할 수 없는 경우 알림 표시",
+        "note": "이 공격이 확실합니까? {actorName} {reason}에 대한 공격이 아니므로 공격할 수 없습니다...",
+        "petrified": "석화",
+        "unconscious": "무의식 상태"
+      },
+      "reminderCannotAttackIgnoreDeadEidolon": {
+        "hint": "빈사했거나 체력이 없는 에이돌른이 알림 없이 공격할 수 있도록 허용하려면 체크합니다.",
+        "name": "에이돌론은 죽은 상태에서도 공격할 수 있습니다"
+      },
+      "remindersSettings": {
+        "hint": "다양한 미리 알림 활성화 및 구성",
+        "label": "미리 알림 설정 관리",
+        "name": "미리 알림 설정"
+      },
+      "reminderTargeting": {
+        "hint": "전투에서 타겟팅 알림을 표시하려면 체크합니다.",
+        "name": "타겟팅 알림",
+        "info": "공격하기 전에 목표를 정하세요.",
+        "error": "공격하기 전에 반드시 대상을 지정해야 합니다.",
+        "no": "알림 없음",
+        "reminder": "알림",
+        "mustTarget": "반드시 타깃팅해야 함"
+      },
+      "tokenAnimation": {
+        "hint": "토큰 이동 애니메이션 변경을 활성화합니다. 이로 인해 다단계 토큰 모듈에 문제가 발생할 수 있습니다.",
+        "name": "토큰 이동 애니메이션을 변경할 수 있습니다."
+      },
+      "tokenAnimationSpeed": {
+        "hint": "토큰 이동 애니메이션 속도를 변경합니다.",
+        "name": "토큰 이동 애니메이션 속도를 변경합니다."
+      },
+      "variantRulesSettings": {
+        "hint": "다양한 이형 상품 규칙 활성화 및 구성",
+        "label": "변형 규칙 설정 관리",
+        "name": "변형 규칙 설정"
+      },
+      "workbenchVersion": {
+        "hint": "최신 마이그레이션이 실행된 버전입니다. 모듈 버전보다 낮을 수 있습니다. 자신이 무엇을 하고 있는지 모른다면 수정하지 마세요.",
+        "name": "워크벤치 마이그레이션 버전"
+      }
+    }
+  }
+}

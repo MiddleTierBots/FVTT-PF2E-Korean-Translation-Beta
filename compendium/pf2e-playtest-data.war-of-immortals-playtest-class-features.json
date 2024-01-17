@@ -1,0 +1,260 @@
+{
+	"label": "클래스 능력",
+	"mapping": {
+        "name": {"path": "name", "converter": "itemNameConverter"}
+	},
+	"entries": {
+		"Advanced Interlocution": {
+			"name": "고급 교섭",
+			"description": "<p>당신은 영적 힘과 존재의 힘을 놀라운 효율성으로 채널링합니다. 당신이 시전할 수 있는 각 레벨의 주문에 대해 추가적인 유령 슬롯을 얻으며, 최고 레벨의 주문보다 2레벨 낮은 슬롯까지 얻습니다. 예를 들어, 10레벨 애니미스트는 1레벨, 2레벨, 3레벨의 추가 유령 슬롯을 얻습니다.</p>"
+		},
+		"Alertness (Exemplar)": {
+			"name": "경계심 (익셈플러)",
+			"description": "<p>당신은 주변의 위협에 항상 경계합니다. 당신의 지각(Perception) 숙련이 전문으로 증가합니다.</p>"
+		},
+		"Animist and Apparition Spellcasting": {
+			"name": "애니미스트 및 유령 주문 시전",
+			"description": "<p>당신은 영적 매개체로서, 필멸의 세계와 초월적인 영역을 연결하여 두 가지 방식으로 마법을 시전할 수 있습니다. 당신은 신성 전통에서 주문을 배우고 준비하며, 동시에 조율된 유령들의 지식과 힘을 채널링하여 그들로부터 자발적으로 시전할 수 있는 주문 슬롯과 목록를 얻습니다.</p>\n<p>어느 원천에서 마법을 끌어오든, 당신은 신성 전통을 사용하여 주문을 시전할 수 있는 주문 시전자입니다. 애니미스트로서, 당신의 주문 시전은 전해 내려오는 전설의 일부분을 낭송하거나, 주변 영혼들을 불러내어 고대의 맹세를 존중하는 방식일 수 있습니다. 당신의 제스처는 우아한 춤이나 온몸의 경련처럼 표현될 수 있으며, 세대에 걸쳐 기억된 다른 세계의 에너지가 당신을 통과할 때 그 에너지를 반영합니다.</p>\n<p>일부 주문은 주문 공격을 시도하거나 적들이 당신의 주문 DC에 대해 내성 굴림을 해야 할 수 있습니다. 당신의 주요 능력치는 지혜(Wisdom)이므로, 주문 공격 수정치와 주문 DC는 지혜 수정치를 사용합니다.</p>\n<p>애니미스트와 유령 사이의 명확한 협력 관계 덕분에, 애니미스트 주문 슬롯을 사용하여 유령 주문을 시전할 수 없고, 그 반대도 마찬가지입니다. 두 마법은 서로 보완적이며 조화를 이루지만, 그들이 오는 두 세계만큼 분명히 구분됩니다.</p>\n<h2>애니미스트 주문 시전</h2>\n<p>지식의 수호자로서, 당신은 항상 새로운 이야기를 배우고 주문을 익힙니다. 매일 당신은 신성 주문 목록에서 하나의 1레벨 주문과 두 개의 캔트립을 준비할 수 있으며, '배우기(Learn a Spell)'로 접근할 수 있는 다른 신성 주문도 학습하여 준비할 수 있습니다. 준비된 주문은 다시 준비하거나 시전할 때까지 사용할 수 있습니다. 당신이 준비할 수 있는 주문의 수는 주문 슬롯이라 부릅니다.</p>\n<p>애니미스트로서 레벨이 증가함에 따라, 하루 동안 준비할 수 있는 주문의 수와 시전할 수 있는 주문의 최대 레벨가 증가합니다.</p>\n<h2>유령 주문 시전</h2>\n<p>당신은 조율된 유령을 통해 두 번째 마법 지식과 힘의 원천을 끌어낼 수 있습니다. 당신은 조율된 유령으로부터 추가적인 주문 슬롯과 주문 목록를 얻습니다. 1레벨에서는 하루에 1레벨 유령 주문을 하나 시전할 수 있습니다. 이 주문을 시전하려면 유령 주문 목록에 있어야 하며, 이는 당신의 모든 조율된 유령으로부터 부여받은 주문 모음입니다. 이러한 주문이 신성 목록에 없는 경우에도 신성 주문으로 취급됩니다. 레벨이 상승하면 더 높은 레벨의 유령 주문 슬롯을 얻으며, 각 유령 항목에 명시된 대로 유령 주문을 부여받습니다.</p>\n<h2>주문 강화</h2>\n<p>2레벨 이상의 주문 슬롯을 얻으면, 더 낮은 레벨의 주문을 더 강력한 버전으로 채울 수 있습니다. 이는 주문의 레벨를 증가시키며, 주문 슬롯에 맞게 강화됩니다. 많은 주문은 특정 레벨로 강화될 때 특별한 개선 사항이 있습니다.</p>\n<p>영혼들은 필멸의 주문 시전자와 달리 마법에 대한 제한이 없습니다. 모든 유령 주문은 시그니처 주문입니다. 즉, 더 높은 레벨의 유령 주문 슬롯에서 자유롭게 강화하여 시전할 수 있습니다.</p>\n<h2>캔트립</h2>\n<p>일부 주문은 캔트립입니다. 캔트립은 주문 슬롯을 사용하지 않는 특별한 종류의 주문입니다. 캔트립은 하루에 원하는 만큼 시전할 수 있으며, 자동으로 레벨의 절반(올림)으로 강화됩니다. 예를 들어, 1레벨 애니미스트는 1레벨 캔트립을 가지며, 5레벨에서는 3레벨 캔트립을 가집니다.</p>\n<h2>용기체 주문</h2>\n<p>당신의 주된 조율된 유령은 당신의 신체를 통로로 사용하여 고유한 용기체 주문을 시전할 수 있습니다. 용기체 주문은 포커스 주문의 일종입니다. 포커스 주문을 시전하려면 1 포커스 포인트가 필요하며, 포커스 풀은 2 포커스 포인트로 시작합니다. 포커스 풀은 매일 준비 시 충전되며, 주변 영혼들과 소통하거나, 영혼과 필멸자 간의 균형 문제를 해결하기 위해 명상하거나 이야기를 하는 등의 '재충전(Refocus)' 활동을 10분 동안 수행하여 1 포커스 포인트를 회복할 수 있습니다.</p>\n<p>포커스 주문은 캔트립과 마찬가지로 자동으로 레벨의 절반(올림)으로 강화됩니다. 포커스 주문은 주문 슬롯을 사용하지 않으며, 주문 슬롯으로 시전할 수 없습니다. 특정 특기는 더 많은 포커스 주문을 제공합니다. 포커스 풀에 보유할 수 있는 최대 포커스 포인트는 포커스 주문의 수에 해당하지만, 3포인트를 넘을 수 없습니다.</p>"
+		},
+		"Animistic Practice": {
+			"name": "애니미즘 수행",
+			"description": "<p>1레벨에서, 애니미스트는 그들의 힘이 성장하고 발전하는 방식에 영향을 미치는 수행을 선택합니다. 다음 수행 중 하나를 선택하고 명시된 혜택을 얻습니다.</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.DCDHjeBcQSEdiRBX]{채널러}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.vvog6aXtEzkTNaBC]{현자}</p>"
+		},
+		"Apparition Attunement": {
+			"name": "유령 조율",
+			"description": "<p>애니미스트는 영적 존재들—유령으로 알려진—을 위해 다리 역할을 하여 물리 세계와 소통하고 상호작용할 수 있는 힘을 얻습니다. 유령은 다양하고 무수합니다: 그들은 유령이나 고스트가 되기 직전의 경계에 머물러 있는 인간의 영혼일 수 있고, 물리 세계와 강한 연결을 가진 동물 영혼이지만 진정한 언데드로 변할 악의가 없는 경우일 수도 있으며, 시간이 지남에 따라 사유와 목적을 지니게 된 자연적 장소의 발현일 수도 있습니다. 일부 애니미스트는 특정 유령과 조율하여 그들과 함께 여행하며 깊은 파트너십을 형성하는 반면, 다른 애니미스트는 여행이 이끄는 곳마다 현지의 유령들과 친해집니다.</p>\n<p>매일 일일 준비 중에, 12페이지에 나열된 목록에서 두 개의 유령을 선택하여 조율합니다. 이 중 하나를 주된 유령으로 선택하십시오. 조율된 유령들은 각각 당신에게 지식을 부여하며(로어 기술) 유령 주문 시전을 사용하여 시전할 수 있는 추가 주문 목록를 제공합니다. 주된 유령은 고유한 용기체 포커스 주문과, 레벨이 올라가면 고유한 아바타 형태를 부여합니다.</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-effects.Item.cTZnKRoVv19XNnoI]{효과: 유령 조율}</p>\n<p>당신이 재충전(Refocus)할 때, 현재 조율된 유령 중 어느 것을 주된 유령으로 바꿀 수 있으며, 이는 일일 준비 중에 조율된 유령들 중에서 선택할 수 있습니다. 모든 유령은 일반적으로 다음 일일 준비까지 조율된 상태로 유지되지만, 일부 애니미스트 능력은 유령을 일시적으로 분산시킬 수 있습니다. 유령이 분산되면, 당신은 그들의 선물을 잃게 됩니다—그들의 유령 기술을 잊고, 그들의 주문이 당신의 유령 주문 목록에서 제거되며, 그들의 용기체 주문이나 아바타 형태를 사용할 수 없습니다. 당신이 주된 유령을 분산시키면, 남은 유령이 주된 유령이 됩니다.</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.YyDqj4xmqGNmoN8G]{숲과 정원의 수호자}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.cNTI2tuFuFvGrpN2]{숨겨진 장소의 사기꾼}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.Lb1pfIgYX7plpwgX]{어두운 나뭇가지 속 추적자}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.bHMzpJLICVFQEONg]{돌과 불의 관리자}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.jGsDCNMB6zkZV4xX]{거센 물결의 선봉대}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.CkgQ29vZ8VT7tibE]{고대 전투의 목격자}</p>"
+		},
+		"Apparition's Awareness": {
+			"name": "유령의 인식",
+			"description": "<p>당신의 유령은 당신이 놓칠 수 있는 미세한 세부 사항에 주의를 기울이게 합니다. 당신의 지각(Perception) 숙련이 전문으로 증가합니다.</p>"
+		},
+		"Apparition’s Warning": {
+			"name": "유령의 경고",
+			"description": "<p>당신을 보호하는 영적 존재들이 위험이 발생하기 전에 경고하여 더 많은 반응 시간을 제공합니다. 당신의 반사 내성(Reflex) 숙련이 전문으로 증가합니다.</p>"
+		},
+		"Barrow's Edge": {
+			"name": "고분의 칼날",
+			"description": "<p><strong>사용</strong> 베기 또는 관통 피해를 주는 근접 무기</p>\n<hr />\n<p>이 칼날은 칼집에서 떨리며, 폭력을 소비하기 위해 칼집에서 벗어나기를 원합니다.</p>\n<p><strong>내재력</strong> 당신의 무기 아이콘은 공격할 때마다 대상에게 무기 피해 주사위당 1 지속적인 영혼 피해를 줍니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.TFvjSFkM0oiiXyo1]{적의 피를 마시다}</p>"
+		},
+		"Born of the Bones of the Earth": {
+			"name": "대지의 뼈에서 태어나다",
+			"description": "<p>당신의 영역은 돌과 흙, 창조의 경기장과 역사의 위대한 전설들을 지탱하는 기둥입니다. 당신은 @Compendium[pf2e.feats-srd.C0Tcelg3BAPhML6J]{무거운 운반자(Hefty Hauler)} 피트를 얻습니다. 당신은 본보기 능력이 주는 영혼 피해를 대신 떠오르는 돌이나 뼈 조각으로 변환하여, 피해 유형을 타격으로 바꾸고 영혼 특성을 대지 특성으로 교체할 수 있습니다. 당신의 무기 아이콘은 다음 능력을 얻습니다.</p>\n<p><strong>내재력</strong> 당신이 공격에서 대성공을 거두었을 때, 그리고 치명타의 대상이 흙이나 돌 표면에 서 있다면, 그 대상은 지면에 묻혀서 발이 묶입니다. 대상은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가} 상태가 되며, 이동 불가 상태를 종료하려면 당신의 클래스 DC에 대한 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출} 시도를 해야 합니다. 이 생물은 비물질적이거나 액체 상태(물 정령이나 일부 점액류처럼)라면, 또는 다른 방식으로 쉽게 벗어날 수 있다면 묶이지 않습니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.pMb8Q7A5iM3rLz8E]{세상을 상처 내다}</p>"
+		},
+		"Brave": {
+			"name": "용감한 자",
+			"description": "<p>당신의 행적은 두려움이 없음을 보여줍니다: 야수가 나타나면, 당신이 싸우러 나가며, 어둠 속에서 누군가 길을 잃으면, 당신이 제일 먼저 구하러 갑니다. 당신은 운동(Athletics)에 훈련됩니다. 몸 아이콘의 초월(Spark Transcendence)을 발휘한 후, 당신의 몸이 앞으로 나아가며 선택한 적을 향해 속도의 절반까지 직선으로 발걸음(Strides)을 합니다.</p>"
+		},
+		"Channeler": {
+			"name": "채널러",
+			"description": "<p>채널러는 다양한 유령들과 자유롭게 소통하는 경향이 있으며, 영적 에너지를 전달하는 데 자연적으로 능숙합니다. 이들은 단일 유령과 깊은 유대감을 형성하는 경향은 적지만, 여러 유령의 힘을 쉽게 다룰 수 있습니다. 채널러는 종종 여행자, 떠돌이 상인 또는 이와 유사한 방랑자로, 도시에서 도시로 이야기를 전달합니다. 이들은 자신이 있는 곳의 지역 자연적 요소의 유령들과 자주 연관됩니다: 예를 들어, 화산 칼데라를 횡단할 때 돌과 불의 관리자와 연을 맺습니다.</p>\n<hr />\n<p><strong>초기 혜택</strong>: 1레벨에서, 당신은 @UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-feats.Item.sGKursdBYDehFYuJ]{채널러의 자세(Channeler's Stance)} 특기와 @UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-actions.Item.G2croA4K8EXWbMRl]{유령의 소용돌이(Apparition's Whirl)} 행동을 얻습니다.</p>\n<p><strong>중급 혜택</strong>: 9레벨에서, 당신의 체력 내성(Fortitude)의 숙련이 통달로 증가합니다. 의지 내성 굴림에서 성공하면 그 대신 대성공을 얻습니다.</p>\n<p><strong>상급 혜택</strong>: 13레벨에서, 경갑, 중갑, 무장 방어의 숙련이 전문으로 증가합니다.</p>\n<p><strong>최고 혜택</strong>: 17레벨에서, 전투 중 특정 자세를 처음 취할 때, 레벨의 절반 + 2(최소 3)의 임시 체력을 얻습니다. 이 임시 체력은 1분 동안 지속됩니다.</p>"
+		},
+		"Cunning": {
+			"name": "교활함",
+			"description": "<p>왜 들판에서 토끼와 경주하거나, 폭포에서 연어와 함께 올라가야 할까요? 왜 거인과 힘 대결을 해야 할까요? 적을 약간의 창의력으로 이기는 것이 더 좋지 않겠습니까? 결국, 역사를 통해 메아리치는 이야기들은 항상 순수한 재능이나 힘이 아닌, 기지와 속임수로 승리하는 이야기들입니다. 당신은 속임수(Deception)에 훈련됩니다. 몸 아이콘의 초월을 발휘한 후, @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{속임수 기동(Feint)}를 프리 액션으로 사용할 수 있습니다.</p>"
+		},
+		"Custodian of Groves and Gardens": {
+			"name": "숲과 정원의 수호자",
+			"description": "<p>숲과 정원의 수호자는 사랑으로 돌봐지는 농장과 정원을 자주 방문합니다. 이 유령들은 평화로운 일, 연구, 그리고 조용한 성찰에 이끌립니다. 일부는 길을 잃었기 때문에 필멸의 영역에 머무는 것이 아니라, 이미 엘리시움을 발견했다고 믿기 때문에 머물고 있습니다. 숲과 정원의 수호자들은 평화롭고, 조용하며, 갈등을 싫어합니다.</p>\n<h2>유령 기술</h2>\n<p>농업 지식(Farming Lore), 약초학 지식(Herbalism Lore)</p>\n<h2>유령 주문</h2>\n<p><strong>캔트립</strong> <em>@Compendium[pf2e.spells-srd.uZK2BYzPnxUBnDjr]{덩굴 얽기(Tangle Vine)}</em>; <strong>1레벨</strong> <em>@Compendium[pf2e.spells-srd.MMIPT6jfwHfLPkm5]{덤불 벽(Wall of Shrubs)}</em>; <strong>2레벨</strong> <em>@Compendium[pf2e.spells-srd.C0D2eqzTAhiKm4j9]{부드러운 바람(Gentle Breeze)}</em>; <strong>3레벨</strong> <em>@Compendium[pf2e.spells-srd.IFuEzfmmWyNwVbhY]{안전한 통행(Safe Passage)}</em>; <strong>4레벨</strong> <em>@Compendium[pf2e.spells-srd.FHfrCABOmGVaEpPx]{생명 흡수하는 뿌리(Life-Draining Roots)}</em>; <strong>5레벨</strong> <em>@Compendium[pf2e.spells-srd.VDK5cQ94BszDrMiJ]{얽힌 뿌리(Entwined Roots)}</em>; <strong>6레벨</strong> <em>@Compendium[pf2e.spells-srd.x5rGOmhDRDVQPrnW]{생명의 들판(Field of Life)}</em>; <strong>7레벨</strong> <em>@Compendium[pf2e.spells-srd.smiVuoFMSgY2FTOO]{춤추는 분수(Dancing Fountain)}</em>; <strong>8레벨</strong> <em>@Compendium[pf2e.spells-srd.4MOew29Z1oCX8O28]{재생의 순간(Moment of Renewal)}</em>; <strong>9레벨</strong> <em>@Compendium[pf2e.spells-srd.fkDeKktdmbeplYRY]{압도적인 존재(Overwhelming Presence)}</em></p>\n<h2>용기체 주문</h2>\n<p><em>@Compendium[pf2e-playtest-data.war-of-immortals-playtest-spells.d6ZtbQMPOcaYPIAV]{치유의 정원(Garden of Healing)}</em></p>\n<h2>아바타</h2>\n<p><strong>엘리시안 들판</strong> 속도 60피트, 어려운 지형과 상급 어려운 지형 무시;</p>\n<p><strong>근접</strong> <span class=\"pf2-icon\">1</span> 정원의 요람(민첩, 비치명적, 사거리 10피트, 넘어뜨리기), <strong>피해</strong> 6d6+6 타격 피해 및 붙잡기;</p>\n<p><strong>원거리</strong> <span class=\"pf2-icon\">1</span> 평화를 강요하기(비치명적, 사거리 120피트), <strong>피해</strong> 6d6+6 정신 피해</p>"
+		},
+		"Deific Mastery": {
+			"name": "신성한 숙련",
+			"description": "<p>당신은 당신을 통해 흐르는 신성한 힘 숙련을 달성했습니다. 본보기 클래스 DC 숙련이 통달로 증가합니다. 영역 주문을 가지고 있다면, 주문 공격과 주문 DC 숙련이 통달로 증가합니다.</p>"
+		},
+		"Divine Premonition": {
+			"name": "신성한 예감",
+			"description": "<p>운명의 흐름을 감지하는 능력으로 위험에 신속하게 반응할 수 있습니다. 당신의 반사 내성(Reflex) 숙련이 전문으로 증가합니다.</p>"
+		},
+		"Divine Spark and Ikons": {
+			"name": "신성한 불꽃과 아이콘",
+			"description": "<p>당신의 영혼 안에는 신성한 힘의 작은 불꽃이 있으며, 이는 신에게 속하지 않고 오직 당신 자신에게 속한 것입니다. 당신은 아이콘이라고 알려진 특별한 물품을 통해 이 신성한 힘을 발현할 수 있습니다. 아이콘은 당신과 본질적으로 연결된 물품들로, 당신의 신성함이 결정체화된 성스러운 용기이며, 당신의 손에서는 전설적인 위업을 수행할 수 있습니다. 아이콘에는 세 가지 종류가 있습니다: 몸 아이콘은 당신의 육체에 새겨진 필멸자를 초월한 표식이며, 착용 아이콘은 성스러운 의복이나 기타 장비, 그리고 무기 아이콘은 당신의 이야기를 세상에 새길 수 있게 합니다. 각각의 유형에서 하나씩 세 가지 아이콘을 선택하세요. 당신의 몸은 선택한 몸 아이콘의 특성을 가지며, 착용 아이콘과 무기 아이콘에 필요한 요구사항을 만족하는 비마법적, 0레벨 물품을 선택하여 얻습니다. 운명은 이러한 물품을 당신이 발견하도록 보장할 것입니다; 예를 들어, 길을 걷다가 나무에 꽂힌 창을 발견하여 오직 당신만이 그것을 뽑을 수 있거나, 꿈에서 본 빛나는 띠를 들고 깨어날 수도 있습니다.</p>\n<p>신성한 불꽃을 하나의 아이콘에 집중하면, 그 아이콘이 필멸자의 손에서는 불가능한 일을 해낼 수 있는 힘을 얻습니다. 신성한 불꽃이 아이콘 안에 있는 동안, 당신은 그 아이콘의 내재된 효과(Immanence Effect)를 얻습니다. @Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.oRp8IV0Jqjtzj82l]{내재력 전환(Shift Immanence)} 행동을 사용하여 불꽃을 아이콘으로 소환하고 그곳에 배치할 수 있습니다.</p>\n<p>불꽃이 아이콘에 깃들어 있는 동안, 당신은 또한 그 아이콘을 통해 신성한 힘을 발휘하는 강력한 초월 능력(Transcendence Ability)을 사용할 수 있습니다—그러나 이 행동의 강력함 때문에 신성한 불꽃은 일시적으로 아이콘에서 배출됩니다.</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-actions.Item.DccQze1mz8yP7LgJ]{불꽃의 초월(Spark Transcendence)}</p>"
+		},
+		"Divine Weapon Mastery": {
+			"name": "신성 무기 숙련",
+			"description": "<p>무기에 대한 당신의 기술이 신성한 영감으로 강화됩니다. 단순 무기, 군용 무기, 비무장 공격 숙련이 통달로 증가합니다.</p>"
+		},
+		"Dominion Epithet": {
+			"name": "지배의 칭호",
+			"description": "<p>당신의 신성이 업적과 함께 성장하며, 이제 신들이 주로 다루는 영역을 지배하기 시작할 수 있게 됩니다. 다음 칭호 중 하나를 선택하여 무기 아이콘에 영향을 줍니다.</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.KJGuufhSPwn6EWiM]{땅의 뼈에서 태어남(Born of the Bones of the Earth)}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.VDWsFE7Qb52H2IXJ]{천하무적(Peerless Under Heaven)}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.BB1lsBxwpuvtDBBE]{끊임없는 물결(Restless as the Tide)}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.tG5S0JyfNHT8UpSX]{천둥의 외침(Whose Cry is Thunder)}</p>"
+		},
+		"Expert Spellcaster (Animist)": {
+			"name": "전문 주문 시전자 (애니미스트)",
+			"description": "<p>영혼들의 마법이 당신을 통해 자유롭게 흐릅니다. 주문 공격 수정치와 주문 DC 숙련이 전문으로 증가합니다.</p>"
+		},
+		"Eye-Catching Spot": {
+			"name": "눈길을 끄는 점",
+			"description": "<p>눈 밑에 있는 매력적인 점이나 태양처럼 따뜻한 미소가 적을 혼란시키고 마음을 사로잡습니다.</p>\n<p><strong>내재력</strong> 당신의 아름다움이 초자연적으로 향상되어 적을 혼란시키며, 당신을 향한 근접 공격 굴림에 -1 상황 패널티를 부여합니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.kohnyHhsWn4xuPsA]{매혹적인 매력(Captivating Charm)}</p>"
+		},
+		"Fated Shot": {
+			"name": "운명적인 사격",
+			"description": "<p><strong>사용</strong> 원거리 무기</p>\n<hr />\n<p>당신의 탄환은 떨어지는 별처럼 공중을 가로지르며 빛납니다.</p>\n<p><strong>내재력</strong> 당신의 무기 아이콘이 타격하는 생물에게 무기 피해 주사위당 추가로 1의 영혼 피해를 입힙니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.FdZHceXgL30YBXpR]{일곱 빛의 비(Rain of Seven Lights)}</p>"
+		},
+		"Fourth Apparition": {
+			"name": "네 번째 유령",
+			"description": "<p>당신은 영혼들에게 진정으로 사랑받고 있으며, 다양한 곳에서 유령들이 당신에게 몰려듭니다. 일일 준비 동안 유령에 동조할 때, 네 개의 유령을 선택하여 동조하며, 그중 하나가 주요 유령이 됩니다.</p>"
+		},
+		"Gaze Sharp as Steel": {
+			"name": "강철처럼 날카로운 시선",
+			"description": "<p>당신의 눈은 거의 실체화된 날카로움으로 빛나며, 지평선에 있는 작은 비둘기나 날아가는 화살을 감지할 수 있게 해줍니다.</p>\n<p><strong>내재력</strong> 당신의 시야가 예리해져 적의 공격을 거의 시작과 동시에 감지할 수 있게 되어, 인식 판정에 +1 상태 보너스와 원거리 공격에 대한 AC에 +2 상태 보너스를 부여합니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.lHJNsq5YpnJLHrOP]{끝없는 순간(A Moment Unending)}</p>"
+		},
+		"Gleaming Blade": {
+			"name": "빛나는 칼날",
+			"description": "<p><strong>사용</strong> 검 또는 단검 그룹의 무기</p>\n<hr />\n<p>이 칼은 공기를 가르는 듯한 날카로움으로 빛나며, 더 빠르게 뽑을 수 있습니다.</p>\n<p><strong>내재력</strong> 당신의 무기 아이콘이 타격하는 생물에게 무기 피해 주사위당 추가로 2의 영혼 피해를 입힙니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.czDAzMbNrph1AJ0K]{거울처럼 반사되는 영혼의 일격(Mirrored Spirit Strike)}</p>"
+		},
+		"Godly Expertise": {
+			"name": "신성한 전문성",
+			"description": "<p>당신의 신성한 힘을 효과적으로 다룰 수 있는 능력이 증가합니다. 당신의 익셈플러 클래스 DC 숙련이 전문으로 상승합니다. 만약 영역 주문이 있다면, 주문 공격 및 주문 DC 숙련도 전문으로 상승합니다.</p>"
+		},
+		"Greater Resolve (Exemplar)": {
+			"name": "상급 결의 (익셈플러)",
+			"description": "<p>당신의 놀라운 훈련이 정신적 회복력을 부여합니다.</p>\n<p>당신의 의지 내성 판정 숙련이 전설로 상승합니다. 의지 내성 판정에서 성공할 경우, 이를 대성공으로 처리합니다. 의지 내성 판정에서 대실패를 굴릴 경우, 이를 실패로 대신 처리합니다. 손상을 입히는 효과에 대해 의지 내성 판정에서 실패할 경우, 절반의 피해만 입습니다.</p>"
+		},
+		"Greater Spirit Striking": {
+			"name": "상급 영혼 타격",
+			"description": "<p>영혼 타격에 의한 추가 피해가 숙련이 전문인 무기 및 비무장 공격에서 4, 통달의 경우 6, 전설적인 경우 8로 증가합니다.</p>"
+		},
+		"Humble Strikes": {
+			"name": "겸손한 일격",
+			"description": "<p>가장 겸손한 무기라도 당신의 손에서는 영웅적인 업적을 이룰 수 있습니다. 단순 무기를 휘두를 때, 그 무기의 피해 주사위 크기를 한 단계 증가시킵니다.</p>"
+		},
+		"Ikons": {
+			"name": "아이콘",
+			"description": "<p>익셈플러로서, 당신은 세 개의 아이콘을 획득합니다: 하나는 당신의 몸을 불멸자로 표시하며, 하나는 입는 의복, 그리고 하나는 세상에 당신의 이야기를 새길 무기입니다. 각 범주에서 하나의 아이콘을 선택하세요.</p>\n<p>당신의 아이콘은 해당 유형의 아이템으로서 정상적으로 룬을 새기거나 업그레이드하거나 수정할 수 있습니다. 동일한 유형의 새로운 물건을 획득한 경우, 새로운 아이콘을 하루 동안의 휴식 시간을 통해 해당 물건으로 교체할 수 있으며, 이 과정을 통해 기존의 마법 아이템을 아이콘으로 바꿀 수 있습니다. 이 과정은 아이템이 당신의 레벨 이하일 때 가능하며, 아이템이 마법적 특성을 잃고 신성한 특성을 추가합니다.</p>\n<h2>몸 아이콘</h2>\n<p>몸 아이콘은 익셈플러의 신체적 특징을 강조하며, 도난당하거나 무장해제되거나 제거될 수 없습니다.</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.gOkL1e5uexDEvYog]{눈길을 끄는 점}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.96dNW6LMhBmHg3d3]{강철처럼 날카로운 시선}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.eLxQ1Mh48Noe6h2y]{생존자의 흉터}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.KkhRyA1kqZrgi6Vl]{뿔처럼 단단한 피부}</p>\n<h2>무기 아이콘</h2>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.gYUXQOsRKXfWWtcO]{바로우의 칼날}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.7WtSlfDvXNqvj6Nr]{운명적인 사격}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.etMBP62Mpz14D7tX]{빛나는 칼날}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.XYeKCSxOaolQ8H77]{고귀한 가지}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.2aoEgS4PjmNuIF3u]{타이탄의 파괴자}</p>\n<h2>입는 아이콘</h2>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.iDiOqew0eJMEldW5]{요새 팔찌}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.YfCx8wDPvdKtcNCH]{하늘을 떠받치는 자의 벨트}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.UKMKcuU7zCa1JQgx]{천 리 행군 샌들}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.stbQ88Py6JzhskLx]{승자의 화환}</p>"
+		},
+		"Imposter in Hidden Places": {
+			"name": "숨겨진 장소의 사기꾼",
+			"description": "<p>숨겨진 장소의 사기꾼은 인간의 목소리가 거의 울리지 않는 조용한 구석에서 속삭이며, 비밀을 저장하고 알 수 없는 진리를 숙고합니다. 그들을 방해하는 이들에게 종종 불행을 가져오지만, 그들의 신뢰를 얻을 수 있는 애니미스트는 그들이 효과적인 동맹이 될 수 있음을 알게 됩니다. 숨겨진 장소의 사기꾼은 수줍음이 많고 때로는 매우 앙심 깊습니다.</p>\n<h2>유령 기술</h2>\n<p>점술 지식, 지하 세계 지식</p>\n<h2>유령 주문</h2>\n<p><strong>캔트립</strong> <em>@Compendium[pf2e.spells-srd.pwzdSlJgYqN7bs2w]{텔레키네틱 핸드}</em>; <strong>1레벨</strong> <em>@Compendium[pf2e.spells-srd.6ZIKB0151LUR19Rw]{불길한 징조}</em>; <strong>2레벨</strong> <em>@Compendium[pf2e.spells-srd.XXqE1eY3w3z6xJCB]{투명화}</em>; <strong>3레벨</strong> <em>@Compendium[pf2e.spells-srd.EoKBlgf6Smt8opaU]{비탐지}</em>; <strong>4레벨</strong> <em>@UUID[Compendium.pf2e.spells-srd.GzdgM0m7wXKuFSho]{로프 트릭}</em>; <strong>5레벨</strong> <em>@Compendium[pf2e.spells-srd.U58aQWJ47VrI36yP]{환각}</em>; <strong>6레벨</strong> <em>@Compendium[pf2e.spells-srd.WPXzPl7YbMEIGWfi]{기만}</em>; <strong>7레벨</strong> <em>@Compendium[pf2e.spells-srd.vPWMEyVTreMOoFnm]{화려한 저택}</em>; <strong>8레벨</strong> <em>@Compendium[pf2e.spells-srd.wfleiawxsfhpRRwf]{사라짐}</em>; <strong>9레벨</strong> <em>@UUID[Compendium.pf2e.spells-srd.qDjeG6dxT4aEEC6J]{이상}</em></p>\n<h2>그릇 주문</h2>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-spells.auDBkDxxgB4VIjJb]{불편한 속삭임}</p>\n<h2>아바타</h2>\n<p><strong>그림자 속에 숨은 속삭임</strong> 속도 50피트, 비행 속도 50피트;</p>\n<p><strong>근접</strong> <span class=\"pf2-icon\">1</span> 잃어버린 미래의 손길 (다재다능한 냉기), <strong>피해</strong> 6d10+6 공허 피해;</p>\n<p><strong>원거리</strong> <span class=\"pf2-icon\">1</span> 절망의 속삭임 (사거리 120피트), <strong>피해</strong> 6d6+6 공허 피해</p>"
+		},
+		"Juggernaut (Exemplar)": {
+			"name": "거인 (익셈플러)",
+			"description": "<p>당신의 몸은 신체적 고난에 익숙하며 질병에 저항력을 갖습니다. 당신의 내성 굴림 숙련이 통달로 상승합니다. 내성 굴림에서 성공할 경우, 이를 대성공으로 처리합니다.</p>"
+		},
+		"Legendary Spellcaster (Animist)": {
+			"name": "전설적 주문 시전자 (애니미스트)",
+			"description": "<p>당신은 저 너머의 영역에서 마법 에너지를 거의 완벽하게 전달하는 채널입니다. 주문 공격 수정치와 주문 DC 숙련이 전설로 상승합니다.</p>"
+		},
+		"Master Spellcaster (Animist)": {
+			"name": "통달 주문 시전자 (애니미스트)",
+			"description": "<p>당신이 맺은 유령들과의 친밀함이 마법의 효능을 더욱 강화시켰습니다. 주문 공격 수정치와 주문 DC 숙련이 통달로 상승합니다.</p>"
+		},
+		"Mournful": {
+			"name": "슬픔에 젖은",
+			"description": "<p>영웅이 된다는 것은 수많은 고난을 견디고 다른 이들이 쓰러진 곳에서 서 있으며, 그들을 대신해 꿈과 운명을 짊어지는 것입니다. 이 무게가 당신의 눈에 드러날지라도, 당신은 이 부담을 지고, 당신 아래의 사람들이 웃으며 살 수 있게 합니다. 외교에 대한 훈련을 받습니다. 당신이 몸 아이콘의 신성한 힘을 불꽃으로 발휘할 때, 이 행동은 비통한 애수로 적을 혼란시켜, 30피트 내의 한 적을 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태로 만듭니다. 이는 정신 및 감정 효과입니다. 적은 다음 턴의 시작까지 눈부심 상태로 남아 있습니다.</p>"
+		},
+		"Noble Branch": {
+			"name": "귀족의 가지",
+			"description": "<p><strong>사용</strong> 창 또는 폴암 무기군, 혹은 지팡이, 봉, 전투봉, 카카라</p>\n<hr />\n<p>이 단순한 막대기 같은 무기는 그 자체로 간단하고 우아함을 가지고 있습니다.</p>\n<p><strong>내재력</strong> 당신의 무기 아이콘은 적에게 가할 때마다 무기 피해 주사위당 2 추가 정신 피해를 가합니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.4BI7VObdozZYkmug]{Strike, Breathe, Rend}</p>"
+		},
+		"Palisade Bangles": {
+			"name": "성벽 팔찌",
+			"description": "<p><strong>사용</strong> 착용 팔 보호구</p>\n<hr />\n<p>이 팔찌는 거부와 수용을 상징합니다; 해로움을 거부하고, 적에 대한 당신의 필연적인 지배를 수용합니다.</p>\n<p><strong>내재력</strong> (오라) 당신은 자신과 오라 내 모든 동료를 보호하는 15피트 오라로 둘러싸여 있으며, 이 오라는 AC에 +1 상황 보너스를 제공합니다. 이 보너스는 버클러를 들고 있는 경우 +2로, 방패를 들고 있는 경우 +3으로 증가합니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.CCNG68lA1FssCrL2]{운명의 포옹}</p>"
+		},
+		"Peerless Under Heaven": {
+			"name": "천하무적",
+			"description": "<p>신들이 존재해온 만큼, 그들은 전쟁을 벌였으며, 당신은 그 싸움이 끝났을 때 꼭대기에 서기를 목표로 합니다. 당신의 익셈플러 능력으로 인한 모든 정신 피해를 대신에 강력한 충격, 베기, 또는 일시적으로 소환된 물리적 무기로 나타나게 할 수 있으며, 정신 속성을 제거하고 물리 피해를 입힙니다. 무기 공격의 일부로 가해질 경우, 이 피해는 무기의 피해 유형과 동일하게 됩니다. 그렇지 않으면 타격, 베기, 또는 관통 피해 중 하나를 선택할 수 있습니다. 당신의 무기 아이콘은 다음 능력을 얻습니다.</p>\n<p><strong>내재력</strong> 신성한 무기 기술이 당신의 무기를 인도하여, 무기 군에 대한 치명타 전문화 효과를 부여합니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.v9SZgHp8Bxaf1796]{Reap the Field}</p>"
+		},
+		"Radiant": {
+			"name": "광휘",
+			"description": "<p>영웅들은 다른 누구보다도 더 큰 삶을 살며, 빛나서 추종자를 끌어들이고, 부대를 고무시키며, 왕국의 운명을 바꿉니다. 당신은 외교에 대한 훈련을 받습니다. 당신이 몸 아이콘의 신성한 힘을 불꽃으로 발휘할 때, 30피트 내의 동료를 고무하여 그들의 HP를 [[/r 2*(1 + @actor.level)[healing]]]{2 + 두 배의 당신의 레벨}만큼 회복시킵니다. 이는 정신 및 감정 효과입니다. 해당 동료는 10분 동안 일시적인 면역 상태가 됩니다.</p>"
+		},
+		"Restless as the Tide": {
+			"name": "끊임없는 파도",
+			"description": "<p>당신의 지배는 바다에 있으며, 그것은 생명의 위대한 근원이며 궁극적인 수확자입니다. 당신은 @Compendium[pf2e.feats-srd.iOY6YfGBaOvMNAor]{수중 약탈자} 특성을 얻습니다. 당신의 익셈플러 능력으로 인한 모든 정신 피해를 대신에 물결치는 물의 흐름으로 나타나게 할 수 있으며, 피해 유형을 타격으로 변경하고 정신 속성을 물 속성으로 대체합니다. 당신의 무기 아이콘은 다음 능력을 얻습니다.</p>\n<p><strong>내재력</strong> 당신이 공격에서 치명타에 성공할 때, 주위 10피트 내의 모든 생물에게 무기 피해 주사위 수만큼 스플래시 피해를 입힙니다. 이 스플래시 피해는 타격이며, 물 속성을 가집니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.oS3fxvVUgF6QeDIH]{바다의 주장}</p>"
+		},
+		"Reveler in Lost Glee": {
+			"name": "잃어버린 기쁨의 향연자",
+			"description": "<p>잃어버린 기쁨의 향연자는 한때 사람들이 큰 기쁨을 누렸던 황폐하고 버려진 장소에서 나타나는 뒤틀린 유령들입니다. 이들은 다른 사람들에게 해를 끼치거나 불편함을 주는 것에서 큰 즐거움을 느끼며, 자신들의 장난을 즐기지 않는 영매에게는 기꺼이 조율되지 않습니다.</p>\n<h2>유령 기술</h2>\n<p>서커스 지식, 점술 지식</p>\n<h2>유령 주문</h2>\n<p><strong>기본 주문</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC]{Prestidigitation}</em>; <strong>1레벨</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.UKsIOWmMx4hSpafl]{Color Spray}</em>; <strong>2레벨</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.tlSE7Ly8vi1Dgddv]{Hideous Laughter}</em>; <strong>3레벨</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.K2WpC3FFoHrqX9Q5]{Hypnotic Pattern}</em>; <strong>4레벨</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.LiGbewa9pO0yjbsY]{Confusion}</em>; <strong>5레벨</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.Ucf8eynbZMfUucjE]{Illusory Scene}</em>; <strong>6레벨</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.RQjSQVZRG497cJhX]{Vibrant Pattern}</em>; <strong>7레벨</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.8kJbiBEjMWG4VUjs]{Warp Mind}</em>; <strong>8레벨</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Maze}</em>; <strong>9레벨</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.FEsuyf203wTNE2et]{Wail of the Banshee}</em></p>\n<h2>그릇 주문</h2>\n<p><em>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-spells.Item.nIxd3ZZPnSD096t0]{Trickster's Mirrors}</em></p>\n<h2>아바타</h2>\n<p><strong>어둠의 축제를 이끄는 지휘자</strong> 속도 50피트, 어려운 지형과 상급 어려운 지형을 무시함; 근접 <span class=\"pf2-icon\">1</span> 지휘자의 채찍 (사거리 15피트, 넘어뜨림), 피해 6d10+6 베기; 원거리 <span class=\"pf2-icon\">1</span> 잃어버린 자들의 향연 (산성, 사거리 120피트, 다용도 공허), 피해 6d6+6 산성</p>"
+		},
+		"Root Epithet": {
+			"name": "근원 별칭",
+			"description": "<p>당신의 신성한 불꽃이 영혼과 결합할 때, 그것은 당신의 성격과 특성에 물들었습니다. 당신의 업적이 이 초기 신성에 형태를 부여함에 따라, 당신은 당신의 이야기를 반영하는 단어나 구절로 알려지게 됩니다. 각 별칭은 당신의 아이콘 중 하나에 영향을 미치며, 추가적인 능력을 부여합니다.</p>\n<p>3레벨에서, 당신은 근원의 별칭을 얻으며, 이는 당신의 성격의 핵심을 설명하고 당신의 몸 아이콘의 특성에 영향을 미칩니다. 만약 부여된 기술에 이미 훈련되어 있다면, 정상적으로 다른 기술에 훈련을 받습니다. 아래 목록에서 하나의 별칭을 선택하세요.</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.ccnjUUPmLzVVUzh2]{Brave}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.AYjhWPhF3tCU82LB]{Cunning}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.HiAbSUTzSwDuKE5O]{Mournful}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.mNteQRazYFAu0tcN]{Radiant}</p>"
+		},
+		"Sage": {
+			"name": "현자",
+			"description": "<p>현자들은 영혼과 언데드의 존재와 영향을 특히 민감하게 감지합니다. 이들은 잔류하는 영혼을 쉽게 감지하고, 영적 존재와 이들이 평화롭게 쉬지 못하게 하는 장애물 사이의 해결책을 만듭니다. 일부 현자들은 특정 장소나 공동체를 감시하기 위해 의도적으로 머무는 영혼들의 중재자로서 역할을 하기도 하며, 이들이 생전에 알던 사람들과 대화할 수 있도록 돕습니다. 현자들은 종종 공동체의 지도자나 교육자 역할을 하며, 정원의 관리자나 다른 지식의 유령과 같은 고정된 권력의 장소와 관련된 유령들과 자주 교류합니다.</p>\n<p><strong>초기 은총</strong>: 1레벨에서, 당신의 유령과의 융합 능력이 특히 강력합니다. 당신은 @UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-feats.Item.fSKnrAHbhFgB8112]{유령 감지} 특성과 @UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-actions.Item.q1O52OO0jUwzQMxq]{유령의 빙의} 행동을 얻습니다.</p>\n<p><strong>중간 은총</strong>: 9레벨에서, 가벼운 갑옷, 중간 갑옷, 그리고 갑옷을 착용하지 않은 방어에 대한 당신의 숙련이 전문으로 증가합니다.</p>\n<p><strong>상급 은총</strong>: 13레벨에서, 당신은 당신의 레벨의 절반에 해당하는 정신 저항을 얻고, 정신 효과에 대한 내성 판정에 +2 상황 보너스를 받습니다. 당신은 seize soul 주문과 같은 의지에 반하는 영혼 분리 효과에 면역이 됩니다.</p>\n<p><strong>궁극 은총</strong>: 17레벨에서, 어떤 망령, 영혼, 언데드, 또는 무형 생물이 당신의 주문에 대해 내성 판정에 실패하면, 당신은 그 엔티티의 모든 공격과 능력에 대해 다음 24시간 동안 AC와 내성 판정에 +2 상황 보너스를 얻습니다. 이 보너스는 동일한 유형의 다른 엔티티에게는 적용되지 않습니다. 또한, 일일 준비 동안 두 가지 유령을 기본 유령으로 선택할 수 있습니다.</p>"
+		},
+		"Scar of the Survivor": {
+			"name": "생존자의 흉터",
+			"description": "<p>당신의 몸에 있는 흉터는 누군가가 당신의 이야기를 끝내려 했지만 실패한 시도를 기념하는 것입니다. 이는 당신의 회복력과 인내의 증거입니다.</p>\n<p><strong>내재력</strong> 신성한 에너지가 당신의 흉터에서 퍼져나가, 당신의 육체를 강화합니다. 당신은 @UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{Diehard} 특성과 내성 굴림에 +1 상태 보너스를 받습니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.hw6vY8bDDoNhaD6u]{No Scar but This}</p>"
+		},
+		"Skin Hard as Horn": {
+			"name": "뿔처럼 단단한 피부",
+			"description": "<p>당신의 정신이 단련되면서, 당신의 피부는 갑옷처럼 단단해졌지만, 전설 속에서 저주와 도전의 상징이 되는 한 부분이 여전히 보호받지 못한 채 남아 있습니다.</p>\n<p><strong>내재력</strong> 타격, 베기, 또는 관통 피해에 대해 당신의 레벨의 절반에 해당하는 저항을 얻습니다. 이 선택은 아이콘을 획득할 때 결정되며, 이후 변경할 수 없습니다. 이 저항은 치명타에 대해서는 적용되지 않으며, 치명타는 보호받지 못한 부분을 정확히 찾아냅니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.q3odPW5lzuTNKp7x]{Crash Against Me}</p>"
+		},
+		"Skybearer's Belt": {
+			"name": "하늘을 떠받치는 자의 벨트",
+			"description": "<p><strong>사용</strong> 착용한 벨트</p>\n<hr />\n<p>이 허리띠는 당신의 허리를 감싸며, 당신의 힘을 극대화하여 마치 하늘까지 떠받칠 수 있을 것 같은 기분을 줍니다.</p>\n<p><strong>내재력</strong> (오라) 힘이 당신으로부터 방출되어, 15피트 내 모든 동료가 일반적으로 감당할 수 있는 부피보다 4 더 많은 부피를 들 수 있으며, 최대 8 더 많은 부피까지 감당할 수 있습니다. 당신은 (동료는 제외) 두 사이즈 더 큰 생물에 대해 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장해제}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{격투}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀기}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{발걸기}를 시도할 수 있습니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.Hxe9TkKSichNnUDi]{Bear Allies' Burdens}</p>"
+		},
+		"Sovereignty Epithet": {
+			"name": "주권 별칭",
+			"description": "<p>당신이 남긴 영웅적 업적들이 신성한 불꽃을 키워주었으며, 이제는 당신의 유산을 밝힐 정도로 강력해졌습니다. 아래의 별칭 중 하나를 선택하세요. 이 별칭은 당신의 착용한 아이콘에 영향을 줍니다.</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.UhcTDbAkikVqjDNe]{영웅의 스승}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.7BPSfx6h6VdZLz3g]{마지막 통치자}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.QYuc1Yumr7AN002s]{달빛 도둑}</p>"
+		},
+		"Spirit Striking": {
+			"name": "영혼의 일격",
+			"description": "<p>당신의 힘은 억제될 수 없으며, 폭력 속에서 무기와 비무장 공격으로 불꽃과 불씨가 발산됩니다. 무기와 비무장 공격에서 전문인 경우 2 추가 영혼 피해를 줍니다. 이 피해는 통달일 경우 3으로, 전설적일 경우 4로 증가합니다.</p>"
+		},
+		"Spiritual Fortitude": {
+			"name": "영적 인내",
+			"description": "<p>영적인 에너지가 당신의 몸을 강화합니다. 내성 굴림 숙련이 전문으로 증가합니다.</p>"
+		},
+		"Stalker in Darkened Boughs": {
+			"name": "어두운 가지 속의 추적자",
+			"description": "<p>어두운 가지 속의 추적자들은 고대 숲과 정글에 서식하며, 인간형 생물이나 자연의 설계에 통제나 영향을 미치려는 다른 이들에게 적대적입니다. 이러한 현신들은 폭력적인 생각이나 충동을 품은 애니미스트에게 이끌리지만, 그들의 증오를 잠재울 수 있는 애니미스트에게 더 오래 머물 가능성이 큽니다. 어두운 가지 속의 추적자들은 변덕스럽고 충동적이며, 가장 부정적인 관점에서 사물을 보는 경향이 있습니다.</p>\n<h2>현신 기술</h2>\n<p>숲 지식, 약초학 지식</p>\n<h2>현신 주문</h2>\n<p><strong>캔트립</strong> <em>@Compendium[pf2e.spells-srd.MPxbKoR54gkYkqLO]{할퀴는 발톱}</em>; <strong>1레벨</strong> <em>@Compendium[pf2e.spells-srd.EE7Q5BHIrfWNCPtT]{룬 문양}</em>; <strong>2레벨</strong> <em>@Compendium[pf2e.spells-srd.J6vNvrUT3b1hx2iA]{엉키는 식물}</em>; <strong>3레벨</strong> <em>@Compendium[pf2e.spells-srd.KsWhliKfUs3IpW3c]{가시의 벽}</em>; <strong>4레벨</strong> <em>@Compendium[pf2e.spells-srd.qvwIwJ9QBihy8R0t]{식물과 대화}</em>; <strong>5레벨</strong> <em>@Compendium[pf2e.spells-srd.YtesyvfAIwXOqISq]{달빛 광기}</em>; <strong>6레벨</strong> <em>@Compendium[pf2e.spells-srd.JbAcSLu62TU1OgNF]{엉키는 덩굴}</em>; <strong>7레벨</strong> <em>@Compendium[pf2e.spells-srd.bVtkBJvGLP69qVGI]{해방된 무리}</em>; <strong>8레벨</strong> <em>@Compendium[pf2e.spells-srd.8AMvNVOUEtxBCDvJ]{괴수 형태}</em>; <strong>9레벨</strong> <em>@Compendium[pf2e.spells-srd.yLJROsQtyrPIKcDx]{분노의 폭풍}</em></p>\n<h2>용기 주문</h2>\n<p><em>@Compendium[pf2e-playtest-data.war-of-immortals-playtest-spells.nPJHG83cVsrKGcmY]{어둠의 숲 형태}</em></p>\n<h2>아바타</h2>\n<p><strong>가지 속의 야수</strong> 속도 70피트, 비행 속도 70피트;</p>\n<p><strong>근접</strong> <span class=\"pf2-icon\">1</span> 포식하는 턱 (치명적 d10, 사정거리 15피트), <strong>피해</strong> 6d10+6 관통</p>"
+		},
+		"Steward of Stone and Fire": {
+			"name": "돌과 불의 수호자",
+			"description": "<p>돌과 불의 수호자들은 화산과 지구의 심장부 근처 깊은 곳에 머물지만, 특히 오래된 암석 지대, 협곡, 그리고 기타 자연적인 지형들도 그들을 끌어들일 수 있습니다. 돌과 불의 수호자들은 화를 빨리 내고 쉽게 잊지 않습니다.</p>\n<h2>현신 기술</h2>\n<p>산 지식, 화산 지식</p>\n<h2>현신 주문</h2>\n<p><strong>캔트립</strong> <em>@Compendium[pf2e.spells-srd.6DfLZBl8wKIV03Iq]{점화}</em>; <strong>1레벨</strong> <em>@Compendium[pf2e.spells-srd.HokKyQl5g655xx9U]{대지의 방해}</em>; <strong>2레벨</strong> <em>@Compendium[pf2e.spells-srd.v89KwyaBd6g5rWVS]{폭발하는 대지}</em>; <strong>3레벨</strong> <em>@Compendium[pf2e.spells-srd.sxQZ6yqTn0czJxVd]{화염구}</em>; <strong>4레벨</strong> <em>@Compendium[pf2e.spells-srd.IarZrgCeaiUqOuRu]{화염의 벽}</em>; <strong>5레벨</strong> <em>@Compendium[pf2e.spells-srd.kOa055FIrO9Smnya]{돌의 벽}</em>; <strong>6레벨</strong> <em>@Compendium[pf2e.spells-srd.znv4ECL7ZtuiagtA]{석화}</em>; <strong>7레벨</strong> <em>@Compendium[pf2e.spells-srd.O7ZEqWjwdKyo2CUv]{화산 폭발}</em>; <strong>8레벨</strong> <em>@Compendium[pf2e.spells-srd.x7SPrsRxGb2Vy2nu]{지진}</em>; <strong>9레벨</strong> <em>@Compendium[pf2e.spells-srd.jrBa9deU2ULFWvSl]{떨어지는 별}</em></p>\n<h2>용기 주문</h2>\n<p><em>@Compendium[pf2e-playtest-data.war-of-immortals-playtest-spells.CeQNry1G1EcxO1SK]{지구의 담즙}</em></p>\n<h2>아바타</h2>\n<p><strong>행성의 피</strong> 속도 50피트, 굴착 속도 50피트, 어려운 지형 및 더 어려운 지형 무시;</p>\n<p><strong>근접</strong> <span class=\"pf2-icon\">1</span> 용암으로 된 산사태 (다재다능 B), <strong>피해</strong> 6d10+6 화염;</p>\n<p><strong>원거리</strong> <span class=\"pf2-icon\">1</span> 정화의 분출 (화염, 사정거리 120피트), <strong>피해</strong> 6d6+6 화염</p>"
+		},
+		"Supreme Incarnation": {
+			"name": "최고의 현신",
+			"description": "<p>당신은 필멸의 영역과 영적 영역 사이의 연결점이 되어, 현신이 자신의 전능함을 통해 당신을 통하여 구현할 수 있는 채널로서 역할을 할 수 있게 됩니다. 당신은 10레벨 현신 주문 슬롯을 얻습니다. 현신 주문의 높아진 버전 외에도, 이 슬롯을 사용하여 <em>@UUID[Compendium.pf2e.spells-srd.Item.ckUOoqOM7Kg7VqxB]{아바타}</em>를 시전할 수 있습니다. 이 방법으로 <em>아바타</em>를 시전할 때, 당신은 신의 아바타가 되는 대신, 당신의 주요 현신이 당신의 몸을 통해 자신을 구현합니다.</p>"
+		},
+		"Teacher of Heroes": {
+			"name": "영웅의 스승",
+			"description": "<p>위대한 이름을 남긴 영웅들은 그들을 따르는 이들을 훈련시키기 위해 부름을 받으며, 당신의 운명은 이러한 제자들을 통해 기억되는 것입니다.</p>\n<p><strong>내재력</strong> 착용한 아이콘이 부여하는 오라가 30피트로 증가합니다. 착용한 아이콘의 오라 내에서 적에게 공격이 실패하거나 피해를 주지 못할 때, 그 대상을 상대로 지식 회상 체크를 시도할 수 있으며, 그 결과로 얻은 지식을 오라 내의 모든 동료에게 즉시 전달할 수 있습니다. 이 방식으로 지식 회상 시 얻은 첫 번째 지식은 항상 적의 면역(있는 경우) 또는 가장 큰 저항(면역이 없는 경우)입니다. 적에게 면역이나 저항이 없다면, 그들의 가장 큰 약점을 알게 됩니다. 적에게 면역, 저항, 약점이 모두 없다면, 그들의 가장 낮은 내성 굴림을 알게 됩니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.fzIajY2GXXE58jPT]{영웅의 여정을 완수하라}</p>"
+		},
+		"The Last Ruler": {
+			"name": "마지막 통치자",
+			"description": "<p>당신의 운명이 군주이든 신이든, 진정한 통치자들의 정신이 당신의 힘과 권위에 깃들어 있으며, 그로 인해 당신은 무적의 통솔력을 갖게 됩니다.</p>\n<p><strong>내재력</strong> 착용한 아이콘이 부여하는 오라가 30피트로 증가합니다. 오라 내의 적이 당신에게 공격을 실패할 때마다, 프리 액션으로 그들의 무모한 도전에 대해 꾸짖으며 위협 체크를 시도할 수 있습니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.wpOdYq21YsNFMOj0]{위대함 앞에 무릎 꿇어라}</p>"
+		},
+		"Thief of Moonlight": {
+			"name": "달빛의 도둑",
+			"description": "<p>당신의 행적은 속삭임과 반신반의하는 소문으로 전해집니다. 별 뒤에 숨어 보이지 않게 걷는 당신은 무엇이든 훔칠 수 있습니다. 하늘의 빛조차도 당신의 탐욕으로부터 안전하지 않습니다.</p>\n<p><strong>내재력</strong> 착용한 아이콘이 부여하는 오라가 30피트로 증가합니다. 오라 내의 적이 당신에게 공격을 실패할 때마다, 그들의 눈에서 빛의 조각을 훔쳐 그들을 당신의 다음 턴 끝까지 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태로 만듭니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.rxlQZT5Ly8CpwZS0]{빛나는 모든 것은 내 것이다}</p>"
+		},
+		"Third Apparition": {
+			"name": "세 번째 현신",
+			"description": "<p>더 많은 영혼들을 품을 수 있는 능력을 배워 더 많은 마법에 접근할 수 있게 됩니다. 일일 준비 중 현신에 조율할 때, 세 개의 현신을 선택할 수 있으며, 그 중 하나를 주 현신으로 선택합니다. 당신의 포커스 풀의 포커스 포인트가 1 증가합니다.</p>"
+		},
+		"Thousand-League Sandals": {
+			"name": "천리 행군 샌들",
+			"description": "<p><strong>사용</strong> 착용하는 신발</p>\n<hr />\n<p>낡고 신뢰할 수 있는 이 샌들은 지금까지 당신을 이끌어 주었으며, 앞으로도 더 먼 길을 인도할 것입니다.</p>\n<p><strong>내재력</strong> (오라) 샌들이 당신과 동료들의 앞길을 쉽게 만들어 주어, 15피트 내의 당신과 모든 동료에게 속도에 +10 상태 보너스를 부여합니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.nrJ7lHwG1vwupfiM]{마라톤 대시}</p>"
+		},
+		"Titan's Breaker": {
+			"name": "티탄의 파괴자",
+			"description": "<p><strong>사용</strong> 클럽, 해머, 도끼 무기군의 근접 무기</p>\n<hr />\n<p>당신은 산을 쉽게 부술 수 있는 무기를 휘두릅니다.</p>\n<p><strong>내재력</strong> 당신의 무기 아이콘은 공격한 생명체에게 무기 피해 주사위당 2의 추가 영혼 피해를 줍니다. 이 영혼 피해는 구조물과 물체에게도 적용되며, 이 피해는 자동으로 그들의 경도를 무시합니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.8lI9kWKLaqoQnBDH]{산을 부수다}</p>"
+		},
+		"Vanguard of Roaring Waters": {
+			"name": "격류의 선봉자",
+			"description": "<p>격류의 선봉자는 강이 산을 가로질러 지나가며 두려운 급류를 만들어내는 곳에서 가장 흔히 발견됩니다. 이들은 또한 강이 바다와 만나는 곳에서 혼란스러운 파도와 예측 불가능한 역류를 일으키는 장소 근처에서도 발견될 수 있습니다. 격류의 선봉자들은 혼돈을 장려하며 쉽게 지루해합니다.</p>\n<h2>현신 기술</h2>\n<p>산 지식, 강 지식</p>\n<h2>현신 주문</h2>\n<p><strong>0레벨</strong> <em>@Compendium[pf2e.spells-srd.zhDIiQlJmrd4UDNC]{기운을 북돋우는 물보라}</em>; <strong>1레벨</strong> <em>@Compendium[pf2e.spells-srd.jfVCuOpzC6mUrf6f]{수압 밀치기}</em>; <strong>2레벨</strong> <em>@Compendium[pf2e.spells-srd.9XHmC2JgTUIQ1CCm]{희미한 안개}</em>; <strong>3레벨</strong> <em>@Compendium[pf2e.spells-srd.oUDNCArkQTdhllxD]{수구체}</em>; <strong>4레벨</strong> <em>@Compendium[pf2e.spells-srd.Y3G6Y6EDgCY0s3fq]{수압 분출}</em>; <strong>5레벨</strong> <em>@Compendium[pf2e.spells-srd.zfn5RqAdF63neqpP]{물 조작}</em>; <strong>6레벨</strong> <em>@Compendium[pf2e.spells-srd.K2bTUhucPyhXlzjw]{개인 바다}</em>; <strong>7레벨</strong> <em>@Compendium[pf2e.spells-srd.smiVuoFMSgY2FTOO]{춤추는 분수}</em>; <strong>8레벨</strong> <em>@Compendium[pf2e.spells-srd.0fjz8qc9NfkmWmJZ]{소용돌이}</em>; <strong>9레벨</strong> <em>@Compendium[pf2e.spells-srd.yLJROsQtyrPIKcDx]{격노하는 폭풍}</em></p>\n<h2>정령 주문</h2>\n<p><em>@Compendium[pf2e-playtest-data.war-of-immortals-playtest-spells.8cvXMUfgCxGZfhrI]{산을 가르는 강}</em></p>\n<h2>아바타</h2>\n<p><strong>세상을 가르는 강</strong> 속도 50피트, 수영 속도 70피트;</p>\n<p><strong>근접 공격</strong> <span class=\"pf2-icon\">1</span> 산을 가르는 공격 (다용도 S, 물), <strong>피해</strong> 6d10+6 타격 피해</p>\n<p><strong>원거리 공격</strong> <span class=\"pf2-icon\">1</span> 바다에 충돌 (사거리 120피트, 다용도 P, 물), <strong>피해</strong> 6d6+6 타격 피해</p>"
+		},
+		"Victor's Wreath": {
+			"name": "승자의 화환",
+			"description": "<p><strong>사용</strong> 착용하는 머리 장식 또는 착용하는 띠</p>\n<hr />\n<p>이 승리의 상징은, 머리에 둘러 쓰거나 목에 걸어두는 메달로서, 당신과 동료들에게 승리만이 유일하게 허용된 결과임을 상기시켜줍니다.</p>\n<p><strong>내재력</strong> (오라, 감정, 정신) 당신은 동료들을 더 큰 영광으로 이끕니다. 당신과 15피트 내의 모든 동료들은 공격 굴림에 +1 상태 보너스를 받습니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.5nNEKaS37swT00Lo]{영광의 순간까지 한 걸음}</p>"
+		},
+		"Vigilant Senses (Exemplar)": {
+			"name": "경계하는 감각 (익셈플러)",
+			"description": "<p>모험을 통해, 당신은 날카로운 인식력과 세부 사항에 대한 주의력을 발달시켰습니다. 당신의 지각 숙련이 통달로 증가합니다.</p>"
+		},
+		"Weapon Expertise (Exemplar)": {
+			"name": "무기 전문화 (익셈플러)",
+			"description": "<p>당신은 무기의 세부 사항을 배우는 데 헌신했습니다. 당신의 비무장 공격, 단순 무기, 그리고 군용 무기 숙련이 전문으로 증가합니다.</p>"
+		},
+		"Whose Cry is Thunder": {
+			"name": "천둥의 울음소리",
+			"description": "<p>번개가 당신의 영혼을 때리면서 하늘이 당신의 명령을 받습니다. 익셈플러의 능력으로 얻은 내성 굴림 보너스는 전기 속성의 효과에도 적용되며, 저항력이 있다면 전기 피해에도 적용됩니다. 익셈플러의 능력으로 주는 영혼 피해를 대신하여 전기로 변환할 수 있으며, 이 경우 영혼 특성은 전기 특성으로 대체됩니다. 당신의 무기 아이콘은 다음 능력을 얻습니다.</p>\n<p><strong>내재력</strong> 공격이 대성공할 경우, 30피트 내의 목표에게 @Damage[4d6[electricity]] 전기 피해를 줍니다 (@Check[type:reflex|dc:resolve(@actor.system.attributes.classDC.value)|basic:true]). 이 피해는 12레벨에서 @Damage[7d6[electricity]]으로 증가하고, 17레벨에서 @Damage[10d6[electricity]]으로 증가합니다.</p>\n<p><strong>초월</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.2XT5pJP1KvuxY4qi]{맑은 하늘의 심판}</p>"
+		},
+		"Witness to Ancient Battles": {
+			"name": "고대 전투의 목격자",
+			"description": "<p>고대 전투의 목격자는 마지막 전투에 불만족스러웠던 전사들의 불안한 영혼, 전투와 죽음의 현장으로 자연스럽게 끌리는 발키리와 같은 존재, 또는 너무 많은 죽음과 피로 인해 영적 본질을 얻은 전투나 전장의 혼돈으로부터 형성된 불안한 존재일 수 있습니다. 고대 전투의 목격자는 종종 엄숙하고 음울합니다.</p>\n<h2>현신 기술</h2>\n<p>전장 지식, 문장학 지식</p>\n<h2>현신 주문</h2>\n<p><strong>0레벨</strong> <em>@Compendium[pf2e.spells-srd.TVKNbcgTee19PXZR]{방패}</em>; <strong>1레벨</strong> <em>@Compendium[pf2e.spells-srd.TFitdEOpQC4SzKQQ]{룬 무기}</em>; <strong>2레벨</strong> <em>@Compendium[pf2e.spells-srd.wzctak6BxOW8xvFV]{확대}</em>; <strong>3레벨</strong> <em>@Compendium[pf2e.spells-srd.AMEu5zzLN7uCX645]{유령 무기}</em>; <strong>4레벨</strong> <em>@Compendium[pf2e.spells-srd.8M03UxGXjYyDFAoy]{무기 폭풍}</em>; <strong>5레벨</strong> <em>@Compendium[pf2e.spells-srd.hghGRzOSzEl4UXdS]{영혼 소환}</em>; <strong>6레벨</strong> <em>@Compendium[pf2e.spells-srd.0XP2XOxT9VSiXFDr]{유령 재앙}</em>; <strong>7레벨</strong> <em>@Compendium[pf2e.spells-srd.AlbpWWN87yGegoAF]{진정한 목표}</em>; <strong>8레벨</strong> <em>@Compendium[pf2e.spells-srd.qlxM7Ik3uUeUIOcv]{영원한 슬픔의 찬가}</em>; <strong>9레벨</strong> <em>@Compendium[pf2e.spells-srd.qsNeG9KZpODSACMq]{예지}</em></p>\n<h2>정령 주문</h2>\n<p><em>@Compendium[pf2e-playtest-data.war-of-immortals-playtest-spells.IUpYw10YcDnotpj2]{전투의 구현}</em></p>\n<h2>아바타</h2>\n<p><strong>끝없는 전투의 장군</strong> 속도 70피트, 이동 불가 면역;</p>\n<p><strong>근접 공격</strong> <span class=\"pf2-icon\">1</span> 마지막 일격 (민첩, 치명적 d12, 사거리 15피트), <strong>피해</strong> 6d8+6 베기 피해</p>"
+		}
+	}
+}
