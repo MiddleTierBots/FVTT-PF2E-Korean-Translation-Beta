@@ -123,7 +123,7 @@
   },
   "Keen Eyes": {
     "name": "예리한 눈",
-    "description": "<p>눈이 예리하여 다른 플레이어가 놓칠 수 있는 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{은폐}나 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명} 생물의 작은 세부 사항까지 알아챌 수 있습니다. @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색} 행동으로 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진}을 찾으면 상황 보너스가 +2가 됩니다. @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{감지되지 않은} 생물을 30피트 이내에 발견합니다. 당신에게서 숨겨져 있거나 숨어 있는 상대를 목표로 삼을 때, 플랫 체크의 DC를 숨겨져 있는 대상은 3으로, 숨어 있는 대상은 9로 줄입니다.</p>"
+    "description": "<p>눈이 예리하여 다른 캐릭터가 놓칠 수 있는 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{은폐}나 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명} 생물의 작은 세부 사항까지 알아챌 수 있습니다. @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색} 행동으로 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진}을 찾으면 상황 보너스가 +2가 됩니다. @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{감지되지 않은} 생물을 30피트 이내에 발견합니다. 당신에게서 숨겨져 있거나 숨어 있는 상대를 목표로 삼을 때, 플랫 체크의 DC를 숨겨져 있는 대상은 3으로, 숨어 있는 대상은 9로 줄입니다.</p>"
   },
   "Land on Your Feet": {
     "name": "발로 착지",
@@ -139,7 +139,7 @@
   },
   "Mount": {
     "name": "탈것",
-    "description": "<p>당신의 말과 같은 몸은 신뢰할 수 있는 동료를 태우기에 적합합니다. 플레이어 캐릭터는 당신보다 한 사이즈 작은 경우(대부분의 켄타우로스는 중간 크기) 당신을 탈 수 있습니다. 두 사이즈 더 작을 필요는 없습니다.</p>"
+    "description": "<p>당신의 말과 같은 몸은 신뢰할 수 있는 동료를 태우기에 적합합니다. 캐릭터 캐릭터는 당신보다 한 사이즈 작은 경우(대부분의 켄타우로스는 중간 크기) 당신을 탈 수 있습니다. 두 사이즈 더 작을 필요는 없습니다.</p>"
   },
   "Natural Climber": {
     "name": "천부적인 등반가",

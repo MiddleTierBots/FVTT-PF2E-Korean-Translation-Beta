@@ -9,7 +9,7 @@
       "url": ""
     }
   ],
-  "version": "0.0.3",
+  "version": "0.0.4",
   "compatibility": {
     "minimum": "11",
     "verified": "12",
@@ -46,7 +46,7 @@
         "type": "system",
         "manifest": "https://raw.githubusercontent.com/foundryvtt/pf2e/master/system.json",
         "compatibility": {
-          "minimum": "5.6.*"
+          "minimum": "6.2.*"
         }
       }
     ],
@@ -66,6 +66,6 @@
     ]
   },
   "url": "https://github.com/MiddleTierBots/FVTT-PF2E-Korean-Translation-Beta",
-  "manifest": "https://github.com/MiddleTierBots/FVTT-PF2E-Korean-Translation-Beta/releases/download/BETA_0.0.1/module.json",
-  "download": "https://github.com/MiddleTierBots/FVTT-PF2E-Korean-Translation-Beta/releases/download/BETA_0.0.1/pf2e-ko.zip"
+  "manifest": "https://github.com/MiddleTierBots/FVTT-PF2E-Korean-Translation-Beta/releases/download/BETA_0.0.4/module.json",
+  "download": "https://github.com/MiddleTierBots/FVTT-PF2E-Korean-Translation-Beta/releases/download/BETA_0.0.4/pf2e-ko.zip"
 }

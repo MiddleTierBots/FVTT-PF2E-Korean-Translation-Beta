@@ -122,7 +122,7 @@
     },
     "Promotional Vestments": {
       "name": "프로모션 조끼",
-      "description": "<p><strong>[프로모션]</strong></p>\n<p><strong>선결</strong> 플레이어가 자원봉사자 셔츠, 패스파인더 롯지 셔츠, 패스파인더 테마 코스프레 등 패스파인더 사회를 홍보하는 의상을 착용하고 있음</p>\n<p><strong> 비용</strong> 0 명성</p>\n<hr />\n<p><strong>효과</strong> 영웅점를 사용해 체크를 다시 굴릴 때, 다시 굴릴 때 +1 상황 보너스를 추가합니다.</p>\n<p><strong> 특수</strong> PC는 한 번에 하나의 프로모션 혜택만 슬롯에 넣을 수 있습니다.</p>"
+      "description": "<p><strong>[프로모션]</strong></p>\n<p><strong>선결</strong> 캐릭터가 자원봉사자 셔츠, 패스파인더 롯지 셔츠, 패스파인더 테마 코스프레 등 패스파인더 사회를 홍보하는 의상을 착용하고 있음</p>\n<p><strong> 비용</strong> 0 명성</p>\n<hr />\n<p><strong>효과</strong> 영웅점를 사용해 체크를 다시 굴릴 때, 다시 굴릴 때 +1 상황 보너스를 추가합니다.</p>\n<p><strong> 특수</strong> PC는 한 번에 하나의 프로모션 혜택만 슬롯에 넣을 수 있습니다.</p>"
     },
     "Mentor, Protective": {
       "name": "멘토, 보호",
@@ -206,7 +206,7 @@
     },
     "Promotional Accessory": {
       "name": "프로모션 액세서리",
-      "description": "<p><strong>[프로모션]</strong></p>\n<p><strong>선결</strong> 플레이어가 패스파인더 사회를 홍보하는 액세서리를 착용하거나 소지하고 있을 것</p>\n<p><strong> 비용</strong> 0 명성</p>\n<hr />\n<p><strong>효과</strong> 모험당 최대 두 번, 액션을 사용해 @UUID[Compendium.pf2e.conditionitems.Item]의 심각도를 낮출 수 있습니다.TBSHQspnbcqxsmjL]{두려움} 또는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미한} 상태를 1만큼 감소시킵니다.</p>\n<p><strong> 특수</strong> PC는 프로모션 혜택을 한 번에 하나만 슬롯에 넣을 수 있습니다.</p>"
+      "description": "<p><strong>[프로모션]</strong></p>\n<p><strong>선결</strong> 캐릭터가 패스파인더 사회를 홍보하는 액세서리를 착용하거나 소지하고 있을 것</p>\n<p><strong> 비용</strong> 0 명성</p>\n<hr />\n<p><strong>효과</strong> 모험당 최대 두 번, 액션을 사용해 @UUID[Compendium.pf2e.conditionitems.Item]의 심각도를 낮출 수 있습니다.TBSHQspnbcqxsmjL]{두려움} 또는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미} 상태를 1만큼 감소시킵니다.</p>\n<p><strong> 특수</strong> PC는 프로모션 혜택을 한 번에 하나만 슬롯에 넣을 수 있습니다.</p>"
     },
     "Leshy Companion": {
       "name": "레시 동반자",
@@ -350,7 +350,7 @@
     },
     "Society Recruiter": {
       "name": "사회 채용 담당자",
-      "description": "<p><strong>[슬롯 없음]</strong></p>\n<p><strong>선결</strong> 사절단 동맹 1 티어</p>\n<p><strong> 비용</strong> 0 명성</p>\n<hr />\n<p><strong>효과</strong> 사신의 동맹은 새로운 인재를 영입하려는 당신의 노력을 축하합니다. 새로운 플레이어(길잡이 사회 캐릭터가 없는 플레이어 또는 첫 길잡이 사회 세션을 플레이하는 플레이어)를 테이블에 데려오면 사절단 동맹 진영의 명성과 평판을 2점 추가 획득합니다.</p>\n<p><strong> 특수</strong> 이 혜택은 사절단 동맹 진영의 현재 평판 티어와 동일한 횟수만큼만 받을 수 있습니다. 이 혜택의 요구 조건을 충족할 때마다 연대기 시트에 해당 평판 티어와 함께 표시하세요. 이 표기 옆에 GM이 서명하도록 합니다. 패스 파인더 사회에 소개하는 플레이어는 나와 같은 테이블에서 플레이할 필요는 없습니다(같은 테이블에 있으면 경험치가 향상되는 경우가 많지만).</p>"
+      "description": "<p><strong>[슬롯 없음]</strong></p>\n<p><strong>선결</strong> 사절단 동맹 1 티어</p>\n<p><strong> 비용</strong> 0 명성</p>\n<hr />\n<p><strong>효과</strong> 사신의 동맹은 새로운 인재를 영입하려는 당신의 노력을 축하합니다. 새로운 캐릭터(길잡이 사회 캐릭터가 없는 캐릭터 또는 첫 길잡이 사회 세션을 플레이하는 캐릭터)를 테이블에 데려오면 사절단 동맹 진영의 명성과 평판을 2점 추가 획득합니다.</p>\n<p><strong> 특수</strong> 이 혜택은 사절단 동맹 진영의 현재 평판 티어와 동일한 횟수만큼만 받을 수 있습니다. 이 혜택의 요구 조건을 충족할 때마다 연대기 시트에 해당 평판 티어와 함께 표시하세요. 이 표기 옆에 GM이 서명하도록 합니다. 패스 파인더 사회에 소개하는 캐릭터는 나와 같은 테이블에서 플레이할 필요는 없습니다(같은 테이블에 있으면 경험치가 향상되는 경우가 많지만).</p>"
     },
     "S1-10 - Tarnbreaker Champions": {
       "description": "<p><strong>[일반]</strong></p>\n<hr />\n<p><strong>효과</strong> 당신은 발기르드트렉의 용사로, 린노르 왕의 땅 전역에서 특별한 특권을 얻게 됩니다. 주로 린노름 왕의 땅에서 진행되는 모험을 플레이하는 동안 울펜 또는 바키 여관 또는 이와 유사한 시설에서 무료로 숙박할 수 있으며, 울펜 또는 바키 정착지에서 구매하는 모든 비마법 상품에 대해 10%를 얻습니다(다른 할인 또는 가격 할인과 중복되지 않음). 또한, 주로 린노르 왕의 땅에서 진행되는 모험을 플레이하는 동안 @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{요청하기}에 대한 모든 외교 체크에 +1의 상황 보너스를 받습니다.</p>",
@@ -369,7 +369,7 @@
       "description": "<p><strong>[사회][멘토]</strong></p>\n<p><strong>선결</strong> 사자의 동맹 1 티어</p>\n<p><strong> 비용</strong> 2 명성</p>\n<hr />\n<p><strong>효과</strong> 경험이 적은 패스파인더 동료와 함께 일하면서 후배 동료의 기술을 연마할 수 있도록 중요한 조언을 제공합니다. 레벨 범프의 혜택을 받고 자신보다 레벨이 낮은 PC의 경우, 레벨 범프의 스킬 체크 수정치가 2로 증가합니다.</p>\n<p><strong>일반</strong> 레벨 범프는 PC의 스킬 체크 수정치를 1 증가시킵니다.</p>\n<p><strong> 특수</strong> PC는 두 번의 멘토 혜택만 받을 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.SKjVvQcRQmnDoouw]{효과 : 숙련된 멘토 혜택 (PFS)}</p>"
     },
     "Translator": {
-      "description": "<p><strong>[동맹]</strong></p>\n<p><strong>선결</strong> 그랜드 아카이브 2단계</p>\n<p><strong> 비용</strong> 4 명성</p>\n<hr />\n<p><strong>효과</strong> 모험에 동행할 유능한 언어학자를 모집했습니다. 이 동맹은 일반 언어를 말하고 읽고 이해하며, 이 혜택을 구매할 때 선택한 일반 희귀도 언어 두 개를 추가로 구사합니다. 이 동맹은 플레이어에게 도움이 되는 모든 언어를 빠르게 번역할 수 있으므로, 플레이어는 추가 두 가지 언어로 어려움 없이 의사소통을 할 수 있습니다. 단, 해당 언어 특성을 가진 주문을 사용할 목적으로 해당 언어를 아는 것으로 간주되지 않습니다.</p>",
+      "description": "<p><strong>[동맹]</strong></p>\n<p><strong>선결</strong> 그랜드 아카이브 2단계</p>\n<p><strong> 비용</strong> 4 명성</p>\n<hr />\n<p><strong>효과</strong> 모험에 동행할 유능한 언어학자를 모집했습니다. 이 동맹은 일반 언어를 말하고 읽고 이해하며, 이 혜택을 구매할 때 선택한 일반 희귀도 언어 두 개를 추가로 구사합니다. 이 동맹은 캐릭터에게 도움이 되는 모든 언어를 빠르게 번역할 수 있으므로, 캐릭터는 추가 두 가지 언어로 어려움 없이 의사소통을 할 수 있습니다. 단, 해당 언어 특성을 가진 주문을 사용할 목적으로 해당 언어를 아는 것으로 간주되지 않습니다.</p>",
       "name": "번역가"
     },
     "Envoy's Alliance Champion": {
@@ -430,7 +430,7 @@
     },
     "Promotional Service Award": {
       "name": "프로모션 서비스 상",
-      "description": "<p><strong>[프로모션]</strong></p>\n<p><strong>선결</strong> 캠페인 코인이 있어야 합니다. 조직 플레이에 특별한 공헌을 한 자원 봉사자는 노력에 대한 보상으로 캠페인 코인을 획득할 수 있습니다.</p>\n<p><strong> 비용</strong> 0 명성</p>\n<hr />\n<p><strong>효과</strong> 캠페인 코인이 있으면 모든 모험을 시작할 때마다 보너스 영웅점을 얻습니다. 영웅점의 일반적인 능력에 더해, 이 특별 영웅점를 사용하여 다른 플레이어가 체크를 다시 굴릴 수 있도록 할 수 있습니다.</p>\n<p><strong> 특수</strong> PC는 한 번에 하나의 프로모션 혜택만 슬롯에 넣을 수 있습니다.</p>"
+      "description": "<p><strong>[프로모션]</strong></p>\n<p><strong>선결</strong> 캠페인 코인이 있어야 합니다. 조직 플레이에 특별한 공헌을 한 자원 봉사자는 노력에 대한 보상으로 캠페인 코인을 획득할 수 있습니다.</p>\n<p><strong> 비용</strong> 0 명성</p>\n<hr />\n<p><strong>효과</strong> 캠페인 코인이 있으면 모든 모험을 시작할 때마다 보너스 영웅점을 얻습니다. 영웅점의 일반적인 능력에 더해, 이 특별 영웅점를 사용하여 다른 캐릭터가 체크를 다시 굴릴 수 있도록 할 수 있습니다.</p>\n<p><strong> 특수</strong> PC는 한 번에 하나의 프로모션 혜택만 슬롯에 넣을 수 있습니다.</p>"
     },
     "Heroic Recall": {
       "description": "<p><strong>[영웅]</strong></p>\n<p><strong>선결</strong> 그랜드 아카이브 포함 3단계</p>\n<p><strong> 비용</strong> 4 명성</p>\n<hr />\n<p><strong>효과</strong> 절박한 순간에는 예리한 통찰력이 필요합니다. 프리 액션으로 <span style=\"text-decoration: underline;\">지식 기억</span> 을 사용하여 스킬 체크를 두 번 굴려 더 나은 결과를 사용할 수 있습니다. 이것은 행운 효과입니다.</p>\n<ul>\n<li>@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 회상 (비전)}</li>\n<li>@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 회상 (제작)}</li>\n<li>@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 회상 (로어)}</li>\n<li>@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 회상 (의학)}</li>\n<li>@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 불러오기 (자연)}</li>\n<li>@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 불러오기 (초상)}</li>\n<li>@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 불러오기 (종교)}</li>\n<li>@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 불러오기 (사회)}</li>\n</ul>",
@@ -465,7 +465,7 @@
       "name": "능력치 #148: 혜택 B - 확장 소환"
     },
     "S1-22 - Doom Averted": {
-      "description": "<p><strong>[일반][사용 제한] □</strong></p>\n<hr />\n<p><strong>효과</strong> 카소미르에서 성장하는 그로투스 교단을 물리치면, 사제들이 옥상에서 외치는 파멸의 예언에 대한 새로운 저항 정신으로 영혼이 충만해집니다. 죽어감의 수치가 플레이어를 죽일 수 있는 수치까지 증가하면 이 혜택이 자동으로 활성화됩니다. 이 혜택 앞에 있는 확인란을 체크하면 죽어감의 수치가 1 감소합니다.</p>",
+      "description": "<p><strong>[일반][사용 제한] □</strong></p>\n<hr />\n<p><strong>효과</strong> 카소미르에서 성장하는 그로투스 교단을 물리치면, 사제들이 옥상에서 외치는 파멸의 예언에 대한 새로운 저항 정신으로 영혼이 충만해집니다. 죽어감의 수치가 캐릭터를 죽일 수 있는 수치까지 증가하면 이 혜택이 자동으로 활성화됩니다. 이 혜택 앞에 있는 확인란을 체크하면 죽어감의 수치가 1 감소합니다.</p>",
       "name": "S1-22 - 파멸을 피하다"
     },
     "Curse Breaker": {

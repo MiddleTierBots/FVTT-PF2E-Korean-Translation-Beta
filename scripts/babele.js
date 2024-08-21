@@ -1,6 +1,5 @@
 const koModule = 'pf2e-ko';
 
-let babeleShowEdited = true;
 const keepOriginalName = {
     actor: false,
     item: false,
@@ -10,8 +9,6 @@ const keepOriginalName = {
 function nameConverter(data, translation, keepOriginal) {
     if (!translation)
         return data;
-    if (!babeleShowEdited)
-        translation = translation.replace('(*)', '');
     if (keepOriginal && data !== translation) {
         return `${translation} ${data}`;
     }
@@ -94,7 +91,6 @@ function actorItemCollectionConverter(data, translation) {
 }
 
 export function babeleInit() {
-    babeleShowEdited = game.settings.get(koModule, "babeleShowEdited");
     keepOriginalName.item = game.settings.get(koModule, "babeleItemKeepOriginalName");
     keepOriginalName.actor = game.settings.get(koModule, "babeleActorKeepOriginalName");
     keepOriginalName.actorItem = game.settings.get(koModule, "babeleActorItemKeepOriginalName");
@@ -109,9 +105,6 @@ export function babeleInit() {
         });
     }
 
-    // По готовности babele очистим кэшированное содержимое 
-    // Это должно исправить записи, которые были прочитаны до того как прогрузился babele
-    // Например, в истории чата
     Hooks.once('babele.ready', () => {
         Hooks.once('babele.ready', async () => {
             for (const pack of game.packs.values()) {

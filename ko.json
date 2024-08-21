@@ -2624,7 +2624,7 @@
           "Constrict": "<p>몬스터는 그 몬스터이 점령한 수만큼의 생물 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힘} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된}에게 나열된 만큼의 피해를 입힙니다. 해당 생물은 각각 나열된 DC로 기본 인내 내성 굴림을 할 수 있습니다.</p>",
           "Coven": "<p>이 몬스터는 같은 마녀회 능력을 가진 다른 생물 두 마리 이상과 함께 마녀회를 결성할 수 있습니다. 이를 위해서는 모든 예비 마녀회원과 함께 8시간 동안 의식을 수행해야 합니다. 마녀회가 결성된 후, 각 구성원은 엘리트 조정 능력을 얻으며 그에 따라 레벨이 조정됩니다. 마녀회원은 포커스 포인트 특성이 있는 한 번의 행동으로 다른 회원의 위치와 상태를 감지할 수 있으며, 포커스 포인트 특성이 있는 두 번의 행동으로 다른 마녀회원이 감지하는 것을 감지할 수도 있습니다.</p>\n<p>코벤은 또한 구성원에게 주문과 의식을 부여할 수 있지만, 이는 서로 30피트 이내에 있는 세 명의 코벤 구성원이 협력해야만 시전할 수 있습니다. 한 마녀회원은 하나의 말로 구성된 단일 행동 주문 시전 활동으로 마녀회 주문에 기여할 수 있습니다. 지난 라운드에 두 명의 마녀회원이 이러한 행동에 기여했다면, 세 번째 마녀회원은 자신의 차례에 일반 주문 시전 액션을 사용해 마녀회 주문을 시전할 수 있습니다. 집회는 횟수에 제한 없이 집회 주문을 시전할 수 있지만, 한 라운드에 한 번만 집회 주문을 시전할 수 있습니다. 모든 마녀집회는 8등급 <em>@UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{발레풀 다형체}</em> 주문과 다음 주문을 모두 부여하며, 이 주문은 최대 5등급까지 모든 등급에서 시전할 수 있습니다: <em>@UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{점술}</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6]{매료}</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.HXhWYJviWalN5tQ2]{클레어오디언스}</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.zvKWclOZ7A53DObE]{투시력}</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.yM3KTTSAIHhyuP14]{꿈의 메시지}</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{환상의 변장}</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Ucf8eynbZMfUucjE]{환상의 장면}</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Ek5XI0aEdZhBgm21]{깜깜이 눈}</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.FM3SmEW8N1FCRjqt]{말하는 시체}</em>가 있습니다. 마녀회 능력을 가진 개별 생물은 자신이 속한 모든 마녀회에 추가 주문을 부여합니다. 마녀집회는 표준 DC 대신 23의 DC를 소모하는 <em>@UUID[Compendium.pf2e.spells-srd.Item.XkDCzMIyc0YOjw05]{날씨 제어}</em> 의식을 시전할 수도 있습니다.</p>\n<p>코벤 구성원이 코벤을 떠나거나 코벤 구성원이 사망하여 코벤의 구성원이 3명 미만이 되면, 남은 구성원은 24시간 동안 정예 조정을 유지하지만 필요한 행동에 기여할 구성원이 충분하지 않으면 코벤 주문을 시전할 수 없습니다.</p>",
           "Darkvision": "<p>암시야를 가진 몬스터는 어둠과 희미한 빛이 있는 곳에서도 완벽하게 잘 볼 수 있지만, 그 시야는 흑백으로만 보입니다. 4레벨 <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{암흑}</em> 주문과 같은 일부 형태의 암흑 마법 주문은 일반적인 암시야를 차단합니다. 하지만 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{상급 암시야}를 가진 몬스터는 이러한 형태의 마법의 어둠도 꿰뚫어볼 수 있습니다.</p>",
-          "Disease": "<p>생물이 몬스터의 질병에 노출되면, 그 생물은 불굴의 구원을 시도하거나 질병에 굴복합니다. 질병의 레벨은 질병을 유발하는 몬스터의 레벨입니다. 질병은 고통에 대한 규칙을 따릅니다.</p>",
+          "Disease": "<p>생물이 몬스터의 질병에 노출되면, 그 생물은 불굴의 내성 굴림을 시도하거나 질병에 굴복합니다. 질병의 레벨은 질병을 유발하는 몬스터의 레벨입니다. 질병은 고통에 대한 규칙을 따릅니다.</p>",
           "Engulf": "<p>몬스터는 자신의 속도보다 최대 두 배까지 보폭을 넓히고 경로에 있는 모든 생물이 있는 공간으로 이동할 수 있습니다. 몬스터이 통과하는 공간에 있는 몬스터 크기 이하의 모든 생물은 나열된 DC만큼 반사내성 굴림을 시도하여 삼켜지지 않도록 할 수 있습니다. 행동할 수 없는 생물은 자동으로 치명타로 이 내성 굴림에 실패합니다. 방어에 성공한 생물은 몬스터의 이동경로 밖으로 밀려나거나 몬스터의 앞쪽으로 밀려나 몬스터의 이동이 끝나는 지점까지 이동하는 것을 선택할 수 있습니다. 몬스터는 한 번 삼키기를 사용하는 동안 같은 생물을 한 번만 삼키기를 시도할 수 있습니다. 몬스터는 자신의 공간에 들어맞는 수만큼의 생물을 포섭할 수 있습니다.</p>\n<p>내성에 실패한 생물은 몬스터의 몸속으로 빨려 들어갑니다. 대상은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힘}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{둔화 1} 상태이며, 숨을 참거나 질식하기 시작해야 합니다. 대상은 처음 삼켜졌을 때와 삼켜진 상태에서 자신의 턴이 끝날 때마다 나열된 만큼의 피해를 받습니다. 삼켜진 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}로 나열된 탈출 DC에 대해 자유로워질 수 있습니다. 삼켜진 생물은 자신을 삼킨 몬스터을 공격할 수 있지만, 비무장 공격 또는 경무기 이하의 무기로만 공격할 수 있습니다. 삼켜진 생물은 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{무감각}입니다. 몬스터이 한 번의 공격 또는 주문으로 나열된 파열 수치와 같거나 그 이상의 관통 또는 베기 피해를 받으면, 삼켜진 생물은 스스로 자유로워집니다. 어떤 방법으로든 자유로워진 생물은 즉시 숨을 쉬고 삼킨 몬스터의 공간에서 벗어날 수 있습니다.</p>\n<p>몬스터가 죽으면, 삼킨 몬스터의 형태가 응집력을 잃으면서 삼킨 모든 생물이 자동으로 방출됩니다.</p>",
           "FastHealing": "<p>이 능력을 가진 몬스터는 매 라운드 자신의 턴 시작과 동시에 주어진 체력을 회복합니다.</p>",
           "Ferocity": "<p><strong>방아쇠</strong> 몬스터의 체력이 0으로 감소합니다.</p>\n<hr />\n<p><strong>효과</strong> 몬스터는 기절을 피하고 HP 1을 유지하지만, @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{부상} 값이 1 증가합니다. 부상 3이 되면 이 능력을 더 이상 사용할 수 없습니다</p>",
@@ -5152,7 +5152,7 @@
         }
       },
       "flaming": {
-        "Name": "불타는 Flaming",
+        "Name": "화염 Flaming",
         "Note": {
           "criticalSuccess": "치명타 적중시 추가로 [[/r 1d10[persistent,fire]]] 피해를 줍니다."
         }
@@ -5870,7 +5870,7 @@
     "Actor": {
       "army": "군대",
       "character": "플레이어 캐릭터",
-      "eidolon": "에이돌른",
+      "eidolon": "에이돌론",
       "familiar": "패밀리어",
       "hazard": "위험 요소",
       "loot": "전리품",
