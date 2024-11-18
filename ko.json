@@ -21,7 +21,7 @@
     "UnknownCombatant": "불명"
   },
   "COMPENDIUM": {
-    "MigrationStatus": "마이그레이션 상태"
+    "MigrationStatus": "버전 이관 상태"
   },
   "CONTROLS": {
     "AdjustSceneDarkness": "장면 어둡기 조정",
