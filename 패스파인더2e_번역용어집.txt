@@ -1,0 +1,258 @@
+# 패스파인더 2E FVTT 한국어 번역 용어집
+
+## 번역 원칙
+1. 일관성 유지: 동일한 용어는 항상 같은 번역 사용
+2. 문맥 고려: Strike/Striking 등은 문맥에 따라 구분 번역
+3. 음차 우선: Focus, Refocus 등은 음차 사용
+4. 등급 번역: Minor, Lesser 등은 의미보다 등급순 번역
+
+## 피해 유형
+Bludgeoning	타격
+Cold	냉기			
+Earth	대지			
+Electricity	전기			
+Fire	화염			
+Force	역장			
+Piercing	관통			
+Slashing	참격입
+Sonic	음파			
+Spirit	영혼	
+Splash Damage	스플래시 피해
+Vitality	활력
+Void	공허			
+Vorpal	참수	
+
+## 트레잇/액션
+Concentration	집중			
+
+## 클래스 피쳐
+Exploit Vulnerability	취약점 악용			
+Reactive Strike	기회공격
+Signature Spell	대표 주문문
+Spellstrike	주문 타격
+Tandem	연동			
+Vial	시약			
+
+## 룰 용어
+Creature	괴물, 생명체 등		개체	
+
+## 캐릭터 빌딩
+Heightened	강화
+Ancestry	종족			
+Heritage	혈통
+
+## 클래스
+Barbarian	바바리안		
+Cleric	클레릭		
+Champion	챔피언		
+Exemplar	엑셈플러		
+Investigator	인베스티게이터		
+Inventor	인벤터		
+Kineticist	키네티시스트		
+Monk	몽크		
+Oracle	오라클		
+Witch	위치		
+Rage	격노		
+Focus	포커스
+Focus Pool	포커스 풀
+Focus Point	포커스 포인트			
+Focus Spell	포커스 주문			
+
+## 원동 관련
+Kinetic	원동			
+Kinetic Gate	원동 문			
+Kinetic Aura	원동 오라			
+Kinetic Element	원동 원소			
+Impulse	충동			
+Impulse Junction	충동 접합			
+Channel Elements	원소 끌어내기			
+
+## 주문
+Occult	초상		신비, 비의	
+Arcane	비전			
+Primal	원시		원초	
+Divine	신성			
+Innate	선천			
+
+## 장비
+Striking	스트라이킹
+Light Armor	경갑옷			
+Medium Armor	평갑옷			
+Heavy Armor	중갑옷			
+
+## 액션
+Stride	보행
+Step	전투보
+Refocus	재포커스		음차할거면 리포커스	
+Quick Alchemy	빠른 연금술		
+Amulet's Abeyance	부적의 중지		
+Ring Bell	종 울리기		
+Drinking from the Chalice	성배에서 마시기		
+Implement's Interruption	도구의 방해		
+Fling Magic	마법 던지기		
+Quick Tincture	빠른 틴처		
+Recall Knowledge	지식 회상		
+"Flurry of Blows"	질풍타		
+
+## 상태이상
+Blinded	실명		눈멈	
+Clumsy	둔중		둔중	둔중으로 번역명 변경 2024.11.03
+Concealed	가려짐		은폐	
+Cursebound	저주속박		이거 오라클 포커스 스펠 용어아니던가?(데몬) / 확인
+Dazzled	눈가림		눈속임, 눈가림	
+Deafened	귀머거리		귀멈	
+Drained	흡수됨		탈진, 고갈	
+Dying	빈사			
+Encumbered	과중량		과적	
+Enfeebled	쇠약			
+Fascinated	매료			
+Fatiqued	피로			
+Fleeing	도주			
+Frightened	두려움			
+Grabbed	붙잡힘			
+Immobilized	이동불가		고정	
+Paralyzed	마비			
+Petrified	석화			
+Prone	넘어짐			11.09 넘어짐으로 변경
+Quickened	신속화		가속화?	
+Restrained	구속됨			
+Sickened	역함		역함	
+Slowed	감속화, 느려짐		둔화, 감속	
+Stupefied	혼미		혼미, 멍함, 몽롱	혼미로 번역명 변경. 2024.11.03
+Wounded	부상			
+Invisible	투명화		
+Off-Guard	무방비		
+
+## 등급
+Minor	최하급		이하 등급은 뜻을 포기하고 등급순 임의 번역
+Lessor	하급			
+Moderate	중급			
+Greater	상위			
+Major	최상급			
+True	진정			
+
+## 트레잇/무기
+Agile	민첩한		기민함	
+Alchemical	연금술			
+Attached	부착된			
+Backstabber	배후공격			
+Backswing	백스윙		여세	
+Brace	대비			
+Brutal	맹렬			
+Capacity	용량			
+Climbing	등반용			
+Clockwork	시계장치		태엽장치	
+Cobbled	수제식			
+Combination	결합			
+Concealable	은닉 가능		은닉	
+Concussive	충격성			
+Conrasu	콘라수		종족명 - 수정시 종족 번역도 수정이 필요합니다.
+Critical Fusion	치명적 융합		결정타 융합	
+Deadly	치명적			
+Disarm	무장해제			
+Double Barrel	이중 총열			
+Dwarf	드워프		종족명 - 수정시 종족 번역도 수정이 필요합니다.
+Elf	엘프		종족명 - 수정시 종족 번역도 수정이 필요합니다.
+Fatal	극대화			
+Fatal Aim	극대화 조준			
+Finesse	기교			
+Forceful	강력		강세	
+Free-Hand	자유 손		빈 손	
+Geniekin	지니족		종족명 - 수정시 종족 번역도 수정이 필요합니다.
+Ghoran	고란		종족명 - 수정시 종족 번역도 수정이 필요합니다.
+Gnome	노움		종족명 - 수정시 종족 번역도 수정이 필요합니다.
+Goblin	고블린		종족명 - 수정시 종족 번역도 수정이 필요합니다.
+Grapple	붙잡기			
+Grippli	그리플리		종족명 - 수정시 종족 번역도 수정이 필요합니다.
+Halfling	하플링		종족명 - 수정시 종족 번역도 수정이 필요합니다.
+Hampering	방해		저해	
+Injection	주입			
+Jousting	마상			
+Kickback	반동			
+Modular	모듈식			
+Monk	몽크			
+Mounted	탑승			
+Nonlethal	비치사			
+Orc	오크		종족명 - 수정시 종족 번역도 수정이 필요합니다.
+Parry	막기			
+Portable	휴대용			
+Propulsive	추진력			
+Range	사거리			
+Ranged Trip	원거리 발걸기			
+Razing	파쇄			
+Reach	길이		간격	
+Recovery	회복			
+Reload	장전			
+Repeating	연사			
+Resonant	공명			
+Scatter	산탄			
+Shove	밀치기			
+Sweep	휩쓸기			
+Tethered	연결됨		연결	
+Thrown	투척			
+Training	훈련			
+Trip	발걸기			
+Twin	이중			
+Two-Hand	양손			
+Unarmed	비무장			
+Vanara	바나라		종족명 - 수정시 종족 번역도 수정이 필요합니다.
+Vehicular	차랑용			
+Venomous	맹독성			
+Versatile	다용도			
+Vishkanya	비슈카나		종족명 - 수정시 종족 번역도 수정이 필요합니다.
+Volley	곡사			
+
+## 세계관 용어
+Golarion	골라리온			
+Embaral Ocean	엠바랄 대양			
+
+## 기본 게임 용어 (기존 번역 파일에서 추출)
+Encounter	전투		
+Combatant	전투원		
+Action	행동		
+Reaction	반응		
+Free Action	자유 행동		
+Perception	지각		
+Passive	수동적		
+Strike	타격		
+Attack	공격		
+Damage	피해		
+Hit Points	생명점		
+Armor Class	AC		
+Save	내성		
+DC	난이도		
+Critical Success	대성공		
+Critical Failure	대실패		
+Unconscious	의식불명		
+Wounded	부상		
+Grabbed	붙잡힘		
+Restrained	구속됨		
+Stunned	기절		
+Frightened	공포		
+Strength	힘		
+Dexterity	민첩		
+Constitution	건강		
+Intelligence	지능		
+Wisdom	지혜		
+Charisma	매력		
+Attribute	능력치		
+Ability Boost	능력치 상승		
+Ability Flaw	능력치 결함		
+Unarmored Defense	비무장 방어		
+
+## 숙련도
+Proficiency	숙련치		
+Untrained	비훈련		
+Trained	훈련		
+Expert	전문		
+Master	통달		
+Legendary	전설		
+
+## 제작/아이템
+Crafting	제작		
+Elixir	엘릭서		
+Tool	도구		
+Tincture	틴처		
+Reagent	시약		
+Infused	주입된 
+Sense Motive: 동기 유추 

@@ -1,7 +1,7 @@
 {
   "id": "pf2e-ko",
-  "title": "PF2e Korean Translation",
-  "description": "중급봇이 개발중인 패스파인더 2e 한국어 테스트.",
+  "title": "PF2e Korean Translation 2025",
+  "description": "중급봇이 개발중인 패스파인더 2e 한국어 테스트 12.343 버전",
   "authors": [
     {
       "name": "중급봇",
@@ -9,7 +9,7 @@
       "url": ""
     }
   ],
-  "version": "0.0.5",
+  "version": "0.0.6",
   "compatibility": {
     "minimum": "11",
     "verified": "13",
@@ -35,7 +35,7 @@
     {
       "lang": "ko",
       "name": "PF2e Workbench (Korean)",
-      "path": "pf2e-workbench-ko.json",
+      "path": "xdy-pf2e-workbench-ko.json",
       "flags": {}
     }
   ],

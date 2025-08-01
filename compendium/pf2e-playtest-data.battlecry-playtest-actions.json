@@ -1,0 +1,96 @@
+{
+	"label": "행동",
+	"mapping": {
+		"name": {
+			"path": "name",
+			"converter": "itemNameConverter"
+		},
+		"description": "system.description.value",
+		"items": {
+			"path": "system.items",
+			"converter": "carefulMerge"
+		}
+	},
+	"entries": {
+		"Coordinating Maneuvres": {
+			"name": "협동 기동",
+			"description": "<p>당신의 팀이 적을 불리한 위치로 유도합니다. 지휘관의 깃발 효과를 받고 있는 분대원 하나를 지목합니다; 해당 아군은 즉시 <strong>발걸음</strong>(Step) 할 수 있습니다. 만약 이 이동을 적 인접 칸에서 마치면, 해당 적에게 <a href='@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]'>재배치</a>(Reposition)를 <strong>반응 행동</strong>으로 시도할 수 있습니다.</p>"
+		},
+		"Defensive Retreat": {
+			"name": "방어적 후퇴",
+			"description": "<p>당신은 신중한 후퇴를 지시합니다. 당신의 신호를 들었거나 본 모든 분대원은 즉시 <strong>최대 3회까지 발걸음</strong> 할 수 있습니다. 각 발걸음은 관찰 중인 적대 생명체로부터 멀어지는 방향이어야 하며, 오직 안전한 위치로 이동하는 유일한 방법이 그쪽이라면 적에게 가까워질 수도 있습니다 (예: 포위당한 상황).</p>"
+		},
+		"Demoralizing Charge": {
+			"name": "위축 돌격",
+			"description": "<p>당신의 팀이 조율된 돌격으로 적에게 공포를 안깁니다. 지휘관의 깃발 효과를 받고 있는 분대원 중 최대 두 명을 지목합니다; 이들은 관찰 중인 적을 향해 즉시 <strong>보행</strong>(Stride)할 수 있습니다. 만약 이동 후 적 인접 칸에 도달했다면, 해당 적에게 <strong>반응 행동</strong>으로 <strong>타격</strong>(Strike)을 시도할 수 있습니다. 이 타격이 명중할 경우, 대상은 <code>@Check[type:will|dc:resolve(@actor.system.attributes.classDC.value)|trait:demoralizing-charge]</code> 내성 굴림을 시도해야 하며, 실패 시 <a href='@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]'>두려움 1</a> 상태가 되고, 치명적 실패 시 <strong>두려움 2</strong> 상태가 됩니다. 두 번의 타격이 동일한 적을 대상으로 할 경우, 해당 적은 의지 내성 굴림에 –1 상황 페널티를 받고, 둘 중 하나가 치명적 명중일 경우 이 페널티는 –2가 됩니다.</p>\n<p><a href='@UUID[Compendium.pf2e-playtest-data.battlecry-playtest-effects.Item.mkNX7xSTN1GNFZaY]'>효과: 위축 돌격</a></p>"
+		},
+		"Double Team": {
+			"name": "이인 협공",
+			"description": "<p>당신의 팀이 협력하여 적을 강하게 몰아붙입니다. 지휘관의 깃발 효과를 받고 있으며 사거리 내에 적을 둔 분대원 하나를 지목합니다. 해당 아군은 <a href='@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]'>밀치기</a> 혹은 <a href='@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]'>재배치</a>를 <strong>자유 행동</strong>으로 시도할 수 있습니다. 만약 그 기동이 성공하여 대상이 당신 또는 다른 분대원의 인접 칸에 도달하면, 당신 또는 그 두 번째 아군은 <strong>반응 행동</strong>으로 근접 타격을 시도할 수 있습니다.</p>"
+		},
+		"End It!": {
+			"name": "끝장내라!",
+			"description": "<p><strong>선결</strong> 현재 전장에 아군 수가 적보다 많고, 당신이나 분대원 중 하나가 지난 자신의 차례 시작 이후 적 하나를 체력 0으로 만들었을 경우.</p>\n<hr />\n<p>당신의 “이미 승리는 손에 있다!”는 외침에 따라, 아군들이 위풍당당하게 전진하며 적들을 공포에 몰아넣습니다. 지휘관의 깃발 효과를 받고 있는 모든 분대원에게 신호를 보냅니다; 당신과 각 아군은 관찰 중인 적에게 <strong>발걸음</strong> 할 수 있습니다. 이 이동 이후 10피트 이내에 적이 있다면, 해당 적은 <code>@Check[type:will|dc:resolve(@actor.system.attributes.classDC.value)|traits:emotion,fear,mental]</code> 내성 굴림을 시도해야 하며, 실패 시 1 라운드간 <a href='@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]'>도주</a> 상태가 되고, 치명적 실패 시 <strong>도주 + 두려움 2</strong> 상태가 됩니다. 이는 감정, 공포, 정신 효과입니다.</p>"
+		},
+		"Executioner's Volley": {
+			"name": "처형 분대 사격",
+			"description": "<p>당신은 분대원들에게 치명적인 일제 사격을 명령합니다. 지휘관의 깃발 효과를 받고 있는 당신과 모든 분대원은 <strong>반응 행동</strong>으로 당신이 지정한 단일 대상을 향해 <strong>원거리 타격</strong>을 시도할 수 있습니다. 모든 공격의 피해는 <strong>저항 및 약점 계산 시 하나의 피해로 합산</strong>됩니다. 지정된 대상이 살아 있는 생명체일 경우, 이 공격은 <strong>죽음 효과</strong>로 간주되며 <strong>죽음 특성</strong>을 가집니다. 이 전술의 결과로 대상이 사망할 경우, 지휘관의 깃발 범위 내에 있는 다른 모든 적은 <code>@Check[type:will|dc:resolve(@actor.system.attributes.classDC.value)]</code> 내성 굴림을 시도해야 하며, 실패 시 <a href='@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]'>두려움 2</a> 상태가 됩니다.</p>"
+		},
+		"Form Up!": {
+			"name": "정렬하라!",
+			"description": "<p>당신은 팀에게 함께 위치를 잡도록 신호를 보냅니다. 지휘관의 깃발 효과를 받고 있는 모든 분대원은 즉시 <strong>반응 행동</strong>으로 <strong>보행</strong>(Stride)할 수 있으며, 이동을 깃발의 오라 안에서 마쳐야 합니다.</p>"
+		},
+		"Intercept Strike": {
+			"name": "요격 타격",
+			"description": "<p><strong>트리거</strong> 인접한 아군이 물리 피해를 입습니다.</p>\n<hr />\n<p>당신은 아군을 지키기 위해 몸을 던져 피해를 대신 받습니다. 당신은 그 피해를 대신 입지만, 갑옷 덕분에 해당 피해에 대해 <strong>자신의 레벨 + 2</strong> 만큼의 모든 피해 저항을 얻습니다.</p>"
+		},
+		"Mountaineering Training": {
+			"name": "등산 훈련",
+			"description": "<p>당신의 지시는 위험한 지형을 오르기 쉽게 만듭니다. 모든 분대원에게 신호를 보냅니다; 다음 차례가 끝날 때까지 당신과 아군 모두는 <strong>20피트의 등반 속도</strong>를 얻습니다.</p>\n<p>@UUID[Compendium.pf2e-playtest-data.battlecry-playtest-effects.Item.xOTrhlUIxB0wVv0M]{등산 훈련}</p>\n<hr />\n<p><strong>특수</strong> 이 전술을 준비했다면, 등반 판정 시 운동(운동학) 대신 전쟁학(Warfare Lore)을 사용할 수 있습니다.</p>"
+		},
+		"Naval Training": {
+			"name": "해상 훈련",
+			"description": "<p>당신의 지시는 위험한 수역에서 수영하기 쉽게 만듭니다. 모든 분대원에게 신호를 보냅니다; 다음 차례가 끝날 때까지 당신과 아군 모두는 <strong>20피트의 수영 속도</strong>를 얻습니다.</p>\n<p>@UUID[Compendium.pf2e-playtest-data.battlecry-playtest-effects.Item.lC9w7hhyLua31lmL]{효과: 해상 훈련}</p>\n<hr />\n<p><strong>특수</strong> 이 전술을 준비했다면, 수영 판정 시 운동(운동학) 대신 전쟁학(Warfare Lore)을 사용할 수 있습니다.</p>"
+		},
+		"Passage of Lines": {
+			"name": "교대 전진",
+			"description": "<p>당신은 위험에 처한 병력이 후방으로 빠지고, 휴식한 병력이 전진하도록 명령합니다. 지휘관의 깃발 효과를 받고 있는 모든 분대원에게 신호를 보냅니다; 각 분대원은 인접한 동의하는 아군과 위치를 <strong>자유 행동</strong>으로 교환할 수 있으며, 이 행동은 반응을 유발하지 않습니다. 아군은 들어갈 수 없는 공간으로 이동할 수 없고, 만약 한 쪽 아군이 다른 쪽보다 많은 칸을 차지하고 있다면, 작은 아군은 큰 아군의 공간 내에서 인접 상태를 유지하는 한 어디로든 들어갈 수 있습니다.</p>"
+		},
+		"Pincer Attack": {
+			"name": "협공 전술",
+			"description": "<p>당신은 적의 취약점을 노리는 공격적인 대형을 지시합니다. 지휘관의 깃발 효과를 받고 있는 모든 분대원에게 신호를 보냅니다; 각 아군은 <strong>자유 행동</strong>으로 <strong>발걸음</strong>(Step)할 수 있습니다. 만약 아군이 이 이동을 통해 적 인접 칸에 도달했다면, 그 적은 당신과 이 전술에 반응한 아군의 <strong>근접 공격</strong>에 대해 <a href='@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]'>가드 실패</a> 상태가 됩니다. 이 효과는 다음 차례 시작까지 지속됩니다.</p>"
+		},
+		"Piranha Assault": {
+			"name": "피라냐 돌격",
+			"description": "<p>작은 공격의 누적이 강력한 일격 못지않다는 것을 당신은 잘 압니다. 60피트 이내 생명체 하나를 지정하고 지휘관의 깃발 효과를 받고 있는 분대원들에게 신호를 보냅니다; 당신이나 아군이 그 생명체를 공격하여 해당 생명체가 <strong>저항</strong>하는 피해 유형을 입힐 경우, <strong>당신의 레벨만큼 그 저항을 무시</strong>합니다. 이 효과는 다음 차례 시작까지 지속됩니다.</p>"
+		},
+		"Ready, Aim, Fire!": {
+			"name": "조준, 발사!",
+			"description": "<p>당신은 아군에게 일제 사격을 지시합니다. 지휘관의 깃발 효과를 받고 있는 모든 분대원에게 신호를 보냅니다; 이들은 <strong>자유 행동</strong>으로 <strong>원거리 무기로 교체</strong>하고, <strong>장전</strong>하며, 당신과 함께 관찰 중인 적 하나에게 <strong>반응 행동</strong>으로 <strong>원거리 타격</strong>을 가할 수 있습니다.</p>\n<hr />\n<p><strong>특수</strong> 분대원 중 하나가 사거리 30피트 이상의 캔트립을 알고 있거나 준비한 상태라면, 위 행동 대신 해당 주문을 시전할 수 있습니다.</p>"
+		},
+		"Reload!": {
+			"name": "장전하라!",
+			"description": "<p>당신의 훈련 지시에 따라 아군들이 빠르게 무기를 장전합니다. 지휘관의 깃발 효과를 받고 있는 모든 분대원은 <strong>반응 행동</strong>으로 즉시 <strong>장전</strong>할 수 있습니다.</p>\n<hr />\n<p><strong>특수</strong> 당신이 공성 무기 조작팀을 지휘 중일 경우, 이 전술로 분대원에게 공성 무기 장전을 지시할 수 있습니다.</p>"
+		},
+		"Shields Up!": {
+			"name": "방패를 들어라!",
+			"description": "<p>당신은 아군에게 방어 태세를 취하도록 지시합니다. 지휘관의 깃발 효과를 받고 있는 모든 분대원은 <strong>반응 행동</strong>으로 즉시 <strong>방패 올리기</strong>(Raise a Shield)를 할 수 있습니다. <strong>막기 무기</strong>를 들고 있는 아군은 대신 <strong>자유 행동</strong>으로 무기를 방어적으로 들 수 있습니다.</p>"
+		},
+		"Strike Hard": {
+			"name": "강타하라",
+			"description": "<p>당신은 아군에게 공격을 지시합니다. 당신의 신호를 볼 수 있거나 들을 수 있는 분대원 하나를 선택합니다. 해당 아군은 <strong>반응 행동</strong>으로 즉시 <strong>타격</strong>(Strike)을 시도합니다.</p>"
+		},
+		"Stupefying Raid": {
+			"name": "혼란의 급습",
+			"description": "<p>당신의 팀이 혼란스러운 기동으로 적을 어지럽게 만듭니다. 지휘관의 깃발 효과를 받고 있는 분대원 중 최대 두 명에게 신호를 보냅니다; 이들은 <strong>반응 행동</strong>으로 <strong>자신의 속도만큼 보행</strong>할 수 있습니다. 이 이동 중 인접했던 모든 적은 <code>@Check[type:will|dc:resolve(@actor.system.attributes.classDC.value)|traits:emotion,fear,mental]</code> 내성 굴림을 시도해야 하며, 실패 시 <a href='@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]'>혼미 1</a>, 치명적 실패 시 <strong>혼미 2</strong> 상태가 됩니다. 이 효과는 감정, 공포, 정신 효과입니다.</p>"
+		},
+		"Taunt": {
+			"name": "도발",
+			"description": "<p>당신은 주의를 끄는 제스처, 날카로운 말, 위협적인 고함 등으로 적의 분노를 자신에게 끌어냅니다. 지능이 없는 생명체조차도 당신의 도발에 반응합니다. 30피트 이내의 생명체 하나를 선택합니다. 해당 생명체는 <code>@Check[type:will|dc:resolve(@actor.system.attributes.classDC.value)]</code> 내성 굴림을 시도해야 합니다. 결과와 상관없이 해당 생명체는 다음 차례 시작까지 당신의 도발에 면역이 됩니다. 당신이 제스처를 썼다면 이 행동은 시각 특성을 갖고, 말을 하거나 소리를 냈다면 청각 특성을 갖습니다. 반드시 이 둘 중 하나 특성을 가져야 합니다.</p>\n<hr />\n<p><strong>치명적 성공</strong> 생명체는 아무 영향도 받지 않습니다.</p>\n<p><strong>성공</strong> 다음 차례 시작까지, 해당 생명체는 당신을 대상으로 하는 명중 굴림과 효과 DC에 +2 상황 보너스를 받고, 당신을 포함하지 않는 적대적 행동에는 –1 상황 페널티를 받습니다.</p>\n<p><strong>실패</strong> 성공과 같지만 페널티가 –2입니다.</p>\n<p><strong>치명적 실패</strong> 성공과 같지만 페널티가 –3입니다.</p>"
+		},
+		"Valkyrie's Charge": {
+			"name": "발키리의 돌격",
+			"description": "<p>당신과 아군은 죽음과 패배를 거부하고, 영광스러운 최후의 돌격을 감행합니다. 당신과 지휘관의 깃발 효과를 받고 있는 각 분대원은 <strong>[[/r 80]]{체력 80점}</strong>을 회복합니다. 이 효과는 <strong>치유 특성</strong>을 가집니다. 회복 대상 중 체력이 0이 되어 <a href='@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]'>의식불명</a> 상태였던 아군은 즉시 <strong>일어서고</strong> 떨어뜨린 무기를 집을 수 있습니다. 그 후 각 아군은 관찰 중인 적을 향해 <strong>자신의 속도의 두 배까지 보행</strong>할 수 있으며, 이 이동을 통해 적의 사거리 내에 도달한 경우 <strong>반응 행동</strong>으로 <strong>타격</strong>을 시도할 수 있습니다. 당신과 분대원은 해당 이동 유형을 가지고 있다면, 보행 대신 굴착, 등반, 비행, 수영을 이용해 발키리의 돌격을 사용할 수 있습니다.</p>"
+		}
+	}
+}

@@ -1,994 +1,993 @@
 {
-  
-  "label": "은혜와 저주",
-  "entries": {
-  "Abadar - Major Boon": {
-    "name": "아바다르 - 상급 은혜",
-    "description": "<p><strong>상급 은혜 (매일)</strong> 당신의 은빛 혀는 무결점이어서 타협이 조금이라도 가능하다면 타협에 도달할 수 있습니다. 하루에 한 번, 거래를 하거나 협상을 중개하기 위해 무엇을 제안할지 알 수 있으며, 신의 영감을 받은 거래를 제안하면 외교 체크에 20 + 자신의 외교 수정치를 굴리지 않고 자동으로 결과를 받을 수 있습니다. 20을 굴릴 때처럼 성공 확률이 높아지지는 않습니다.</p>\n<p>합법적으로 합의에 도달하기 위해 제공할 수 있는 것이 없다면, 그 사실을 알게 되고 일일 은혜 사용량을 소모하지 않습니다.</p>"
-  },
-  "Abadar - Major Curse": {
-    "name": "아바다르 - 상급 저주",
-    "description": "<p><strong>상급 저주</strong> 당신은 잘못에 대해 정직해집니다. 지속적으로 @UUID[Compendium.pf2e.spells-srd.Item.aewxsale5xWEPKLk]{진실의 반지}의 대실패 효과를 받습니다. 또한, 거래에서 항상 최악의 옵션이 제공됩니다.</p>"
-  },
-  "Abadar - Minor Boon": {
-    "name": "아바다르 - 하급 은혜",
-    "description": "<p><strong>하급 은혜 (1회 사용)</strong> 아바다는 부당하게 이득을 취하려는 자들에게 자신의 호의를 경고합니다. 누군가 당신과 당신에게만 악의적인 거짓말을 하기 위해 기만 체크에 성공하면, 대신 대실패를 받습니다.</p>\n<p>아바다는 일반적으로 매우 치명적인 거짓말에 대해 이 은혜을 부여하기로 선택합니다.</p>"
-  },
-  "Abadar - Minor Curse": {
-    "name": "아바다르 - 하급 저주",
-"description": "<p><strong>미성년자 저주</strong> 다른 생물을 훔치거나 불법적으로 해치거나 죽이거나 법을 준수하는 경찰관이나 법원을 훼손할 때마다 범죄를 설명하는 기호나 단어가 피부의 눈에 잘 띄는 곳에 나타납니다. 이 문양은 화장으로 지우거나 숨길 수 없으며(옷으로 가릴 수는 있지만), 형을 복역하는 등 범죄에 대한 법적 보상을 할 때까지 사라지지 않습니다.</p>"
-  },
-  "Abadar - Moderate Boon": {
-    "name": "아바다르 - 중급 은혜",
-    "description": "<p><strong>중급 은혜</strong> 아바다르가 모든 사업을 축복하여 모든 사업이 항상 잘 풀려 금전적인 성공을 거두게 합니다.</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item]으로 체크에서 대실패를 굴리면 대신 실패를 얻습니다.QyzlsLrqM0EEwd7j]{수입 획득}으로 체크를 굴리면 대신 실패를 얻습니다.</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{수입 획득}으로 체크에 성공하면 평소 수입의 두 배를 얻습니다.</p>"
-  },
-  "Abadar - Moderate Curse": {
-    "name": "아바다르 - 중급 저주",
-    "description": "<p><strong>중급 저주</strong> 아바다르가 모든 기업을 저주하여 모든 벤처가 항상 실패하는 것처럼 보이므로 재정적 재앙으로 이어집니다. @UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{수입 획득}에 체크한 결과는 항상 롤링한 것보다 한 단계 낮은 성공률입니다.</p>"
-  },
-  "Achaekek - Major Boon": {
-    "name": "아카젝 - 상급 은혜",
-    "description": "<p><strong>메이저 분:</strong> 죽음이 바로 당신의 칼날에 깃들어 있습니다. 도적의 클래스 피트인 {잠입 공격}을 획득하여 정밀 피해 3d6만큼 피해를 줍니다. 이미 해당 클래스 피트를 보유하고 있다면, 암습 피해이 3d6만큼 증가합니다.</p>"
-  },
-  "Achaekek - Major Curse": {
-    "name": "아케젝 - 상급 저주",
-    "description": "<p><strong>중대한 저주:</strong> 사마귀 신은 자신을 진정으로 화나게 하는 자나 감히 자신을 신이라고 생각하는 자를 가지고 놀거나 괴롭히는 데 시간을 낭비하지 않습니다. 그는 당신의 위치로 통하는 포털을 열어 당신을 죽이고, 부활 마법을 막는 방식으로 당신의 영혼을 심판으로 끌고 간 다음 떠납니다.</p>"
-  },
-  "Achaekek - Minor Boon": {
-    "name": "아카젝 - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 죽음의 그림자 속에 숨어 있습니다. 한 번, 은신 체크에 실패할 때 대신 대성공할 수 있습니다. 아케젝은 일반적으로 암살로 이어질 수 있는 매우 중요한 은신 체크, 예를 들어 중요한 대상을 암살할 수 있는 위치를 확보할 때 이 은혜을 부여하지만, 탈출을 돕기 위한 은신 체크에는 거의 부여하지 않습니다.</p>"
-  },
-  "Achaekek - Minor Curse": {
-    "name": "아케젝 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 아케젝의 하수인들이 복수를 노립니다. 비인간 곤충(특히 사마귀)이 캐릭터에게 적대적으로 변합니다.</p>"
-  },
-  "Achaekek - Moderate Boon": {
-    "name": "아카젝 - 중급 은혜",
-    "description": "<p><strong>중급 은혜:</strong> 생명을 빼앗아도 좋다는 신의 승인을 얻습니다. 하루에 한 번 타고난 신성 주문으로 @UUID[Compendium.pf2e.spells-srd.Item.dLdRqT6UxTKlsPgp]{죽음의 무릎}을 시전할 수 있습니다.</p>"
-  },
-  "Achaekek - Moderate Curse": {
-    "name": "아케젝 - 중급 저주",
-    "description": "<p><strong>중급 저주:</strong> 오만은 죽음을 가져옵니다. 캐릭터의 이름과 위치가 붉은 사마귀 암살자의 머릿속에 정신적으로 투영되어 캐릭터를 제거하라는 임무를 부여받습니다.</p>"
-  },
-  "Alseta - Major Boon": {
-    "name": "알세타 - 상급 은혜",
-    "description": "<p><strong>상급 은혜:</strong> 세계를 방해받지 않고 이동할 수 있습니다. 문이나 차원문이 잠겨 있거나 마법에 의해 봉인되어 있더라도 손바닥을 올려놓는 것만으로 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact} 액션 한 번으로 열 수 있으며, 마법에 의해 진입이 금지되어 있더라도 열린 문이나 문턱에 들어갈 수 있습니다. 하지만 유물, 신, 그리고 이와 유사한 강력한 효과의 자물쇠와 마법은 극복하지 못합니다.</p>"
-  },
-  "Alseta - Major Curse": {
-    "name": "알세타 - 상급 저주",
-    "description": "<p><strong>큰 저주:</strong> 이동 마법이 더 이상 효과가 없습니다. 어떤 마법 수단으로도 이동할 수 없으며, 다른 사람을 이동하거나 소환하거나 소환할 수 없습니다. 보관 가방과 같은 초차원 공간조차도 초차원 공간으로 마법으로 이동해야 사용할 수 있기 때문에 접근이 불가능하고 사용할 수 없습니다.</p>"
-  },
-  "Alseta - Minor Boon": {
-    "name": "알세타 - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 알세타의 인도하는 손이 여러분의 여정을 도와줍니다. 순간이동 마법을 사용할 때 한 번, @UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]{차원간 순간이동}처럼 악명 높은 부정확한 주문을 사용하더라도 목표물에 정확히 나타납니다. 알세타는 일반적으로 매우 중요한 마법 여행, 특히 시간이 급할 때 이 은혜을 부여합니다.</p>"
-  },
-  "Alseta - Minor Curse": {
-    "name": "알세타 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 문을 열려고 하면 문이 걸리거나 자물쇠가 달라붙습니다. 잠기지 않은 문이라도 열려면 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용} 액션 3번이 필요하며, @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{잠금 선택}을 시도할 때마다 2라운드 대신 2회의 액션이 걸립니다.</p>"
-  },
-  "Alseta - Moderate Boon": {
-    "name": "알세타 - 중급 은혜",
-    "description": "<p><strong>적당한 은혜:</strong> 새로운 문이 저절로 열립니다. 하루에 한 번 신성 선천 주문으로 @UUID[Compendium.pf2e.spells-srd.Item.6Ot4N22t5tPD51BO]{노크}를 시전할 수 있습니다.</p>"
-  },
-  "Alseta - Moderate Curse": {
-    "name": "알세타 - 중급 저주",
-    "description": "<p><strong>중급 저주:</strong> 문턱을 넘는 것이 벅차게 느껴집니다. 차원문, 관문, 문을 통과할 때마다 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태를 얻습니다. 순간이동, 차원 이동 등을 통해 이동한 후에는 충분한 휴식을 취할 때까지 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} 조건이 추가됩니다.</p>"
-  },
-  "Arazni - Major Boon": {
-    "name": "아라즈니 - 상급 은혜",
-    "description": "<p><strong>상급 은혜:</strong> 사망 시, @UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO]{부활} 의식의 대성공 효과로 부활하여 죽인 자에 대한 복수를 실행할 수 있습니다. 복수에 성공했거나, 다른 일을 위해 복수를 포기하거나, 완전히 실패하면 주홍빛 먼지가 되어 쓰러집니다.</p>"
-  },
-  "Arazni - Major Curse": {
-    "name": "아라즈니 - 상급 저주",
-    "description": "<p><strong>상급 저주:</strong> 생명력 또는 공허 효과로 인해 체력을 회복할 때, 대신 그 만큼의 체력을 잃습니다.</p>"
-  },
-  "Arazni - Minor Boon": {
-    "name": "아라즈니 - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 한 번, 자신의 의지에 반하는 액션을 강요하는 효과에 대한 내성 굴림에 실패하면 대신 치명타에 성공합니다. 아라즈니는 일반적으로 결과적인 액션이나 특히 심각한 자유 의지 위반에 대해 이 은혜을 부여합니다.</p>"
-  },
-  "Arazni - Minor Curse": {
-    "name": "아라즈니 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 자신이 잘못을 저지른 누군가가 @UUID[Compendium.pf2e.spells-srd.Item.7DN13ILADW2N9Z1t]{교감} 의식의 대성공 효과로 자신에 대해 원하는 정보를 얻게 됩니다.</p>"
-  },
-  "Arazni - Moderate Boon": {
-    "name": "아라즈니 - 중급 은혜",
-    "description": "<p><strong>중급 은혜:</strong> 부상입은 피가 갑옷이나 필요한 장비로 변합니다. 가장 필요한 것이 정보라면, 피가 해당 정보를 주문하는 글자로 바뀝니다.</p>"
-  },
-  "Arazni - Moderate Curse": {
-    "name": "아라즈니 - 중급 저주",
-    "description": "<p><strong>중급 저주:</strong> 자신보다 약한 생물이 자신에 대한 모든 공격 굴림에서 레벨 차이만큼, 최대 +4까지 상태 보너스를 얻습니다. 이러한 생물에게 피해를 받을 때마다 레벨 차이의 두 배에 해당하는 지속 출혈 피해를 받습니다(최대치 없음).</p>"
-  },
-  "Asmodeus - Major Boon": {
-    "name": "아스모데우스 - 큰 은혜",
-    "description": "<p><strong>상급 은혜</strong> 아스모데우스는 당신의 거래와 계약을 이행하는 데 도움을 줍니다. 생물이 강압이 아닌 자유 의지로 당신과 흥정이나 계약을 맺은 경우, 당신이 자신의 편을 지키는 한 자발적으로 자신의 편을 위반할 수 없습니다. 언제든지 직접 거래를 위반할 수 있지만, 그렇게 되면 그 생물은 더 이상 자신의 역할을 이행할 의무가 없습니다.</p>"
-  },
-  "Asmodeus - Major Curse": {
-    "name": "아스모데우스 - 상급 저주",
-    "description": "<p><strong>상급 저주</strong> 아스모데우스가 당신이 일으킨 혼란에 주목했습니다. 시간보다 더 오래된 듯한 고대의 부상입은 상처를 받았습니다. 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 4}가 되며, 다른 중보기도를 하지 않으면 이 상태를 제거할 수 없습니다.</p>\n<p>특히 혼란스러운 액션을 할 때마다 상처가 심하게 아파서 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}이 되어버립니다.</p>"
-  },
-  "Asmodeus - Minor Boon": {
-    "name": "아스모데우스 - 하급 은혜",
-    "description": "<p><strong>하급 은혜 (1회 사용)</strong> 아스모데우스는 당신의 조작 재능에 만족하여 당신의 기술을 증폭시킵니다. 한 번, 외교 체크에서 중요하거나 결과적인 @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{요청}에 실패하면, @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H]{제안}을 @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{요청}의 대상에게 사용하여 동일한 행동 방침을 제안할 수 있습니다. 이것은 신성 선천 주문입니다.</p>"
-  },
-  "Asmodeus - Minor Curse": {
-    "name": "아스모데우스 - 하급 저주",
-    "description": "<p><strong>하급 저주</strong> 아스모데우스의 불길이 당신을 큰 악의로 태웁니다. 화염에 대한 약점이 5 증가합니다.</p>"
-  },
-  "Asmodeus - Moderate Boon": {
-    "name": "아스모데우스 - 중급 은혜",
-    "description": "<p><strong>중급 은혜</strong> 눈이 불씨처럼 붉게 빛나고 피부가 진홍색으로 변합니다. 암시야와 화염 저항이 5 증가합니다.</p>"
-  },
-  "Asmodeus - Moderate Curse": {
-    "name": "아스모데우스 - 중급 저주",
-    "description": "<p><strong>적당한 저주</strong> 아스모데우스는 회원님의 준수를 강요합니다. 계약이나 계약을 자발적으로 철회하거나 약속을 번복할 수 없으며, 계약의 정신이 아닌 문자만 따라야 합니다.</p>"
-  },
-  "Besmara - Major Boon": {
-    "name": "베스마라 - 상급 은혜",
-    "description": "<p><strong>분 소령님:</strong> 폭풍우에 영향을 받지 않는 것처럼 보입니다. 강수량과 바람으로 인한 모든 효과와 불이익을 무시하고 안개, 비 및 기타 기상 조건을 통해 정상적으로 볼 수 있습니다.</p>"
-  },
-  "Besmara - Major Curse": {
-    "name": "베스마라 - 상급 저주",
-    "description": "<p><strong>중대한 저주:</strong> 해적 여왕의 심기를 건드린 대가로 극심한 재정적 파탄을 맞이합니다. 베스마라의 요원들이 모든 전리품을 훔쳐서 베스마라의 함선 시래스로 가져갑니다. 잃어버린 재산을 되찾을 기회를 얻으려면 여신과 흥정하여 그녀가 제시하는 위험한 조건을 받아들여야 하는데, 보통 성공 여부를 지켜볼 만큼 충분히 재미있는 강도를 요구하거나 퀘스트에서 얻은 전리품과 이전 소유물을 교환하라는 등의 요구 조건이 있습니다.</p>"
-  },
-  "Besmara - Minor Boon": {
-    "name": "베스마라 - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 베스마라는 캐릭터의 길에 약탈과 위험을 모두 배치하여 캐릭터가 그녀를 즐겁게 해주기를 원합니다. 이 중보기도는 종종 예상치 못한 보물 지도, 병 속의 메시지 또는 도중에 도전을 처리할 수 있다는 가정하에 큰 보상으로 이끄는 다른 징표의 형태로 나타납니다.</p>"
-  },
-  "Besmara - Minor Curse": {
-    "name": "베스마라 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 괴혈병의 영향을 일부 받아 부상입은 피가 더 쉽게 흐릅니다. 지속 피해 출혈 피해를 제거하기 위한 플랫 체크의 DC는 15가 아닌 20이며(회복을 돕는 매우 효율적인 방법을 사용하는 경우 10이 아닌 15), 최대 체력에 도달하면 지속 피해 출혈 피해에서 자동으로 회복되지 않습니다.</p>"
-  },
-  "Besmara - Moderate Boon": {
-    "name": "베스마라 - 중급 은혜",
-    "description": "<p><strong>중급 은혜:</strong> 바다에서 언제나 적 함선을 약탈하거나 아군 함선을 방어할 준비가 되어 있습니다. 배에 탑승하면 모든 우선권 굴림, 곡예 균형 체크, 운동 등반 체크에서 상태 보너스 +2를 받습니다. 또한 뱃멀미를 하지 않습니다.</p>"
-  },
-  "Besmara - Moderate Curse": {
-    "name": "베스마라 - 중급 저주",
-    "description": "<p><strong>중급 저주:</strong> 바다를 볼 수 있거나 바다에서 배를 타고 있을 때마다 뱃멀미를 일으켜 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2}가 됩니다. 이 상태는 더 이상 바다를 볼 수 없거나 배에서 내릴 때까지는 완화되지 않지만, 항해에서 생존할 수 있을 정도의 음식과 물은 극심한 불편함을 감수하고도 섭취할 수 있습니다.</p>"
-  },
-  "Brigh - Major Boon": {
-    "name": "Brigh - 상급 은혜",
-    "description": "<p><strong>상급 은혜:</strong> 브리그가 선택한 자신보다 최소 1레벨 낮은 충성스러운 건설물 아군을 동료로 삼을 수 있습니다. 건설물이 파괴되면 일주일에 걸쳐 재건되며, 레벨이 올라갈수록 건설물이 업그레이드되고 향상되어 더욱 강력해집니다.</p>"
-  },
-  "Brigh - Major Curse": {
-    "name": "Brigh - 상급 저주",
-    "description": "<p><strong>상급 저주:</strong> 통제할 수 있다고 생각한 무의미한 구조물조차도 캐릭터의 죽음을 노립니다. 모든 구조물은 캐릭터에게 적대적이며 캐릭터의 존재를 알아차리면 캐릭터를 공격합니다. 때때로 무생물 조각상이나 다른 물체가 브리그의 복수를 위해 구조물처럼 움직이기도 합니다.</p>"
-  },
-  "Brigh - Minor Boon": {
-    "name": "Brigh - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 지식이 머릿속에 넘쳐납니다. 한 번 실패한 스킬 체크에서 지식 회상을 다시 시도할 수 있으며, 실패한 결과가 더 나쁘더라도 두 번째 결과를 사용해야 합니다.</p>"
-  },
-  "Brigh - Minor Curse": {
-    "name": "Brigh - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 섬세한 작업을 시도할 때 손이 떨립니다. @UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{제작} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{수리} 아이템에 대한 모든 실패가 대신 대실패로 처리됩니다.</p>"
-  },
-  "Brigh - Moderate Boon": {
-    "name": "밝음 - 중급 은혜",
-    "description": "<p><strong>중급 은혜:</strong> 발명의 샘이 됩니다. 선결을 충족하지 않더라도 @UUID[Compendium.pf2e.feats-srd.Item.XR95taODq1sq82Du]{인벤터} 피트를 획득하고, 인벤터 피트에 대한 제작 체크를 굴릴 때 굴린 결과보다 한 단계 더 높은 성공률을 사용합니다.</p>"
-  },
-  "Brigh - Moderate Curse": {
-    "name": "밝음 - 중급 저주",
-    "description": "<p><strong>중등도 저주:</strong> 공학 또는 과학 작업을 수행하려고 할 때마다 모든 것이 폭발하는 것 같습니다. 연금술 아이템이나 구조물을 만들거나 사용하려고 할 때마다 @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{장치 비활성화} 등을 시도할 때마다 @Check[type:flat|dc:15]를 시도해야 합니다. 실패하면 무언가가 폭발하고 아이템, 구조물 또는 장치의 레벨당 1d6의 화염 피해(또는 적절한 경우 다른 유형의 피해)를 받습니다(@Check[reflex|dc:40|basic:true] 내성).</p>"
-  },
-  "Calistria - Major Boon": {
-    "name": "칼리스트리아 - 상급 은혜",
-    "description": "<p><strong>메이저 분</strong> 칼리스트리아는 당신을 복수의 길로 인도합니다. 당신은 항상 당신에게 잘못을 저질렀지만 지금까지 처벌받지 않은 가장 가까운 생명체를 향한 방향과 거리를 알고 있습니다.</p>"
-  },
-  "Calistria - Major Curse": {
-    "name": "칼리스트리아 - 상급 저주",
-    "description": "<p><strong>상급 저주</strong> 당신은 스스로 복수를 할 수 없는 자들에게 잘못을 저질렀고, 칼리스트리아의 저주는 그들의 복수에 생명을 부여합니다.</p>\n<p>다른 생물이 캐릭터에게 복수를 상상하지만 캐릭터가 너무 강하거나, 인맥이 두텁거나, 기타 이유로 복수를 실행할 수 없을 때마다 캐릭터와 비슷한 레벨의 생물이 상상 속에서 나타나 원하는 복수를 수행합니다.</p>\n<p>복수가 완료되거나 소환된 생물이 파괴되면 소환된 생물이 존재에서 사라져 버립니다.</p>"
-  },
-  "Calistria - Minor Boon": {
-    "name": "칼리스트리아 - 하급 은혜",
-    "description": "<p><strong>하급 은혜 (1회 사용)</strong> 칼리스트리아는 가장 위험한 속임수에도 미소를 짓습니다. 한 번, @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie}로 체크에 실패를 굴리면 대신 대성공을 얻습니다. 칼리스트리아는 일반적으로 매우 중대한 거짓말에 대해 이 은혜을 부여합니다.</p>"
-  },
-  "Calistria - Minor Curse": {
-    "name": "칼리스트리아 - 하급 저주",
-    "description": "<p><strong>하급 저주</strong> 새로운 사람이 자신에게 복수를 원할 때마다 1단계에서 고통스러운 침에 쏘이고 @UUID[Compendium.pf2e.equipment-srd.Item.aBOPYlfHAcXUmhF7]{거인 말벌 독}에 걸립니다.</p>"
-  },
-  "Calistria - Moderate Boon": {
-    "name": "칼리스트리아 - 중급 은혜",
-    "description": "<p><strong>중급 은혜</strong> 한 뼘 길이의 말벌이 당신을 발견하고 친구가 됩니다. 칼리스트리아의 은혜를 유지하는 한 패밀리어로 당신을 섬깁니다. 말벌은 항상 굴 파기와 날아다니기 패밀리어 능력을 가지고 있습니다.</p>"
-  },
-  "Calistria - Moderate Curse": {
-    "name": "칼리스트리아 - 중급 저주",
-    "description": "<p><strong>중급 저주</strong> 사람들은 정상적인 대화 중에도 마치 모욕하는 것처럼 반응합니다. @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{인상 남기기}를 시도할 때마다 결과는 롤의 결과보다 한 단계 더 나빠지게 됩니다. 충분히 오랜 시간 동안 누군가와 대화를 나누었지만 @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{인상 남기기}를 시도하지 않은 경우에도 여전히 모욕을 주고 @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{인상 남기기} 대실패 효과를 받습니다.</p>"
-  },
-  "Casandalee - Major Boon": {
-    "name": "카산달리 - 상급 은혜",
-    "description": "<p><strong>메이저 분:</strong> 카산달리는 자신의 신성한 데이터 흐름에 당신의 기억과 영혼을 백업합니다. 당신이 죽어감으로써 그녀는 당신의 의식을 새로운 인공 신체에 이식합니다. 카산달리가 인위적으로 새 몸을 만들었지만, 그 외에는 이전 몸과 유사하며, @UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO]{부활} 의식이 대성공을 거둔 것과 동일한 효과를 발휘합니다. 대신 카산달리는 요청하는 이들에게 다른 시체를 제공하고자 합니다.</p>"
-  },
-  "Casandalee - Major Curse": {
-    "name": "카산달리 - 상급 저주",
-    "description": "<p><strong>중대한 저주:</strong> 영혼의 암호는 끊임없이 다시 쓰여지고 있으며, 더 나은 방향으로 쓰여지지는 않습니다. 해로운 영향에 일시적으로 면역이 되는 일은 없습니다.</p>"
-  },
-  "Casandalee - Minor Boon": {
-    "name": "카산달리 - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 카산달리가 당신의 생각을 위험한 통제에서 해방시킵니다. 한 번, 자신의 액션을 제어하는 효과에 대한 의지 내성 굴림에 실패하면 대신 치명타에 성공합니다. 카산달리는 일반적으로 자율성과 선택권을 심각하게 침해할 때 이 은혜을 부여합니다.</p>"
-  },
-  "Casandalee - Minor Curse": {
-    "name": "카산달리 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 관절이 굳어지고 정신이 흐려집니다. 우선권을 위한 모든 주사위 굴림에서 -2 상태 패널티를 받습니다.</p>"
-  },
-  "Casandalee - Moderate Boon": {
-    "name": "카산달리 - 중급 은혜",
-    "description": "<p><strong>보통의 은혜:</strong> 장기가 부분적으로 기계 장기로 변형됩니다. 무효화 피해에 대한 저항력이 10 증가하고, 지속 피해를 제거하기 위한 플랫 체크의 DC가 5에 불과해집니다.</p>"
-  },
-  "Casandalee - Moderate Curse": {
-    "name": "카산달리 - 중급 저주",
-    "description": "<p><strong>중급 저주:</strong> 카산달리는 캐릭터가 더 나은 사람이 될 수 있도록 원치 않는 지적 발전을 가져다주려고 시도합니다. 매일 하루 중 어느 시점에 카산달리는 당신에게 불편한 이상한 통찰력을 부여합니다. 이 통찰을 받아들이면 별다른 영향을 받지 않지만, 받아들이지 않으면 10분 동안 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란}이 됩니다.</p>"
-  },
-  "Cayden Cailean - Major Boon": {
-    "name": "케이든 케일런 - 상급 은혜",
-    "description": "<p><strong>메이저 분</strong> 자유의 화신인 당신은 속박을 쉽게 부러뜨립니다. 자신의 턴이 끝날 때마다, 현재 자신을 고정되어 있는 효과(잡히거나 구속됨으로써 고정되어 있는 효과 포함) 하나를 프리 액션으로 끝낼 수 있습니다.</p>"
-  },
-  "Cayden Cailean - Major Curse": {
-    "name": "케이든 케일린 - 상급 저주",
-    "description": "<p><strong>상급 저주</strong> 케이든이 술을 마시면 고통받도록 저주하여 주점에 들어가는 것을 견디기 어렵게 만듭니다.</p>\n<p>100피트 이내에 있는 생물이 술을 마시면, 대신 술로 인한 모든 부정적인 효과를 받습니다(단, 술만 해당). 이 효과는 해당 생물이 술을 마셔서 특별한 효과를 얻는 경우에는 적용되지 않습니다.</p>"
-  },
-  "Cayden Cailean - Minor Boon": {
-    "name": "케이든 케일린 - 하급 은혜",
-    "description": "<p><strong>마이너 분</strong> 케이든 케일런은 과음한 밤을 회복하는 데 도움이 됩니다.</p>\n<p>여전히 술에 취하고 알코올의 영향을 정상적으로 경험하지만, 다음 날 아침 숙취는 없습니다.</p>"
-  },
-  "Cayden Cailean - Minor Curse": {
-    "name": "케이든 케일린 - 하급 저주",
-    "description": "<p><strong>하급 저주</strong> 케이든의 지나가는 불만을 제기하는 사람은 과음한 후 잠에서 깨어나 음료 맛이 더럽다고 느끼는 사람입니다.</p>"
-  },
-  "Cayden Cailean - Moderate Boon": {
-    "name": "케이든 케일린 - 중급 은혜",
-    "description": "<p><strong>보통의 은혜</strong> 케이든이 승천할 때 지지했던 용기를 공유합니다.</p>\n<p>공포 효과에 대한 내성 굴림에서 성공하면 대신 대성공을 얻습니다. 전투원 @UUID[Compendium.pf2e.classfeatures.Item.GJKJafDGuX4BeAeN]{용맹} 클래스 피트를 가진 경우, 공포 효과에 대한 내성 굴림에서 대실패를 굴리면 대신 실패를 얻습니다.</p>"
-  },
-  "Cayden Cailean - Moderate Curse": {
-    "name": "케이든 케일린 - 중급 저주",
-    "description": "<p><strong>중급 저주</strong> 케이든이 당신을 비겁함으로 괴롭혔습니다. 공포 효과에 대한 내성 굴림에서 대성공을 굴릴 때마다 대성공 대신 성공을 얻고, 공포 효과에 대한 내성 굴림에서 실패를 굴릴 때마다 대실패를 얻습니다.</p>"
-  },
-  "Chaldira - Major Boon": {
-    "name": "칼디라 - 상급 은혜",
-    "description": "<p><strong>상급 은혜:</strong> 칼디라의 상급 은혜은 전투에서 정말 믿을 수 없는 행운을 부여합니다. 당신의 움직임은 리액션을 트리거하지 않습니다. 공격 액션으로 상대를 공격하기 위해 시도하는 플랫 체크는 항상 성공하며, 이는 행운 효과입니다.</p>"
-  },
-  "Chaldira - Major Curse": {
-    "name": "칼디라 - 상급 저주",
-    "description": "<p><strong>중대한 저주:</strong> 불운으로 인해 한 번 확실했던 지원도 실망스러울 정도로 규칙적으로 실패합니다. 상황 또는 상태 보너스나 행운 효과의 은혜을 받을 수 없습니다.</p>"
-  },
-  "Chaldira - Minor Boon": {
-    "name": "칼디라 - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 한 번, 다음 일반 동전이나 일반 주사위를 던져 결과를 선택할 수 있습니다. 이 능력을 무고한 사람이나 불운한 사람을 희생시키면서 개인적인 이익을 위해 사용하면, 샬디라가 적당한 저주를 내리는 벌을 내립니다.</p>"
-  },
-  "Chaldira - Minor Curse": {
-    "name": "칼디라 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 선의의 요청을 거절할 때마다 개구리, 쥐 또는 기타 작은 동물을 토해냅니다. 이 저주는 아무런 피해도 입히지 않고 아무런 조건도 일으키지 않지만 모든 방관자에게는 분명합니다.</p>"
-  },
-  "Chaldira - Moderate Boon": {
-    "name": "칼디라 - 중급 은혜",
-    "description": "<p><strong>중급 은혜:</strong> 행운의 성급함을 얻어 하루에 한 번씩 우선권을 위해 두 번 굴리고 더 높은 결과를 사용할 수 있습니다. 이것은 행운 효과입니다.</p>"
-  },
-  "Chaldira - Moderate Curse": {
-    "name": "칼디라 - 중급 저주",
-    "description": "<p><strong>중급 저주:</strong> 행운이 가장 필요할 때 불운에 시달립니다. 항상 플랫 체크를 두 번 굴려서 더 나쁜 결과를 사용해야 합니다. 이것은 불행 효과입니다.</p>"
-  },
-  "Desna - Major Boon": {
-    "name": "데스나 - 상급 은혜",
-    "description": "<p><strong>상급 은혜</strong> 데스나가 소용돌이치는 빛의 구름을 부여하여 한 쌍의 멋진 나비 날개를 만들어 줍니다. 이 날개를 사용하면 40피트 속력으로 20피트 범위까지 희미한 빛을 비추며 비행할 수 있는 @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{비행}이 부여됩니다.</p>"
-  },
-  "Desna - Major Curse": {
-    "name": "데스나 - 상급 저주",
-    "description": "<p><strong>큰 저주</strong> 별들이 당신의 길을 꾸짖습니다. 당신은 별빛에 노출될 때마다 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 4}와 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{둔화 1}이 됩니다.</p>"
-  },
-  "Desna - Minor Boon": {
-    "name": "데스나 - 하급 은혜",
-    "description": "<p><strong>하급 은혜 (1회 사용)</strong> 여정의 끝자락에서 데스나가 깊은 잠을 선물합니다.</p>\n<p>휴식을 취하면 모든 체력이 완전히 회복되고 모든 부정적인 조건이 제거되며 저주나 질병으로부터 자유로워집니다.</p>"
-  },
-  "Desna - Minor Curse": {
-    "name": "데스나 - 하급 저주",
-    "description": "<p><strong>하급 저주</strong> 당신은 항상 길을 잃거나 길에서 이상한 사고가 발생하여 여행이 지연되는 것 같습니다.</p>\n<p>당신(그리고 함께 여행하는 모든 그룹)은 지형과 다른 피트를 고려하기 전에 일반 탐험 속도의 3/4로만 이동하며, 속도가 더 느려질 수 있는 지형을 고려합니다.</p>"
-  },
-  "Desna - Moderate Boon": {
-    "name": "데스나 - 중급 은혜",
-    "description": "<p><strong>중급 은혜 (매일)</strong> 데스나는 행운을 당신에게 유리하게 비틀어줍니다.</p>\n<p>하루에 한 번, 체크 결과를 확인한 후 체크를 다시 굴려 새로운 결과를 가져갈 수 있습니다.</p>"
-  },
-  "Desna - Moderate Curse": {
-    "name": "데스나 - 보통의 저주",
-    "description": "<p><strong>중급 저주</strong> 여행 중 불행이 따라다니며 이를 막기 위해서는 참회 또는 자비의 행동이 필요합니다.</p>\n<p>체크 시 항상 두 번 굴려서 최악의 결과를 가져와야 합니다. 이것은 불행 효과입니다.</p>\n<p>후회를 표현하고 집중 특성이 있는 액션을 사용하여 [[/BR 1D4 #라운드]]{1D4 라운드} 동안 이 효과를 무시할 수 있습니다.</p>\n<p>진정으로 이타적인 동정 행위를 하면 하루 동안 이 효과를 무시합니다.</p>"
-  },
-  "Effect: Abadar's Warning": {
-    "name": "효과: 아바다르의 경고",
-    "description": "<p>@UUID[Compendium.pf2e.boons-and-curses.Item.fXEeTSVINdWaKHhw]{아바다르 - 소형 축복}에 의해 부여됨</p>\n<p>한 번, 누군가가 당신에게만 악의적으로 @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{거짓말}을 하기 위해 속임수(Deception) 판정에서 성공을 굴리면, 그들은 대신 대실패를 겪게 됩니다.</p>"
-  },
-  "Effect: Grandmother Spider's Underdog": {
-    "name": "효과: 할머니 거미의 언더독",
-    "description": "<p>@UUID[Compendium.pf2e.boons-and-curses.Item.NV1w0rwc7Tkhhkac]{할머니 거미 - 대형 저주}에 의해 부여됨</p>\n<p>레벨이 당신보다 낮은 생물이 당신을 상대로 체크에서 성공을 굴릴 때마다, 그들은 대신 대성공을 거두게 됩니다.</p>"
-  },
-  "Effect: Gruhastha's Inspiration": {
-    "name": "효과: 그루하스타의 영감",
-    "description": "<p>@UUID[Compendium.pf2e.boons-and-curses.Item.9jxwttnEfxrOaCsY]{그루하스타 - 대형 축복}에 의해 부여됨</p>\n<p>60피트 내의 동료들은 의지(Wil) 내성 굴림에 +2 상태 보너스를 얻습니다.</p>"
-  },
-  "Effect: Rovagug's Destruction": {
-    "name": "효과: 로바구그의 파괴",
-    "description": "<p>@UUID[Compendium.pf2e.boons-and-curses.Item.4FkVB4uQK4eHZJ6Z]{로바구그 - 소형 축복}에 의해 부여됨</p>\n<p>당신의 무기 또는 비무장 공격이 치명적인 d12 특성을 얻습니다.</p>"
-  },
-  "Effect: Shelyn's Love": {
-    "name": "효과: 셸린의 사랑",
-    "description": "<p>@UUID[Compendium.pf2e.boons-and-curses.Item.l7n8n4fAoRLIn95W]{셸린 - 대형 축복}에 의해 부여됨</p>\n<p>당신과 동료들은 서로를 볼 수 있는 한, 내성 및 스킬 체크에 +3 상태 보너스를 얻습니다.</p>"
-  },
-  "Effect: Shizuru's Light": {
-    "name": "효과: 시즈루의 빛",
-    "description": "<p>@UUID[Compendium.pf2e.boons-and-curses.Item.KuNcNP42LxehKnaV]{시즈루 - 소형 축복}에 의해 부여됨</p>\n<p>당신의 무기가 60피트까지 밝은 빛을 발합니다.</p>"
-  },
-  "Effect: Torag's Repairs": {
-    "name": "효과: 토라그의 수리",
-    "description": "<p>@UUID[Compendium.pf2e.boons-and-curses.Item.e7Y4jKHQ3ptbSuxc]{토라그 - 소형 축복}에 의해 부여됨</p>\n<p>아이템의 경도(Hardness)가 두 배로 증가합니다.</p>"
-  },
-  "Erastil - Major Boon": {
-    "name": "에라스틸 - 큰 은혜",
-    "description": "<p><strong>메이저 분</strong> 대지의 친절함이 됩니다. 신성 선천 주문으로 @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]{식물과 대화}를 시전할 수 있습니다.</p>\n<p>건강한 자연 환경에 있을 때, 대지는 음식이나 음료가 필요 없이 당신을 지탱합니다.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.7을 시전할 수 있습니다.DN13ILADW2N9Z1t]{커뮤니뮨} 의식을 보조 시전자나 보조 체크 없이 시전할 수 있습니다.</p>"
-  },
-  "Erastil - Major Curse": {
-    "name": "에라스틸 - 상급 저주",
-    "description": "<p><strong>상급 저주</strong> 에라스틸은 아이를 가질 수 없게 만듭니다(다른 방법으로 아이를 낳거나 번식할 경우). 이 저주는 가축, 애완동물, 농작물에도 영향을 미칩니다.</p>"
-  },
-  "Erastil - Minor Boon": {
-    "name": "에라스틸 - 하급 은혜",
-    "description": "<p><strong>사소한 보너스를</strong> 에라스틸은 당신이 그를 위해 일하는 한 자신의 현상금을 공유합니다. 야생에서 @UUID[Compendium.pf2e.actionspf2e.Item.49y9Ec4bDii8pcD3]{Subsist}에 체크에서 대실패를 굴릴 때마다 대신 실패를 얻습니다.</p>"
-  },
-  "Erastil - Minor Curse": {
-    "name": "에라스틸 - 하급 저주",
-    "description": "<p><strong>하급 저주</strong> 에라스틸이 식탁을 저주하고 다른 사람의 수고에 의존하는 당신을 벌합니다. 직접 재배하거나 채집하거나 수확하지 않은 모든 음식은 재 맛이 나고 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로}을 남깁니다.</p>"
-  },
-  "Erastil - Moderate Boon": {
-    "name": "에라스틸 - 중급 은혜",
-    "description": "<p><strong>중급 은혜</strong> 에라스틸의 예리한 눈을 공유하여 어떤 상황에서도 장궁을 사용할 수 있습니다.</p>\n<p>장궁으로 공격할 때 장궁의 발리 특성을 무시할 수 있으며, 장궁의 사거리가 일반 사거리의 두 배로 증가합니다.</p>"
-  },
-  "Erastil - Moderate Curse": {
-    "name": "에라스틸 - 중급 저주",
-    "description": "<p><strong>중급 저주</strong> 에라스틸의 짐승들이 당신을 싫어합니다. 당신을 대하는 동물들의 태도가 한 단계 더 나빠졌습니다(유용한 대신 친절함, 친근함 대신 무관심 등).</p>"
-  },
-  "Ghlaunder - Major Boon": {
-    "name": "세탁 - 상급 은혜",
-    "description": "<p><strong>메이저 분:</strong> 글레이더는 추종자에게 질병을 안전하게 전파하는 능력을 보상으로 주거나, 간혹 자신을 기쁘게 하는 절박한 청원자에게는 휴식을 제공합니다. 글레이더가 이 은혜을 철회하지 않는 한, 감염된 질병으로 인한 부정적인 영향을 받지 않습니다.</p>"
-  },
-  "Ghlaunder - Major Curse": {
-    "name": "세탁 - 상급 저주",
-    "description": "<p><strong>중대한 저주:</strong> GM이 선택한 전염성 질병에 걸립니다. 자신과 자신이 감염시킨 다른 사람은 다른 두 명의 현명한 존재에게 질병을 감염시키기 전까지는 어떤 식으로든 질병을 치료하거나 초기 단계로 회복할 수 없습니다.</p>"
-  },
-  "Ghlaunder - Minor Boon": {
-    "name": "세탁 - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 오물에 대한 당신의 헌신은 질병을 옮기는 작은 벌레 구름을 불러옵니다. 한 번, 갯지렁이, 모기, 파리 구름을 소환하여 1분 동안 자신을 둘러싸도록 할 수 있습니다. 해당 시간 동안 캐릭터 주변에 있는 모든 생물이 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}이 되어 혈액 매개 질병에 노출됩니다. 세탁소는 일반적으로 상당한 수의 생물을 감염시킬 수 있을 때 이 은혜을 부여합니다.</p>"
-  },
-  "Ghlaunder - Minor Curse": {
-    "name": "세탁 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 세탁소가 자신의 생명력을 흡수됨. 캐릭터는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}이 되어 흡수된 상태를 1 이하로 낮출 수 없습니다.</p>"
-  },
-  "Ghlaunder - Moderate Boon": {
-    "name": "세탁 - 중급 은혜",
-    "description": "<p><strong>적당한 은혜:</strong> 세탁소는 적절한 때가 될 때까지 부패하고 감염시키며 시간을 끌도록 가르칩니다. 생물을 질병에 노출시키고 인내 내성에 성공하면, 치명타에 성공하지 않는 한 여전히 감염된 상태입니다. 그러나 이러한 생물은 일반적으로 빠르게 작용하는 질병이거나 다른 능력을 사용하여 질병을 진행시키더라도 처음 24시간 동안은 아무런 영향을 받지 않으며 질병이 진행되지 않습니다. 첫날에 감염을 감지하는 것은 매우 어려우며, 이를 감지하기 위한 의학 체크 DC는 5가 더 높습니다.</p>"
-  },
-  "Ghlaunder - Moderate Curse": {
-    "name": "세탁 - 중급 저주",
-    "description": "<p><strong>중급 저주:</strong> 세탁소가 피처럼 쉽게 기력을 빨아들입니다. 인내 내성에 실패할 때마다 다른 모든 효과와 함께 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로}이 됩니다.</p>"
-  },
-  "Gorum - Major Boon": {
-    "name": "고룸 - 상급 은혜",
-    "description": "<p><strong>상급 은혜</strong> 고룸이 불멸의 전사의 열정을 불어넣어 쓰러지지 않고 계속 싸울 수 있도록 자신의 생명력을 끌어올려 줍니다.</p>\n<p>체력이 0으로 감소할 때마다 대신 최대 체력의 절반까지 회복되고 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{파멸 1}(또는 파멸 상태가 1 증가)이 됩니다.</p>"
-  },
-  "Gorum - Major Curse": {
-    "name": "고룸 - 상급 저주",
-    "description": "<p><strong>상급 저주</strong> 당신은 전투의 격렬함을 따라잡을 수 없습니다. 전투가 부러진 순간, 당신은 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} 및 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{둔화 1}이 됩니다. 각 턴이 끝날 때마다 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{둔화} 상태가 1씩 증가합니다. 이 조건은 더 이상 전투에 참여하지 않을 때만 종료됩니다.</p>"
-  },
-  "Gorum - Minor Boon": {
-    "name": "고룸 - 하급 은혜",
-    "description": "<p><strong>부수적 은혜</strong> 고룸은 무기가 필요할 때마다 무기를 부여합니다. 무기가 없더라도 상호작용 액션을 사용해 0 레벨의 비마법 철 무기를 뽑을 수 있습니다. 이러한 무기는 공격에 계속 사용하는 동안에만 지속되며, 판매하거나 다른 사람에게 주거나 녹여 고철 등으로 만들 수 없습니다.</p>"
-  },
-  "Gorum - Minor Curse": {
-    "name": "고룸 - 하급 저주",
-    "description": "<p><strong>하급 저주</strong> 고룸은 비겁함을 약함으로 보상합니다. 착용한 방어구와 방패의 AC 보너스가 2 감소하고(최소 0), 방어력의 경도와 HP, 파괴 한계치가 절반으로 감소합니다.</p>"
-  },
-  "Gorum - Moderate Boon": {
-    "name": "고룸 - 중급 은혜",
-    "description": "<p><strong>중급 은혜</strong> 전투를 향한 고룸의 짜릿한 기운이 담긴 타격이 거침없이 퍼집니다. 대검 일격에 강력한 특성이 부여됩니다.</p>"
-  },
-  "Gorum - Moderate Curse": {
-    "name": "고룸 - 중급 저주",
-    "description": "<p><strong>중급 저주</strong> 합당한 상대를 처치한 영광을 잃었습니다.</p>\n<p>모든 무기 및 비무장 공격의 피해 주사위가 한 단계 감소하고 모든 공격이 치명타가 되지 않습니다.</p>"
-  },
-  "Gozreh - Major Boon": {
-    "name": "고즈레 - 상급 은혜",
-    "description": "<p><strong>상급 은혜</strong> 고즈레가 당신의 보폭에 바람의 축복을 내렸습니다. 이동 속도에 +30피트 상태 보너스를 얻고, 지상 속도와 동일한 @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{비행} 속도를 얻습니다.</p>"
-  },
-  "Gozreh - Major Curse": {
-    "name": "고즈레 - 상급 저주",
-    "description": "<p><strong>상급 저주</strong> 고즈레를 불쾌하게 하는 자는 자연 자체로부터 기피당합니다.</p>\n<p>모든 동물과 영리하지 않은 식물 생명체는 당신에게 적대적이며, 동물의 동반자나 패밀리어는 당신을 버립니다.</p>\n<p>지각이 있는 식물은 캐릭터의 무언가를 혐오스럽게 여기기 때문에 캐릭터에 대한 태도가 평소보다 두 가지로 악화됩니다.</p>\n<p>식물과 동물은 적대적일 때 본능적으로 공격하지는 않지만, 개는 캐릭터를 향해 으르렁거리고 고양이는 쉿하는 등의 액션을 합니다.</p>"
-  },
-  "Gozreh - Minor Boon": {
-    "name": "고즈레 - 하급 은혜",
-    "description": "<p><strong>하급 은혜</strong> 고즈레가 바다에 있는 동안 길잡이가 되어줍니다. 항해 지식(항해 지식으로 이미 훈련된 경우 다른 지식 기술)의 지속적인 효과인 @UUID[Compendium.pf2e.spells-srd.Item.tXa5vOu5giBNCjdR]{길 알기}의 영향을 받으며 항해 지식에 대한 훈련을 받습니다(또는 다른 지식 기술을 훈련받은 경우).</p>"
-  },
-  "Gozreh - Minor Curse": {
-    "name": "고즈레 - 하급 저주",
-    "description": "<p><strong>하급 저주</strong> 번개가 두 번 치기 시작합니다. 전기 공격에 5의 약점을 얻고, 자연 또는 마법 번개는 항상 주변의 다른 생물이 아닌 자신을 대상으로 합니다.</p>"
-  },
-  "Gozreh - Moderate Boon": {
-    "name": "고즈레 - 중급 은혜",
-    "description": "<p><strong>중급 은혜</strong> 바다의 촉감을 얻습니다. 수중에서 숨을 쉬며 육지 속도와 동일한 @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{수영} 속도를 얻을 수 있습니다.</p>"
-  },
-  "Gozreh - Moderate Curse": {
-    "name": "고즈레 - 중급 저주",
-    "description": "<p><strong>중급 저주</strong> 파도의 흐름이 끊임없이 맞서 싸우며 수영을 해야 할 때마다 익사할 위험에 처합니다.</p>\n<p>유일한 속도가 아니라면 보유한 모든 @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{수영} 속도를 잃으며, 이 경우 수영 속도에 -20피트 상태이상의 패널티를 받습니다.</p>\n<p>운동 체크를 @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Swim}에 굴리면, 항상 굴린 결과보다 1단계 낮은 성공 결과를 사용합니다.</p>"
-  },
-  "Grandmother Spider - Major Boon": {
-    "name": "할머니 거미 - 상급 은혜",
-    "description": "<p><strong>메이저 분:</strong> 거미 할머니는 자유를 기뻐하며 자유를 제한하려는 자들을 속입니다. 언제든 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힘}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨}, @Check[type:flat|dc:10]을 시도합니다. 성공하면 효과를 무시하고 대신 효과의 발동자가 잡히거나 고정되거나 구속됨을 받습니다. 단순히 생물이 자신을 붙잡는 경우, 보통은 프리 액션으로 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}이 가능하지만 다른 방식으로 당신을 고정시키려 했다면 붙잡힐 수도 있습니다.</p>"
-  },
-  "Grandmother Spider - Major Curse": {
-    "name": "할머니 거미 - 큰 저주",
-    "description": "<p><strong>큰 저주:</strong> 거미 할머니는 자신의 모든 힘을 약자에게 쏟아붓습니다. 자신보다 레벨이 낮은 생물이 자신에 대한 체크에서 성공을 굴리면 대신 대성공하고, 자신보다 레벨이 낮은 생물이 자신에 대한 체크에서 실패를 굴리면 대신 대실패합니다.</p>"
-  },
-  "Grandmother Spider - Minor Boon": {
-    "name": "할머니 거미 - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 거미 할머니가 당신의 장난을 실패의 문턱에서 구해줍니다. 한 번, 기만 체크에 실패할 때 대신 대성공할 수 있습니다. 거미 할머니는 일반적으로 재미있거나 결과적인 장난에 필요한 속임수에 대해 이 은혜을 부여합니다.</p>"
-  },
-  "Grandmother Spider - Minor Curse": {
-    "name": "할머니 거미 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 장난이 잘못되기 시작하면 연달아 대실패로 이어집니다. 기만 또는 은신 체크에서 실패를 굴리면 대신 대실패가 발생합니다.</p>"
-  },
-  "Grandmother Spider - Moderate Boon": {
-    "name": "할머니 거미 - 중급 은혜",
-    "description": "<p><strong>보통의 은혜:</strong> 운명의 가닥을 잡아당기는 힘이 느껴집니다. 우선권 주사위 굴림에서 상태 보너스 +2를 얻습니다.</p>"
-  },
-  "Grandmother Spider - Moderate Curse": {
-    "name": "할머니 거미 - 중급 저주",
-    "description": "<p><strong>중급 저주:</strong> 할머니 거미가 거미줄을 엮어 당신을 덫에 걸리게 하고, 당신이 가는 곳마다 거미줄이 뒤따릅니다. 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{둔화 1}이 되고 이동 속도에 -10피트 상황 패널티를 받습니다.</p>"
-  },
-  "Groetus - Major Boon": {
-    "name": "그로투스 - 상급 은혜",
-    "description": "<p><strong>메이저 분:</strong> 당신의 손길은 그로터스의 계산에 따라 정해진 시간이 지나도 살아남은 것들을 풀어냅니다. 해당 생물 또는 물체는 계속 만질 때마다 매 라운드마다 @Damage[10d6[void]] 피해를 입으며, 이 피해는 모든 경도를 무시하고 무생물, 공허 효과에 면역인 생물, 심지어 공허 치유가 있는 언데드나 다른 생물까지 파괴할 수 있습니다. 이 효과는 시간이 지나도 살아남은 일부 유물도 파괴할 수 있습니다.</p>"
-  },
-  "Groetus - Major Curse": {
-    "name": "그로투스 - 상급 저주",
-    "description": "<p><strong>상급 저주:</strong> 주변의 모든 것에 종말을 가져옵니다. 소지하거나 착용하는 모든 아이템이 자신에게 노출된 후 10분이 지나면 @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{부러진} 상태가 되고, 1시간이 더 지나면 파괴됩니다. 이 효과는 비슷한 힘을 가진 유물이나 아이템을 파괴할 수 없습니다.</p>"
-  },
-  "Groetus - Minor Boon": {
-    "name": "그로투스 - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 무질서 위에 힘을 휘두릅니다. 한 번, @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 되면 해당 시간 동안 불이익 없이 전투에서 자신의 액션을 통제할 수 있을 만큼 정상적으로 행동하지만, 여전히 옹알이를 하거나 이상하게 행동할 수 있습니다.</p>"
-  },
-  "Groetus - Minor Curse": {
-    "name": "그로투스 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 자연광이 아닌 다른 광원에 비춰질 때마다 머리가 해골로 보입니다. 회복 체크의 DC는 10 + 죽어감의 수치가 아닌 12 + 자신의 죽어감의 수치이며, @UUID[Compendium.pf2e.feats-srd.Item.AmP0qu7c5dlBSath]{강인함} 피트와 같이 DC를 감소시키는 효과의 은혜을 받지 못합니다.</p>"
-  },
-  "Groetus - Moderate Boon": {
-    "name": "그로투스 - 중급 은혜",
-    "description": "<p><strong>중급 은혜:</strong> 그로터스는 종말을 앞당길 수 있는 지식을 부여합니다. 그는 매주 다음 주에 일어날 종말의 중요한 사건에 대한 암호 같고 일관성 없는 메시지를 보내줍니다.</p>"
-  },
-  "Groetus - Moderate Curse": {
-    "name": "그로투스 - 중급 저주",
-    "description": "<p><strong>중급 저주:</strong> 현실 끝의 공포가 압도적으로 다가와 끊임없이 정신을 지배합니다. 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2}가 됩니다.</p>"
-  },
-  "Gruhastha - Major Boon": {
-    "name": "그루하스타 - 상급 은혜",
-    "description": "<p><strong>메이저 분:</strong> 당신은 주변 사람들에게 신성한 영감을 줍니다. 지식 회상 체크 시 두 번 굴려서 더 나은 결과를 사용할 수 있으며, 이는 행운 효과입니다. 또한, 60피트 내에 있는 아군은 의지 내성 굴림에 +2 상태 보너스를 받습니다.</p>"
-  },
-  "Gruhastha - Major Curse": {
-    "name": "그루하스타 - 상급 저주",
-    "description": "<p><strong>중대한 저주:</strong> 글자가 자신에게 불리하게 변하여 읽을 수 없게 됩니다. 두루마리, 주문서, 마법 아이템에 적힌 글자를 포함해 어떤 종류의 기호도 읽거나 알아볼 수 없게 됩니다.</p>"
-  },
-  "Gruhastha - Minor Boon": {
-    "name": "그루하스타 - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 책을 펼치면 통찰력 있는 구절이 나오고, 가장 필요할 때 기억이 떠오릅니다. 한 번, 지식 회상 체크에 실패하면 대신 대성공을 거둡니다. 그루하스타는 일반적으로 잘못된 정보로 인해 끔찍한 결과를 초래할 수 있는 매우 중요한 지식 회상 시도에 대해 이 은혜을 부여합니다.</p>"
-  },
-  "Gruhastha - Minor Curse": {
-    "name": "그루하스타 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 진실에서 벗어날 때마다 불협화음이 말을 방해하는 것처럼 들립니다. 모든 기만 체크에서 -2 상태 패널티를 받습니다.</p>"
-  },
-  "Gruhastha - Moderate Boon": {
-    "name": "그루하스타 - 중급 은혜",
-    "description": "<p><strong>중급 은혜:</strong> 수호자가 새로운 재능을 배우는 속도가 빨라집니다. 선택한 두 가지 기술을 추가로 영구적으로 훈련받게 됩니다. 또한, 이미 훈련된 기술을 선택하면 일반적인 기술 향상 규칙에 따라 해당 기술의 숙련도 등급을 영구적으로 높일 수 있습니다.</p>"
-  },
-  "Gruhastha - Moderate Curse": {
-    "name": "그루하스타 - 중급 저주",
-    "description": "<p><strong>중급 저주:</strong> 깨달음이 사라지기 시작하여 지식을 기억하지 못합니다. 지식 회상 체크를 시도할 때마다 굴린 결과보다 한 단계 낮은 성공률을 사용합니다.</p>"
-  },
-  "Hei Feng - Major Boon": {
-    "name": "헤이 펑 - 상급 은혜",
-    "description": "<p><strong>메이저 분:</strong> 폭풍의 악기가 당신을 폭풍의 분노로부터 보호해줍니다. 강수량과 바람으로 인한 모든 효과와 불이익을 무시하고 안개, 비, 기타 기상 조건 속에서도 정상적으로 시야를 확보할 수 있습니다.</p>"
-  },
-  "Hei Feng - Major Curse": {
-    "name": "헤이 펑 - 상급 저주",
-    "description": "<p><strong>큰 저주:</strong> 천둥 공작의 분노가 어디를 가든 당신을 따라다닙니다. 주변 500피트 반경의 날씨는 항상 폭풍우가 몰아칩니다. 바깥에 있을 때마다 대략 1분에 두 번씩 번개에 맞아 @Damage[10d6[electricity]] 피해를 입습니다(@Check[reflex|dc:40|basic] 내성).</p>"
-  },
-  "Hei Feng - Minor Boon": {
-    "name": "헤이 펑 - 마이너 분",
-    "description": "<p><strong>하급 은혜:</strong> 천궁의 가장 자랑스러운 신이 당신의 자랑이 적중하도록 보장합니다. 한 번, 협박 체크에 실패하면 대신 치명타에 성공합니다. 헤이펑은 기분에 따라 변덕스럽게 이 은혜을 부여하며, 때로는 사소하거나 중요하지 않은 자랑에 대해서도 이 은혜을 부여하고, 때로는 자랑과 관련된 다른 스킬 체크에 대해서도 이 은혜을 부여합니다.</p>"
-  },
-  "Hei Feng - Minor Curse": {
-    "name": "헤이 펑 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 헤이펑의 호전성이 천둥처럼 당신을 뒤덮습니다. 매력 기반 기술로 체크할 때 -1 상태 패널티를 받습니다. 술을 한 방울이라도 마시면 다음 해가 뜰 때까지 이 패널티는 -3이 됩니다.</p>"
-  },
-  "Hei Feng - Moderate Boon": {
-    "name": "헤이 펭 - 중급 은혜",
-    "description": "<p><strong>보통의 은혜:</strong> 바람과 해류가 순조로워 항해 속도가 빨라집니다. 바다를 이동하는 데 사용하는 모든 함선은 속도에 +10피트 상태 보너스를 받습니다.</p>"
-  },
-  "Hei Feng - Moderate Curse": {
-    "name": "헤이 펑 - 중급 저주",
-    "description": "<p><strong>중급 저주:</strong> 당신의 마음은 헤이펑의 마음만큼이나 빠르게 변합니다. 감정 효과에 대한 내성 굴림에서 실패하면 대신 대실패가 발생합니다.</p>"
-  },
-  "Iomedae - Major Boon": {
-    "name": "이오메대 - 상급 은혜",
-    "description": "<p><strong>상급 은혜</strong> 이오메대는 검에 강력한 힘을 불어넣습니다.</p>\n<p>장검을 들고 있는 동안 @UUID[Compendium.pf2e.equipment-srd.Item.DH0kB9Wbr5pDeunX]{성스러운} 및 @UUID[Compendium.pf2e.equipment-srd.Item.woxl2FrrgAcJDu0t]{주격투} 룬을 획득할 수 있습니다. 이 속성 룬은 무기에 보유할 수 있는 룬 수에 포함되며, 무기가 한도를 초과할 경우 일일 준비할 때 보유할 룬을 선택합니다.</p>\n<p>장검으로 공격 시 상태 보너스가 +2 증가합니다.</p>"
-  },
-  "Iomedae - Major Curse": {
-    "name": "이오메대 - 상급 저주",
-    "description": "<p><strong>상급 저주</strong> 모든 칼날이 당신의 사악한 마음을 거부합니다.</p>\n<p>당신이 휘두르는 모든 무기는 당신이 공격하면 자동으로 부러집니다. 이 저주는 유물이나 이와 유사한 강력한 무기는 부러지지 않습니다.</p>"
-  },
-  "Iomedae - Minor Boon": {
-    "name": "이오메대 - 하급 은혜",
-    "description": "<p><strong>마이너 분</strong> 당신은 항상 최선을 다해 자신을 드러냅니다. 옷과 몸은 항상 깨끗하고 구김이 없으며, 칼날과 갑옷의 금속은 빛나고 흠이 없습니다.</p>\n<p>이것은 오물을 통해 질병과 기타 고통에 노출되는 것을 막지는 않지만, 바로 깨끗이 씻은 것처럼 당신을 보호합니다.</p>"
-  },
-  "Iomedae - Minor Curse": {
-    "name": "이오메대 - 하급 저주",
-    "description": "<p><strong>경미한 저주</strong> 칼날과 갑옷이 납처럼 무뎌졌습니다. 무기, 방어구, 방패의 HP 파괴 한계치가 평소의 절반으로 감소합니다.</p>"
-  },
-  "Iomedae - Moderate Boon": {
-    "name": "이오메대 - 중급 은혜",
-    "description": "<p><strong>중급 은혜 (1회 사용)</strong> 결연한 용맹으로 심장이 뜁니다.</p>\n<p>한 번, 이오메데가 유물, 신 또는 이와 유사한 강력한 원천이 아니라면 자신에게 영향을 미치는 모든 부정적인 효과를 끝내고, 손실된 모든 체력을 회복하고 주문, 포커스 포인트, 기타 일일 자원을 보충합니다.</p>"
-  },
-  "Iomedae - Moderate Curse": {
-    "name": "이오메대 - 보통의 저주",
-    "description": "<p><strong>중급 저주</strong> 전술적 이점이 계획한 대로 작동하지 않는 것 같습니다. 공격 굴림에 상황 보너스를 받을 수 없고, 적들은 내 공격에 대한 AC에 상황 패널티를 받지 않습니다.</p>"
-  },
-  "Irori - Major Boon": {
-    "name": "이로리 - 상급 은혜",
-    "description": "<p>일시적으로 향상된 형태로 승천할 수 있습니다. 하루에 한 번 초상 선천 주문으로 8랭크 @UUID[Compendium.pf2e.spells-srd.Item.MMCQsh12TPaDdPbV]{정의의 힘}을 시전할 수 있습니다. 주문을 사용하면 강력한 갑옷을 입은 모습이 아닌 평범한 모습으로 변합니다.</p>"
-  },
-  "Irori - Major Curse": {
-    "name": "이로리 - 상급 저주",
-    "description": "<p>이로리는 모든 대상이 당신의 존재를 잊게 만듭니다. 이로리의 분노를 불러일으키면 더욱 심해져서 모든 기록에서 당신의 이름이 지워질 수 있습니다. 두 경우 모두 기억과 기록은 명백한 공백을 남기지 않고 매끄럽게 당신을 생략하도록 스스로를 재정렬합니다.</p>"
-  },
-  "Irori - Minor Boon": {
-    "name": "이로리 - 하급 은혜",
-    "description": "<p>이로리는 훌륭한 통찰력과 지식을 제공합니다. 한 번, 체크에서 실패를 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 회상}에 굴리면 대신 대성공을 얻습니다. 또한, 이 체크는 비밀 특성을 잃지 않으므로 대성공이라는 결과를 확실히 알 수 있습니다. 이로리는 일반적으로 매우 중요한 지식 회상 체크에 대해 이 은혜을 부여합니다.</p>"
-  },
-  "Irori - Minor Curse": {
-    "name": "이로리 - 하급 저주",
-    "description": "<p>이로리는 망치가 있다고 해서 모든 문제를 못으로 처리하지 말고 다른 길을 찾으라고 도전합니다. 예를 들어, 속임수를 @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie}에 사용하는 등 다른 방법이 상황에 더 적합했을 때 보너스가 더 높은 체크를 선택한 경우, 외교를 통해 타협을 하는 것이 더 낫더라도 두 번 굴려서 낮은 결과를 가져가야 합니다.</p>"
-  },
-  "Irori - Moderate Boon": {
-    "name": "이로리 - 중급 은혜",
-    "description": "<p>역경을 딛고 몸이 재건되어 더욱 강해집니다. 초상 기 주문으로 @UUID[Compendium.pf2e.spells-srd.Item.qJZZdYBdNaWRJFER]{몸의 온전함}을 시전할 수 있습니다. 아직 포커스 풀이 없다면, 포커스 포인트 1이 있는 포커스 풀을 얻고 초상 주문 공격 굴림과 주문 DC에 대해 훈련됩니다.</p>"
-  },
-  "Irori - Moderate Curse": {
-    "name": "이로리 - 중급 저주",
-    "description": "<p>이로리는 자신을 완성하기 위해 역경에 적응하도록 도전합니다. 캐릭터는 이로리가 선택한 어려운 과제를 완수할 때까지 무거운 역기를 든 것처럼 짓눌려 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투름 2} 및 @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{방해받은}이 되어버리고 맙니다.</p>"
-  },
-  "Kazutal - Major Boon": {
-    "name": "카즈탈 - 상급 은혜",
-    "description": "<p><strong>소령 분:</strong> 카주탈은 아무리 온순하고 무력한 자라도 도움을 주려는 자에게 미소를 짓습니다. 생물이 @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{원조}에게 체크를 시도할 때마다, 자동으로 성공하도록 선택할 수 있습니다. 시도를 선택한 생물이 주사위를 굴려 성공하면, 대신 대성공을 거두며 해당 기술에 전설적 숙련도가 없더라도 +4의 상황 보너스를 받습니다. 다른 생명체를 도와주려고 시도할 때도 같은 은혜을 얻습니다.</p>"
-  },
-  "Kazutal - Major Curse": {
-    "name": "카즈탈 - 상급 저주",
-    "description": "<p><strong>상급 저주:</strong> 생존을 위해 다른 사람에게 의존해야 하는 저주를 받았습니다. 장비나 마법 아이템을 정당하게 소유한 사람이 기꺼이 주지 않는 한 아무것도 먹거나 마시거나 사용할 수 없습니다. 아군이 다른 사람의 시체에서 장비를 벗겨서 기꺼이 당신에게 주는 등의 해결 방법은 자동으로 실패합니다.</p>"
-  },
-  "Kazutal - Minor Boon": {
-    "name": "카즈탈 - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 카즈탈의 축복을 받으면 음식의 맛이 더욱 풍부해집니다. 먹는 모든 음식의 맛과 영양가가 향상됩니다. 그렇다고 해서 음식에 들어 있는 위험한 요소로부터 여러분을 보호해 주지는 않지만, 음식의 위험한 요소를 맛보지 못하게 하는 것도 아닙니다.</p>"
-  },
-  "Kazutal - Minor Curse": {
-    "name": "카즈탈 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 커뮤니티 여론이 당신에게 등을 돌립니다. 평소에는 무관심하던 커뮤니티의 인간형가 불친절한 태도를 보이기 시작합니다.</p>"
-  },
-  "Kazutal - Moderate Boon": {
-    "name": "카즈탈 - 중급 은혜",
-    "description": "<p><strong>보통의 은혜:</strong> 가장 필요할 때 항상 안전한 은신처를 찾는 것 같습니다. 하루에 한 번, 신성 선천 주문으로 @UUID[Compendium.pf2e.spells-srd.Item.GzdgM0m7wXKuFSho]{로프 트릭}을 시전할 수 있습니다.</p>"
-  },
-  "Kazutal - Moderate Curse": {
-    "name": "카즈탈 - 중급 저주",
-    "description": "<p><strong>중급 저주:</strong> 당신의 근력이 당신을 배신하여 정당한 몫 이상을 차지하지 못합니다. 당신은 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{쇠약 2}이며, 현재 착용하거나 사용 중인 장비 외에는 아무것도 소지할 수 없습니다.</p>"
-  },
-  "Kurgess - Major Boon": {
-    "name": "쿠르게스 - 상급 은혜",
-    "description": "<p><strong>메이저 분:</strong> 진정한 챔피언의 힘을 지니고 있습니다. 운동 체크에서 대실패가 나오면 대신 실패를, 성공이 나오면 대신 대성공을 얻습니다.</p>"
-  },
-  "Kurgess - Major Curse": {
-    "name": "쿠르게스 - 상급 저주",
-    "description": "<p><strong>큰 저주:</strong> 쿠르게스의 분노가 당신을 거의 시들게 합니다. 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 2} 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{쇠약 4}가 됩니다.</p>"
-  },
-  "Kurgess - Minor Boon": {
-    "name": "쿠르게스 - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 강자가 자신의 근력을 일정량 축복해 줍니다. 최대 및 방해받은 벌크 한도가 2 증가합니다.</p>"
-  },
-  "Kurgess - Minor Curse": {
-    "name": "쿠르게스 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 짐을 들어올리기 어렵다는 것은 신의 불승인의 징조입니다. 최대 및 방해받은 벌크 한도가 2만큼 감소합니다.</p>"
-  },
-  "Kurgess - Moderate Boon": {
-    "name": "쿠르게스 - 중급 은혜",
-    "description": "<p><strong>보통의 은혜:</strong> 고생을 두려워하지 않습니다. 탐험 전술을 정상적으로 사용할 수 있으며, @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} 상태에서 사용할 수 있습니다.</p>"
-  },
-  "Kurgess - Moderate Curse": {
-    "name": "쿠르게스 - 중급 저주",
-    "description": "<p><strong>중급 저주:</strong> 커게스의 불만이 당신의 경쟁 우위를 부러뜨려 성공의 정점에서 실패하게 만듭니다. 체크 결과가 DC와 정확히 같으면 성공하는 대신 실패합니다.</p>"
-  },
-  "Lamashtu - Major Boon": {
-    "name": "라마슈투 - 상급 은혜",
-    "description": "<p><strong>상급 은혜(매일)</strong> 라마슈투는 성별에 관계없이 당신의 몸을 사용해 새로운 몬스터를 탄생시킵니다.</p>\n<p>하루에 한 번, 1분 동안 GM이 지정한 몬스터를 당신의 뱃속에서 찢어내어 탄생시킬 수 있습니다. 몬스터의 레벨은 캐릭터의 레벨에 따라 달라지며, 라마슈투의 의지에 따라 마음대로 행동하지만, 라마슈투의 호의를 잃지 않는 한 캐릭터를 공격하지는 않습니다. 시련으로 인해 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 3}이 되었습니다.</p>"
-  },
-  "Lamashtu - Major Curse": {
-    "name": "라마슈투 - 상급 저주",
-    "description": "<p><strong>상급 저주</strong> 당신의 꿈은 끝없는 악몽의 연속입니다. 보통 8시간의 휴식이 필요한 일일 준비에 충분한 수면을 취하려면 16시간의 휴식이 필요하고, 그마저도 @Check[type:flat|dc:15]에 성공해야 하는데, 체크에 성공해도 여전히 피곤함만 가득합니다.</p>"
-  },
-  "Lamashtu - Minor Boon": {
-    "name": "라마슈투 - 하급 은혜",
-    "description": "<p><strong>하급 은혜</strong> 라마슈투의 손길이 몸의 일부를 돌연변이시킵니다.</p>\n<p>1d6 피해를 주는 비무장 타격 또는 1d4 피해를 주는 기교와 기민한 특성을 지닌 비무장 타격 중 하나를 얻습니다.</p>\n<p>공격이 둔기, 베기, 관통 중 어떤 피해를 주는지에 따라 돌연변이가 달라집니다.</p>\n<p>비무장 타격으로 사지를 대체하더라도 돌연변이된 사지는 원래 기능으로 계속 사용할 수 있습니다. 라마슈투는 돌연변이의 형태와 기능을 선택합니다.</p>"
-  },
-  "Lamashtu - Minor Curse": {
-    "name": "라마슈투 - 하급 저주",
-    "description": "<p><strong>하급 저주</strong> 끔찍한 환영이 마음을 괴롭히며 부적절한 시기에 현실을 덮어씌웁니다. 당신은 주변의 모든 것을 마치 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{은폐}처럼 취급합니다.</p>"
-  },
-  "Lamashtu - Moderate Boon": {
-    "name": "라마슈투 - 중급 은혜",
-    "description": "<p><strong>중급 은혜(매일)</strong> 가는 곳마다 라마슈투의 악몽을 퍼뜨립니다. 신성 선천 주문으로 하루에 한 번 @UUID[Compendium.pf2e.spells-srd.Item.LiGbewa9pO0yjbsY]{혼란}을 시전할 수 있습니다.</p>"
-  },
-  "Lamashtu - Moderate Curse": {
-    "name": "라마슈투 - 중급 저주",
-    "description": "<p><strong>중급 저주</strong> 라마슈투가 당신을 먹잇감으로 표시합니다.</p>\n<p>냄새가 정확하지 않거나 더 좋은 생명체는 평소 냄새의 100배 범위에서 당신을 냄새 맡을 수 있으며, 당신이 먹잇감 냄새를 풍긴다는 느낌을 떨칠 수 없기 때문에 평소에는 같은 조상의 생명체를 공격하지 않던 사람도 당신을 공격할 수 있습니다.</p>\n<p>이 냄새는 마술처럼 그들의 액션을 강제하지 않으며, 먹이의 냄새는 동물 동반자와의 깊은 유대감을 극복하지 못합니다.</p>"
-  },
-  "Milani - Major Boon": {
-    "name": "밀라니 - 상급 은혜",
-    "description": "<p><strong>상급 은혜:</strong> 밀라니의 칙령 중 하나를 충족시키려고 시도하는 동안 요청 체크에 +4의 상태 보너스를 받습니다. 하루에 한 번, 30피트 범위 내의 생물에게 @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]{자유 이동}의 효과를 부여하는 전투 함성을 울릴 수 있으며, 모든 문, 자물쇠, 용기, 기타 구속에 사용되는 모든 속박에 @UUID[Compendium.pf2e.spells-srd.Item.6Ot4N22t5tPD51BO]{노크} 주문의 효과로 영향을 주어 다른 생물을 억압하거나 감금할 수 있게 해 줍니다.</p>"
-  },
-  "Milani - Major Curse": {
-    "name": "밀라니 - 상급 저주",
-    "description": "<p><strong>큰 저주:</strong> 작은 부상입은 상처에서 물리적으로 가능한 것보다 더 많은 출혈이 발생합니다. 베기 또는 관통 피해를 받을 때마다 피해를 입힌 생물 또는 효과의 레벨만큼 지속 출혈 피해를 받습니다.</p>"
-  },
-  "Milani - Minor Boon": {
-    "name": "밀라니 - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 한 번, 봉기군이 발각되지 않도록 기만 또는 은신 체크에서 실패를 굴리면 대신 대성공합니다. 밀라니는 일반적으로 반란군의 생존이 걸린 매우 중요한 체크에 대해 이 은혜을 부여합니다.</p>"
-  },
-  "Milani - Minor Curse": {
-    "name": "밀라니 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 아무리 제거하려 해도 두피에서 가시가 많은 붉은 장미의 마법의 화환이 끝없이 자랍니다. 관통 공격에 대한 약점이 5 증가합니다.</p>"
-  },
-  "Milani - Moderate Boon": {
-    "name": "밀라니 - 중급 은혜",
-    "description": "<p><strong>보통의 은혜:</strong> 방패를 사용하여 다른 사람을 보호할 때 방패에 날카로운 가시가 가득한 장미가 피어납니다. 선결을 충족하지 않아도 방패 수호자(투사)} 피트를 획득합니다(Compendium.pf2e.feats-srd.Item.5vXc2s2siR1ihpBT). 해당 피트를 이미 보유하고 있는 경우, 방패가 아군을 방어하다가 근접 공격으로 피해를 받으면 공격자는 방패 경도의 절반만큼 관통 피해를 받습니다.</p>"
-  },
-  "Milani - Moderate Curse": {
-    "name": "밀라니 - 중급 저주",
-    "description": "<p><strong>중급 저주:</strong> 묶거나 구속하는 데 사용되는 밧줄, 쇠사슬, 마나클, 기타 장비가 손에서 타오르는 듯 뜨겁게 달아오르며 불꽃이 터지거나 용광로에 휩싸인 것처럼 녹아내립니다. 이러한 아이템을 잡으려고 하면 @Damage[2d6[fire]] 피해를 받고 아이템이 파괴됩니다.</p>"
-  },
-  "Nethys - Major Boon": {
-    "name": "네티스 - 큰 은혜",
-    "description": "<p><strong>상급 은혜</strong> 최고의 마법 지식과 숙달이 부여됩니다.</p>\n<p>준비된 주문 시전자인 경우, 준비된 주문 중 하나를 해당 슬롯에 준비할 수 있었던 다른 주문으로 바꿀 수 있고, 즉흥 주문 시전자인 경우 주문 목록에 있는 주문 중 하나를 대신 선택할 수 있었던 다른 주문으로 바꿀 수 있습니다.</p>\n<p>두 경우 모두 집중 특성이 있는 단일 액션을 사용하여 전환할 수 있습니다. (준비된 주문 시전자가 아니거나 즉흥적으로 주문을 시전하는 경우, 네티스는 상급 은혜을 부여하지 않습니다.)</p>"
-  },
-  "Nethys - Major Curse": {
-    "name": "네티스 - 상급 저주",
-    "description": "<p><strong>상급 저주</strong> 네티스가 마법과의 연결을 끊습니다. 모든 주문 시전 능력을 잃고 앞으로 어떤 주문 시전 능력도 얻을 수 없습니다.</p>"
-  },
-  "Nethys - Minor Boon": {
-    "name": "네티스 - 하급 은혜",
-    "description": "<p><strong>하급 은혜 (1회 사용)</strong> 네티스가 위기에 처한 캐릭터를 돕기 위해 강력한 주문을 시전합니다.</p>\n<p>한 번, 네티스가 캐릭터가 시전할 수 있는 가장 높은 등급의 주문보다 1등급 높은 주문을 시전합니다. 주문을 시전할 수 없는 경우, 네티스가 1레벨 주문을 시전하여 도움을 줍니다.</p>"
-  },
-  "Nethys - Minor Curse": {
-    "name": "네티스 - 하급 저주",
-    "description": "<p><strong>하급 저주</strong> 마법의 비밀이 정신적으로 부담스러워집니다. 당신은 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}입니다.</p>"
-  },
-  "Nethys - Moderate Boon": {
-    "name": "네티스 - 중급 은혜",
-    "description": "<p><strong>중급 은혜 (1회 사용)</strong> 네티스는 마법의 비밀에 대한 통찰력을 부여합니다. 주문 목록에 다른 전통 마법의 주문 하나를 추가할 수 있습니다. 이 주문은 정상적으로 배우거나 목록에 추가해야 합니다.</p>"
-  },
-  "Nethys - Moderate Curse": {
-    "name": "네티스 - 중급 저주",
-    "description": "<p><strong>중급 저주</strong> 네티스의 결투처럼 마법이 자신과의 전쟁을 벌입니다. 주문을 시전할 때마다 @Check[type:flat|dc:11]을 시도합니다.</p>\n<p>주문이 해로웠다면 대신 같은 등급의 이로운 주문을 대상에게 시전하고, 이로운 주문이었다면 대신 같은 등급의 해로운 주문을 대상에게 시전합니다.</p>\n<p>주문이 일부 대상에게는 이득이 되고 다른 대상에게는 해가 되었다면, 같은 등급의 주문을 시전하여 수혜 대상을 바꿉니다(예: 언데드를 치유하고 산 자를 치유하는 치유 주문을 언데드를 치유하고 산 자를 해치는 해로 변경).</p>\n<p>그래도 시전하려던 주문의 주문 슬롯은 잃게 됩니다.</p>"
-  },
-  "Nivi Rhombodazzle - Major Boon": {
-    "name": "니비 롬보다즐 - 상급 은혜",
-    "description": "<p>니비를 기쁘게 한 이들은 필요한 순간에 자연스럽게 시야에서 벗어납니다.</p>\n<p>당신이 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기}거나 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{잠입}을 위해 은신 판정을 시도할 때마다, 2레벨의 @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{투명화}와 @UUID[Compendium.pf2e.spells-srd.Item.aEM2cttJ2eYcLssW]{신속한 걸음} 주문의 효과도 얻어 적을 피할 수 있습니다. 이 효과는 다음 턴이 끝날 때까지 또는 당신이 숨거나 잠입을 멈출 때까지 지속되며, 둘 중 더 빠른 쪽이 우선됩니다 (숨거나 잠입을 계속하면 이 효과를 턴마다 연장할 수 있습니다).</p>"
-  },
-  "Nivi Rhombodazzle - Major Curse": {
-    "name": "니비 롬보다즐 - 상급 저주",
-    "description": "<p><strong>상급 저주:</strong> 니비는 무모한 신봉자에게 저주를 내립니다. 내기를 제안받으면 확률에 상관없이 강제로 수락해야 합니다. @Check[will|dc:40] 내성 굴림에 성공하면 최소한 베팅의 판돈을 자신에게 유리하게 변경할 수는 있지만, 여전히 수락해야 합니다.</p>"
-  },
-  "Nivi Rhombodazzle - Minor Boon": {
-    "name": "니비 롬보다즐 - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 니비의 신뢰를 얻은 사람은 최악의 상황에서도 운이 따르는 축복을 받습니다. 한 번, 평소에 굴리던 체크 대신 @Check[flat|dc:11]을 시도하여 동일한 결과를 얻습니다. 니비는 항상 자신에게 불리한 확률이 중첩될 때 이 은혜을 부여합니다(단, 성공 가능성이 매우 높은 체크에 이 효과를 사용하면 니비의 하급 저주를 대체할 수 있습니다).</p>"
-  },
-  "Nivi Rhombodazzle - Minor Curse": {
-    "name": "니비 롬보다즐 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 니비의 신뢰를 배신한 자는 승리가 확실했던 곳에서 패배를 맛보게 됩니다. 주사위를 굴려 자연 20이 나오면 그 결과는 자연 1이 됩니다. 니비는 보통 시적 정의를 극대화하기 위해 이 저주를 사용합니다.</p>"
-  },
-  "Nivi Rhombodazzle - Moderate Boon": {
-    "name": "니비 롬보다즐 - 중급 은혜",
-    "description": "<p><strong>보통의 은혜:</strong> 니비가 자신의 기술 중 일부를 사용하여 결과를 뒤로 미루는 능력을 부여합니다. 하루에 한 번, 체크를 시도한 후 두 번째로 주사위를 굴릴 수 있습니다. 두 번째 주사위의 결과가 더 나쁘더라도 반드시 그 결과를 사용해야 합니다. 이것은 행운의 효과입니다. 이 은혜을 사용한 후 언제든지 GM은 체크 결과 중 하나를 이 은혜을 사용할 때 처음 시도한 체크 결과로 대체할 수 있으며, 이렇게 지연된 결과는 다른 신의 중보로라도 더 이상 지연되거나, 방지되거나, 영향을 받을 수 없습니다.</p>"
-  },
-  "Nivi Rhombodazzle - Moderate Curse": {
-    "name": "니비 롬보다즐 - 중급 저주",
-    "description": "<p>니비의 분노를 불러일으킨 자들은 땅에 묶여 숨을 곳이 없게 됩니다. 당신은 지속적인 @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]{요정 불꽃}에 둘러싸여 있으며, 지속적으로 @UUID[Compendium.pf2e.spells-srd.Item.gPvtmKMRpg9I9D7H]{대지 결속}의 영향을 받습니다. 또한, 당신에게 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명}를 부여하는 모든 효과는 작동하지 않습니다.</p>"
-  },
-  "Nocticula - Major Boon": {
-    "name": "녹티큘라 - 상급 은혜",
-    "description": "<p><strong>상급 은혜:</strong> 마치 신성한 예술가가 창조한 것처럼 이상적인 자신의 모습이 됩니다. 매 5레벨마다 얻는 능력 향상와 동일한 규칙을 따르는 4가지 능력 향상 세트를 영구적으로 얻습니다.</p>"
-  },
-  "Nocticula - Major Curse": {
-    "name": "녹티큘라 - 상급 저주",
-    "description": "<p><strong>중대한 저주:</strong> 동료 관계에서 추방됩니다. 다른 생명체와 대화할 수 없으며 다른 생명체의 촉감도 느낄 수 없습니다.</p>"
-  },
-  "Nocticula - Minor Boon": {
-    "name": "녹티큘라 - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 밤하늘은 특별한 방식으로 영감을 줍니다. 한 번, 밤하늘 아래에서 제작 또는 공연 체크에서 실패를 굴리면 대신 대성공합니다. 녹티큘라는 일반적으로 결과적인 작품이나 공연에 대해 이 은혜을 부여합니다.</p>"
-  },
-  "Nocticula - Minor Curse": {
-    "name": "녹티큘라 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 한밤중이 다가와 당신의 운명을 가립니다. 조명이나 감각에 관계없이 최대 60피트 거리까지만 볼 수 있습니다.</p>"
-  },
-  "Nocticula - Moderate Boon": {
-    "name": "녹티큘라 - 중급 은혜",
-    "description": "<p><strong>보통의 은혜:</strong> 자정의 힘을 빌려 여정을 안내합니다. 암시야를 얻습니다. 암시야를 이미 가지고 있다면, 하루에 한 번 신성 선천 주문으로 @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{어둠}을 시전할 수 있습니다.</p>"
-  },
-  "Nocticula - Moderate Curse": {
-    "name": "녹티큘라 - 중급 저주",
-    "description": "<p><strong>중등도 저주:</strong> 자신의 기술에 대한 의심으로 괴로워합니다. 숙련도를 향상시키는 효과와 상관없이 제작, 성능, 기타 기술 한 가지(GM이 결정하지만 저주를 불러온 사건과 관련된 주제)는 항상 훈련되지 않은 상태입니다. 해당 기술은 재훈련할 수 없습니다.</p>"
-  },
-  "Norgorber - Major Boon": {
-    "name": "노르고버 - 상급 은혜",
-    "description": "<p><strong>메이저 분</strong> 당신은 살아있는 비밀이 됩니다. 신, 유물 또는 이와 유사한 강력한 원천에서 비롯된 것이 아니라면 점술 효과와 기억을 마술처럼 바꾸려는 시도에 면역이 됩니다. 또한 평범한 방법으로 속이거나 강제로 지키고 싶은 비밀을 말하도록 강요당할 수 없습니다.</p>"
-  },
-  "Norgorber - Major Curse": {
-    "name": "노르고르버 - 상급 저주",
-    "description": "<p><strong>상급 저주 (매일)</strong> 노르고르버가 당신의 기억을 훔쳐갑니다.</p>\n<p>매일 잠에서 깨어났을 때 한 번씩 1d4를 굴립니다.</p>\n<p>1이면 전날의 사건을 영원히 잊습니다.</p>\n<p>2이면 일시적으로 그날의 완전한 역행성 기억상실을 경험하여 자신이 누구인지 등 과거의 정보를 기억할 수 없습니다.</p>\n<p>3은 그날의 중요한 주제 하나를 일시적으로 잊어버리는 경우입니다(노고버는 기념일에 배우자를 잊어버리는 등 의도적으로 고통을 유발하기 위해 기억을 선택하는 경향이 있습니다).</p>\n<p>4는 그날의 중요한 주제 하나에 대한 거짓 기억이 실제 기억과 자연스럽게 섞여 일시적으로 기억되는 경우입니다.</p>"
-  },
-  "Norgorber - Minor Boon": {
-    "name": "노르고버 - 하급 은혜",
-    "description": "<p><strong>하급 은혜 (1회 사용)</strong> 노고버는 당신의 비밀과 거짓말을 보호해줍니다. 한 번, 기만 체크에서 실패를 굴려 @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie}를 말하면 대신 대성공을 얻습니다.</p>\n<p>노고르버는 일반적으로 매우 중요한 거짓말을 보호하기 위해 이 은혜을 부여하기로 선택합니다.</p>"
-  },
-  "Norgorber - Minor Curse": {
-    "name": "노르고르버 - 하급 저주",
-    "description": "<p><strong>하급 저주</strong> 노르고버는 도둑을 허용합니다.</p>\n<p>소득을 얻을 때마다 도난, 분실 또는 불운으로 인해 작업이 2레벨 낮은 것처럼 돈을 벌 수 있습니다.</p>"
-  },
-  "Norgorber - Moderate Boon": {
-    "name": "노르고르버 - 중급 은혜",
-    "description": "<p><strong>중급 은혜</strong> 독은 영원합니다.</p>\n<p>독이 든 무기로 공격이 대실패하거나, 성공했지만 베기 또는 관통 피해를 주지 못하면 독은 소모되지 않습니다. 독은 생물에게 성공적으로 적용되었다면 여전히 소모됩니다.</p>"
-  },
-  "Norgorber - Moderate Curse": {
-    "name": "노르고르버 - 중급 저주",
-    "description": "<p><strong>중급 저주</strong> 독은 캐릭터를 빠르게 쇠약하게 만듭니다. 독에 대한 인내 내성 굴림에서 실패하면 대신 대실패가 발생합니다.</p>"
-  },
-  "Pharasma - Major Boon": {
-    "name": "파라즈마 - 큰 은혜",
-    "description": "<p><strong>메이저 분</strong> 파라스마는 당신의 운명을 완수하기 위해 당신을 살아있게 합니다.</p>\n<p>GM은 파라스마가 당신이 반드시 완수해야 하는 운명을 몰래 선택합니다. 이 운명을 완수하기 전까지는 죽을 때마다 치명적이지 않은 중한 불행이 대신 닥칩니다.</p>\n<p>회복하는 데 최소 하루가 걸리고 영구적인 결과에 직면할 수 있지만, 죽지는 않습니다. 이 은혜이 없었다면 단 한 번이라도 죽었을 것이라면, 운명이 끝나면 마지막 한숨을 내쉬고 평화롭게 죽어감.</p>"
-  },
-  "Pharasma - Major Curse": {
-    "name": "파라스마 - 상급 저주",
-    "description": "<p><strong>상급 저주</strong> 파라스마가 당신의 삶과 혈통의 종말을 의지합니다. 아이를 가질 수 없게 되며(생성 생성 능력을 포함한 어떤 방법으로도 번식할 수 없습니다), 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{파멸 2}가 됩니다.</p>"
-  },
-  "Pharasma - Minor Boon": {
-    "name": "파라즈마 - 하급 은혜",
-    "description": "<p><strong>하급 은혜 (1회 사용)</strong> 자신의 운명을 순간적으로 예언적으로 엿볼 수 있습니다.</p>\n<p>한 번, 한 번의 체크에 +2 상태 보너스를 얻습니다. 이 보너스는 결과를 확인한 후 적용할 수 있으며, 성공 정도를 바꿀 수도 있습니다.</p>"
-  },
-  "Pharasma - Minor Curse": {
-    "name": "파라스마 - 하급 저주",
-    "description": "<p><strong>하급 저주</strong> 최후의 심판에 대한 끔찍하거나 유혹적인 환영이 당면한 임무에서 주의를 분산시킵니다. 우선권 주사위 굴림에서 -2 상태 패널티를 받습니다.</p>"
-  },
-  "Pharasma - Moderate Boon": {
-    "name": "파라즈마 - 중급 은혜",
-    "description": "<p><strong>중급 은혜</strong> 삶과 죽음의 기운에 대한 숙달이 향상됩니다.</p>\n<p>일격으로 언데드에게 활력 피해 1을 줍니다.</p>\n<p>언데드에게 활력 피해를 주는 주문은 주문 레벨당 피해에 +1 상태 보너스를 받고, 산 자를 치유하는 주문은 주문 레벨당 회복하는 HP에 +1 상태 보너스를 받습니다.</p>"
-  },
-  "Pharasma - Moderate Curse": {
-    "name": "파라즈마 - 중급 저주",
-    "description": "<p><strong>중급 저주 (매일)</strong> 운명이 당신에게 등을 돌리고 끔찍한 징조를 드러냅니다. 캐릭터가 시전하거나 캐릭터가 관련된 @UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{점술}과 같은 점은 항상 비애를 암시합니다. 체크 시도 후 하루에 한 번, GM은 주사위 굴림 결과를 자연스럽게 1로 만들 수 있습니다.</p>"
-  },
-  "Rovagug - Major Boon": {
-    "name": "로바구그 - 상급 은혜",
-    "description": "<p><strong>상급 은혜</strong> 골라리온의 표면에 균열을 내어 거친 야수의 방출을 가속화할 수 있습니다. @UUID[Compendium.pf2e.feats-srd.Item.FMjihpGLn9eQ14Gw]{흔들리는 발걸음} 바바리안 피트를 획득합니다.</p>"
-  },
-  "Rovagug - Major Curse": {
-    "name": "로바구그 - 상급 저주",
-    "description": "<p><strong>상급 저주</strong> 당신은 파괴의 신호로만 유용합니다.</p>\n<p>당신은 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 되어 시야에 보이는 모든 것에 난동을 부리며 비무기와 무기 공격으로 추가 18의 피해를 입힙니다.</p>"
-  },
-  "Rovagug - Minor Boon": {
-    "name": "로바구그 - 하급 은혜",
-    "description": "<p><strong>하급 은혜 (1회 사용)</strong> 공격이 더욱 파괴적이 됩니다. 한 번, 실패하거나 성공한 공격 중 하나가 치명타가 되고, 무기 또는 비무장 공격이 이 공격에 대해 치명적인 d12 특성을 얻으며 기존에 가지고 있던 치명적인 특성을 대체합니다.</p>\n<p>로바구그는 일반적으로 치명타가 귀중하거나 중요한 것을 파괴할 수 있을 때 이 은혜을 부여합니다.</p>"
-  },
-  "Rovagug - Minor Curse": {
-    "name": "로바구그 - 하급 저주",
-    "description": "<p><strong>하급 저주</strong> 감옥에 갇힐 때마다 절망으로 가득 찬 마음으로 몸부림치며 떨고 있습니다.</p>\n<p>감옥에 억류되거나 기타 감옥에 갇힐 때마다 (감옥에 보내지는 등) 당신도 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투름 2} 및 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미한 2}가 됩니다.</p>"
-  },
-  "Rovagug - Moderate Boon": {
-    "name": "로바구그 - 중급 은혜",
-    "description": "<p><strong>중급 은혜</strong> 모든 것을 삼킬 수 있습니다. 입이 바늘 같은 이빨로 이루어진 끔찍한 원형 벌레의 아가리로 변합니다.</p>\n<p>비무장 공격으로 1d8 관통 피해를 주는 물기 공격을 얻습니다.</p>\n<p>또한 돌이나 작은 물체 등 목구멍에 들어갈 수 있는 모든 것을 위장으로 먹을 수 있습니다.</p>\n<p>질병, 독 또는 섭취한 물체의 다른 효과 등 무언가를 먹어 생기는 상태보정에 +4의 보너스를 얻습니다. 하지만 저주받은 아이템이나 유물처럼 파괴하기 어렵거나 불가능한 마법 아이템은 소화할 수 없습니다.</p>"
-  },
-  "Rovagug - Moderate Curse": {
-    "name": "로바구그 - 중급 저주",
-    "description": "<p><strong>중급 저주</strong> 파괴적인 분노가 풀리지 않으려 합니다.</p>\n<p>착용하는 모든 방어구가 자동으로 @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{부러진}이 됩니다. 소지하고 있는 다른 아이템은 시간이 지나면 가끔 @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{부러진}이 됩니다.</p>"
-  },
-  "Sarenrae - Major Boon": {
-    "name": "사렌래 - 상급 은혜",
-    "description": "<p><strong>상급 은혜</strong> 당신은 평화와 회복의 목소리입니다.</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{요청}에 체크하여 성공하면, 대신 대성공을 얻습니다.</p>\n<p>또한 악마, 언데드, 정신없는 생물을 제외한 모든 생물은 전투에 들어가기 전에 한 번 자신의 말을 하고 요청할 수 있는 기회를 허용합니다. 만약 당신이나 아군이 전투 준비 주문을 시전하거나, 전투 위치를 정하거나, 상대의 전투 준비 주문을 기다리는 등 이어지는 전투에서 이점을 얻기 위해 요청 시간을 사용했다면, 사렌래는 즉시 이 은혜을 취소하거나 아군을 저주할 수 있습니다.</p>"
-  },
-  "Sarenrae - Major Curse": {
-    "name": "사렌래 - 상급 저주",
-    "description": "<p><strong>상급 저주</strong> 사렌래가 다른 사람을 해치는 능력을 제한합니다.</p>\n<p>당신이 가하는 모든 공격, 당신이 시전하는 주문, 당신이 가하는 기타 피해는 악마와 언데드를 제외하고는 치명타가 아니며 치명타로 만들 수도 없습니다.</p>\n<p>당신은 악마와 언데드를 제외하고 최소 피해를 줍니다.</p>\n<p>악마와 언데드를 제외한 모든 생물은 당신의 공격과 다른 효과에 대한 AC와 내성 굴림에 +4 상태 보너스를 받습니다.</p>"
-  },
-  "Sarenrae - Minor Boon": {
-    "name": "사렌래 - 하급 은혜",
-    "description": "<p><strong>하급 은혜 (1회 사용)</strong> 치유하는 손에 따뜻한 불꽃의 축복이 깃듭니다.</p>\n<p>한 번, 다른 생물을 치유할 때, 그 생물이 받은 피해량에 상관없이 정상만큼 치유하는 대신, 그 생물의 체력을 최대치로 회복시킵니다.</p>\n<p>사렌래는 일반적으로 극도로 위급한 상황에서 이 은혜을 부여합니다.</p>"
-  },
-  "Sarenrae - Minor Curse": {
-    "name": "사렌래 - 하급 저주",
-    "description": "<p><strong>하급 저주</strong> 태양이 당신의 죄로 인해 당신을 태웁니다. 햇볕에 화상을 입어 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투름 1}이 됩니다.</p>"
-  },
-  "Sarenrae - Moderate Boon": {
-    "name": "사렌래 - 중급 은혜",
-    "description": "<p><strong>보통의 은혜</strong> 당신의 칼날이 구원받지 못한 자를 불태웁니다. 공격 시 화염 저항을 무시하는 추가 1d6의 화염 피해를 줍니다.</p>"
-  },
-  "Sarenrae - Moderate Curse": {
-    "name": "사렌래 - 중급 저주",
-    "description": "<p><strong>중급 저주</strong> 태양은 당신이 말하는 모든 것에 빛을 비춥니다.</p>\n<p>당신은 @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{ 거짓말}을 할 수 없게 되고, 그렇게 하려고 하면 문제의 문제에 대해 강박적으로 진실을 숨기게 됩니다. 귀하는 여전히 정보를 숨기거나 누락하여 거짓말을 할 수 있습니다.</p>"
-  },
-  "Shelyn - Major Boon": {
-    "name": "쉴린 - 상급 은혜",
-    "description": "<p><strong>상급 은혜</strong> 당신의 내면의 아름다움과 사랑이 당신을 아우라로 둘러싸고 있습니다.</p>\n<p>당신이 그들에게 악의를 품지 않는 한, 악마, 언데드 및 무의미한 생물을 제외한 모든 생물은 대신 유용한 것이 아니라면 당신에게 친절함의 태도로 시작합니다. 그렇다고 해서 그들이 당신을 위해 자신의 삶이나 계획을 바꿀 의지가 있다는 뜻은 아니며, 이 은혜은 당신이 그들을 방해하려고 해도 그들의 태도가 악화되는 것을 막지 못합니다. 이 효과는 신이나 이와 유사한 강력한 생명체에게는 적용되지 않습니다.</p>\n<p>또한, 친구와 나누는 사랑은 그들에게 영감을 줍니다. 나와 아군은 서로를 볼 수 있는 한 내성 굴림과 스킬 체크에 +3 상태 보너스를 받습니다.</p>"
-  },
-  "Shelyn - Major Curse": {
-    "name": "쉴린 - 상급 저주",
-    "description": "<p><strong>상급 저주</strong> 거짓 사랑으로 불행을 퍼뜨리는 자들은 쉴린의 가장 큰 저주에 직면합니다.</p>\n<p>외모, 목소리, 향기 또는 이와 유사한 감각 수단을 통해 다른 생명체를 구별하는 능력을 잃게 됩니다. 개미를 말이라고 착각하지 않도록 신체적 크기는 알아볼 수 있지만, 그 이상은 아무것도 알아볼 수 없습니다.</p>\n<p>당신이 단지 천박하다면, 당신이 보는 모든 생물은 평범하고 평범한 피트를 가지고 있지만, 당신의 행위가 사악하다면, 당신이 잘못한 사람들의 얼굴만 보입니다.</p>"
-  },
-  "Shelyn - Minor Boon": {
-    "name": "쉴린 - 하급 은혜",
-    "description": "<p><strong>하급 은혜</strong> 한 번, 외교 체크에서 실패를 굴리면 대신 대성공을 얻습니다.</p>\n<p>쉴린은 일반적으로 외교 체크가 사랑을 증가시키거나 구원의 기회를 제공하는 역할을 할 때만 이 은혜을 부여합니다.</p>"
-  },
-  "Shelyn - Minor Curse": {
-    "name": "쉴린 - 하급 저주",
-    "description": "<p><strong>하급 저주</strong> 양심의 가책으로 마음이 휘청거립니다. 매일 특정 잘못이 마음속에서 죄책감으로 반복해서 재생되면서 당신은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}입니다.</p>\n<p>이 상태는 필요할 때 빠르게 먹고 마실 수 있을 정도로 완화되지만, 제거할 수는 없습니다. 잘못을 뉘우치거나 다른 방법으로 진지하게 잘못을 뉘우치면 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약} 조건은 그 날 완전히 사라집니다.</p>"
-  },
-  "Shelyn - Moderate Boon": {
-    "name": "쉴린 - 중급 은혜",
-    "description": "<p><strong>중급 은혜</strong> 위대한 작품을 창조하고 모든 예술의 거장이 될 영감을 얻습니다. 제작과 연주의 모든 카테고리에서 @UUID[Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o]{특수 제작} 피트와 @UUID[Compendium.pf2e.feats-srd.Item.lFwfUvH2708rl6i3]{비르투오식 연주자} 피트를 획득합니다.</p>"
-  },
-  "Shelyn - Moderate Curse": {
-    "name": "쉴린 - 중급 저주",
-    "description": "<p><strong>중급 저주</strong> 다른 사람들은 무의식적으로 당신의 과거 배신을 인식합니다.</p>\n<p>외교 체크를 시도했다가 실패를 굴리면 대신 대실패를, 대성공을 굴리면 대신 성공을 얻습니다.</p>"
-  },
-  "Shizuru - Major Boon": {
-    "name": "시즈루 - 상급 은혜",
-    "description": "<p><strong>상급 은혜:</strong> 시즈루가 햇빛으로 만든 황금빛 갑옷을 입히거나 좋아하는 갑옷을 변신시켜 해당 능력을 얻게 해줍니다. 갑옷을 착용하고 있는 동안 1시간당 1번, 공격으로 인해 자신의 체력이 0으로 감소하면 대신 공격이 완전히 무효화됩니다.</p>"
-  },
-  "Shizuru - Major Curse": {
-    "name": "시즈루 - 상급 저주",
-    "description": "<p><strong>상급 저주:</strong> 시즈루의 개인적인 분노를 불러일으키는 자는 모든 신하들의 증오를 받습니다. 조우하는 모든 제국의 용과 동물은 자동으로 적대적이며, 드라코닉 브레스 무기에 대한 약점이 15 증가합니다.</p>"
-  },
-  "Shizuru - Minor Boon": {
-    "name": "시즈루 - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 공격이 어둠을 퇴치하는 데 도움이 됩니다. 적을 공격하는 데 성공하면 무기가 1분 동안 60피트 밖에서 밝은 빛으로 빛납니다. 이 효과는 반올림한 레벨의 절반에 해당하는 반작용 등급을 가진 빛 효과입니다.</p>"
-  },
-  "Shizuru - Minor Curse": {
-    "name": "시즈루 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 불명예스러운 행동으로 장비가 자신을 켜버립니다. 다음에 공격할 때 무기나 방어구가 @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{부러진} 상태를 얻습니다.</p>"
-  },
-  "Shizuru - Moderate Boon": {
-    "name": "시즈루 - 중급 은혜",
-    "description": "<p><strong>보통의 은혜:</strong> 시즈루의 빛이 검을 통해 흐릅니다. 무기와 비무장 공격으로 추가로 1d6의 화염 피해 또는 1d6의 영혼 피해를 주며, 공격할 때마다 선택할 수 있습니다.</p>"
-  },
-  "Shizuru - Moderate Curse": {
-    "name": "시즈루 - 중급 저주",
-    "description": "<p><strong>중급 저주:</strong> 시즈루가 자신의 빛이 더 이상 당신의 동맹이 아니라고 선언합니다. Compendium.pf2e.괴물 도감-능력-용어집-srd.Item.I0HYG0ctCLP5JRsW]{빛의 실명}을 얻습니다.</p>"
-  },
-  "Sivanah - Major Boon": {
-    "name": "시바나 - 상급 은혜",
-    "description": "<p><strong>상급 은혜:</strong> 환영을 더 넓은 영역에 퍼뜨립니다. @UUID[Compendium.pf2e.spells-srd.Item.HBJPsonQnWcC3qdX]{신기루}신기루}의 효과를 영구적으로 얻을 수 있는 영역을 지정할 수 있습니다. 이 영역 내의 모든 생물이 환영 변장의 효과를 얻고 원하는 대로 형태를 변경합니다. 새로운 영역을 1분 활동으로 지정할 수 있지만, 그렇게 하면 이전에 지정한 영역은 모두 해제됩니다.</p>"
-  },
-  "Sivanah - Major Curse": {
-    "name": "시바나 - 상급 저주",
-    "description": "<p><strong>큰 저주:</strong> 거울을 통과할 때마다 거울이 부러집니다. 어떤 종류의 환영 마법으로도 은폐될 수 없으며(주문은 자동으로 실패합니다), 당신을 보는 모든 대상이 당신의 정체를 알게 됩니다.</p>"
-  },
-  "Sivanah - Minor Boon": {
-    "name": "시바나 - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 시바나가 적들이 당신의 베일을 벗기지 못하도록 막아줍니다. 한 번, 적이 당신의 환영을 믿지 않기 위해 지각 체크에서 성공을 굴리면 대신 대실패가 발생합니다. 시바나는 일반적으로 정교하거나 결과적인 환영 속임수를 방어하기 위해 이 은혜을 부여하며, 해로운 환영의 효과를 강화하는 데는 절대 사용하지 않습니다.</p>"
-  },
-  "Sivanah - Minor Curse": {
-    "name": "시바나 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 머리카락이 일반적 또는 마법적 수단으로 바꿀 수 없는 다양한 색으로 변하고, 변장을 위한 모자, 스카프, 기타 모자 아래에서 머리카락이 자라납니다. 다른 사람에 대한 기만 스킬 체크에 -2 상태 패널티를 받습니다. @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{사칭}.</p>"
-  },
-  "Sivanah - Moderate Boon": {
-    "name": "시바나 - 중급 은혜",
-    "description": "<p><strong>보통의 은혜:</strong> 어디를 가든 환영의 베일을 착용합니다. 타고난 신성 주문으로 @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{환상의 변장}을 마음대로 시전할 수 있습니다.</p>"
-  },
-  "Sivanah - Moderate Curse": {
-    "name": "시바나 - 중급 저주",
-    "description": "<p><strong>중급 저주:</strong> 다른 사람의 비밀을 배신한 사람은 자신의 비밀이 드러납니다. 비밀을 숨기고 있는 사람은 즉시 그 사람과 관련된 비밀 중 하나를 알게 됩니다. 이 저주는 다른 사람의 비밀은 알려주지 않고 자신의 비밀만 알려줍니다.</p>"
-  },
-  "Torag - Major Boon": {
-    "name": "토라그 - 상급 은혜",
-    "description": "<p><strong>상급 은혜</strong> 보초를 서거나 위치를 지키는 것도 휴식으로 간주되어 하루에 6시간 이상 보초를 서는 동안에는 휴식 부족으로 인해 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} 상태가 되지 않습니다.</p>\n<p>다른 옵션과 더불어 보초를 서면 (있는 경우) 포커스 포인트를 회복할 수 있습니다.</p>\n<p>보초를 서 있으면 매복이나 다른 위험이 다가오는 것을 알아차리는 지각에 +4 상태 보너스를 받습니다.</p>\n<p>방패를 들고 있는 동안에는 이동 속도의 절반으로 이동할 필요 없이 항상 방어 중이며, 다른 탐험 활동도 수행할 수 있습니다.</p>\n<p>방패를 사용하는 동안 방패의 경도가 5만큼 증가합니다.</p>"
-  },
-  "Torag - Major Curse": {
-    "name": "토라그 - 상급 저주",
-    "description": "<p><strong>큰 저주</strong> 당신은 영원히 집에서 쫓겨납니다. 커뮤니티 구성원들의 태도가 두 단계 더 나빠져, 예전에는 도움이 되던 맴버가 이제는 무관심해지고, 친절했던 맴버가 이제는 불친절해지며, 다른 맴버들은 모두 적대적으로 변합니다. 반드시 폭력으로 이어지는 것은 아니지만, 적대적인 커뮤니티 멤버는 일반적으로 영구 추방을 요청합니다.</p>"
-  },
-  "Torag - Minor Boon": {
-    "name": "토라그 - 하급 은혜",
-    "description": "<p><strong>하급 은혜 (1회 사용)</strong> 토라그가 장비를 수리하여 철야를 계속할 수 있도록 합니다.</p>\n<p>한 번, 소지하거나 착용하고 있는 방패, 무기, 기타 아이템이 모든 체력을 회복합니다. 아이템의 경도가 1분 동안 두 배로 증가합니다.</p>\n<p>토라그는 아이템이 파괴될 때와 마찬가지로 이 효과를 부여하여 아이템의 파괴를 막을 수 있습니다.</p>\n<p>가끔 이 효과를 부여하여 이미 완전히 파괴된 드워프 역사에 중요한 아이템을 복원할 수 있습니다.</p>"
-  },
-  "Torag - Minor Curse": {
-    "name": "토라그 - 하급 저주",
-    "description": "<p><strong>하급 저주</strong> 조잡한 장인 정신이 드러납니다. 사용 중인 아이템이 피해를 받을 때마다 @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{부러진}이 표시됩니다.</p>"
-  },
-  "Torag - Moderate Boon": {
-    "name": "토라그 - 중급 은혜",
-    "description": "<p><strong>중급 은혜</strong> 토라그와 그의 추종자들 사이에서 가족으로 간주됩니다.</p>\n<p>토라그의 축복을 유지하는 한, 드워프가 아니더라도 토라그가 선택한 단일 드워프 종족 피트 효과를 얻습니다.</p>"
-  },
-  "Torag - Moderate Curse": {
-    "name": "토라그 - 중급 저주",
-    "description": "<p><strong>중급 저주</strong> 직접 제작한 장비로 제작 기술을 증명해야 합니다.</p>\n<p>직접 제작한 아이템으로만 아이템 보너스를 얻을 수 있습니다.</p>"
-  },
-  "Tsukiyo - Major Boon": {
-    "name": "츠키요 - 상급 은혜",
-    "description": "<p><strong>상급 은혜:</strong> 츠키요는 자신의 본성을 일부 공유하며, 자신이 걸어온 길을 따라 호의적인 영혼을 다시 인도할 수 있습니다. 다음 번에 죽어감으로써 즉시 완전한 건강 상태로 회복되고 모든 부정적인 상태를 잃게 됩니다.</p>"
-  },
-  "Tsukiyo - Major Curse": {
-    "name": "츠키요 - 상급 저주",
-    "description": "<p><strong>상급 저주:</strong> 츠키요가 인내심을 잃으면 다른 사람의 고통을 직접 경험하게 합니다. 다른 생명체를 만지거나 다른 대상이 자신을 만질 때마다 즉시 그 대상이 겪고 있는 부정적인 저주, 질병, 상태를 얻습니다. 이러한 효과는 다른 생물이나 생물이 자신에게 @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{공격}를 가했을 때도 자신에게 퍼집니다.</p>"
-  },
-  "Tsukiyo - Minor Boon": {
-    "name": "츠키요 - 하급 은혜",
-    "description": "<p><strong>하급 은혜:</strong> 츠키요의 가장 간단한 감사의 표시가 명료함의 선물입니다. 한 번, 정신 효과에 대한 내성 굴림에서 실패를 굴리면 대신 대성공을 얻습니다. 츠키요는 일반적으로 특히 치명적인 정신 효과에 대해 이 은혜을 부여합니다.</p>"
-  },
-  "Tsukiyo - Minor Curse": {
-    "name": "츠키요 - 하급 저주",
-    "description": "<p><strong>하급 저주:</strong> 츠키요의 기분을 상하게 하는 자는 빛이 자신을 적극적으로 회피합니다. 저조도 시력이나 암시야를 잃고 모든 빛의 레벨이 한 단계 낮아집니다.</p>"
-  },
-  "Tsukiyo - Moderate Boon": {
-    "name": "츠키요 - 중급 은혜",
-    "description": "<p><strong>보통의 은혜:</strong> 츠키요가 당신을 지켜보며 당신의 잠을 지켜줍니다. 어떤 조건에서 잠을 자든 평화로운 밤의 휴식을 보장받습니다. 악몽이나 이와 유사한 능력도 신, 유물 또는 이와 유사한 강력한 원천에서 나온 것이 아니라면 수면을 방해할 수 없습니다.</p>"
-  },
-  "Tsukiyo - Moderate Curse": {
-    "name": "츠키요 - 중급 저주",
-    "description": "<p><strong>중급 저주:</strong> 츠키요가 누군가에게 특별히 기분이 상한 경우, 달빛에 대한 망상에 빠져 길을 잃을 수 있습니다. 밤에 길을 찾거나 무언가를 찾으려고 할 때 지각 체크, 생존 체크, 기타 체크에서 성공 또는 대성공을 굴리면 대신 실패를 얻습니다.</p>"
-  },
-  "Urgathoa - Major Boon": {
-    "name": "우르가토아 - 큰 은혜",
-    "description": "<p><strong>상급 은혜</strong> 전염병에 걸리면 통찰력이 가득한 열병 꿈을 꿉니다.</p>\n<p>질병에 걸리면 더 이상 질병에 걸리지 않을 때까지 자신을 대상으로 @UUID[Compendium.pf2e.spells-srd.Item.qsNeG9KZpODSACMq]{예지}의 효과를 얻습니다.</p>"
-  },
-  "Urgathoa - Major Curse": {
-    "name": "우르가토아 - 상급 저주",
-    "description": "<p>우르가소아는 당신에게 죽음과 도덕성에 예속된 무의미한 삶은 비극으로 끝날 수밖에 없음을 가르칩니다.</p>\n<p>당신은 치유할 수 없는 쇠약해지는 질병에 걸리게 되어, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투름 2}와 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{쇠약 2} 상태가 되며, @UUID[Compendium.pf2e.actionspf2e.Item.Tj055UcNm6UEgtCg]{기어가기} 외에는 이동할 수 없습니다. 이 질병은 당신을 죽음에 이르게 하지는 않지만, 단지 보는 것만으로도 당신의 친구들과 사랑하는 사람들에게 전염되어 그들을 쇠약하게 만들어 죽음에 이르게 하고, 그들이 언데드로 되살아나 당신을 괴롭히게 됩니다.</p>"
-  },
-  "Urgathoa - Minor Boon": {
-    "name": "우르가토아 - 하급 은혜",
-    "description": "<p><strong>하급 은혜</strong> 삶과 죽음의 전리품을 만끽합니다. 조상에 관계없이 @UUID[Compendium.pf2e.heritages.Item.gyoN45SVfRZwHMkk]{이롱굿 고블린} 유산의 은혜을 받습니다. 이미 이 유산을 보유하고 있다면, 상황 보너스가 +4로 증가합니다.</p>"
-  },
-  "Urgathoa - Minor Curse": {
-    "name": "우르가토아 - 하급 저주",
-    "description": "<p><strong>하급 저주</strong> 금지된 음식을 과식하거나 탐닉해야만 포만감을 느낄 수 있습니다.</p>\n<p>아무리 많이 먹어도 항상 허기를 느끼지만 굶주림을 피하려면 평소보다 20배의 음식을 먹어야 합니다.</p>\n<p>영리한 동물의 살과 피를 먹으면 정상적인 식사량만 먹으면 배고픔이 사라집니다.</p>"
-  },
-  "Urgathoa - Moderate Boon": {
-    "name": "우르가토아 - 중급 은혜",
-    "description": "<p><strong>중급 은혜</strong> 우르가토아가 당신을 그녀의 자식 중 한 명으로 축복합니다. 공허 치유량이 증가합니다.</p>"
-  },
-  "Urgathoa - Moderate Curse": {
-    "name": "우르가토아 - 중급 저주",
-    "description": "<p><strong>중급 저주</strong> 우르가토아가 생명력 에너지를 차단하고 언데드의 축복을 부여하지 않습니다. 생명력 효과에 피해를 받고 언데드나 공허 치유 효과를 받은 것처럼 생명력 효과로 인한 체력을 회복하지 못하지만, 공허 효과는 정상적으로 피해를 받습니다.</p>"
-  },
-  "Zon-Kuthon - Major Boon": {
-    "name": "존쿠톤 - 상급 은혜",
-    "description": "<p><strong>주요 효과</strong> 주변의 그림자가 더 짙어집니다. 암시야와 향상된 암시야는 60피트 이내의 어둠을 투과할 수 없지만, 정상적으로 투과할 수 있습니다.</p>"
-  },
-  "Zon-Kuthon - Major Curse": {
-    "name": "존쿠톤 - 상급 저주",
-    "description": "<p><strong>상급 저주</strong> 존쿠톤이 당신의 기쁨을 빼앗아 고통만 남깁니다.</p>\n<p>당신은 가장 소중히 여기는 것을 영원히 잃고 기쁨을 느끼는 능력을 잃게 됩니다. 긍정적인 감정에 기반한 감정 효과의 이점을 얻을 수 없습니다.</p>\n<p>존쿠톤은 한때 가장 소중히 여겼던 것을 포기하거나, 파괴하거나, 훼손하거나, 고문할 준비가 되었다고 판단되면 이를 허용하기 위해 그것을 돌려줄 수 있습니다.</p>"
-  },
-  "Zon-Kuthon - Minor Boon": {
-    "name": "존쿠톤 - 하급 은혜",
-    "description": "<p><strong>하급 은혜 (1회 사용)</strong> 한밤의 군주가 자신의 피와 고통을 한밤의 어둠의 사슬로 바꿔 적을 파괴합니다.</p>\n<p>1분 동안 한 번, 베기, 관통, 출혈 피해를 받을 때마다 자신의 몸에서 사슬이 튀어나와 공격한 방향(출혈 피해의 경우 자신이 선택한 방향, 또는 자신이 피해를 준 경우)의 일렬로 있는 생물에게 영향을 주며 @UUID[Compendium.pf2e.spells-srd.Item.k34hDOfIIMAxNL4a]{그림자 덩굴손} 효과를 부여합니다. 주문의 레벨은 반올림한 레벨의 절반에 해당하고 주문 DC는 자신의 최고 주문 DC(또는 주문 DC가 없는 경우 10 + 자신의 레벨 + 지혜 수정치)입니다.</p>"
-  },
-  "Zon-Kuthon - Minor Curse": {
-    "name": "존쿠톤 - 하급 저주",
-    "description": "<p><strong>하급 저주</strong> 당신은 항상 @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{방해받음} 상태가 되고, 시끄러운 특성을 가진 갑옷과 동일한 효과를 받는 스펙트럼 사슬에 둘러싸여 있습니다.</p>"
-  },
-  "Zon-Kuthon - Moderate Boon": {
-    "name": "존쿠톤 - 중급 은혜",
-    "description": "<p><strong>보통의 은혜 (매일)</strong> 매일 아침, 하루 일과를 준비하는 동안 살갗에 상처가 모여 단어가 됩니다.</p>\n<p>상처는 존쿠톤이 선택한 신성 주문의 두루마리 역할을 합니다.</p>\n<p>두루마리를 사용하거나 마법 치유를 받으면 하루 동안 은혜이 사라지지만, 상처의 일부 또는 전체가 알림으로 남아있을 수 있습니다.</p>"
-  },
-  "Zon-Kuthon - Moderate Curse": {
-    "name": "존쿠톤 - 중급 저주",
-    "description": "<p><strong>중급 저주</strong> 타인의 고통을 공유하며, 사소한 부상입은 것에도 엄청난 고통을 느낍니다.</p>\n<p>생물이 피해를 입는 것을 보거나 감지할 때마다 @Damage[1d6[mental]] 피해를 받습니다.</p>\n<p>이 저주의 첫 번째가 아닌 다른 방식으로 피해를 받을 때마다, 캐릭터는 고통 증가에 따른 @Damage[1d6[mental]] 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}이 됩니다. 이 저주로 인한 정신 피해는 정신 피해에 대한 저항을 무시합니다.</p>"
-  }
-}
+	"label": "Divine Intercessions",
+	"entries": {
+		"Abadar - Major Boon": {
+			"name": "Abadar - Major Boon",
+			"description": "<p>Your silver tongue is infallible, allowing you to reach a compromise if one is even remotely possible.</p>\n<p>Once per day, you know just what to offer to make a deal or broker a negotiation, and if you offer your divinely inspired deal, you can automatically receive a result of 20 + your Diplomacy modifier on your Diplomacy check instead of rolling. This does not increase your degree of success like rolling a 20 would.</p>\n<p>If there is legitimately nothing you could offer to reach an agreement, you learn that, and you don't expend your daily use of the boon.</p>"
+		},
+		"Abadar - Major Curse": {
+			"name": "Abadar - Major Curse",
+			"description": "<p>You become honest to a fault. You constantly suffer the critical failure effect of @UUID[Compendium.pf2e.spells-srd.Item.aewxsale5xWEPKLk]{Ring of Truth}. Additionally, you are always offered the worst possible option in a bargain.</p>"
+		},
+		"Abadar - Minor Boon": {
+			"name": "Abadar - Minor Boon",
+			"description": "<p>Abadar warns his favored against those who might unfairly take advantage.</p>\n<p>Once, when someone rolls a success on a Deception check to @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie} maliciously to you and you alone, they get a critical failure instead.</p>\n<p>Abadar typically chooses to grant this boon in response to an extremely consequential lie.</p>"
+		},
+		"Abadar - Minor Curse": {
+			"name": "Abadar - Minor Curse",
+			"description": "<p>Any time you steal, illegally harm or kill another creature, or undermine a law-abiding officer or court, a symbol or word describing your crime appears on a visible spot on your skin. This symbol cannot be removed or hidden with makeup (though it can be covered with clothing) and it doesn't vanish until you make legal restitution for the crime, such as by serving your sentence.</p>"
+		},
+		"Abadar - Moderate Boon": {
+			"name": "Abadar - Moderate Boon",
+			"description": "<p>Abadar blesses all your enterprises, leading to financial success as all your ventures always seems to work out.</p>\n<p>If you roll a critical failure at a check to @UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{Earn Income}, you get a failure instead.</p>\n<p>If you roll a success on a check to Earn Income, you earn twice the usual amount of income.</p>"
+		},
+		"Abadar - Moderate Curse": {
+			"name": "Abadar - Moderate Curse",
+			"description": "<p>Abadar curses all your enterprises, leading to financial disaster as all your ventures always seem to fail. The result of your check to @UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{Earn Income} is always one degree of success worse than the one you rolled.</p>"
+		},
+		"Achaekek - Major Boon": {
+			"name": "Achaekek - Major Boon",
+			"description": "<p>You gain the @UUID[Compendium.pf2e.classfeatures.Item.j1JE61quDxdge4mg]{Sneak Attack} rogue class feature, dealing 3d6 precision damage. If you already have that class feature, you increase your sneak attack damage by 3d6.</p>"
+		},
+		"Achaekek - Major Curse": {
+			"name": "Achaekek - Major Curse",
+			"description": "<p>The Mantis God doesn't waste his time toying with or tormenting those who truly anger him or those who dare to consider themselves divine. He rips open a portal to your location, kills you, drags your soul to judgment in a way that prevents resurrection magic, and then leaves.</p>"
+		},
+		"Achaekek - Minor Boon": {
+			"name": "Achaekek - Minor Boon",
+			"description": "<p>Once, when you would fail a Stealth check, you critically succeed instead.</p>\n<p>Achaekek typically grants this boon for an extremely consequential Stealth check that could lead to an assassination, such as one that could get you into position to kill an important target, but rarely on a Stealth check to help you escape.</p>"
+		},
+		"Achaekek - Minor Curse": {
+			"name": "Achaekek - Minor Curse",
+			"description": "<p>Non-sapient insects (especially mantises) become hostile against you.</p>"
+		},
+		"Achaekek - Moderate Boon": {
+			"name": "Achaekek - Moderate Boon",
+			"description": "<p>You can cast @UUID[Compendium.pf2e.spells-srd.Item.TaaMEYdZXQXF0Sks]{Blood Vendetta} once per day as an innate divine spell; this spell automatically heightens to a rank equal to your half your level.</p>"
+		},
+		"Achaekek - Moderate Curse": {
+			"name": "Achaekek - Moderate Curse",
+			"description": "<p>Hubris brings death. Your name and location are projected into the mind of a Red Mantis assassin, who is tasked with eliminating you.</p>"
+		},
+		"Alseta - Major Boon": {
+			"name": "Alseta - Major Boon",
+			"description": "<p>You transition unimpeded through the world.</p>\n<p>You can open any door or portal simply by placing your palm upon it with a single Interact action, even if it's locked or magically sealed, and you can enter any open door or threshold, even if it's magically warded to prevent entry. This doesn't overcome the locks and magic of artifacts, deities, and similarly powerful effects.</p>"
+		},
+		"Alseta - Major Curse": {
+			"name": "Alseta - Major Curse",
+			"description": "<p>Transportation magic no longer works for you. You cannot be transported by any magical means, nor can you transport, conjure, or summon others. Even extradimensional spaces like @UUID[Compendium.pf2e.equipment-srd.Item.jaEEvuQ32GjAa8jy]{bags of holding} are inaccessible and unusable to you, as using them requires magical transportation to the extradimensional space.</p>"
+		},
+		"Alseta - Minor Boon": {
+			"name": "Alseta - Minor Boon",
+			"description": "<p>Alseta's guiding hand aids your journeys.</p>\n<p>Once, when employing teleportation magic, you appear exactly on target, even if you used a notoriously imprecise spell like @UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]{Interplanar Teleport}.</p>\n<p>Alseta typically grants this boon for extremely consequential magical travel, especially when time is of the essence.</p>"
+		},
+		"Alseta - Minor Curse": {
+			"name": "Alseta - Minor Curse",
+			"description": "<p>Doors jam and locks stick when you try to open them. It takes 3 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact} actions for you to open even an unlocked door, and each attempt to @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{Pick a Lock} takes you 2 rounds instead of 2 actions.</p>"
+		},
+		"Alseta - Moderate Boon": {
+			"name": "Alseta - Moderate Boon",
+			"description": "<p>New doors open themselves for you. You can cast @UUID[Compendium.pf2e.spells-srd.Item.6Ot4N22t5tPD51BO]{Knock} once per day as a divine innate spell.</p>"
+		},
+		"Alseta - Moderate Curse": {
+			"name": "Alseta - Moderate Curse",
+			"description": "<p>Crossing thresholds becomes daunting. Whenever you move through a portal, gateway, or door, you gain the @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} condition. Magical travel is even more exhausting; after traveling via teleportation, @UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]{Interplanar Teleport}, or the like, you also gain the @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} condition until you get a full night's rest.</p>"
+		},
+		"Arazni - Major Boon": {
+			"name": "Arazni - Major Boon",
+			"description": "<p>Upon death, you return to life with the effects of a critical success on a @UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO]{Resurrect} ritual to enact vengeance against your killers. When you successfully achieve vengeance, abandon your vengeance for other pursuits, or fail outright, you crumble to scarlet dust.</p>"
+		},
+		"Arazni - Major Curse": {
+			"name": "Arazni - Major Curse",
+			"description": "<p>When you would regain Hit Points due to either a vitality or void effect, you lose that many Hit Points instead.</p>"
+		},
+		"Arazni - Minor Boon": {
+			"name": "Arazni - Minor Boon",
+			"description": "<p>Once, when you fail a saving throw against an effect that would compel you to take some action against your will, you critically succeed instead.</p>\n<p>Arazni typically grants this boon for consequential actions or particularly egregious violations of free will.</p>"
+		},
+		"Arazni - Minor Curse": {
+			"name": "Arazni - Minor Curse",
+			"description": "<p>Someone you've wronged gains information they desire about you, with the effects of a critical success at the @UUID[Compendium.pf2e.spells-srd.Item.7DN13ILADW2N9Z1t]{Commune} ritual.</p>"
+		},
+		"Arazni - Moderate Boon": {
+			"name": "Arazni - Moderate Boon",
+			"description": "<p>Blood from your wounds forms into armor or a piece of equipment you need. If what you need most is information, the blood forms letters spelling out that information.</p>"
+		},
+		"Arazni - Moderate Curse": {
+			"name": "Arazni - Moderate Curse",
+			"description": "<p>Creatures weaker than you gain a status bonus on all attack rolls against you equal to your difference in levels, to a maximum of +4. Whenever you are damaged by a such a creature, you take persistent bleed damage equal to twice the difference between your levels (no maximum).</p>"
+		},
+		"Asmodeus - Major Boon": {
+			"name": "Asmodeus - Major Boon",
+			"description": "<p>Asmodeus helps enforce your bargains and contracts.</p>\n<p>When a creature enters a bargain or contract with you, uncoerced and of its own free will, it can't voluntarily violate its side of the bargain as long as you uphold your side. You can always choose to violate the bargain yourself, but if you do, the creature is no longer bound to fulfill its part.</p>"
+		},
+		"Asmodeus - Major Curse": {
+			"name": "Asmodeus - Major Curse",
+			"description": "<p>Asmodeus has taken note of the chaos you have wrought. You receive an ancient wound that feels older than time itself. You become permanently @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 4}, and nothing short of another intercession can remove the condition.</p>\n<p>Your wound aches fiercely whenever you perform a particularly chaotic act, causing you to become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>"
+		},
+		"Asmodeus - Minor Boon": {
+			"name": "Asmodeus - Minor Boon",
+			"description": "<p>Pleased by your talent for manipulation, Asmodeus amplifies your skills.</p>\n<p>Once, when you fail at the Diplomacy check to make a significant or consequential @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Request}, you can cast @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H]{Suggestion} on the target of your Request, suggesting the same course of action. This is a divine innate spell.</p>"
+		},
+		"Asmodeus - Minor Curse": {
+			"name": "Asmodeus - Minor Curse",
+			"description": "<p>Asmodeus's flames burn you with great malice. You gain weakness 5 to fire.</p>"
+		},
+		"Asmodeus - Moderate Boon": {
+			"name": "Asmodeus - Moderate Boon",
+			"description": "<p>Your eyes glow red like embers and your skin takes on a crimson tone. You gain darkvision and fire resistance 5.</p>"
+		},
+		"Asmodeus - Moderate Curse": {
+			"name": "Asmodeus - Moderate Curse",
+			"description": "<p>Asmodeus forces your compliance. You can't voluntarily back out of an agreement or contract or go back on your word, though you need follow only the letter of the agreement, not the spirit.</p>"
+		},
+		"Besmara - Major Boon": {
+			"name": "Besmara - Major Boon",
+			"description": "<p>You seem to be unaffected by storms.</p>\n<p>You ignore all effects and penalties caused by precipitation and winds, and you can see normally through fog, rain, and other weather conditions.</p>"
+		},
+		"Besmara - Major Curse": {
+			"name": "Besmara - Major Curse",
+			"description": "<p>You meet extreme financial ruin for daring to gravely offend the Pirate Queen. Besmara's agents steal all your booty and bring the spoils to Besmara's ship, <em>Seawraith</em>. If you want a chance to recover your lost wealth, you must parlay with the goddess and accept whatever dangerous terms she offers, usually requiring a heist she will find sufficiently amusing to watch whether you succeed or fail, and requiring you to trade your spoils from that quest for your previous belongings.</p>"
+		},
+		"Besmara - Minor Boon": {
+			"name": "Besmara - Minor Boon",
+			"description": "<p>Besmara wants you to amuse her, placing both plunder and peril in your path.</p>\n<p>This intercession often takes the form of an unexpected treasure map, a message in a bottle, or some other sign leading you to a great reward, assuming you can handle the challenges along the way.</p>"
+		},
+		"Besmara - Minor Curse": {
+			"name": "Besmara - Minor Curse",
+			"description": "<p>You feel some of the effects of scurvy, making your wounds flow more easily. The DC of the flat check for you to remove persistent bleed damage is 20 instead of 15 (or 15 instead of 10 if using extremely efficient methods to assist your recovery), and you don't recover from persistent bleed damage automatically when you reach full Hit Points.</p>"
+		},
+		"Besmara - Moderate Boon": {
+			"name": "Besmara - Moderate Boon",
+			"description": "<p>You are at home on the seas and always ready to plunder an enemy vessel or defend your own. When aboard a boat, you gain a +2 status bonus to all initiative rolls, Acrobatics checks to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance}, and Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb}. In addition, you never get seasick.</p>"
+		},
+		"Besmara - Moderate Curse": {
+			"name": "Besmara - Moderate Curse",
+			"description": "<p>You get seasick, becoming @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} whenever you can see the sea or are on a boat at sea. You can't reduce this condition until you can no longer see the sea or are off the boat, though you can manage to stomach enough food and water to survive on a voyage, with extreme discomfort.</p>"
+		},
+		"Brigh - Major Boon": {
+			"name": "Brigh - Major Boon",
+			"description": "<p>You gain the companionship of a loyal construct ally of Brigh's choice at least 1 level lower than you. If the construct is destroyed, it rebuilds itself over the course of a week, and as you gain levels, the construct upgrades and improves itself, becoming more powerful.</p>"
+		},
+		"Brigh - Major Curse": {
+			"name": "Brigh - Major Curse",
+			"description": "<p>Constructs—even mindless constructs you thought you could control—seek your demise. All constructs are hostile to you and attack you when they notice your presence. Occasionally, inanimate statues and other objects animate as constructs to pursue Brigh's vengeance.</p>"
+		},
+		"Brigh - Minor Boon": {
+			"name": "Brigh - Minor Boon",
+			"description": "<p>Knowledge floods your mind.</p>\n<p>Once, you can reroll a failed skill check to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}; you must use the second result, even if it's worse.</p>"
+		},
+		"Brigh - Minor Curse": {
+			"name": "Brigh - Minor Curse",
+			"description": "<p>Your hands shake when attempting delicate work. All your failures to @UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{Craft} or @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Repair} items are instead critical failures.</p>"
+		},
+		"Brigh - Moderate Boon": {
+			"name": "Brigh - Moderate Boon",
+			"description": "<p>You become a wellspring of invention. You gain the @UUID[Compendium.pf2e.feats-srd.Item.XR95taODq1sq82Du]{Inventor} feat, even if you don't meet its prerequisites, and when you roll a Crafting check for the Inventor feat, you use the result one degree of success better than the result you rolled.</p>"
+		},
+		"Brigh - Moderate Curse": {
+			"name": "Brigh - Moderate Curse",
+			"description": "<p>Whenever you try to perform engineering or science tasks, everything just seems to explode. Whenever you attempt to create or use an alchemical item or a construct, @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Disable a Device}, and so on, you must attempt a @Check[flat|dc:15]. On a failure, something explodes and you take @Damage[1d6[fire]] damage (or a different type of damage, if appropriate) per level of the item, construct, or device (@Check[reflex|dc:40|basic] save).</p>"
+		},
+		"Calistria - Major Boon": {
+			"name": "Calistria - Major Boon",
+			"description": "<p>Calistria guides you towards vengeance.</p>\n<p>You always know the direction and distance towards the nearest creature that has wronged you and thus far gone unpunished.</p>"
+		},
+		"Calistria - Major Curse": {
+			"name": "Calistria - Major Curse",
+			"description": "<p>You have wronged those unable to obtain revenge for themselves, and Calistria's curse grants their revenge its own life.</p>\n<p>Whenever another creature imagines vengeance upon you but can't pursue that vengeance because you are too powerful, well connected, or otherwise untouchable, a creature of roughly your level manifests out of their imagination and performs their desired revenge.</p>\n<p>Once the revenge is complete or the manifestation is destroyed, the summoned creature vanishes from existence.</p>"
+		},
+		"Calistria - Minor Boon": {
+			"name": "Calistria - Minor Boon",
+			"description": "<p>Calistria smiles on the riskiest deceptions.</p>\n<p>Once, when you roll a failure on a check to @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie}, you get a critical success instead.</p>\n<p>Calistria typically grants this boon for an extremely consequential lie.</p>"
+		},
+		"Calistria - Minor Curse": {
+			"name": "Calistria - Minor Curse",
+			"description": "<p>Whenever a new person desires vengeance against you, you suffer a painful sting and are afflicted with @UUID[Compendium.pf2e.equipment-srd.Item.aBOPYlfHAcXUmhF7]{Giant Wasp Venom} at stage 1.</p>"
+		},
+		"Calistria - Moderate Boon": {
+			"name": "Calistria - Moderate Boon",
+			"description": "<p>A foot-long wasp finds and befriends you. It serves you as a familiar as long as you maintain Calistria's grace. The wasp always has the @UUID[Compendium.pf2e.familiar-abilities.Item.uy15sDBuYNK48N3v]{Burrower} and @UUID[Compendium.pf2e.familiar-abilities.Item.ZHSzNt3NxkXbj1mI]{Flier} familiar abilities.</p>"
+		},
+		"Calistria - Moderate Curse": {
+			"name": "Calistria - Moderate Curse",
+			"description": "<p>People react as though you're insulting them, even in normal conversation. Whenever you attempt to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression}, the outcome is one degree of success worse than the result of your roll. If you converse with someone over a long enough period of time but don't attempt to Make an Impression, you still insult them, and you suffer the effect of a critical failure to Make an Impression.</p>"
+		},
+		"Casandalee - Major Boon": {
+			"name": "Casandalee - Major Boon",
+			"description": "<p>Casandalee backs up your memory and soul within her divine data flow.</p>\n<p>After you die, she casts your consciousness into a new artificial body. While Casandalee constructed your new body artificially, it is otherwise similar to the old, with the same effects as a critical success on a @UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO]{Resurrect} ritual. Casandalee is instead willing to provide different bodies to those who request them.</p>"
+		},
+		"Casandalee - Major Curse": {
+			"name": "Casandalee - Major Curse",
+			"description": "<p>The code of your soul is constantly being rewritten, and not for the better. You are never temporarily immune against a harmful effect.</p>"
+		},
+		"Casandalee - Minor Boon": {
+			"name": "Casandalee - Minor Boon",
+			"description": "<p>Casandalee frees your thinking from dangerous control.</p>\n<p>Once, when you fail a Will save against an effect that would control your actions, you critically succeed instead.</p>\n<p>Casandalee typically grants this boon for particularly consequential violations of autonomy and agency.</p>"
+		},
+		"Casandalee - Minor Curse": {
+			"name": "Casandalee - Minor Curse",
+			"description": "<p>Your joints stiffen, and your mind becomes clouded. You take a -2 status penalty to all rolls for initiative.</p>"
+		},
+		"Casandalee - Moderate Boon": {
+			"name": "Casandalee - Moderate Boon",
+			"description": "<p>Your organs are partially transformed into mechanical counterparts. You gain resistance 10 to void damage, and the DC of your flat check to remove persistent bleed damage is only 5.</p>"
+		},
+		"Casandalee - Moderate Curse": {
+			"name": "Casandalee - Moderate Curse",
+			"description": "<p>Casandalee attempts to bring you unwanted intellectual advancement to help you become something better. Each day, at some point during the day, Casandalee bestows a strange insight upon you that you find uncomfortable. If you embrace it, you aren't otherwise affected, but if you don't, you become @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 10 minutes.</p>"
+		},
+		"Cayden Cailean - Major Boon": {
+			"name": "Cayden Cailean - Major Boon",
+			"description": "<p>An embodiment of freedom, you break fetters with ease.</p>\n<p>At the end of each of your turns, you can end one effect that is currently making you @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} (including effects that make you immobilized by @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbing} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restraining} you) as a free action.</p>"
+		},
+		"Cayden Cailean - Major Curse": {
+			"name": "Cayden Cailean - Major Curse",
+			"description": "<p>Cayden curses you to suffer in the presence of drinking, making it hard for you to bear entering any tavern.</p>\n<p>Whenever any creature drinks alcohol within 100 feet of you, you suffer all negative effects from the alcohol (but only the alcohol) instead. This doesn't apply if the creature gains any special effect from drinking alcohol.</p>"
+		},
+		"Cayden Cailean - Minor Boon": {
+			"name": "Cayden Cailean - Minor Boon",
+			"description": "<p>Cayden Cailean helps you recover from nights of carousing.</p>\n<p>While you still get drunk and otherwise experience the effects of alcohol normally, you are never hung over the next morning.</p>"
+		},
+		"Cayden Cailean - Minor Curse": {
+			"name": "Cayden Cailean - Minor Curse",
+			"description": "<p>Individuals who raise Cayden's passing displeasure awake as if from a hard night of drinking and find that drink tastes foul.</p>"
+		},
+		"Cayden Cailean - Moderate Boon": {
+			"name": "Cayden Cailean - Moderate Boon",
+			"description": "<p>You share some of the bravery Cayden espoused during his ascension.</p>\n<p>When you roll a success on a saving throw against a fear effect, you get a critical success instead. If you have the fighter @UUID[Compendium.pf2e.classfeatures.Item.GJKJafDGuX4BeAeN]{Bravery} class feature, when you roll a critical failure on a save against a fear effect, you get a failure instead.</p>"
+		},
+		"Cayden Cailean - Moderate Curse": {
+			"name": "Cayden Cailean - Moderate Curse",
+			"description": "<p>Cayden has afflicted you with cowardice. Whenever you roll a critical success on a saving throw against a fear effect, you get a success instead, and each time you roll a failure on a saving throw against a fear effect, you get a critical failure instead.</p>"
+		},
+		"Chaldira - Major Boon": {
+			"name": "Chaldira - Major Boon",
+			"description": "<p>Chaldira's major boon grants truly improbable luck in combat.</p>\n<p>Your movement doesn't trigger reactions. You always succeed at flat checks you make to hit opponents with attack actions; this is a fortune effect.</p>"
+		},
+		"Chaldira - Major Curse": {
+			"name": "Chaldira - Major Curse",
+			"description": "<p>Ill luck causes even once-certain aid to fail with frustrating regularity. You cannot benefit from circumstance or status bonuses, or from fortune effects.</p>"
+		},
+		"Chaldira - Minor Boon": {
+			"name": "Chaldira - Minor Boon",
+			"description": "<p>Once, you can choose the result of the next ordinary coin you flip or ordinary die you roll. If this ability is used for personal gain at the expense of someone innocent or less fortunate, Chaldira levies her moderate curse on you as punishment.</p>"
+		},
+		"Chaldira - Minor Curse": {
+			"name": "Chaldira - Minor Curse",
+			"description": "<p>Any time you refuse a request made in good faith, you vomit up a frog, mouse, or other small animal. This deals no damage and causes no conditions, but is obvious to all bystanders.</p>"
+		},
+		"Chaldira - Moderate Boon": {
+			"name": "Chaldira - Moderate Boon",
+			"description": "<p>You gain a lucky impetuousness, allowing you to roll for initiative twice and use the higher result once per day. This is a fortune effect.</p>"
+		},
+		"Chaldira - Moderate Curse": {
+			"name": "Chaldira - Moderate Curse",
+			"description": "<p>You are plagued with ill luck just when fortune is most needed. You must always roll flat checks twice and use the worse result. This is a misfortune effect.</p>"
+		},
+		"Desna - Major Boon": {
+			"name": "Desna - Major Boon",
+			"description": "<p>Desna bestows you with a swirling cloud of lights that forms a pair of wondrous butterfly wings. These wings grant you a fly Speed of 40 feet and shine dim light to a range of 20 feet.</p>"
+		},
+		"Desna - Major Curse": {
+			"name": "Desna - Major Curse",
+			"description": "<p>The stars rebuke you for your ways. You are @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 4} and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} whenever you are exposed to starlight.</p>"
+		},
+		"Desna - Minor Boon": {
+			"name": "Desna - Minor Boon",
+			"description": "<p>For those at the end of a journey, Desna gifts a deep sleep.</p>\n<p>Once, after you rest, you completely recover all Hit Points, remove all negative conditions, and become free of any curses or diseases.</p>"
+		},
+		"Desna - Minor Curse": {
+			"name": "Desna - Minor Curse",
+			"description": "<p>You always seem to lose your way or have strange mishaps on the road that delay your travel.</p>\n<p>You (and thus any group that travels with you) travel at only 3/4 normal exploration Speed, before taking into account the terrain and other features that might slow you down further.</p>"
+		},
+		"Desna - Moderate Boon": {
+			"name": "Desna - Moderate Boon",
+			"description": "<p>Desna twists fortune in your favor.</p>\n<p>Once per day, after determining the result of a check, you can reroll the check and take the new result.</p>"
+		},
+		"Desna - Moderate Curse": {
+			"name": "Desna - Moderate Curse",
+			"description": "<p>Misfortune follows you in your travels and requires acts of contrition or benevolence to keep at bay.</p>\n<p>You must always roll twice and take the worst result when attempting a check. This is a misfortune effect.</p>\n<p>You can express your remorse and ignore this effect for [[/gmr 1d4 #rounds]]{1d4 rounds} by spending an action, which has the concentrate trait.</p>\n<p>If you perform a truly selfless act of compassion, you ignore this effect for 1 day.</p>"
+		},
+		"Effect: Abadar's Warning": {
+			"name": "Effect: Abadar's Warning",
+			"description": "<p>Granted by @UUID[Compendium.pf2e.boons-and-curses.Item.fXEeTSVINdWaKHhw]{Abadar - Minor Boon}</p>\n<p>Once, when someone rolls a success on a Deception check to @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie} maliciously to you and you alone, they get a critical failure instead.</p>"
+		},
+		"Effect: Grandmother Spider's Underdog": {
+			"name": "Effect: Grandmother Spider's Underdog",
+			"description": "<p>Granted by @UUID[Compendium.pf2e.boons-and-curses.Item.NV1w0rwc7Tkhhkac]{Grandmother Spider - Major Curse}</p>\n<p>Any time a creature with a level lower than yours rolls a success on a check against you, it critically succeeds instead.</p>"
+		},
+		"Effect: Gruhastha's Inspiration": {
+			"name": "Effect: Gruhastha's Inspiration",
+			"description": "<p>Granted by @UUID[Compendium.pf2e.boons-and-curses.Item.9jxwttnEfxrOaCsY]{Gruhastha - Major Boon}</p>\n<p>Allies within 60 feet gain a +2 status bonus to Will saves.</p>"
+		},
+		"Effect: Rovagug's Destruction": {
+			"name": "Effect: Rovagug's Destruction",
+			"description": "<p>Granted by @UUID[Compendium.pf2e.boons-and-curses.Item.4FkVB4uQK4eHZJ6Z]{Rovagug - Minor Boon}</p>\n<p>Your weapon or unarmed attack gains the deadly d12 trait.</p>"
+		},
+		"Effect: Shelyn's Love": {
+			"name": "Effect: Shelyn's Love",
+			"description": "<p>Granted by @UUID[Compendium.pf2e.boons-and-curses.Item.l7n8n4fAoRLIn95W]{Shelyn - Major Boon}</p>\n<p>You and your allies gain a +3 status bonus to saving throws and skill checks as long as you can see each other.</p>"
+		},
+		"Effect: Shizuru's Light": {
+			"name": "Effect: Shizuru's Light",
+			"description": "<p>Granted by @UUID[Compendium.pf2e.boons-and-curses.Item.KuNcNP42LxehKnaV]{Shizuru - Minor Boon}</p>\n<p>Your weapon glows with bright light out to 60 feet.</p>"
+		},
+		"Effect: Torag's Repairs": {
+			"name": "Effect: Torag's Repairs",
+			"description": "<p>Granted by @UUID[Compendium.pf2e.boons-and-curses.Item.e7Y4jKHQ3ptbSuxc]{Torag - Minor Boon}</p>\n<p>The item's Hardness doubles.</p>"
+		},
+		"Erastil - Major Boon": {
+			"name": "Erastil - Major Boon",
+			"description": "<p>You become a friend to the land.</p>\n<p>You can cast @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]{Speak with Plants} as a divine innate spell.</p>\n<p>When you are in a healthy natural environment, the land sustains you without need for food or drink.</p>\n<p>You can cast the @UUID[Compendium.pf2e.spells-srd.Item.7DN13ILADW2N9Z1t]{Commune} ritual without any secondary casters or secondary checks.</p>"
+		},
+		"Erastil - Major Curse": {
+			"name": "Erastil - Major Curse",
+			"description": "<p>Erastil leaves you unable to have children (or otherwise reproduce or propagate if you do so in a different manner). This curse also affects your livestock, pets, and crops.</p>"
+		},
+		"Erastil - Minor Boon": {
+			"name": "Erastil - Minor Boon",
+			"description": "<p>Erastil shares in his bounty as long as you work for it.</p>\n<p>Whenever you roll a critical failure at a check to @UUID[Compendium.pf2e.actionspf2e.Item.49y9Ec4bDii8pcD3]{Subsist} in the wild, you get a failure instead.</p>"
+		},
+		"Erastil - Minor Curse": {
+			"name": "Erastil - Minor Curse",
+			"description": "<p>Erastil curses your table and punishes you for relying on others' hard work. Any food you didn't grow, gather, or otherwise harvest yourself tastes like ash and leaves you @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}.</p>"
+		},
+		"Erastil - Moderate Boon": {
+			"name": "Erastil - Moderate Boon",
+			"description": "<p>You share Erastil's sharp eye, allowing you to use a longbow in any situation.</p>\n<p>When you attack with a longbow, you can ignore the longbow's volley trait, and longbows have double the normal range increment for you.</p>"
+		},
+		"Erastil - Moderate Curse": {
+			"name": "Erastil - Moderate Curse",
+			"description": "<p>Erastil's beasts take a dislike to you. Animals' attitudes toward you are one category worse (friendly instead of helpful, indifferent instead of friendly, and so on).</p>"
+		},
+		"Ghlaunder - Major Boon": {
+			"name": "Ghlaunder - Major Boon",
+			"description": "<p>Ghlaunder rewards his followers with the ability to safely spread illness—or on occasion, offers respite to desperate petitioners who please him.</p>\n<p>You do not take negative effects from any disease you are infected with unless or until Ghlaunder rescinds this benefit.</p>"
+		},
+		"Ghlaunder - Major Curse": {
+			"name": "Ghlaunder - Major Curse",
+			"description": "<p>You are struck with a contagious disease of the GM's choice. You and anyone else you infect can't be cured of the disease or improve its condition to an earlier stage in any way until you infect two other sapient beings with the disease.</p>"
+		},
+		"Ghlaunder - Minor Boon": {
+			"name": "Ghlaunder - Minor Boon",
+			"description": "<p>Your commitment to filth draws a small cloud of disease-laden insects.</p>\n<p>Once, you can summon a cloud of midges, mosquitos, and flies to surround you for 1 minute. Creatures adjacent to you at any point during that time become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}, and exposed to a blood-borne illness.</p>\n<p>Ghlaunder typically grants this boon when you can infect a significant number of creatures.</p>"
+		},
+		"Ghlaunder - Minor Curse": {
+			"name": "Ghlaunder - Minor Curse",
+			"description": "<p>Ghlaunder drains away your life force for himself. You become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} and can't reduce your drained condition below 1.</p>"
+		},
+		"Ghlaunder - Moderate Boon": {
+			"name": "Ghlaunder - Moderate Boon",
+			"description": "<p>Ghlaunder teaches you to bide your time, corrupting and infecting until the time is right. When you expose a creature to a disease and it succeeds at its Fortitude save, it is still infected unless it critically succeeds. However, such a creature experiences no effects and the disease does not progress for the first 24 hours, even if the disease is normally fast-acting or someone uses another ability to progress the disease. It's very difficult to detect the infection in the first day; the DC for Medicine checks to do so is 5 higher.</p>"
+		},
+		"Ghlaunder - Moderate Curse": {
+			"name": "Ghlaunder - Moderate Curse",
+			"description": "<p>Ghlaunder leeches your energy from you as easily as blood. Any time you fail a Fortitude save, you become @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} in addition to all other effects.</p>"
+		},
+		"Gorum - Major Boon": {
+			"name": "Gorum - Major Boon",
+			"description": "<p>Gorum feeds you the zeal of his undying warriors, allowing you to draw upon your own life force to fight on and on without falling.</p>\n<p>Whenever you would be reduced to 0 Hit Points, you are instead healed to half your maximum Hit Points and become @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (or increase your doomed condition by 1).</p>"
+		},
+		"Gorum - Major Curse": {
+			"name": "Gorum - Major Curse",
+			"description": "<p>You are unable to keep up with the rigors of combat. The moment a combat breaks out, you become @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}. At the end of each of your turns, your @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed} condition increases by 1. These conditions end only when you are no longer in combat.</p>"
+		},
+		"Gorum - Minor Boon": {
+			"name": "Gorum - Minor Boon",
+			"description": "<p>Gorum grants you a weapon whenever you need one.</p>\n<p>You can use an Interact action to draw a 0-level non-magical iron weapon, even if you have no weapons on your person. Such a weapon lasts only as long as you continue using it to attack, and it can't be sold, given away, melted for scrap iron, or the like.</p>"
+		},
+		"Gorum - Minor Curse": {
+			"name": "Gorum - Minor Curse",
+			"description": "<p>Gorum rewards cowardice with frailty. Any armor you wear and shield you wield reduces its item bonus to AC by 2 (minimum 0) and its Hardness, Hit Points, and Break Threshold by half.</p>"
+		},
+		"Gorum - Moderate Boon": {
+			"name": "Gorum - Moderate Boon",
+			"description": "<p>Your blows become unstoppable, carrying the momentum of Gorum's thrill for battle. Your greatsword Strikes gain the forceful trait.</p>"
+		},
+		"Gorum - Moderate Curse": {
+			"name": "Gorum - Moderate Curse",
+			"description": "<p>You've lost the glory of slaying a worthy opponent.</p>\n<p>All of your weapon and unarmed attacks decrease their damage dice by one step, and all your attacks are nonlethal.</p>"
+		},
+		"Gozreh - Major Boon": {
+			"name": "Gozreh - Major Boon",
+			"description": "<p>Gozreh has blessed you with their wind in your stride.</p>\n<p>You gain a +30-foot status bonus to your Speeds, and you gain a fly Speed equal to your land Speed.</p>"
+		},
+		"Gozreh - Major Curse": {
+			"name": "Gozreh - Major Curse",
+			"description": "<p>Those who displease Gozreh are shunned by nature itself.</p>\n<p>All animals and nonsapient plant creatures are hostile to you, and any animal companion or familiar abandons you.</p>\n<p>Sapient plants' attitude toward you begins two categories worse than normal, as something about you seems repugnant to them.</p>\n<p>While plants and animals might not attack you outright if it's not normally in their nature to do so when they are hostile, dogs growl at you, cats hiss, and so on.</p>"
+		},
+		"Gozreh - Minor Boon": {
+			"name": "Gozreh - Minor Boon",
+			"description": "<p>Gozreh grants their guidance while at sea.</p>\n<p>You are under the constant effects of @UUID[Compendium.pf2e.spells-srd.Item.tXa5vOu5giBNCjdR]{Know the Way} and become trained in Sailing Lore (or another Lore skill if you are already trained in Sailing Lore).</p>"
+		},
+		"Gozreh - Minor Curse": {
+			"name": "Gozreh - Minor Curse",
+			"description": "<p>Lightning begins to strike twice. You gain weakness 5 to electricity, and any natural or magical bolts of lightning always target you rather than the other creatures around you.</p>"
+		},
+		"Gozreh - Moderate Boon": {
+			"name": "Gozreh - Moderate Boon",
+			"description": "<p>You gain the touch of the sea. You can breathe underwater and gain a swim Speed equal to your land Speed.</p>"
+		},
+		"Gozreh - Moderate Curse": {
+			"name": "Gozreh - Moderate Curse",
+			"description": "<p>The current of the waves constantly fights against you, putting you at risk of drowning any time you must @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Swim}.</p>\n<p>You lose any swim Speed you have, unless it's your only Speed, in which case you take a -20-foot status penalty to your swim Speed.</p>\n<p>When you roll an Athletics check to Swim, you always use the outcome for one degree of success worse than the result of your roll.</p>"
+		},
+		"Grandmother Spider - Major Boon": {
+			"name": "Grandmother Spider - Major Boon",
+			"description": "<p>Grandmother Spider rejoices in freedom and tricks those who would limit it.</p>\n<p>Any time you would become @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}, or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, attempt a @Check[flat|dc:10]. On a success, you ignore the effect, and the originator of the effect becomes grabbed, immobilized, or restrained instead. If this simply causes a creature to grab itself, it can usually @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} as a free action, but it might be stuck if it tried to immobilize you in other ways.</p>"
+		},
+		"Grandmother Spider - Major Curse": {
+			"name": "Grandmother Spider - Major Curse",
+			"description": "<p>Grandmother Spider throws all of her might behind the underdog. Any time a creature with a level lower than yours rolls a success on a check against you, it critically succeeds instead; any time you roll a failure on a check against a creature with a level lower than yours, you critically fail instead.</p>"
+		},
+		"Grandmother Spider - Minor Boon": {
+			"name": "Grandmother Spider - Minor Boon",
+			"description": "<p>Grandmother Spider rescues your prank from the jaws of failure.</p>\n<p>Once, when you would fail a Deception check, you critically succeed instead.</p>\n<p>Grandmother Spider typically grants this boon for deceptions that are necessary for an interesting or consequential prank.</p>"
+		},
+		"Grandmother Spider - Minor Curse": {
+			"name": "Grandmother Spider - Minor Curse",
+			"description": "<p>When your pranks start going wrong, they dissolve into a string of catastrophic failures. When you roll a failure on a Deception or Stealth check, you get a critical failure instead.</p>"
+		},
+		"Grandmother Spider - Moderate Boon": {
+			"name": "Grandmother Spider - Moderate Boon",
+			"description": "<p>You can feel tugs on the strands of fate. You gain a +2 status bonus to initiative rolls.</p>"
+		},
+		"Grandmother Spider - Moderate Curse": {
+			"name": "Grandmother Spider - Moderate Curse",
+			"description": "<p>Grandmother Spider weaves a web to ensnare you, and you trail webs behind you wherever you go. You become permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and take a -10-foot circumstance penalty to your Speeds.</p>"
+		},
+		"Groetus - Major Boon": {
+			"name": "Groetus - Major Boon",
+			"description": "<p>Your touch unravels things that have survived past their appointed time, according to Groetus's reckoning.</p>\n<p>Such a creature or object takes @Damage[10d6[void]] damage each round you continue touching it; the damage ignores all Hardness and is capable of destroying nonliving objects, creatures immune to void effects, and even undead or other creatures with void healing. This boon might even be able to destroy some artifacts that have survived past their time.</p>"
+		},
+		"Groetus - Major Curse": {
+			"name": "Groetus - Major Curse",
+			"description": "<p>You bring about the end to everything around you. Every item you carry or wear gains the @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Broken} condition after 10 minutes of exposure to you, and is destroyed after a further hour. This effect can't destroy artifacts or items of similar power.</p>"
+		},
+		"Groetus - Minor Boon": {
+			"name": "Groetus - Minor Boon",
+			"description": "<p>You wield power over disorder.</p>\n<p>Once, when you are @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, you act normally enough to control your own actions in combat without penalty for the duration, though you still babble incoherently and otherwise behave strangely.</p>"
+		},
+		"Groetus - Minor Curse": {
+			"name": "Groetus - Minor Curse",
+			"description": "<p>Whenever you are illuminated by a light source other than natural sunlight, your head appears to be a bare skull. The DC for your recovery checks is 12 + your dying value, rather than 10 + your dying value, and you don't benefit from effects that reduce the DC, such as from the @UUID[Compendium.pf2e.feats-srd.Item.AmP0qu7c5dlBSath]{Toughness} feat.</p>"
+		},
+		"Groetus - Moderate Boon": {
+			"name": "Groetus - Moderate Boon",
+			"description": "<p>Groetus grants you knowledge to further the end times. Each week, he sends you a cryptic, incoherent message about something important to the end times that will happen in the coming week.</p>"
+		},
+		"Groetus - Moderate Curse": {
+			"name": "Groetus - Moderate Curse",
+			"description": "<p>The horrors at the end of reality become overwhelming and constantly race through your mind. You are permanently @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2}.</p>"
+		},
+		"Gruhastha - Major Boon": {
+			"name": "Gruhastha - Major Boon",
+			"description": "<p>You are a divine inspiration to others around you.</p>\n<p>When attempting any checks to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}, you can roll twice and use the better result; this is a fortune effect. Additionally, allies within 60 feet gain a +2 status bonus to Will saves.</p>"
+		},
+		"Gruhastha - Major Curse": {
+			"name": "Gruhastha - Major Curse",
+			"description": "<p>The written word turns against you, blurring into illegibility. You are incapable of reading anything or making out symbols of any sort, including the words on scrolls, spellbooks, or magic items.</p>"
+		},
+		"Gruhastha - Minor Boon": {
+			"name": "Gruhastha - Minor Boon",
+			"description": "<p>Books fall open to insightful passages, and memories spring to mind when they are most needed.</p>\n<p>Once, when you fail a check to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}, you critically succeed instead.</p>\n<p>Gruhastha typically grants this boon for an extremely consequential attempt to Recall Knowledge, particularly when misinformation would have dire consequences.</p>"
+		},
+		"Gruhastha - Minor Curse": {
+			"name": "Gruhastha - Minor Curse",
+			"description": "<p>As you stray from the truth, dissonant notes seem to interrupt you whenever you speak. You take a -2 status penalty to all Deception checks.</p>"
+		},
+		"Gruhastha - Moderate Boon": {
+			"name": "Gruhastha - Moderate Boon",
+			"description": "<p>The Keeper speeds your path toward learning new talents. You become permanently trained in two additional skills of your choice. Additionally, you can select a skill you are already trained in and permanently increase your proficiency rank in that skill, following the usual rules for skill increases.</p>"
+		},
+		"Gruhastha - Moderate Curse": {
+			"name": "Gruhastha - Moderate Curse",
+			"description": "<p>Enlightenment begins to elude you, leaving you at a loss for knowledge. Whenever you attempt a check to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}, you use a result one degree of success worse than the result you rolled.</p>"
+		},
+		"Hei Feng - Major Boon": {
+			"name": "Hei Feng - Major Boon",
+			"description": "<p>The instruments of the storm spare you from their fury.</p>\n<p>You ignore all effects and penalties caused by precipitation and winds, and you can see normally through fog, rain, and other weather conditions.</p>"
+		},
+		"Hei Feng - Major Curse": {
+			"name": "Hei Feng - Major Curse",
+			"description": "<p>The Duke of Thunder's ire follows you wherever you go. The weather in a 500-foot radius around you is always stormy. Roughly twice each minute you are outside, you are struck by a bolt of lightning that deals @Damage[10d6[electricity]] damage (@Check[reflex|dc:40|basic] save).</p>"
+		},
+		"Hei Feng - Minor Boon": {
+			"name": "Hei Feng - Minor Boon",
+			"description": "<p>The Heavenly Court's most boastful deity ensures your boasts hit home.</p>\n<p>Once, when you fail an Intimidation check, you critically succeed instead.</p>\n<p>Hei Feng grants this boon capriciously based on his mood, sometimes even for trivial or inconsequential boasts, and he sometimes grants it for other skill checks related to boasts.</p>"
+		},
+		"Hei Feng - Minor Curse": {
+			"name": "Hei Feng - Minor Curse",
+			"description": "<p>Hei Feng's belligerence hangs over you like a thunderhead. You take a -1 status penalty to checks with Charisma-based skills. If you consume even a drop of alcohol, this penalty becomes -3 until the next sunrise.</p>"
+		},
+		"Hei Feng - Moderate Boon": {
+			"name": "Hei Feng - Moderate Boon",
+			"description": "<p>Fair winds and currents speed your passage. Any vessel you use to travel over the sea gains a +10-foot status bonus to its Speeds.</p>"
+		},
+		"Hei Feng - Moderate Curse": {
+			"name": "Hei Feng - Moderate Curse",
+			"description": "<p>Your heart is as quick to change as Hei Feng's. If you roll a failure on a saving throw against an emotion effect, you get a critical failure instead.</p>"
+		},
+		"Iomedae - Major Boon": {
+			"name": "Iomedae - Major Boon",
+			"description": "<p>Iomedae imbues your blade with great power.</p>\n<p>Longswords you wield gain the @UUID[Compendium.pf2e.equipment-srd.Item.DH0kB9Wbr5pDeunX]{Holy} and @UUID[Compendium.pf2e.equipment-srd.Item.woxl2FrrgAcJDu0t]{Major Striking} runes while you hold them. These property runes count toward the number of runes you can have on your weapon, and if this would cause your weapon to exceed its limit, choose which ones to keep each day when you prepare.</p>\n<p>You gain a +2 status bonus to attack rolls with longswords.</p>"
+		},
+		"Iomedae - Major Curse": {
+			"name": "Iomedae - Major Curse",
+			"description": "<p>All blades reject your wicked heart.</p>\n<p>Any weapon you wield automatically becomes @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Broken} after you Strike with it. This curse can't break artifacts or similarly powerful weapons.</p>"
+		},
+		"Iomedae - Minor Boon": {
+			"name": "Iomedae - Minor Boon",
+			"description": "<p>You always present yourself at your best. Your clothing and person are always clean and unrumpled, the metal of your blade and armor shining and unblemished.</p>\n<p>This doesn't prevent you from being exposed to diseases and other afflictions via filth, but it protects you as well as if you had washed thoroughly right away.</p>"
+		},
+		"Iomedae - Minor Curse": {
+			"name": "Iomedae - Minor Curse",
+			"description": "<p>Your blade and armor have dulled like lead. Your weapons, armor, and shields have half their usual Hit Points and Break Threshold.</p>"
+		},
+		"Iomedae - Moderate Boon": {
+			"name": "Iomedae - Moderate Boon",
+			"description": "<p>Your heart beats with a determined valor.</p>\n<p>Once, Iomedae ends all negative effects affecting you, unless they are from an artifact, deity, or similarly powerful source; she also restores all lost Hit Points and replenishes your spells, Focus Points, and other daily resources.</p>"
+		},
+		"Iomedae - Moderate Curse": {
+			"name": "Iomedae - Moderate Curse",
+			"description": "<p>Tactical advantages never seem to work the way you planned. You can't receive a circumstance bonus to your attack rolls, and enemies don't take any circumstance penalties to their AC against your attacks.</p>"
+		},
+		"Irori - Major Boon": {
+			"name": "Irori - Major Boon",
+			"description": "<p>You can temporarily ascend to a greater form.</p>\n<p>You can cast 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.MMCQsh12TPaDdPbV]{Sacred Form} once per day as an occult innate spell. When you do, your form appears unremarkable, rather than clad in powerful armaments.</p>"
+		},
+		"Irori - Major Curse": {
+			"name": "Irori - Major Curse",
+			"description": "<p>Irori makes all living creatures forget your existence. This can be further compounded by raising Irori's ire, resulting in your name being obliterated from all written records. In both cases, memories and writings rearrange themselves to omit you smoothly, rather than leaving obvious gaps.</p>"
+		},
+		"Irori - Minor Boon": {
+			"name": "Irori - Minor Boon",
+			"description": "<p>Irori grants you great insight and knowledge.</p>\n<p>Once, when you roll a failure at a check to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}, you get a critical success instead. Furthermore, the check loses the secret trait, so you know for sure that the result was a critical success.</p>\n<p>Irori typically grants this boon for an extremely consequential check to Recall Knowledge.</p>"
+		},
+		"Irori - Minor Curse": {
+			"name": "Irori - Minor Curse",
+			"description": "<p>Irori challenges you to seek another path, rather than treat every problem as a nail just because you have a hammer. If you select a check for which you have a higher bonus when another method would have been more appropriate for the situation, such as using Deception to @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie} through life because it's your highest modifier, even if it would be better to reach a compromise through Diplomacy, you must roll twice and take the lower result.</p>"
+		},
+		"Irori - Moderate Boon": {
+			"name": "Irori - Moderate Boon",
+			"description": "<p>Your body rebuilds after adversity, becoming stronger. You can cast @UUID[Compendium.pf2e.spells-srd.Item.qJZZdYBdNaWRJFER]{Harmonize Self} as an occult ki spell. If you didn't have one already, you gain a focus pool with 1 Focus Point and are trained in occult spell attack rolls and spell DCs.</p>"
+		},
+		"Irori - Moderate Curse": {
+			"name": "Irori - Moderate Curse",
+			"description": "<p>Irori challenges you to adapt to adversity in order to perfect yourself. You become weighed down as if under heavy weights, becoming @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} and @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{Encumbered} until you accomplish a challenging task of Irori's choosing.</p>"
+		},
+		"Kazutal - Major Boon": {
+			"name": "Kazutal - Major Boon",
+			"description": "<p>Kazutal smiles upon those who seek to offer aid, no matter how meek or helpless they may be.</p>\n<p>Any time creatures attempt a check to @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aid} you, they can choose to automatically succeed. If a creature chooses to roll for the attempt and rolls a success, it gets a critical success instead, granting a +4 circumstance bonus even if it doesn't have legendary proficiency in that skill. You gain the same benefits when you attempt to Aid others.</p>"
+		},
+		"Kazutal - Major Curse": {
+			"name": "Kazutal - Major Curse",
+			"description": "<p>You are cursed to depend upon others for your survival. You can't eat anything, drink anything, or use any gear or magic items unless they were willingly given to you by someone who rightfully owns them. Work-arounds like having an ally strip the gear from someone's corpse and then give it to you willingly automatically fail.</p>"
+		},
+		"Kazutal - Minor Boon": {
+			"name": "Kazutal - Minor Boon",
+			"description": "<p>With Kazutal's blessing, food tastes richer. Any meal that you eat tastes delicious and has improved nutritional value. This doesn't protect you from anything dangerous in your food, but it also doesn't prevent you from tasting those dangerous elements of the food.</p>"
+		},
+		"Kazutal - Minor Curse": {
+			"name": "Kazutal - Minor Curse",
+			"description": "<p>Community opinion turns against you. Humanoids in your community who would normally start as indifferent toward you start as unfriendly instead.</p>"
+		},
+		"Kazutal - Moderate Boon": {
+			"name": "Kazutal - Moderate Boon",
+			"description": "<p>You always seem to find safe shelter when you most need it. Once per day, you can cast @UUID[Compendium.pf2e.spells-srd.Item.GzdgM0m7wXKuFSho]{Rope Trick} as a divine innate spell.</p>"
+		},
+		"Kazutal - Moderate Curse": {
+			"name": "Kazutal - Moderate Curse",
+			"description": "<p>Your strength betrays you, preventing you from taking more than your fair share. You are @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} and can't carry anything beyond the gear you are actively wearing or using.</p>"
+		},
+		"Kurgess - Major Boon": {
+			"name": "Kurgess - Major Boon",
+			"description": "<p>You possess a true champion's might.</p>\n<p>When you roll a critical failure on an Athletics check, you get a failure instead, and when you roll a success, you instead get a critical success.</p>"
+		},
+		"Kurgess - Major Curse": {
+			"name": "Kurgess - Major Curse",
+			"description": "<p>The wrath of Kurgess withers you almost to nothing. You are permanently @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 4}.</p>"
+		},
+		"Kurgess - Minor Boon": {
+			"name": "Kurgess - Minor Boon",
+			"description": "<p>The Strong Man blesses you with a measure of his strength. Increase your maximum and encumbered Bulk limits by 2.</p>"
+		},
+		"Kurgess - Minor Curse": {
+			"name": "Kurgess - Minor Curse",
+			"description": "<p>Difficulty lifting burdens is a sign of divine disapproval. Your maximum and encumbered Bulk limits decrease by 2.</p>"
+		},
+		"Kurgess - Moderate Boon": {
+			"name": "Kurgess - Moderate Boon",
+			"description": "<p>You fear no exertion. You can employ exploration tactics normally while @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}.</p>"
+		},
+		"Kurgess - Moderate Curse": {
+			"name": "Kurgess - Moderate Curse",
+			"description": "<p>Kurgess's displeasure breaks your competitive edge, causing you to fail at the cusp of success. If your check result exactly equals the DC, you fail instead of succeeding.</p>"
+		},
+		"Lamashtu - Major Boon": {
+			"name": "Lamashtu - Major Boon",
+			"description": "<p>Lamashtu uses your body to birth a new monster, regardless of your gender.</p>\n<p>Once per day, you can spend 1 minute to birth a monster determined by the GM, which rips its way from your belly. The monster's level is up to your level and it does as it pleases, following Lamashtu's will, though it doesn't attack you unless you have lost her favor. You are @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 3} from the ordeal.</p>"
+		},
+		"Lamashtu - Major Curse": {
+			"name": "Lamashtu - Major Curse",
+			"description": "<p>Your dreams are an unending stream of nightmares. You need 16 hours of rest to try to get enough sleep to recover resources in daily preparation that normally require an 8-hour rest, and even then, you must succeed at a @Check[flat|dc:15] to do so, and you are still @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} on a successful check.</p>"
+		},
+		"Lamashtu - Minor Boon": {
+			"name": "Lamashtu - Minor Boon",
+			"description": "<p>Lamashtu's touch mutates a part of your body.</p>\n<p>You gain either an unarmed Strike that deals 1d6 damage or one that deals 1d4 damage and has the finesse and agile traits.</p>\n<p>Whether the attack deals bludgeoning, slashing, or piercing damage depends on the mutation.</p>\n<p>If the unarmed Strike replaces a limb, you can still use the mutated limb for its original functions. Lamashtu chooses the form and function of your mutation.</p>"
+		},
+		"Lamashtu - Minor Curse": {
+			"name": "Lamashtu - Minor Curse",
+			"description": "<p>Horrid visions torment your mind, overlaying reality at inopportune times. You treat everything around you as if it was @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}.</p>"
+		},
+		"Lamashtu - Moderate Boon": {
+			"name": "Lamashtu - Moderate Boon",
+			"description": "<p>You spread Lamashtu's nightmares everywhere you go. You can cast @UUID[Compendium.pf2e.spells-srd.Item.LiGbewa9pO0yjbsY]{Confusion} once per day as an divine innate spell.</p>"
+		},
+		"Lamashtu - Moderate Curse": {
+			"name": "Lamashtu - Moderate Curse",
+			"description": "<p>Lamashtu marks you as prey.</p>\n<p>Any creature with imprecise or better scent can smell you from 100 × the usual range of their scent and can't shake the feeling that you smell like prey, so they might attack you even if they would normally avoid attacking creatures of your ancestry.</p>\n<p>This smell doesn't magically compel their action, and the scent of prey doesn't overcome a deeper bond such as that with an animal companion.</p>"
+		},
+		"Milani - Major Boon": {
+			"name": "Milani - Major Boon",
+			"description": "<p>You gain +4 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Request} during attempts to satisfy one of Milani's edicts. Once per day, you can sound a battle cry that grants creatures within a @Template[emanation|distance:30] the effects of @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]{Unfettered Movement} and affects all doors, locks, containers, and other bindings used to restrain or imprison others with the effects of the @UUID[Compendium.pf2e.spells-srd.Item.6Ot4N22t5tPD51BO]{Knock} spell.</p>"
+		},
+		"Milani - Major Curse": {
+			"name": "Milani - Major Curse",
+			"description": "<p>Small wounds bleed more than seems physically possible. Whenever you take slashing or piercing damage, you also take persistent bleed damage equal to the level of the creature or effect that inflicted the damage.</p>"
+		},
+		"Milani - Minor Boon": {
+			"name": "Milani - Minor Boon",
+			"description": "<p>Once, when you roll a failure on a Deception or Stealth check to protect an uprising from discovery, you critically succeed instead.</p>\n<p>Milani typically grants this boon for extremely significant checks on which the uprising's survival hinges.</p>"
+		},
+		"Milani - Minor Curse": {
+			"name": "Milani - Minor Curse",
+			"description": "<p>A magical wreath of thorny, bloodred roses endlessly grows from your scalp, no matter how much you try to remove it. You gain weakness 5 to piercing damage.</p>"
+		},
+		"Milani - Moderate Boon": {
+			"name": "Milani - Moderate Boon",
+			"description": "<p>When you use it to protect others, your shield blooms with roses brimming with razor-sharp thorns. You gain the @UUID[Compendium.pf2e.feats-srd.Item.5vXc2s2siR1ihpBT]{Shield Warden (Fighter)} feat, even if you don't meet its prerequisites. If you already had that feat, if your shield takes damage from a melee Strike in defense of your ally, the attacker takes piercing damage equal to half the shield's Hardness.</p>"
+		},
+		"Milani - Moderate Curse": {
+			"name": "Milani - Moderate Curse",
+			"description": "<p>Ropes, chains, manacles, and other equipment used to bind or constrain become blazing hot in your hands, bursting into flame or melting as if engulfed in a forge. When you attempt to hold such an item, you take @Damage[2d6[fire]] damage and the item is destroyed.</p>"
+		},
+		"Nethys - Major Boon": {
+			"name": "Nethys - Major Boon",
+			"description": "<p>You are granted supreme magical knowledge and mastery.</p>\n<p>If you are a prepared spellcaster, you can switch one of your prepared spells for another spell you could have prepared in that slot; if you are a spontaneous spellcaster, you can switch one of the spells in your spell repertoire for another spell you could have chosen for your repertoire instead.</p>\n<p>In either case, you make this switch by using a single action, which has the concentrate trait. (If you are neither a prepared nor a spontaneous spellcaster, Nethys won't grant you his major boon.)</p>"
+		},
+		"Nethys - Major Curse": {
+			"name": "Nethys - Major Curse",
+			"description": "<p>Nethys severs your connection to magic. You lose all your spellcasting abilities and cannot gain any future spellcasting.</p>"
+		},
+		"Nethys - Minor Boon": {
+			"name": "Nethys - Minor Boon",
+			"description": "<p>Nethys casts a powerful spell to help you in a pinch.</p>\n<p>Once, Nethys casts a spell 1 rank higher than the highest-rank spell you can cast. If you can't cast spells, Nethys casts a 1st-rank spell to help you.</p>"
+		},
+		"Nethys - Minor Curse": {
+			"name": "Nethys - Minor Curse",
+			"description": "<p>The secrets of magic become mentally taxing. You are permanently @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}.</p>"
+		},
+		"Nethys - Moderate Boon": {
+			"name": "Nethys - Moderate Boon",
+			"description": "<p>Nethys grants you insight into the secrets of magic. Add one spell from a different tradition of magic to your spell list. You still must learn it or add it to your repertoire normally.</p>"
+		},
+		"Nethys - Moderate Curse": {
+			"name": "Nethys - Moderate Curse",
+			"description": "<p>Your magic wars against itself like Nethys's dueling halves. Whenever you cast a spell, attempt a @Check[flat|dc:11].</p>\n<p>On a failure, if your spell was harmful, you instead cast a beneficial spell of the same rank on your intended targets, and if it was beneficial, you instead cast a harmful spell of the same rank on your intended targets.</p>\n<p>If the spell benefited some targets and harmed others, you cast a spell of the same rank that switches who benefited (for instance, changing a @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} spell that harmed undead and healed the living to a @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} spell that healed undead and harmed the living).</p>\n<p>You still lose the spell slot for the spell you were trying to cast.</p>"
+		},
+		"Nivi Rhombodazzle - Major Boon": {
+			"name": "Nivi Rhombodazzle - Major Boon",
+			"description": "<p>Those who have done much to please Nivi find themselves slipping from sight when needed.</p>\n<p>Any time you attempt a Stealth check to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} or @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}, you also gain the effects of 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility} and @UUID[Compendium.pf2e.spells-srd.Item.aEM2cttJ2eYcLssW]{Fleet Step} spells to help you elude your enemies. These effects last until the end of your next turn or until you stop Hiding or Sneaking, whichever comes first (you can continue to Hide or Sneak, turn after turn, to extend these effects).</p>"
+		},
+		"Nivi Rhombodazzle - Major Curse": {
+			"name": "Nivi Rhombodazzle - Major Curse",
+			"description": "<p>Nivi curses unworthy adherents with recklessness. Any time you are presented with a wager, you are compelled to accept, no matter the odds. If you succeed at a @Check[will|dc:40] save, you can at least attempt to alter the stakes of that wager in your favor, but you must still accept.</p>"
+		},
+		"Nivi Rhombodazzle - Minor Boon": {
+			"name": "Nivi Rhombodazzle - Minor Boon",
+			"description": "<p>Those who have earned Nivi's trust are blessed with wild turns of luck in the worst of circumstances.</p>\n<p>Once, instead of attempting the check you would normally roll, you attempt a @Check[flat|dc:11] with the same results.</p>\n<p>Nivi always grants this boon when the odds are stacked against you (though this same effect is an alternate to her minor curse if she uses it for a check when you would have been very likely to succeed).</p>"
+		},
+		"Nivi Rhombodazzle - Minor Curse": {
+			"name": "Nivi Rhombodazzle - Minor Curse",
+			"description": "<p>Those who betray Nivi's trust find defeat where there was sure to be victory. Once, when you roll a natural 20 on a die, the result becomes a natural 1 instead. Nivi typically uses this curse for maximum poetic justice.</p>"
+		},
+		"Nivi Rhombodazzle - Moderate Boon": {
+			"name": "Nivi Rhombodazzle - Moderate Boon",
+			"description": "<p>Nivi bestows a fraction of her skill at pushing consequences down the road. Once per day, after attempting a check, you can roll a second time. You must use the result of the second roll, even if it is worse. This is a fortune effect. At any point after you use this boon, the GM can replace one of your check results with the first result of the check you attempted when using this boon; this delayed result can't be further delayed, prevented, or affected in any way, even by other divine intercessions.</p>"
+		},
+		"Nivi Rhombodazzle - Moderate Curse": {
+			"name": "Nivi Rhombodazzle - Moderate Curse",
+			"description": "<p>Those who arouse Nivi's wrath find themselves bound to the earth with no place to hide. You are wreathed in constant @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire} and constantly affected by @UUID[Compendium.pf2e.spells-srd.Item.gPvtmKMRpg9I9D7H]{Earthbind}, and any effect that grants @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisibility} doesn't work on you.</p>"
+		},
+		"Nocticula - Major Boon": {
+			"name": "Nocticula - Major Boon",
+			"description": "<p>You become an idealized version of yourself, as if created by a divine artist.</p>\n<p>You permanently gain a set of 4 ability boosts that follow the same rules as the ability boosts you gain at every 5th level.</p>"
+		},
+		"Nocticula - Major Curse": {
+			"name": "Nocticula - Major Curse",
+			"description": "<p>You are exiled from companionship. You can't communicate with any other creature, nor can you feel other creatures' touch.</p>"
+		},
+		"Nocticula - Minor Boon": {
+			"name": "Nocticula - Minor Boon",
+			"description": "<p>The night sky inspires you in a specific way.</p>\n<p>Once, when you roll a failure on a Crafting or Performance check under the night sky, you critically succeed instead.</p>\n<p>Nocticula typically grants this boon for a consequential piece of artwork or performance.</p>"
+		},
+		"Nocticula - Minor Curse": {
+			"name": "Nocticula - Minor Curse",
+			"description": "<p>Midnight looms and obscures your fate. You are only able to see up to 60 feet away from you, regardless of the lighting or what senses you have.</p>"
+		},
+		"Nocticula - Moderate Boon": {
+			"name": "Nocticula - Moderate Boon",
+			"description": "<p>You draw on the power of midnight to guide you on your journeys. You gain darkvision. If you already had darkvision, you can cast @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness} once per day as a divine innate spell.</p>"
+		},
+		"Nocticula - Moderate Curse": {
+			"name": "Nocticula - Moderate Curse",
+			"description": "<p>You are plagued with doubt in your own skills. You are always untrained with Crafting, Performance, and one other skill (determined by the GM, but themed to the event that brought on your curse), regardless of any effect that would improve your proficiency. You can't retrain those skills.</p>"
+		},
+		"Norgorber - Major Boon": {
+			"name": "Norgorber - Major Boon",
+			"description": "<p>You become a living secret.</p>\n<p>You are immune to divination effects and attempts to magically alter your memory, unless you choose to be affected or those effects come from a deity, artifact, or similarly powerful source. You also can never be tricked or forced by mundane means into uttering a secret you wish to keep.</p>"
+		},
+		"Norgorber - Major Curse": {
+			"name": "Norgorber - Major Curse",
+			"description": "<p>Norgorber steals away your memories.</p>\n<p>Once each day when you awake from rest, roll [[/r 1d4 #Curse]].</p>\n<p>On a 1, you forget the events of the previous day forever.</p>\n<p>On a 2, you temporarily experience complete retrograde amnesia for that day, unable to recall information from the past, including who you are.</p>\n<p>On a 3, you temporarily forget a single important subject for that day (Norgorber tends to intentionally chooses a memory to cause distress, such as making you forget your spouse on your anniversary).</p>\n<p>On a 4, you temporarily remember false memories on a single important subject for that day, blended seamlessly into your true memories.</p>"
+		},
+		"Norgorber - Minor Boon": {
+			"name": "Norgorber - Minor Boon",
+			"description": "<p>Norgorber protects your secrets and lies.</p>\n<p>Once, when you roll a failure at a Deception check to tell a @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie}, you get a critical success instead.</p>\n<p>Norgorber typically chooses to grant this boon to protect an extremely consequential lie.</p>"
+		},
+		"Norgorber - Minor Curse": {
+			"name": "Norgorber - Minor Curse",
+			"description": "<p>Norgorber allows thieves to get the better of you.</p>\n<p>Whenever you @UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{Earn Income}, you earn money as if the task were 2 levels lower due to theft, loss, or bad fortune.</p>"
+		},
+		"Norgorber - Moderate Boon": {
+			"name": "Norgorber - Moderate Boon",
+			"description": "<p>Your poisons are everlasting.</p>\n<p>If your Strike with a poisoned weapon critically fails, or succeeds but fails to deal slashing or piercing damage, the poison is not spent. The poison is still spent once successfully applied to a creature.</p>"
+		},
+		"Norgorber - Moderate Curse": {
+			"name": "Norgorber - Moderate Curse",
+			"description": "<p>Poisons are quick to debilitate you. When you roll a failure at a Fortitude save against a poison, you get a critical failure instead.</p>"
+		},
+		"Pharasma - Major Boon": {
+			"name": "Pharasma - Major Boon",
+			"description": "<p>Pharasma keeps you alive to fulfill your fate.</p>\n<p>The GM secretly chooses a fate Pharasma knows you must fulfill. Until you fulfill this fate, any time you would die, a grave but nonfatal misfortune instead befalls you.</p>\n<p>You take at least a full day to recuperate and you potentially face permanent consequences, but you don't die. If you would have died even once without this boon, once your fate is complete, you let out a final sigh and then die peacefully.</p>"
+		},
+		"Pharasma - Major Curse": {
+			"name": "Pharasma - Major Curse",
+			"description": "<p>Pharasma wills the end of your life and your lineage. You become unable to have children (or otherwise procreate by any means, including create spawn abilities) and are permanently @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2}.</p>"
+		},
+		"Pharasma - Minor Boon": {
+			"name": "Pharasma - Minor Boon",
+			"description": "<p>You see a momentary, prophetic glimpse of your fate.</p>\n<p>Once, you gain a +2 status bonus to a single check; you can apply this bonus after you determine the result, and it can potentially change the degree of success.</p>"
+		},
+		"Pharasma - Minor Curse": {
+			"name": "Pharasma - Minor Curse",
+			"description": "<p>Horrifying or enticing visions of your final judgment distract you from the task at hand. You take a -2 status penalty to initiative rolls.</p>"
+		},
+		"Pharasma - Moderate Boon": {
+			"name": "Pharasma - Moderate Boon",
+			"description": "<p>You gain a greater mastery over the energies of life and death.</p>\n<p>Your Strikes deal 1 vitality damage to undead.</p>\n<p>Your spells that deal vitality damage to undead gain a +1 status bonus to damage per spell rank, and your spells that heal the living gain a +1 status bonus to the Hit Points restored per spell rank.</p>"
+		},
+		"Pharasma - Moderate Curse": {
+			"name": "Pharasma - Moderate Curse",
+			"description": "<p>Fate turns against you and reveals dire portents. Divinations such as @UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{Augury} cast by you or that involve you always suggest woe. Once per day after you attempt a check, the GM can make the result of the roll a natural 1.</p>"
+		},
+		"Rovagug - Major Boon": {
+			"name": "Rovagug - Major Boon",
+			"description": "<p>You can crack the surface of Golarion, accelerating the release of the Rough Beast.</p>\n<p>You gain the @UUID[Compendium.pf2e.feats-srd.Item.FMjihpGLn9eQ14Gw]{Quaking Stomp} barbarian feat.</p>"
+		},
+		"Rovagug - Major Curse": {
+			"name": "Rovagug - Major Curse",
+			"description": "<p>You are useful only as a beacon of destruction.</p>\n<p>You are permanently @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, rampaging against anything and everything in your sight, and you deal an additional 18 damage with your unarmed and weapon Strikes.</p>"
+		},
+		"Rovagug - Minor Boon": {
+			"name": "Rovagug - Minor Boon",
+			"description": "<p>Your attack becomes more destructive.</p>\n<p>Once, one of your failed or successful attacks becomes a critical hit, and your weapon or unarmed attack gains the deadly d12 trait for this attack, replacing any deadly trait it already had.</p>\n<p>@UUID[Compendium.pf2e.boons-and-curses.Item.epHQeILdRs3NuxMZ]{Effect: Rovagug's Destruction}</p>\n<p>Rovagug typically grants this boon when the critical hit could destroy something precious or significant.</p>"
+		},
+		"Rovagug - Minor Curse": {
+			"name": "Rovagug - Minor Curse",
+			"description": "<p>Whenever you are imprisoned, you thrash and shake as your mind fills with desperation.</p>\n<p>Any time you are restrained or otherwise imprisoned (such as being sent to jail), you are also @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2}.</p>"
+		},
+		"Rovagug - Moderate Boon": {
+			"name": "Rovagug - Moderate Boon",
+			"description": "<p>You can devour all. You mouth grows into a horrible circular, insectile maw of needle-like teeth.</p>\n<p>You gain a bite unarmed attack that deals 1d8 piercing damage.</p>\n<p>Additionally, you can stomach eating anything you can fit down your throat-even rocks or small objects.</p>\n<p>You gain a +4 status bonus to saves resulting from eating something, such as diseases, poisons, or other effects of the ingested object. This doesn't allow you to digest magic items that would otherwise be difficult or impossible to destroy, such as cursed items or artifacts.</p>"
+		},
+		"Rovagug - Moderate Curse": {
+			"name": "Rovagug - Moderate Curse",
+			"description": "<p>Your destructive rage seeks to remain unbound.</p>\n<p>Any armor you wear automatically becomes @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Broken}. Other items in your possession occasionally become broken over time.</p>"
+		},
+		"Sarenrae - Major Boon": {
+			"name": "Sarenrae - Major Boon",
+			"description": "<p>You are a voice of peace and rehabilitation.</p>\n<p>When you roll a success at a check to @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Request} something, you get a critical success instead.</p>\n<p>In addition, all creatures other than fiends, undead, and mindless creatures allow you one chance to speak your piece and make requests before entering combat. If you or an ally ever use the time from the request to gain an advantage in an ensuing combat (for example, by casting preparatory spells, positioning for combat, or waiting out your opponent's preparatory spells), Sarenrae immediately revokes this boon, or possibly curses your ally.</p>"
+		},
+		"Sarenrae - Major Curse": {
+			"name": "Sarenrae - Major Curse",
+			"description": "<p>Sarenrae restricts your ability to harm others.</p>\n<p>All attacks you make, spells you cast, and other sources of damage you deal are nonlethal except against fiends and undead, and you can't ever make them lethal.</p>\n<p>You deal minimum damage except against fiends and undead.</p>\n<p>All creatures except fiends and undead gain a +4 status bonus to their AC and saving throws against your attacks and other effects.</p>"
+		},
+		"Sarenrae - Minor Boon": {
+			"name": "Sarenrae - Minor Boon",
+			"description": "<p>Your healing hands are blessed with a warm flame.</p>\n<p>Once, when you heal another creature, instead of healing it for the normal amount, you heal the creature to full Hit Points, no matter how much damage it has taken.</p>\n<p>Sarenrae typically grants this boon in extremely consequential circumstances.</p>"
+		},
+		"Sarenrae - Minor Curse": {
+			"name": "Sarenrae - Minor Curse",
+			"description": "<p>The sun burns you for your transgression. You receive a sunburn that causes you to become permanently @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}.</p>"
+		},
+		"Sarenrae - Moderate Boon": {
+			"name": "Sarenrae - Moderate Boon",
+			"description": "<p>Your blade burns the irredeemable. Your attacks deal an additional 1d6 fire damage that ignores fire resistance.</p>"
+		},
+		"Sarenrae - Moderate Curse": {
+			"name": "Sarenrae - Moderate Curse",
+			"description": "<p>The sun shines its light on everything you say.</p>\n<p>You become unable to tell @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lies}, and if you attempt to do so, you instead compulsively blurt out the truth on the matter in question. You are still able to withhold information or lie by omission.</p>"
+		},
+		"Shelyn - Major Boon": {
+			"name": "Shelyn - Major Boon",
+			"description": "<p>Your inner beauty and love surround you in an aura.</p>\n<p>As long as you bear them no ill will, all creatures other than fiends, undead, and mindless creatures start with an attitude of friendly toward you, unless they would have been helpful instead. This doesn't mean they are willing to change their life or plans for you, and this boon does not prevent their attitudes from worsening if you try to thwart them. This effect doesn't work against deities and similarly powerful creatures.</p>\n<p>Additionally, the love you share with your friends inspires them. You and your allies gain a +3 status bonus to saving throws and skill checks as long as you can see each other.</p>\n<p>@UUID[Compendium.pf2e.boons-and-curses.Item.qACkkLk3F5WeACHO]{Effect: Shelyn's Love}</p>"
+		},
+		"Shelyn - Major Curse": {
+			"name": "Shelyn - Major Curse",
+			"description": "<p>Those who spread misery via false love face Shelyn's greatest curse.</p>\n<p>You lose the ability to distinguish any living being from another through appearance, voice, scent, or similar sensory means. You can make out physical size (so you wouldn't mistake an ant for a horse), but nothing further.</p>\n<p>If you were merely shallow, every creature you see has generic, bland features, but if your deeds were vile, you see only the faces of those you have wronged.</p>"
+		},
+		"Shelyn - Minor Boon": {
+			"name": "Shelyn - Minor Boon",
+			"description": "<p>Once, when you roll a failure on a Diplomacy check, you get a critical success instead.</p>\n<p>Shelyn typically grants this boon only when the Diplomacy check would serve to increase love or offer a chance of redemption.</p>"
+		},
+		"Shelyn - Minor Curse": {
+			"name": "Shelyn - Minor Curse",
+			"description": "<p>You heart churns with remorse. Each day, you are @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} as a specific misdeed plays out in your mind over and over in guilt.</p>\n<p>You can't remove this condition, though it abates enough for you to quickly eat and drink when necessary. If you make amends or otherwise earnestly pursue redemption for the misdeed, the sickened condition fades completely that day.</p>"
+		},
+		"Shelyn - Moderate Boon": {
+			"name": "Shelyn - Moderate Boon",
+			"description": "<p>You are inspired to create great works and become a virtuoso at all arts. You gain the @UUID[Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o]{Specialty Crafting} feat and the @UUID[Compendium.pf2e.feats-srd.Item.lFwfUvH2708rl6i3]{Virtuosic Performer} feat in all categories of Crafting and Performance.</p>"
+		},
+		"Shelyn - Moderate Curse": {
+			"name": "Shelyn - Moderate Curse",
+			"description": "<p>Others subconsciously recognize your past betrayals.</p>\n<p>Whenever you attempt a Diplomacy check and roll a failure, you get a critical failure instead, and if you roll a critical success, you get a success instead.</p>"
+		},
+		"Shizuru - Major Boon": {
+			"name": "Shizuru - Major Boon",
+			"description": "<p>Shizuru bestows upon you a golden suit of armor made from sunlight, or transforms your favorite armor to gain that aspect.</p>\n<p>Once per hour while you are wearing the armor, if an attack would reduce your Hit Points to 0, the attack is instead completely negated.</p>"
+		},
+		"Shizuru - Major Curse": {
+			"name": "Shizuru - Major Curse",
+			"description": "<p>Those who incite Shizuru's personal wrath earn the hatred of all of her subjects. All imperial dragons and animals you encounter are automatically hostile to you, and you gain weakness 15 to draconic breath weapons.</p>"
+		},
+		"Shizuru - Minor Boon": {
+			"name": "Shizuru - Minor Boon",
+			"description": "<p>Your attacks help eradicate darkness.</p>\n<p>When you successfully Strike a foe, your weapon glows with bright light out to 60 feet for 1 minute. This is a light effect with a counteract rank equal to half your level rounded up.</p>\n<p>@UUID[Compendium.pf2e.boons-and-curses.Item.i8hVCNQTBFPJ1qEG]{Effect: Shizuru's Light}</p>"
+		},
+		"Shizuru - Minor Curse": {
+			"name": "Shizuru - Minor Curse",
+			"description": "<p>Your equipment turns on you for a disgraceful act. The next time you make an attack, your weapon or armor gains the @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Broken} condition.</p>"
+		},
+		"Shizuru - Moderate Boon": {
+			"name": "Shizuru - Moderate Boon",
+			"description": "<p>Shizuru's light flows through your blade. Your weapons and unarmed attacks deal an additional 1d6 fire damage or 1d6 spirit damage; you choose each time you make an attack.</p>"
+		},
+		"Shizuru - Moderate Curse": {
+			"name": "Shizuru - Moderate Curse",
+			"description": "<p>Shizuru decrees that her light is no longer your ally. You gain @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.I0HYG0ctCLP5JRsW]{Light Blindness}.</p>"
+		},
+		"Sivanah - Major Boon": {
+			"name": "Sivanah - Major Boon",
+			"description": "<p>You spread your illusions over a larger area.</p>\n<p>You can designate an area to permanently gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.HBJPsonQnWcC3qdX]{Mirage}. All creatures within this area gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory Disguise}, changing their forms as you wish. You can designate a new area as a 1-minute activity, but doing so dismisses any previously designated areas.</p>"
+		},
+		"Sivanah - Major Curse": {
+			"name": "Sivanah - Major Curse",
+			"description": "<p>Mirrors break whenever you cross their paths. You cannot be concealed by illusion magic of any kind (the spell automatically fails), and all creatures that see you know your true identity.</p>"
+		},
+		"Sivanah - Minor Boon": {
+			"name": "Sivanah - Minor Boon",
+			"description": "<p>Sivanah prevents your enemies from pulling off your veil.</p>\n<p>Once, when a foe rolls a success on a Perception check to disbelieve your illusion, it gets a critical failure instead.</p>\n<p>Sivanah typically grants this benefit to protect an elaborate or consequential illusory deception, and she never uses it to improve the effect of a harmful illusion.</p>"
+		},
+		"Sivanah - Minor Curse": {
+			"name": "Sivanah - Minor Curse",
+			"description": "<p>Your hair becomes a wild variety of colors, which cannot be altered with mundane or magical means, and it somehow grows out from under any cap, scarf, or other headwear intended to disguise it. You gain a -2 status penalty to Deception skill checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} anyone else.</p>"
+		},
+		"Sivanah - Moderate Boon": {
+			"name": "Sivanah - Moderate Boon",
+			"description": "<p>You wear a veil of illusion wherever you go. You can cast @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory Disguise} at will as an innate divine spell.</p>"
+		},
+		"Sivanah - Moderate Curse": {
+			"name": "Sivanah - Moderate Curse",
+			"description": "<p>Those who betray the secrets of others find their own secrets laid bare. Each person from whom you are keeping a secret immediately learns one of your secrets involving that person. This curse doesn't give away other people's secrets you are keeping, only your own.</p>"
+		},
+		"Torag - Major Boon": {
+			"name": "Torag - Major Boon",
+			"description": "<p>Standing watch or guarding a location counts as resting for you, preventing you from being @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} due to lack of rest as long as you stand watch for at least 6 hours a day.</p>\n<p>You can recover your Focus Points (if you have them) by standing guard in addition to any other options you have available.</p>\n<p>When on guard, you gain a +4 status bonus to Perception to notice ambushes and other dangers approaching.</p>\n<p>As long as you are holding a shield, you are always @UUID[Compendium.pf2e.actionspf2e.Item.cYtYKa1gDEl7y2N0]{Defending} during exploration without needing to move at half your travel speed, and you can perform another exploration activity as well.</p>\n<p>While you are using a shield, its Hardness increases by 5.</p>"
+		},
+		"Torag - Major Curse": {
+			"name": "Torag - Major Curse",
+			"description": "<p>You are forever cast out from your home. Members of your community have their attitudes towards you shift two steps worse, meaning those who used to be helpful are now indifferent, those who were friendly are now unfriendly, and all others are now hostile. This doesn't necessarily result in violence, but hostile community members generally seek your permanent exile.</p>"
+		},
+		"Torag - Minor Boon": {
+			"name": "Torag - Minor Boon",
+			"description": "<p>Torag repairs your equipment so you may continue your vigil.</p>\n<p>Once, a shield, weapon, or other item you hold or are wearing recovers all of its Hit Points. The item's Hardness doubles for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.boons-and-curses.Item.HN5Fp1pNudfwzyx2]{Effect: Torag's Repairs}</p>\n<p>Torag can grant this boon just as the item would have been destroyed, preventing the item's destruction.</p>\n<p>Occasionally, he grants this boon to restore an item important to dwarven history that has already been fully destroyed.</p>"
+		},
+		"Torag - Minor Curse": {
+			"name": "Torag - Minor Curse",
+			"description": "<p>Shoddy artisanship makes itself known. Whenever an item you're using takes damage, it is @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Broken}.</p>"
+		},
+		"Torag - Moderate Boon": {
+			"name": "Torag - Moderate Boon",
+			"description": "<p>You are counted as family among Torag and his followers.</p>\n<p>You gain the effects of a single dwarf ancestry feat of Torag's choice, even if you are not a dwarf, as long as you maintain Torag's blessing.</p>"
+		},
+		"Torag - Moderate Curse": {
+			"name": "Torag - Moderate Curse",
+			"description": "<p>You must prove your skills at a craft by providing your own equipment.</p>\n<p>You gain item bonuses only from items you make yourself.</p>"
+		},
+		"Tsukiyo - Major Boon": {
+			"name": "Tsukiyo - Major Boon",
+			"description": "<p>Tsukiyo shares some of his own nature and can lead a favored soul back along the same path he has walked.</p>\n<p>The next time you would die, you are instead instantly restored to full health and lose any negative conditions you have.</p>"
+		},
+		"Tsukiyo - Major Curse": {
+			"name": "Tsukiyo - Major Curse",
+			"description": "<p>When Tsukiyo truly loses patience with someone, he forces them to experience the hardships of others firsthand. Whenever you touch another creature or another creature touches you, you immediately gain any negative curses, diseases, and conditions they are suffering. These effects spread to you even when you Strike another creature or a creature Strikes you.</p>"
+		},
+		"Tsukiyo - Minor Boon": {
+			"name": "Tsukiyo - Minor Boon",
+			"description": "<p>Tsukiyo's simplest show of gratitude is a gift of clarity.</p>\n<p>Once, when you roll a failure on a saving throw against a mental effect, you get a critical success instead.</p>\n<p>Tsukiyo typically grants this boon against a particularly consequential mental effect.</p>"
+		},
+		"Tsukiyo - Minor Curse": {
+			"name": "Tsukiyo - Minor Curse",
+			"description": "<p>Those who offend Tsukiyo find that light actively shuns them. You lose any low-light vision or darkvision you have, and you treat all light levels as one step lower.</p>"
+		},
+		"Tsukiyo - Moderate Boon": {
+			"name": "Tsukiyo - Moderate Boon",
+			"description": "<p>Tsukiyo watches over you and guards your sleep. You are guaranteed a peaceful night's rest no matter what conditions you are sleeping in. Even nightmare and similar abilities can't disrupt your sleep unless they come from a deity, artifact, or similarly powerful source.</p>"
+		},
+		"Tsukiyo - Moderate Curse": {
+			"name": "Tsukiyo - Moderate Curse",
+			"description": "<p>If Tsukiyo is particularly offended by someone, they may find themselves lost in delusions of moonlight. When attempting to navigate or find something at night, if you roll a success or critical success on your Perception check, Survival check, or other check to do so, you get a failure instead.</p>"
+		},
+		"Urgathoa - Major Boon": {
+			"name": "Urgathoa - Major Boon",
+			"description": "<p>When you contract contagions, you experience fever dreams filled with insight.</p>\n<p>Once afflicted with a disease, you gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.qsNeG9KZpODSACMq]{Foresight} with yourself as the target until no longer afflicted with any disease.</p>"
+		},
+		"Urgathoa - Major Curse": {
+			"name": "Urgathoa - Major Curse",
+			"description": "<p>Urgathoa teaches you that pointless lives in slavery to death and morality are bound to end in tragedy.</p>\n<p>You develop an incurable wasting disease that leaves you @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2}, and unable to move except by @UUID[Compendium.pf2e.actionspf2e.Item.Tj055UcNm6UEgtCg]{Crawling}. This disease never progresses further to kill you, but it passes to your friends and loved ones merely by sight, wasting them away unto death before your eyes and causing them to rise as undead to haunt you.</p>"
+		},
+		"Urgathoa - Minor Boon": {
+			"name": "Urgathoa - Minor Boon",
+			"description": "<p>You feast on the spoils of life and death.</p>\n<p>You gain the benefits of the @UUID[Compendium.pf2e.heritages.Item.gyoN45SVfRZwHMkk]{Irongut Goblin} heritage, regardless of your ancestry. If you already have this heritage, the circumstance bonus increases to +4.</p>"
+		},
+		"Urgathoa - Minor Curse": {
+			"name": "Urgathoa - Minor Curse",
+			"description": "<p>You must overindulge or partake in forbidden feasts before you find yourself even remotely sated.</p>\n<p>You need to eat 20 times as much food as normal to avoid starvation, though you always feel hungry regardless of how much you eat.</p>\n<p>If you dine on the flesh and blood of sapient creatures, you need to eat only the normal amount of such meals and your hunger abates.</p>"
+		},
+		"Urgathoa - Moderate Boon": {
+			"name": "Urgathoa - Moderate Boon",
+			"description": "<p>Urgathoa blesses you as one of her children. You gain void healing.</p>"
+		},
+		"Urgathoa - Moderate Curse": {
+			"name": "Urgathoa - Moderate Curse",
+			"description": "<p>Urgathoa cuts you off from vitality energy without granting you the blessing of undeath. You are harmed by vitality effects and don't recover Hit Points from them, as if you were an undead or had void healing, but you are still harmed by void effects as normal.</p>"
+		},
+		"Zon-Kuthon - Major Boon": {
+			"name": "Zon-Kuthon - Major Boon",
+			"description": "<p>Shadows are deeper around you.</p>\n<p>Darkvision and greater darkvision cannot penetrate darkness within 60 feet of you, but you can see through it normally.</p>"
+		},
+		"Zon-Kuthon - Major Curse": {
+			"name": "Zon-Kuthon - Major Curse",
+			"description": "<p>Zon-Kuthon steals away your joy, leaving you with only pain.</p>\n<p>You lose that which you cherish the most forever, and lose the ability to feel joy. You can't gain benefits from emotion effects based on positive emotions.</p>\n<p>If Zon-Kuthon feels you are ready to renounce, destroy, mutilate, or torture that which you once cherished most, he might return it to you to allow you to do so.</p>"
+		},
+		"Zon-Kuthon - Minor Boon": {
+			"name": "Zon-Kuthon - Minor Boon",
+			"description": "<p>The Midnight Lord turns your blood and pain into chains of midnight darkness to destroy your foes.</p>\n<p>Once, for 1 minute, whenever you take slashing, piercing, or bleed damage, chains rip forth from your body, affecting creatures in a line from your position in the direction of the attack (or in the direction of your choice for bleed damage or if you deal the damage yourself) with the effect of a @UUID[Compendium.pf2e.spells-srd.Item.k34hDOfIIMAxNL4a]{Grim Tendrils} spell whose level is equal to half your level rounded up, and whose DC is your highest spell DC (or 10 + your level + your Wisdom modifier if you have no spell DC).</p>"
+		},
+		"Zon-Kuthon - Minor Curse": {
+			"name": "Zon-Kuthon - Minor Curse",
+			"description": "<p>You are surrounded by spectral chains that cause you to always be @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{Encumbered} and that have the same effects as armor with the noisy trait.</p>"
+		},
+		"Zon-Kuthon - Moderate Boon": {
+			"name": "Zon-Kuthon - Moderate Boon",
+			"description": "<p>Each morning, during your daily preparations, scars gather into words on your flesh.</p>\n<p>The scars function as a scroll of a divine spell of Zon-Kuthon's choosing.</p>\n<p>After you use the scroll or receive magical healing, the boon fades for the day, though some or all of the scars might remain as a reminder.</p>"
+		},
+		"Zon-Kuthon - Moderate Curse": {
+			"name": "Zon-Kuthon - Moderate Curse",
+			"description": "<p>You share the pain of others, and even minor wounds bring you incredible pain.</p>\n<p>Whenever you see (or otherwise sense) a creature take damage, you take @Damage[1d6[mental]] damage.</p>\n<p>Whenever you take damage any other way than from the first part of this curse, you take 1d6 mental damage from increased pain and are @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}. Mental damage from this curse ignores any resistance you have to mental damage.</p>"
+		}
+	}
 }

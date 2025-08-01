@@ -6,7 +6,7 @@ Hooks.once('init', async function () {
 
 	const corePath = `modules/${koModule}`;
 
-	const systemFiles = ["ko.json", "re-ko.json", "kingmaker-ko.json", "pf2e-workbench-ko.json", "action-ko.json"];
+	const systemFiles = ["ko.json", "re-ko.json", "kingmaker-ko.json", "xdy-pf2e-workbench-ko.json", "action-ko.json"];
 
 	game.settings.register(koModule, 'translateSystem', {
 		name: "Pathfinder 2e 시스템 번역",

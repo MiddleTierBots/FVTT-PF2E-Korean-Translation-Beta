@@ -1,0 +1,57 @@
+{
+	"label": "효과",
+	"entries": {
+		"Commander's Banner Flying": {
+			"name": "지휘관의 깃발 전개",
+			"description": ""
+		},
+		"Commander's Banner Stolen": {
+			"name": "지휘관의 깃발 도난",
+			"description": "<p>깃발이 파괴되거나 도난당하면, 30피트 내의 아군은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다.</p>"
+		},
+		"Effect: Combat Assessment (Critical Hit)": {
+			"name": "효과: 전투 평가 (치명타)",
+			"description": ""
+		},
+		"Effect: Demoralizing Charge": {
+			"name": "효과: 사기를 꺾는 돌격",
+			"description": ""
+		},
+		"Effect: Mountaineering Training": {
+			"name": "효과: 등산 훈련",
+			"description": "<p>모든 분대원에게 신호를 보냅니다; 다음 턴이 끝날 때까지, 당신과 모든 아군은 20피트의 등반 속도를 얻습니다.</p>"
+		},
+		"Effect: Naval Training": {
+			"name": "효과: 수상 훈련",
+			"description": "<p>모든 분대원에게 신호를 보냅니다; 다음 턴이 끝날 때까지, 당신과 모든 아군은 20피트의 수영 속도를 얻습니다.</p>"
+		},
+		"Effect: Paragon's Guard": {
+			"name": "효과: 패러곤의 수비",
+			"description": "<p>이 자세에 있는 동안, 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{방패 들기} 행동을 사용한 것처럼 지속적으로 방패를 들어올리고 있습니다.</p>"
+		},
+		"Effect: Pennant of Victory": {
+			"name": "효과: 승리의 깃발",
+			"description": ""
+		},
+		"Effect: Raise Haft (Parry Trait)": {
+			"name": "효과: 자루 올리기 (막기 특성)",
+			"description": "<p>양손 무기는 막기 특성을 얻습니다. 해당 무기가 이미 막기 특성을 가지고 있다면, AC에 대한 상황 보너스를 +2로 증가시킵니다.</p>"
+		},
+		"Effect: Shielded Recovery": {
+			"name": "효과: 방패로 회복",
+			"description": "<p>방패를 들고 있는 상태에서 아군에게 전투 의학을 사용할 경우, 해당 아군은 AC 및 반사 내성 굴림에 +1 상황 보너스를 얻습니다. 이 보너스는 당신의 다음 턴 시작 시까지 또는 해당 아군이 당신과 인접하지 않을 때까지 지속됩니다.</p>"
+		},
+		"Effect: Standard-Bearer's Sacrifice (Critical Failure)": {
+			"name": "효과: 기수의 희생 (치명적 실패)",
+			"description": "<p>당신은 발동된 공격에 대해 AC에 +2 상황 보너스를 얻습니다.</p>"
+		},
+		"Effect: Unsteadying Strike": {
+			"name": "효과: 불안정화 타격",
+			"description": "<p>타격이 성공하면, 적은 잡기, 재배치, 밀치기에 저항하기 위한 인내 DC에 –2의 상황 페널티를 받고, 무장 해제에 저항하기 위한 반사 DC에도 –2의 상황 페널티를 받습니다. 이 페널티는 당신의 다음 턴 시작 시까지 지속됩니다.</p>"
+		},
+		"Squadmate": {
+			"name": "분대원",
+			"description": "<p>분대원으로 지정됨</p>"
+		}
+	}
+}

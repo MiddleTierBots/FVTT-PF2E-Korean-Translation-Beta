@@ -57,7 +57,7 @@
             "wis": "지혜"
         },
         "AbilityInt": "지능",
-        "AbilityModifierLabel": "능력 수정치",
+        "AbilityModifierLabel": "능력치 수정치",
         "AbilityStr": "힘",
         "AbilityTitle": "능력치",
         "AbilityWis": "지혜",
@@ -310,7 +310,7 @@
                 "Language": {
                     "CommonLanguage": "공통어 ({language})",
                     "DetailsPlaceholder": "주의사항, 기타 특이사항",
-                    "Plural": "언어들",
+                    "Plural": "언어",
                     "adlet": "Adlet",
                     "akitonian": "Akitonian",
                     "aklo": "Aklo",
@@ -441,7 +441,7 @@
                     "Label": "감각",
                     "NoRangeLimit": "제한 없음",
                     "NoVision": "시각 없음",
-                    "Plural": "감각들",
+                    "Plural": "감각",
                     "RangeLabel": "범위",
                     "Type": {
                         "Bloodsense": "혈액 감지",
@@ -597,206 +597,205 @@
                     "Label": "공격 생성",
                     "Notification": "NPC 공격 생성됨: {attack}"
                 },
-                "Identification": {
-                    "Skills": {
-                        "Label": "{skills}: 난이도 {dc} ({adjustment})",
-                        "Tooltip": "해당 생명체의 식별에 사용하는 기술은 일반적으로 그 생명체의 특성에 따라 결정되지만, 어떤 기술이 적용되는지는 어느 정도 재량이 있습니다. – 패스파인더 GM 코어 54-55쪽"
-                    },
-                    "Lore": {
-                        "Label": "적용 가능한 지식: 난이도 {dc1} ({adjustment1}) 또는 난이도 {dc2} ({adjustment2})",
-                        "Tooltip": "적용 가능한 지식을 사용할 때는 일반적으로 쉬움 또는 매우 쉬움 난이도(희귀도 조정 전 기준)를 사용합니다. – 패스파인더 GM 코어 54쪽"
-                    }
-                },
-                "SimpleSheet": "간단 NPC 시트",
-                "SpecialSkill": "+{mod} {label}",
-                "SkillsEditor": {
-                    "AddSpecial": "특수 추가",
-                    "Error": {
-                        "PredicateArray": "조건자는 배열이어야 합니다."
-                    },
-                    "LorePlaceholder": "목공 지식",
-                    "Note": "노트",
-                    "Predicate": "조건자",
-                    "Special": "특수",
-                    "Title": "기술 편집기 ({actor})"
-                }
-            },
-            "Party": {
-                "BlankSlate": "이 파티에는 아직 멤버가 없습니다. 배우 사이드바에서 생명체를 끌어다 추가하세요.",
-                "CheckPrompt": {
-                    "AdjustDifficulty": "난이도 조정",
-                    "ChooseLores": "지식 선택",
-                    "ChooseSaves": "내성 선택",
-                    "ChooseSkills": "기술/지각 선택",
-                    "LevelDC": "레벨 기반 난이도",
-                    "Post": "프롬프트 생성",
-                    "PromptTitle": "프롬프트 제목",
-                    "SecretCheck": "비밀 판정",
-                    "SetDC": "난이도 설정",
-                    "SimpleDC": "간단 난이도",
-                    "SkillsPerception": "기술/지각",
-                    "Title": "판정 프롬프트 생성",
-                    "TitleShort": "판정 프롬프트"
-                },
-                "Coin": "동전",
-                "ClearActivities": {
-                    "Label": "초기화",
-                    "Complete": "파티 탐사 활동이 초기화되었습니다."
-                },
-                "ClownCar": {
-                    "Deposit": "PC 토큰 저장",
-                    "Retrieve": "PC 토큰 회수"
-                },
-                "DefaultName": "파티",
-                "InvalidCampaign": {
-                    "Hint": "캠페인 데이터가 유효하지 않습니다.",
-                    "Title": "잘못된 캠페인 ({party})",
-                    "Message": {
-                        "mismatch": "이 파티의 캠페인 데이터 유형은 {current}이지만, 설정된 유형은 {campaignType}입니다. 기존 캠페인 데이터를 삭제하시겠습니까?",
-                        "error": "이 파티의 캠페인 데이터({current})가 손상되어 데이터 준비에 실패했습니다. 기존 캠페인 데이터를 삭제하시겠습니까?"
-                    }
-                },
-                "Languages": "파티 언어",
-                "MembersLabel": "멤버: ",
-                "NoMembers": "멤버 없음",
-                "NoSpecialSenses": "특수 감각 없음",
-                "RemoveMember": {
-                    "Title": "멤버 제거",
-                    "Content": "파티에서 멤버를 제거하시겠습니까?"
-                },
-                "Rest": "휴식",
-                "Sidebar": {
-                    "ActivateParty": "파티 활성화",
-                    "CreateMember": "새 멤버 생성",
-                    "CreateParty": "새 파티 생성",
-                    "RemoveMember": "멤버 제거",
-                    "OpenSheet": "시트 열기",
-                    "OtherParties": "다른 파티들"
-                },
-                "Skills": "파티 기술",
-                "SlotAvailable": "슬롯 사용 가능",
-                "Tabs": {
-                    "Overview": "개요",
-                    "Exploration": "탐사",
-                    "Orphaned": "고아 아이템",
-                    "Stash": "저장소"
-                },
-                "Total": "파티 합계",
-                "TravelHeader": "파티 이동 및 헥스플로레이션",
-                "Visibility": {
-                    "Restricted": "제한됨",
-                    "Unrestricted": "제한 없음"
-                },
-                "Wealth": "재산"
-            },
+"Identification": {
+    "Skills": {
+      "Label": "{skills}: DC {dc} ({adjustment})",
+      "Tooltip": "\"생물을 식별하는 데 사용하는 기술은 일반적으로 해당 생물의 특성에 따라 결정되며, '생물 식별 기술' 표에 명시되어 있습니다. 다만, 어떤 기술이 적용되는지는 어느 정도 재량이 허용됩니다.\" – 패스파인더 GM 코어 54-55쪽"
+    },
+    "Lore": {
+      "Label": "적절한 지식: DC {dc1} ({adjustment1}) 또는 DC {dc2} ({adjustment2})",
+      "Tooltip": "\"적절한 지식 기술을 사용할 경우 난이도는 일반적으로 쉬움 또는 매우 쉬움입니다 (희귀도 조정 전 기준).\" – 패스파인더 GM 코어 54쪽"
+    }
+  },
+ "SimpleSheet": "간이 NPC 시트",
+  "SpecialSkill": "+{mod} {label}",
+  "SkillsEditor": {
+    "AddSpecial": "특수 기술 추가",
+    "Error": {
+      "PredicateArray": "조건자는 배열이어야 합니다"
+    },
+    "LorePlaceholder": "목공 지식",
+    "Note": "메모",
+    "Predicate": "조건자",
+    "Special": "특수",
+    "Title": "기술 편집기 ({actor})"
+  }
+},
+ "Party": {
+    "BlankSlate": "이 파티에는 아직 멤버가 없습니다. 사이드바에서 생물을 끌어다 놓아 시작하세요.",
+    "CheckPrompt": {
+      "AdjustDifficulty": "난이도 조정",
+      "ChooseLores": "지식 선택",
+      "ChooseSaves": "내성 선택",
+      "ChooseSkills": "기술/감지 선택",
+      "LevelDC": "레벨 기반 DC",
+      "Post": "프롬프트 생성",
+      "PromptTitle": "프롬프트 제목",
+      "SecretCheck": "비밀 판정",
+      "SetDC": "DC 설정",
+      "SimpleDC": "단순 DC",
+      "SkillsPerception": "기술/감지",
+      "Title": "판정 프롬프트 생성",
+      "TitleShort": "판정 프롬프트"
+    },
+                   "Coin": "화폐",
+    "ClearActivities": {
+      "Label": "초기화",
+      "Complete": "파티의 탐사 활동이 초기화되었습니다"
+    },
+    "ClownCar": {
+      "Deposit": "PC 토큰 저장",
+      "Retrieve": "PC 토큰 회수"
+    },
+    "DefaultName": "파티",
+    "InvalidCampaign": {
+      "Hint": "캠페인 데이터가 잘못되었습니다",
+      "Title": "잘못된 캠페인 ({party})",
+      "Message": {
+        "mismatch": "이 파티의 캠페인 데이터 유형은 {current}이며, 현재 설정된 유형은 {campaignType}입니다. 기존 캠페인 데이터를 삭제하시겠습니까?",
+        "error": "이 파티의 캠페인 데이터 ({current})가 손상되어 데이터를 준비하지 못했습니다. 기존 캠페인 데이터를 삭제하시겠습니까?"
+      }
+    },
+ "Languages": "파티 언어",
+    "MembersLabel": "멤버 수: ",
+    "NoMembers": "멤버 없음",
+    "NoSpecialSenses": "특수 감각 없음",
+    "RemoveMember": {
+      "Title": "멤버 제거",
+      "Content": "이 멤버를 파티에서 제거하시겠습니까?"
+    },
+    "Rest": "휴식",
+    "Sidebar": {
+      "ActivateParty": "파티 활성화",
+      "CreateMember": "새 멤버 생성",
+      "CreateParty": "새 파티 생성",
+      "RemoveMember": "멤버 제거",
+      "OpenSheet": "시트 열기",
+      "OtherParties": "다른 파티"
+    },
+    "Skills": "파티 기술",
+    "SlotAvailable": "사용 가능한 슬롯",
+    "Tabs": {
+      "Overview": "개요",
+      "Exploration": "탐사",
+      "Orphaned": "고아 항목",
+      "Stash": "보관함"
+    },
+    "Total": "파티 합계",
+    "TravelHeader": "파티 이동 및 헥스 탐사",
+    "Visibility": {
+      "Restricted": "제한됨",
+      "Unrestricted": "제한 없음"
+    },
+    "Wealth": "재산"
+  },
             "Plural": "배우들",
-            "Resource": {
-                "Focus": "포커스 포인트",
-                "HeroPoints": "영웅점",
-                "Investiture": "주입",
-                "Resolve": "결의",
-                "MythicPoints": "신화 포인트"
-            },
-            "Resources": "자원",
-            "ResourceRatio": "{value}/{max} {resource}",
-            "Vehicle": {
-                "EmitsSound": {
-                    "Encounter": "전투 중",
-                    "False": "아니오",
-                    "Hint": "이 차량이 소리를 내어 청각으로 감지될 수 있는지 여부입니다.",
-                    "Title": "소리 방출?",
-                    "True": "예"
-                }
-            }
-        },
-        "ActorSizeGargantuan": "거대함",
-        "ActorSizeHuge": "매우 큼",
-        "ActorSizeLarge": "큼",
-        "ActorSizeMedium": "보통",
-        "ActorSizeSmall": "작음",
-        "ActorSizeTiny": "매우 작음",
-        "AddCoinsCombineStacksLabel": "스택 합치기",
-        "AddCoinsTitle": "동전 추가",
-        "AddCombatProficiency": {
-            "Message": "무기 그룹 또는 기본 무기를 선택하세요.",
-            "Title": "전투 숙련도 추가"
-        },
-        "AddModifierTitle": "수정치 추가",
-        "AddShortLabel": "추가",
-        "AddSpellTitle": "주문 추가",
-        "AddSpellcastingEntryTitle": "주문 시전 항목 추가",
-        "AdditionalLanguagePlusInt": "(지능 추가)",
-        "AdditionalSkills": "추가 기술",
-        "Age": "나이",
-        "AllSavesLabel": "모든 내성",
-        "AncestryFeatLevels": "종족 특기 레벨",
-        "AncestryFeatures": "종족 특성",
-        "AncestryHP": "종족 HP",
-        "Area": {
-            "InFeet": "범위(피트)",
-            "Label": "범위",
-            "Shape": {
-                "burst": "폭발",
-                "cone": "원뿔",
-                "cube": "정육면체",
-                "cylinder": "기둥",
-                "emanation": "방출",
-                "line": "선",
-                "square": "정사각형"
-            },
-            "Size": {
-                "Half": "절반",
-                "Mile": "마일",
-                "Quarter": "4분의 1"
-            }
-        },
+  "Resource": {
+    "Focus": "집중 포인트",
+    "HeroPoints": "영웅 포인트",
+    "Investiture": "주입치",
+    "Resolve": "결의",
+    "MythicPoints": "신화 포인트"
+  },
+  "Resources": "자원",
+  "ResourceRatio": "{value}/{max} {resource}",
+  "Vehicle": {
+    "EmitsSound": {
+      "Encounter": "전투 중",
+      "False": "아니오",
+      "Hint": "이 탈것이 소리를 내며 청각으로 감지될 수 있는지를 나타냅니다.",
+      "Title": "소리를 냅니까?",
+      "True": "예"
+    }
+  },
+        "ActorSizeGargantuan": "거대형",
+  "ActorSizeHuge": "초대형",
+  "ActorSizeLarge": "대형",
+  "ActorSizeMedium": "중형",
+  "ActorSizeSmall": "소형",
+  "ActorSizeTiny": "초소형",
+  "AddCoinsCombineStacksLabel": "스택 병합",
+  "AddCoinsTitle": "화폐 추가",
+  "AddCombatProficiency": {
+    "Message": "무기 그룹 또는 기본 무기를 선택하세요",
+    "Title": "전투 숙련 추가"
+  },
+    "AddModifierTitle": "수정치 추가",
+  "AddShortLabel": "추가",
+  "AddSpellTitle": "주문 추가",
+  "AddSpellcastingEntryTitle": "주문 시전 항목 추가",
+  "AdditionalLanguagePlusInt": "(+ 지능 수정치)",
+  "AdditionalSkills": "추가 기술",
+  "Age": "나이",
+  "AllSavesLabel": "모든 내성",
+  "AncestryFeatLevels": "혈통 특기 획득 레벨",
+  "AncestryFeatures": "혈통 특성",
+  "AncestryHP": "혈통 HP",
+  "Area": {
+    "InFeet": "범위 (피트)",
+    "Label": "범위",
+    "Shape": {
+      "burst": "폭발",
+      "cone": "원뿔",
+      "cube": "정육면체",
+      "cylinder": "원기둥",
+      "emanation": "방출",
+      "line": "직선",
+      "square": "정사각형"
+    },
+    "Size": {
+      "Half": "절반",
+      "Mile": "마일",
+      "Quarter": "4분의 1"
+    }
+  },
         "ArmorArmorLabel": "AC 보너스",
-        "ArmorCheckLabel": "판정 불이익",
-        "ArmorCheckPenalty": "갑옷 판정 불이익",
-        "ArmorClassBase": "기본 AC 10",
-        "ArmorClassLabel": "방어도",
-        "ArmorClassShortLabel": "AC",
-        "ArmorDexLabel": "민첩 수정치 한계",
-        "ArmorGreaterResilientRune": "상급 회복 룬",
-        "ArmorGroupChain": "사슬",
-        "ArmorGroupCloth": "천",
-        "ArmorGroupComposite": "복합",
-        "ArmorGroupLabel": "그룹",
-        "ArmorGroupLeather": "가죽",
-        "ArmorGroupPlate": "판금",
-        "ArmorGroupSkeletal": "해골",
-        "ArmorGroupWood": "목재",
-        "ArmorMajorResilientRune": "주요 회복 룬",
-        "ArmorMythicResilientRune": "신화 회복 룬",
-        "ArmorPotencyRune1": "갑옷 잠재력(+1)",
-        "ArmorPotencyRune2": "갑옷 잠재력(+2)",
-        "ArmorPotencyRune3": "갑옷 잠재력(+3)",
-        "ArmorPotencyRune4": "갑옷 잠재력(+4)",
-        "ArmorPropertyRuneAcidResistant": "산 저항",
-        "ArmorPropertyRuneAdvancing": "전진",
-        "ArmorPropertyRuneAimAiding": "조준 보조",
-        "ArmorPropertyRuneAntimagic": "반마법",
-        "ArmorPropertyRuneAssisting": "보조",
-        "ArmorPropertyRuneBitter": "쓴맛",
-        "ArmorPropertyRuneColdResistant": "냉기 저항",
-        "ArmorPropertyRuneDeathless": "불사",
-        "ArmorPropertyRuneElectricityResistant": "전기 저항",
-        "ArmorPropertyRuneEnergyAdaptive": "에너지 적응",
-        "ArmorPropertyRuneEthereal": "에테르",
-        "ArmorPropertyRuneFireResistant": "화염 저항",
-        "ArmorPropertyRuneFortification": "요새화",
-        "ArmorPropertyRuneGlamered": "환영",
-        "ArmorPropertyRuneGliding": "활공",
-        "ArmorPropertyRuneGreaterAcidResistant": "상급 산 저항",
-        "ArmorPropertyRuneGreaterAdvancing": "상급 전진",
-        "ArmorPropertyRuneGreaterColdResistant": "상급 냉기 저항",
-        "ArmorPropertyRuneGreaterDread": "상급 공포",
-        "ArmorPropertyRuneGreaterElectricityResistant": "상급 전기 저항",
-        "ArmorPropertyRuneGreaterFireResistant": "상급 화염 저항",
-        "ArmorPropertyRuneGreaterFortification": "상급 요새화",
-        "ArmorPropertyRuneGreaterInvisibility": "상급 투명화",
-        "ArmorPropertyRuneGreaterQuenching": "상급 소화",
-        "ArmorPropertyRuneGreaterReady": "상급 준비",
+  "ArmorCheckLabel": "판정 페널티",
+  "ArmorCheckPenalty": "방어구 판정 페널티",
+  "ArmorClassBase": "기본 방어도 10",
+  "ArmorClassLabel": "방어도",
+  "ArmorClassShortLabel": "AC",
+  "ArmorDexLabel": "민첩 한도",
+  "ArmorGreaterResilientRune": "상급 탄력 룬",
+  "ArmorGroupChain": "사슬",
+  "ArmorGroupCloth": "천",
+  "ArmorGroupComposite": "합성",
+  "ArmorGroupLabel": "분류",
+  "ArmorGroupLeather": "가죽",
+  "ArmorGroupPlate": "판금",
+  "ArmorGroupSkeletal": "해골",
+  "ArmorGroupWood": "목재",
+  "ArmorMajorResilientRune": "최상급 탄력 룬",
+  "ArmorMythicResilientRune": "신화 탄력 룬",
+  "ArmorPotencyRune1": "방어구 강화 (+1)",
+  "ArmorPotencyRune2": "방어구 강화 (+2)",
+  "ArmorPotencyRune3": "방어구 강화 (+3)",
+  "ArmorPotencyRune4": "방어구 강화 (+4)",
+  "ArmorPropertyRuneAcidResistant": "산성 저항",
+  "ArmorPropertyRuneAdvancing": "전진",
+  "ArmorPropertyRuneAimAiding": "조준 보조",
+  "ArmorPropertyRuneAntimagic": "반마법",
+  "ArmorPropertyRuneAssisting": "지원",
+  "ArmorPropertyRuneBitter": "쓴맛",
+  "ArmorPropertyRuneColdResistant": "냉기 저항",
+  "ArmorPropertyRuneDeathless": "불사",
+  "ArmorPropertyRuneElectricityResistant": "전기 저항",
+  "ArmorPropertyRuneEnergyAdaptive": "에너지 적응",
+  "ArmorPropertyRuneEthereal": "비물질",
+  "ArmorPropertyRuneFireResistant": "화염 저항",
+  "ArmorPropertyRuneFortification": "요새화",
+  "ArmorPropertyRuneGlamered": "착시",
+  "ArmorPropertyRuneGliding": "활강",
+  "ArmorPropertyRuneGreaterAcidResistant": "상급 산성 저항",
+  "ArmorPropertyRuneGreaterAdvancing": "상급 전진",
+  "ArmorPropertyRuneGreaterColdResistant": "상급 냉기 저항",
+  "ArmorPropertyRuneGreaterDread": "상급 공포",
+  "ArmorPropertyRuneGreaterElectricityResistant": "상급 전기 저항",
+  "ArmorPropertyRuneGreaterFireResistant": "상급 화염 저항",
+  "ArmorPropertyRuneGreaterFortification": "상급 요새화",
+  "ArmorPropertyRuneGreaterInvisibility": "상급 투명화",
+  "ArmorPropertyRuneGreaterQuenching": "상급 제련 방지",
+  "ArmorPropertyRuneGreaterReady": "상급 준비",
         "ArmorPropertyRuneGreaterShadow": "상급 그림자",
         "ArmorPropertyRuneGreaterSlick": "상급 미끄러움",
         "ArmorPropertyRuneGreaterStanching": "상급 지혈",
@@ -3133,17 +3132,17 @@
         "PreparationTypeItems": "아이템만",
         "PreparationTypePrepared": "준비됨",
         "PreparationTypeSpontaneous": "자발적",
-        "Prerequisite1": "선결조건 1",
-        "Prerequisite2": "선결조건 2",
-        "Prerequisite3": "선결조건 3",
-        "Prerequisite4": "선결조건 4",
-        "Prerequisite5": "선결조건 5",
+        "Prerequisite1": "선결 1",
+        "Prerequisite2": "선결 2",
+        "Prerequisite3": "선결 3",
+        "Prerequisite4": "선결 4",
+        "Prerequisite5": "선결 5",
         "PriceLabel": "가격",
         "ProficiencyLabel": "숙련도",
-        "ProficiencyLevel0": "미숙련",
-        "ProficiencyLevel1": "숙련",
-        "ProficiencyLevel2": "전문가",
-        "ProficiencyLevel3": "마스터",
+        "ProficiencyLevel0": "비훈련",
+        "ProficiencyLevel1": "훈련",
+        "ProficiencyLevel2": "전문",
+        "ProficiencyLevel3": "통달",
         "ProficiencyLevel4": "전설",
         "ProficiencyRankLabel": "숙련",
         "ProgressBar": {

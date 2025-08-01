@@ -1,1518 +1,2005 @@
 {
-  "label": "괴물 도감 효과",
   "entries": {
+    "label": "비스티어리 효과",
     "Effect: Absorb Memories": {
-      "name": "효과 : 기억 흡수",
-      "description": "<p>생물이 모든 스킬 체크에 +1 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 기억 흡수",
+      "description": "<p>생물은 모든 기술 판정에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Absorb Shock": {
+      "name": "효과: 충격 흡수",
+      "description": "<p>폭풍음주자는 10의 임시 생명점을 얻고, 신속화되며, 덩굴 타격의 사거리가 5피트 증가합니다.</p>"
     },
     "Effect: Activate Defenses": {
-      "name": "효과 : 방어 활성화",
+      "name": "효과: 방어 활성화",
       "description": "<p>생물은 AC에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Active Mutagen": {
-      "name": "효과 : 활성 돌연변이 유발",
-      "description": "<p>다리우스에게 활성 돌연변이 유발 물질이 있습니다.</p>"
+      "name": "효과: 활성 돌연변이체",
+      "description": "<p>다리우스는 활성 돌연변이체를 가지고 있습니다.</p>"
     },
     "Effect: Adaptive Strike": {
-      "name": "효과 : 적응형 공격",
-      "description": "<p>생물의 근접 공격은 아다만틴, 냉철, 은 중 하나로 계산됩니다.</p>"
+      "name": "효과: 적응 타격",
+      "description": "<p>생물의 근접 타격은 아다만틴, 냉철 또는 은으로 간주됩니다.</p>"
     },
     "Effect: Aggravating Aura": {
-      "name": "효과 : 오라 악화",
-      "description": ""
+      "name": "효과: 악화 오라",
+      "description": "<p>생물은 모든 피해에 약점을 얻습니다.</p>"
     },
     "Effect: Air of Sickness": {
-      "name": "효과 : 질병의 공기",
-      "description": "<p>생물은 질병에 저항하기 위한 내성 굴림에 -2 상태 패널티를 받습니다.</p>"
+      "name": "효과: 질병의 공기",
+      "description": "<p>생물은 질병에 대한 내성 판정에 -2 상황 페널티를 받습니다.</p>"
     },
     "Effect: Alchemical Crossbow": {
-      "name": "효과 : 연금 석궁",
-      "description": "<p>연금석궁이 사용한 폭탄이 주는 피해 유형에 해당하는 추가 1d6 피해를 줍니다.</p>"
+      "name": "효과: 연금술 석궁",
+      "description": "<p>연금술 석궁은 사용된 폭탄이 주는 유형의 추가 1d6 피해를 줍니다.</p>"
+    },
+    "Effect: Alchemical Embalming": {
+      "name": "효과: 연금술 방부처리",
+      "description": "<p>당신은 모든 속도에 -10피트 페널티를 받습니다.</p>"
     },
     "Effect: Alchemical Strike": {
-      "name": "효과 : 연금술 공격",
-      "description": "<p>산, 냉기, 전기, 화염 피해를 선택합니다. 주먹 공격에 이 피해를 불어넣습니다.</p>\n<p>타격할 때마다 장전된 폭탄과 같은 유형의 1d6포인트 피해를 줍니다. 각 폭탄에는 10회 공격에 성공할 수 있는 양의 액체가 들어 있습니다.</p>"
+      "name": "효과: 연금술 타격",
+      "description": "<p>산성, 냉기, 전기 또는 화염 피해를 선택하세요. 노역꾼은 주먹 공격에 이 피해를 부여합니다.</p>\n<p>각 타격은 장전된 폭탄과 같은 유형의 1d6 피해를 줍니다. 각 폭탄에는 10번의 성공적인 타격을 위한 충분한 액체가 들어있습니다.</p>"
+    },
+    "Effect: Align the Stars": {
+      "name": "효과: 별 정렬",
+      "description": "<p>당신이 동맹이라면 AC에 +2 상황 보너스를 얻습니다. 당신이 적이라면, 다른 생물들이 당신에 대한 피해 굴림에 +4 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Align the Stars (Ephemeral)": {
+      "name": "효과: 별 정렬 (순간적)",
+      "description": "<p>순간적 효과</p>\n<p>당신은 피해 굴림에 +4 상황 보너스를 얻습니다.</p>"
     },
     "Effect: All Are One": {
-      "name": "Effect: 모두는 하나",
-      "description": "<p>생물 발광 소용돌이의 범위와 촉수 공격의 사거리가 10피트씩 증가하여 최대 30피트까지 늘어납니다.</p>"
+      "name": "효과: 모두가 하나",
+      "description": "<p>생체발광 소용돌이의 영역과 촉수 타격의 사거리가 10피트 증가하며, 최대 30피트까지 추가로 증가할 수 있습니다.</p>"
     },
     "Effect: Ancestral Journey": {
-      "name": "효과 : 조상의 여정",
-      "description": "<p>생물은 내성 굴림과 모든 스킬 체크에 +1 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 조상의 여정",
+      "description": "<p>생물은 의지 내성과 모든 기술 판정에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Ancestral Response": {
-      "name": "효과 : 조상 응답",
-      "description": "<p>생물은 내성 굴림에 +2의 상황 보너스를 받습니다.</p>"
+      "name": "효과: 조상의 응답",
+      "description": "<p>생물은 내성 판정에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Apprentice's Ambition": {
+      "name": "효과: 견습생의 야망",
+      "description": "<p>견습생은 공격 굴림, 피해 굴림, 내성 판정, 기술 판정에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Artificer's Command": {
-      "name": "효과 : 제작자의 명령",
-      "description": "<p>생물은 공격 굴림, 피해 굴림, 내성 굴림에 +1 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 기공사의 명령",
+      "description": "<p>생물은 공격 굴림, 피해 굴림, 내성 판정에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Asper's Elemental Aura": {
-      "name": "효과 : 아스페르의 원소 오라",
-      "description": "<p>아스퍼가 자신이 제어하는 원소(공기, 불, 물) 중 하나의 힘으로 자신을 둘러싸고 있습니다. 공기의 경우, 전기 피해에 대한 저항력이 10 증가하고 속도가 두 배가 됩니다. 불이라면 화염 피해에 대한 저항력이 10 증가합니다. 화염 피해를 받는 30피트 범위 내의 모든 생물은 추가 @Damage[2d10[persistent,fire]] 피해를 받습니다. 물이면 냉기 피해에 대한 저항력이 10, 빠른 치유가 20 증가합니다.</p>"
+      "name": "효과: 아스퍼의 원소 오라",
+      "description": "<p>당신은 선택한 원소(공기는 전기, 물은 화염 또는 냉기)에 대한 저항 10을 얻습니다. 공기라면 속도가 2배가 됩니다. 화염이라면, 당신으로부터 30피트 내의 화염 피해를 받는 모든 생물은 추가 2d10 지속 화염 피해를 받습니다. 물이라면 빠른 치유 20을 얻습니다.</p>"
     },
     "Effect: Assimilate Lava": {
-      "name": "효과 : 용암 흡수",
-      "description": "<p>용암이나 마그마에 잠긴 흑요석 골렘은 피해를 받지 않으며, 잠긴 채로 있는 동안 느려짐 2와 빠른 치유 15를 얻습니다.</p>"
+      "name": "효과: 용암 동화",
+      "description": "<p>용암이나 마그마에 잠긴 흑요석 골렘은 그로부터 피해를 받지 않으며, 잠겨있는 동안 느려짐 2가 되고 빠른 치유 15를 얻습니다.</p>"
     },
     "Effect: Aura of Command": {
-      "name": "효과 : 지휘의 아우라",
-      "description": "<p>생물은 공격 굴림에 +1 상태 보너스를 얻고, 의지 굴림에 +2 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 명령의 오라",
+      "description": "<p>생물은 공격 굴림에 +1 상황 보너스와 의지 내성에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Aura of Corruption": {
-      "name": "효과 : 부패의 아우라",
-      "description": "<p>대상은 다른 생물보다 식물 생물을 특별히 해치거나 불편하게 하는 효과의 목적을 위해 식물인 것처럼 취급되지만, 식물 생물로서의 이점을 얻지는 못합니다.</p>"
+      "name": "효과: 부패의 오라",
+      "description": "<p>생물은 식물 생물을 다른 생물보다 더 해치거나 불편하게 하는 효과의 목적으로 식물로 취급되지만, 식물 생물의 이점은 얻지 못합니다.</p>"
     },
     "Effect: Aura of Disquietude": {
-      "name": "효과 : 불쾌감의 아우라",
-      "description": "<p>오라에 겁먹은 생물은 측면으로 돌진할 수 없습니다. </p>"
+      "name": "효과: 불안의 오라",
+      "description": "<p>오라에 의해 두려움을 받은 생물은 측면 공격을 할 수 없습니다.</p>"
     },
     "Effect: Aura of Good Cheer": {
-      "name": "효과 : 좋은 기운의 오라",
-      "description": "<p>기운의 오라 안에 있는 아군은 감정 효과에 대한 의지 내성 굴림에 +1 상태 보너스를 받습니다.</p>"
+      "name": "효과: 좋은 기분의 오라",
+      "description": "<p>오라 내의 동맹들은 감정 효과에 대한 의지 내성에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Aura of Growth": {
-      "name": "효과 : 성장의 오라",
-      "description": "<p>이 지역에 있는 동안 다른 식물 생물이 빠른 치유 20을 얻습니다.</p>"
+      "name": "효과: 성장의 오라",
+      "description": "<p>영역 내의 다른 식물 생물들은 빠른 치유 20을 얻습니다.</p>"
     },
     "Effect: Aura of Misfortune": {
-      "name": "효과 : 불행의 아우라",
-      "description": "<p>생명체는 모든 d20 주사위를 두 번 굴려서 더 낮은 결과를 사용해야 합니다.</p>"
+      "name": "효과: 불운의 오라",
+      "description": "<p>살아있는 생물들은 모든 d20 굴림에서 두 번 굴려서 낮은 결과를 사용해야 합니다.</p>"
     },
     "Effect: Aura of Protection (Solar)": {
-      "name": "효과 : 보호의 오라 (태양)",
-      "description": "<p>태양의 오라를 받는 아군은 악한 생물에 대한 AC에 +2 상태 보너스를 받고, 악한 생물의 효과에 대한 내성 굴림에 +2 상태 보너스를 받습니다. 이 보너스는 악한 생물의 지배와 악한 소환 생물의 공격에 대해 +4로 증가합니다.</p>"
+      "name": "효과: 보호의 오라 (솔라)",
+      "description": "<p>솔라의 오라 내 동맹들은 악한 생물에 대한 AC에 +2 상황 보너스와 악한 생물의 효과에 대한 내성에 +2 상황 보너스를 얻습니다. 악한 생물의 지배와 악한 소환 생물의 공격에 대해서는 보너스가 +4로 증가합니다.</p>"
     },
-    "Effect: Aura of Righteousness (Planetar)": {
-      "name": "효과 : 정의의 오라 (행성)",
-      "description": "<p>행성의 오라에 있는 아군은 악한 생물에 대한 AC에 +2 상태 보너스를 얻고, 악한 생물에 대한 피해 굴림에 +2 상태 보너스를 받습니다.</p>"
+    "Effect: Aura of Righteousness": {
+      "name": "효과: 정의의 오라",
+      "description": "<p>당신은 불경한 생물에 대한 AC에 +2 상황 보너스와 불경한 생물에 대한 피해 굴림에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Aura of Smoke": {
-      "name": "효과 : 연기의 아우라",
-      "description": "<p>연기 아우라 안의 모든 생물이 숨겨집니다.</p>"
+      "name": "효과: 연기의 오라",
+      "description": "<p>오라 내의 모든 생물은 가려집니다.</p>"
     },
     "Effect: Aura of Vitality": {
-      "name": "효과 : 활력의 기운",
-      "description": "<p>무브닉 데바의 오라에 있는 아군은 모든 내성 굴림에 상태 보너스 +1을 얻고, 활력과 공허 피해에 대한 저항력이 10 증가하며, 평면의 활력 및 공허 특성 효과에 영향을 받지 않습니다. 12레벨 이하의 오라를 가진 동물은 조종당하거나 다른 방법으로 공격하지 않는 한 움직이는 데바나 데바의 아군을 공격하지 않습니다.</p>"
+      "name": "효과: 활력의 오라",
+      "description": "<p>모바닉 데바의 오라 내 동맹들은 모든 내성에 +1 상황 보너스, 활력과 공허 피해에 대한 저항 10을 얻고, 차원의 활력과 공허 특성의 효과로부터 해를 받지 않습니다. 12레벨 이하의 동물들은 통제되거나 강제로 공격하지 않는 한 모바닉 데바나 데바의 동맹을 공격하지 않습니다.</p>"
+    },
+    "Effect: Avenge the Fallen": {
+      "name": "효과: 쓰러진 자의 복수",
+      "description": "<p>당신은 공격 굴림을 두 번 굴려서 높은 결과를 사용합니다.</p>"
     },
     "Effect: Barbed Net": {
-      "name": "효과 : 철조망",
-      "description": "<p>생물이 속도에 -10피트 상황 패널티를 받습니다.</p>"
+      "name": "효과: 가시 그물",
+      "description": "<p>생물은 모든 속도에 -10피트 상황 페널티를 받습니다.</p>"
     },
     "Effect: Bark Orders": {
-      "name": "효과 : 짖는 명령",
-      "description": "<p>그의 30피트 내에 있는 모든 코볼트 아군은 족장의 다음 턴이 시작될 때까지 공포 효과에 대한 공격 굴림과 공격 굴림에서 상태 보너스 +1을 받습니다.</p>"
+      "name": "효과: 명령 외치기",
+      "description": "<p>그로부터 30피트 내의 모든 코볼트 동맹들은 수트스케일 족장의 다음 턴 시작까지 공격 굴림과 두려움 효과에 대한 내성에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Bark Orders (Hold Sergeant)": {
+      "name": "효과: 명령 외치기 (홀드 중사)",
+      "description": "<p>당신은 공격과 피해 굴림에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Bastion Aura": {
-      "name": "효과 : 보루 오라",
-      "description": "<p>오라의 범위 안에 있는 모든 아군 생물은 범위 내에 있는 한 빠른 치유 30을 받고, 공격 굴림과 피해 굴림에 상태 보너스 +2를 받습니다.</p>"
+      "name": "효과: 요새 오라",
+      "description": "<p>오라 내의 모든 선한 성향 생물들은 범위 내에 머무르는 동안 빠른 치유 30을 얻고, 공격 굴림과 피해 굴림에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Battle Cry": {
-      "name": "효과 : 전투의 함성",
-      "description": "<p>생물은 공격 및 피해 굴림에 +1 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 전투 함성",
+      "description": "<p>생물은 공격과 피해 굴림에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Beacon of the Rowan Guard": {
-      "name": "효과 : 로완 가드의 비콘",
-      "description": "<p>원소 특성과 식물 특성 또는 나무 특성을 가진 생물이 발산 범위 내에 있는 동안, 모든 공격 및 피해 굴림에 빠른 치유 10과 +2의 상황 보너스를 얻습니다.</p>"
+      "name": "효과: 로완 가드의 봉화",
+      "description": "<p>발산 내에서 원소 특성과 식물 특성 또는 나무 특성을 가진 생물은 빠른 치유 10과 모든 공격과 피해 굴림에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Beguiling Presence": {
+      "name": "효과: 매혹적인 존재감",
+      "description": "<p>영역 내에서 기생을 관찰할 수 있는 생물들은 기생의 요청 시도에 대한 의지 DC에 -2 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Belief Fortification": {
+      "name": "효과: 신념 강화",
+      "description": "<p>가홀디온의 파벌 구성원들은 오라 내에서 감정 효과에 대한 내성에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Belief Fortification (Mark)": {
+      "name": "효과: 신념 강화 (표시)",
+      "description": "<p>가홀디온의 파벌 구성원들을 표시합니다.</p>"
+    },
+    "Effect: Beseech the Spirits": {
+      "name": "효과: 영혼에게 간청",
+      "description": "<p>당신은 10분 동안 60피트 생명감각과 전방위 시야를 얻습니다.</p>"
+    },
+    "Effect: Biggest Fan!": {
+      "name": "효과: 최고의 팬!",
+      "description": "<p>당신은 1d6 임시 생명점을 얻습니다.</p>"
     },
     "Effect: Bittersweet Dreams": {
-      "name": "효과 : 씁쓸한 꿈",
-      "description": "<p>생물은 공격 굴림, 내성 굴림, 스킬 체크에서 내성 결과에 따라 상태 패널티를 받습니다.</p>"
+      "name": "효과: 쓴달콤한 꿈",
+      "description": "<p>생물은 내성 결과에 따라 공격 굴림, 내성 판정, 기술 판정에 상황 페널티를 받습니다.</p>"
     },
     "Effect: Black Cat Curse": {
-      "name": "효과 : 검은 고양이 저주",
-      "description": "<p><strong>효과</strong> 더스크라이트 여사가 30피트 내에 보이는 생명체 한 마리에게 증오에 찬 저주를 내뱉습니다. 대상이 @Check[will|dc:32] 공격 굴림에 실패하면, 공격 굴림이나 내성 굴림을 시도할 때마다 두 번 굴려서 낮은 결과를 사용해야 합니다. 그러면 대상은 24시간 동안 일시적으로 면역 상태가 됩니다. 저주가 풀리거나 대상이 나중에 저주에 대한 내성 굴림에 성공할 때까지 저주가 지속됩니다. 피해자는 저주를 끝내기 위해 1시간당 1번씩 새로운 @Check[will|dc:32] 내성 굴림을 시도할 수 있습니다.</p>"
+      "name": "효과: 검은 고양이 저주",
+      "description": "<p>공격 굴림이나 내성 판정을 시도할 때마다 두 번 굴려서 낮은 결과를 사용해야 합니다.</p>"
     },
     "Effect: Blade Barrage": {
-      "name": "효과 : 칼날 사격",
-      "description": "<p>공격에 성공할 때마다 피해량에 누적 +2의 상황 보너스를 얻습니다.</p>"
+      "name": "효과: 검날 폭격",
+      "description": "<p>성공적인 타격마다 누적 +2 상황 보너스를 피해에 얻습니다.</p>"
     },
     "Effect: Blasphemous Utterances": {
-      "name": "효과 : 신성 모독 발언",
-      "description": "<p>생물은 정신적 효과에 대한 내성 굴림에 -2의 상황 패널티를 받습니다.</p>\n<p>@Check[flat|dc:10] 체크에 성공하지 않으면 집중 특성이 있는 액션을 취할 수 없습니다. 이 체크에 실패하면 행동이 낭비됩니다.</p>"
+      "name": "효과: 신성모독 발언",
+      "description": "<p>생물은 정신 효과에 대한 내성에 -2 상황 페널티를 받습니다.</p>\n<p>@Check[flat|dc:10] 판정에 성공하지 못하면 집중 특성을 가진 행동을 취할 수 없습니다. 이 판정에 실패하면 행동이 낭비됩니다.</p>"
     },
     "Effect: Blood Frenzy": {
-      "name": "효과 : 피의 광란",
-      "description": "<p>생물이 특정 생물에 따라 임시 체력 및 기타 효과를 얻습니다.</p>"
+      "name": "효과: 피의 광분",
+      "description": "<p>생물은 특정 생물에 따라 임시 생명점과 다른 효과를 얻습니다.</p>"
     },
     "Effect: Blood Fury": {
-      "name": "효과 : 피의 분노",
-      "description": "<p>생물은 공격 굴림에 +1 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 피의 분노",
+      "description": "<p>생물은 공격 굴림에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Blood Magic": {
-      "name": "효과 : 피의 마법",
-      "description": "<p>생물이 의지력 내성 굴림에 +2 상태 보너스를 받습니다.</p>"
+      "name": "효과: 피의 마법",
+      "description": "<p>생물은 의지 내성에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Blood Siphon (Critical Failure)": {
-      "name": "효과 : 피의 사이펀 (대실패)",
-      "description": "<p>생물이 AC와 내성 굴림에 +2 상태 보너스를 얻고 속도가 빨라집니다. 추가 행동은 공격에만 사용할 수 있습니다.</p>"
+      "name": "효과: 피 흡수 (치명적 실패)",
+      "description": "<p>생물은 AC와 내성에 +2 상황 보너스를 얻고 신속화됩니다. 추가 행동은 타격에만 사용할 수 있습니다.</p>"
     },
     "Effect: Blood Soak": {
-      "name": "효과 : 피 흡수",
-      "description": "<p>생물은 피해 굴림에 +4 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 피 흡수",
+      "description": "<p>생물은 피해 굴림에 +4 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Blood Wake": {
-      "name": "효과 : 피의 파동",
-      "description": "<p>생물은 수영에 대한 운동 체크에 -4 상태 패널티를 받습니다.</p>"
+      "name": "효과: 피의 흔적",
+      "description": "<p>생물은 수영에 대한 운동 기술 판정에 -4 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Bloodletting": {
+      "name": "효과: 사혈",
+      "description": "<p>스킨소우 신부는 40의 임시 생명점을 얻습니다.</p>"
     },
     "Effect: Bloodline Magic": {
-      "name": "효과 : 혈통 마법",
-      "description": "<p>생물은 기만 체크에 +1 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 혈통 마법",
+      "description": "<p>생물은 기만 판정에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Bloodline Magic (Stirvyn Banyan)": {
-      "name": "효과 : 혈통 마법 (스터빈 반얀)",
-      "description": "<p>스터빈이 혈통 주문을 시전하면, 조상의 기억이 솟구쳐 자신이나 주문 대상에게 1라운드 동안 스킬 체크에 +1 상태 보너스를 부여합니다.</p>"
+      "name": "효과: 혈통 마법 (스티르빈 바냔)",
+      "description": "<p>스티르빈이 혈통 주문을 시전할 때, 조상의 기억이 폭발하여 그 자신이나 주문의 대상에게 1라운드 동안 기술 판정에 +1 상황 보너스를 부여합니다.</p>"
     },
     "Effect: Bloom Regeneration": {
-      "name": "효과 : 블룸 재생",
-      "description": "<p>다음 4라운드 동안, 생명체는 재생 10을 얻습니다; 이 재생은 냉철 또는 성물로 비활성화할 수 있습니다.</p>"
+      "name": "효과: 꽃 피는 재생",
+      "description": "<p>다음 4라운드 동안 생물은 재생 10을 얻습니다. 이 재생은 냉철이나 신성으로 비활성화될 수 있습니다.</p>"
     },
     "Effect: Bob": {
-      "name": "효과 : 밥",
-      "description": "<p>긴 다리는 AC에 +2 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 흔들기",
+      "description": "<p>롱레그는 AC에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Body Shield": {
+      "name": "효과: 몸 방패",
+      "description": "<p>당신은 AC에 +1 상황 보너스를 얻습니다. 이 보너스는 엄폐의 상황 보너스와 중첩됩니다.</p>"
     },
     "Effect: Bodyguard's Defense": {
-      "name": "효과 : 보디가드의 방어력",
-      "description": "<p>생물은 AC에 +2 상황 보너스를 얻습니다.</p>"
+      "name": "효과: 경호원의 방어",
+      "description": "<p>당신은 AC에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Bogwid Fever": {
-      "name": "효과 : 보그위드 열병",
-      "description": "<p>병에 걸렸으며, 지속적인 출혈 피해 회복을 위한 DC가 병의 단계에 따라 증가합니다.</p>"
+      "name": "효과: 보그위드 열병",
+      "description": "<p>당신은 쇠약해지고, 지속 출혈 피해로부터 회복하는 DC는 질병의 단계에 따라 증가합니다.</p>"
     },
     "Effect: Bolster Torag's Chosen": {
-      "name": "효과 : 토라그의 선택 강화",
-      "description": "<p>AC와 의지 굴림에 +1 상태 보너스를 받습니다.</p>"
+      "name": "효과: 토락의 선택받은 자 강화",
+      "description": "<p>당신은 AC와 의지 내성에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Bond in Light": {
-      "name": "효과 : 빛의 결합",
-      "description": "<p>생물이 20피트 범위에서 밝은 빛을 발산하고 40피트까지 희미한 빛을 발산하며 빠른 치유 10을 가집니다.</p>"
+      "name": "효과: 빛 속의 결속",
+      "description": "<p>생물은 20피트 발산에서 밝은 빛과 40피트까지 희미한 빛을 발하며 빠른 치유 10을 가집니다.</p>"
     },
-    "Effect: Bosun's Command - Attack Bonus": {
-      "name": "효과 : 보선의 명령 - 공격 보너스",
-      "description": "<p>생물은 공격 굴림에 +2 상태 보너스를 얻습니다.</p>"
-    },
-    "Effect: Bosun's Command - Speed Bonus": {
-      "name": "효과 : 보선의 명령 - 속도 보너스",
-      "description": "<p>생물이 속도에 +10 상태 보너스를 얻습니다.</p>"
+    "Effect: Bosun's Command": {
+      "name": "효과: 보선의 명령",
+      "description": "<p>생물은 보선의 선택에 따라 공격 굴림에 +2 상황 보너스 또는 속도에 +10 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Brand of the Impenitent": {
-      "name": "효과 : 참을성 없는 자의 낙인",
-      "description": "<p>생물이 AC와 내성 굴림에 -1 상태 패널티를 받고, 저항이 2 감소하며, 신성 약점 2를 얻습니다.</p>"
+      "name": "효과: 회개하지 않는 자의 낙인",
+      "description": "<p>생물은 AC와 내성에 -1 상황 페널티를 받고, 저항을 2 감소시키며, 신성에 약점 2를 얻습니다.</p>"
     },
     "Effect: Bravado Aversion": {
-      "name": "효과 : 브라바도 혐오",
-      "description": "<p>가르가르테줄은 드러나는 것을 참지 못합니다. 매 라운드 처음으로 생물이 가르가르테줄을 사기를 떨어뜨리거나 밀치거나 넘어뜨리는 데 성공할 때마다, 가르가르테줄은 @Damage[1d6[mental]] 피해를 받습니다.</p>"
+      "name": "효과: 허세 혐오",
+      "description": "<p>가르가르테줄은 당해내는 것을 견딜 수 없습니다. 매 라운드 처음으로 생물이 가르가르테줄을 성공적으로 위협하거나, 밀치거나, 발걸기할 때마다 @Damage[1d6[mental]] 피해를 받습니다.</p>"
     },
-    "Effect: Breach the Abyss": {
-      "name": "효과 : 심연 돌파",
-      "description": "<p>무기가 추가 2d6 피해를 줍니다.</p>\n<p>1d20을 굴려 유형을 결정합니다.</p>\n<ul>\n<li>1-7 산</li>\n<li>8-9 냉기</li>\n<li>10-11 전기</li>\n<li>12-18 불</li>\n<li>19-20 무효</li>\n</ul>"
+    "Effect: Breach the Outer Rifts": {
+      "name": "효과: 외곽 균열 침입",
+      "description": "<p>무기는 추가 2d6 피해를 줍니다. 1d20을 굴려서 유형을 결정하세요: 1–7 산성, 8–9 냉기, 10–11 전기, 12–18 화염, 19–20 공허.</p>"
     },
-    "Effect: Breach the Abyss - Acid": {
-      "name": "효과 : 심연 돌파 - 산성",
-      "description": "<p>생물이 무기로 추가 @Damage[2d6[acid]] 피해를 줍니다.</p>"
+    "Effect: Break Legs!": {
+      "name": "효과: 다리 부러뜨리기!",
+      "description": "<p>당신은 둔중 1이 되고, 모든 속도에 -5피트 페널티를 받으며, 기원의 타격에 약점 5를 가집니다.</p>"
     },
-    "Effect: Breach the Abyss - Cold": {
-      "name": "효과 : 심연 관통 - 냉기",
-      "description": "<p>생물이 무기로 추가 @Damage[2d6[cold]] 피해를 줍니다.</p>"
-    },
-    "Effect: Breach the Abyss - Electricity": {
-      "name": "효과 : 심연 관통 - 전기",
-      "description": "<p>생물이 무기로 추가 @Damage[2d6[electricity]] 피해를 줍니다.</p>"
-    },
-    "Effect: Breach the Abyss - Fire": {
-      "name": "효과 : 심연을 뚫다 - 화염",
-      "description": "<p>생물이 무기로 추가 @Damage[2d6[fire]] 피해를 줍니다.</p>"
-    },
-    "Effect: Breach the Abyss - Negative": {
-      "name": "효과 : 심연 돌파 - 네거티브",
-      "description": "<p>생물이 무기로 추가 @Damage[2d6[void]] 피해를 줍니다.</p>"
+    "Effect: Brimstone Blessing": {
+      "name": "효과: 유황의 축복",
+      "description": "<p>삼지창은 추가 2d6 화염 피해를 주고, 불경한 특성을 얻으며, 귀환 룬의 효과를 얻습니다.</p>"
     },
     "Effect: Brutal Rally": {
-      "name": "효과 : 잔인한 집결",
+      "name": "효과: 잔인한 집결",
       "description": "<p>생물은 공격 굴림에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Bully the Departed": {
-      "name": "효과 : 떠난 자 괴롭히기",
-      "description": "<p>생물이 생명력 재생 15(힘 또는 선에 의해 비활성화됨)를 얻고, 공격 시 추가 @Damage[1d8[spirit]] 피해를 줍니다.</p>"
+      "name": "효과: 떠난 자 괴롭히기",
+      "description": "<p>생물은 재생 15(역장이나 선으로 비활성화)를 얻고, 타격에 추가 @Damage[1d8[spirit]] 피해를 줍니다.</p>"
     },
     "Effect: Bully's Rage": {
-      "name": "효과 : 깡패의 격노",
-      "description": "<p>왕따는 자신의 턴이 끝날 때까지 협박 체크 및 피해에 +2 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 깡패의 분노",
+      "description": "<p>깡패는 턴 끝까지 위협 판정과 피해에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Burned Fingers": {
+      "name": "효과: 화상 입은 손가락",
+      "description": "<p>당신은 절도 판정에 -1 상황 페널티를 받습니다.</p>"
     },
     "Effect: Call to Action": {
-      "name": "효과 : 콜투액션",
-      "description": "<p>생물은 공격 및 피해 굴림에 +1 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 행동 호소",
+      "description": "<p>생물은 공격과 피해 굴림에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Call to Blood": {
-      "name": "효과 : 피의 부름",
-      "description": "<p>생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{무방비} 생물에 대한 공격 굴림에 상태 보너스 +2를 받습니다.</p>"
+      "name": "효과: 피의 부름",
+      "description": "<p>생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{무방비} 생물에 대한 공격 굴림에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Call to Halt (Success)": {
-      "name": "효과 : 호출 중단(성공)",
-      "description": "<p>대상이 1분 동안 모든 이동 속도에 -10피트 패널티를 받습니다.</p>"
+      "name": "효과: 정지 호소 (성공)",
+      "description": "<p>대상은 1분 동안 모든 속도에 -10피트 페널티를 받습니다.</p>"
     },
     "Effect: Calming Bioluminescence": {
-      "name": "효과 : 차분한 생체 발광",
-      "description": "<p>생물이 감정 효과에 대한 내성 굴림에 +2의 상황 보너스를 받습니다.</p>"
+      "name": "효과: 진정시키는 생체발광",
+      "description": "<p>생물은 감정 효과에 대한 내성에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Capture Magic": {
-      "name": "효과 : 마법 캡처",
-      "description": "<p>검술사는 다음 턴이 끝날 때까지 아케인 캐스케이드로 인한 피해에 +2 상태 보너스를 받습니다.</p>"
+      "name": "효과: 마법 포획",
+      "description": "<p>검 마법사는 다음 턴 끝까지 비전 폭포로부터의 피해에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Cat Sith's Mark": {
-      "name": "효과 : 캣 시스의 표식",
-      "description": "<p>저주받은 생물이 스킬 체크 또는 세이빙 던지기에서 대성공을 굴릴 때마다 대신 성공을 얻습니다. 저주받은 생물은 매일 저주를 풀기 위해 @Check[flat|dc:10|traits:저주,불행|이름:캣 시스의 표 깨기] 체크를 시도할 수 있습니다.</p>"
+      "name": "효과: 캣 시스의 표시",
+      "description": "<p>저주받은 생물이 기술 판정이나 내성 판정에서 치명적 성공을 굴릴 때마다 대신 성공을 얻습니다. 매일, 저주받은 생물은 @Check[flat|dc:10|traits:curse,misfortune|name:Break Cat Sith's Mark] 판정을 시도하여 저주를 깨뜨릴 수 있습니다.</p>"
+    },
+    "Effect: Cataclysm Brand": {
+      "name": "효과: 대재앙의 낙인",
+      "description": "<p>당신의 타격은 추가 1d10 화염 피해를 줍니다.</p>"
     },
     "Effect: Caustic Drool": {
-      "name": "효과 : 가성 침",
-      "description": "<p>심연 워하운드의 턱 공격이 성공하면 2포인트의 산성 피해를 추가로 입히고, 대성공하면 4포인트의 피해를 입힙니다.</p>"
+      "name": "효과: 부식성 침",
+      "description": "<p>심연 전쟁개는 성공적인 공격 시 턱 타격에 추가 2점의 산성 피해를 주거나, 치명적 성공 시 4점을 줍니다.</p>"
     },
     "Effect: Caustic Mucus": {
-      "name": "효과 : 가성 점액",
-      "description": "<p>생물이 이동 속도에 -5피트 상태 패널티를 받습니다. 이 속도 감소는 지속되는 산성 피해와 함께 종료됩니다.</p>"
+      "name": "효과: 부식성 점액",
+      "description": "<p>생물은 속도에 -5피트 상황 페널티를 받습니다. 이 속도 감소는 지속 산성 피해와 함께 끝납니다.</p>"
     },
     "Effect: Challenge Foe": {
-      "name": "효과 : 적에게 도전",
-      "description": "<p>지정된 적에 대한 무기 피해 주사위 수만큼 피해에 대한 상황 보너스를 얻지만, 다른 생물에 대한 피해에는 그에 상응하는 상황 패널티를 받습니다.</p>"
+      "name": "효과: 적 도전",
+      "description": "<p>당신은 지정된 적에 대한 피해에 무기 피해 주사위 수만큼의 상황 보너스를 얻지만, 다른 모든 생물에 대한 피해에 동등한 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Champion's Aura (Champion of Rovagug)": {
+      "name": "효과: 챔피언의 오라 (로바구그의 챔피언)",
+      "description": "<p>당신은 두려움에 대한 내성에 -1 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Chant of Dominance": {
+      "name": "효과: 지배의 찬가",
+      "description": "<p>이번 턴에 피해를 받은 모든 생물은 또한 1d6 지속 영혼 피해를 받습니다.</p>"
     },
     "Effect: Chaotic Spawning": {
-      "name": "효과 : 카오틱 스폰",
-      "description": "<p>탐식 군체가 거대해지고 빨라집니다. 매 라운드마다 게걸스러운 물기 행동으로만 추가 액션을 사용할 수 있습니다.</p>"
+      "name": "효과: 혼돈의 산란",
+      "description": "<p>베스카보르 무리는 거대해지고 신속화됩니다. 매 라운드 추가 행동은 탐욕스러운 물기 행동에만 사용할 수 있습니다.</p>"
     },
     "Effect: Chemical Fertilizer": {
-      "name": "효과 : 화학 비료",
-      "description": "<p>다음 턴이 끝날 때까지 속도에 +15피트 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 화학 비료",
+      "description": "<p>다음 턴 끝까지 속도에 +15피트 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Choose Weakness": {
-      "name": "효과 : 약점 선택",
-      "description": "<p>가엘레는 대검과 광선이 주는 원소 피해를 산, 냉기, 전기, 불, 음파로 변경합니다.</p>\n<p> 또한 이러한 에너지 유형에 대한 에너지 저항을 변경할 수 있습니다(공격과는 다른 유형일 수 있음).</p>"
+      "name": "효과: 약점 선택",
+      "description": "<p>게일은 대검과 빛 광선이 주는 원소 피해를 산성, 냉기, 전기, 화염 또는 음파로 변경합니다.</p>\n<p>또한 에너지 저항을 이 에너지 유형 중 하나로 변경할 수 있습니다(공격과 다른 유형일 수 있습니다).</p>"
     },
     "Effect: Chug": {
-      "name": "Effect: Chug",
-      "description": "<p>생물은 공포에 대한 운동 체크, 피해 굴림, 내성 굴림에 +2 아이템 보너스를 얻습니다.</p>"
+      "name": "효과: 들이키기",
+      "description": "<p>생물은 운동 기술 판정, 피해 굴림, 두려움에 대한 내성에 +2 아이템 보너스를 얻습니다.</p>"
+    },
+    "Effect: Circle of Horns": {
+      "name": "효과: 뿔의 원",
+      "description": "<p>무리는 AC에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Cite Precedent": {
-      "name": "효과 : 선례 인용",
-      "description": "<p>그 생물은 다음 법적 논쟁에서 외교 체크에서 -2 상황 패널티를 받습니다.</p>"
+      "name": "효과: 선례 인용",
+      "description": "<p>생물은 법적 논쟁에서 다음 외교 판정에 -2 상황 페널티를 받습니다.</p>"
     },
     "Effect: Claim Corpse - Fleshy": {
-      "name": "효과 : 시체 청구 - 살덩이",
+      "name": "효과: 시체 주장 - 살점",
       "description": ""
     },
     "Effect: Claim Corpse - Skeletal": {
-      "name": "효과 : 시체 청구 - 스켈레탈",
+      "name": "효과: 시체 주장 - 골격",
       "description": ""
     },
+    "Effect: Cleansing Earth": {
+      "name": "효과: 정화하는 대지",
+      "description": "<p>당신은 20의 임시 생명점을 얻습니다.</p>"
+    },
+    "Effect: Cloud of Allergens": {
+      "name": "효과: 알레르겐 구름",
+      "description": "<p>당신은 구름 안에서 집중 특성을 가진 기술 판정과 모든 지각 판정에 -1 상황 페널티를 받습니다.</p>"
+    },
     "Effect: Commander's Aura": {
-      "name": "효과 : 사령관의 오라",
-      "description": "<p>생물은 공격 굴림, 피해 굴림, AC, 내성 굴림, 스킬 체크에 +1 상황 보너스를 얻습니다.</p>"
+      "name": "효과: 지휘관의 오라",
+      "description": "<p>생물은 공격 굴림, 피해 굴림, AC, 내성, 기술 판정에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Commanding Aura": {
+      "name": "효과: 지휘하는 오라",
+      "description": "<p>당신은 8의 임시 생명점을 얻습니다.</p>"
     },
     "Effect: Commanding Aura (Quara)": {
-      "name": "효과 : 지휘 아우라(콰라)",
-      "description": "<p>제공: @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.JrowrtDilEG8dN2s]{콰라 오르센디엘}</p>\n<p>콰라 주변의 드라우는 그녀의 존재에 마음을 빼앗깁니다. 오라에 걸린 아군은 공격 굴림과 스킬 체크에 +1 상태 보너스를 받습니다.</p>"
+      "name": "효과: 지휘하는 오라 (쿠아라)",
+      "description": "<p>@UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.JrowrtDilEG8dN2s]{쿠아라 오르셴디엘}이 부여</p>\n<p>쿠아라 주변의 드로우들은 그녀의 존재에 고무됩니다. 오라 내의 그녀의 드로우 동맹들은 공격 굴림과 기술 판정에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Commanding Shout": {
-      "name": "효과 : 커맨딩 샤우트",
-      "description": "<p>고루마이트 보병의 불의 석궁! 및 검을 들어올리다! 행동의 내성 DC가 DC 33으로 증가하고 내성 굴림에 +2 상태 보너스를 받습니다.</p>"
+      "name": "효과: 지휘하는 외침",
+      "description": "<p>고럼파이트 보병의 화염 석궁!과 검을 들어라! 행동의 내성 DC가 DC 33으로 증가하고 내성에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Compelled Performance": {
-      "name": "효과 : 강제 공연",
-      "description": "<p>대상자는 일주일 동안 성과 점검에 +2 상태 보너스를 받습니다.</p>"
+      "name": "효과: 강제된 공연",
+      "description": "<p>대상은 1주일 동안 공연 판정에 +2 상황 보너스를 가집니다.</p>"
     },
     "Effect: Conduct": {
-      "name": "Effect: 행동",
-      "description": "<p>청개구리와 60피트 내의 모든 아군은 청개구리의 다음 턴이 시작될 때까지 다음 세 가지 효과 중 하나를 얻습니다.</p>\n<ul>\n<li><strong>빨간색</strong> 속도에 +10피트 상태 보너스를 부여합니다.</li>\n<li><strong>파란색</strong> AC와 내성 굴림에 상태 보너스 +1을 부여합니다.</li>\n<li><strong>노란색</strong> 아군은 공격 굴림에 상태 보너스 +1을 얻고, 근접 공격 성공 시 추가로 1d4의 음파 피해를 줍니다.</li>\n</ul>"
+      "name": "효과: 지휘",
+      "description": "<p>콘서트 개구리와 60피트 내의 모든 동맹들은 콘서트 개구리의 다음 턴 시작까지 다음 세 가지 효과 중 하나를 얻습니다.</p>\n<ul>\n<li><strong>빨강</strong> 모든 속도에 +10피트 상황 보너스를 부여합니다.</li>\n<li><strong>파랑</strong> AC와 인내 내성에 +1 상황 보너스를 부여합니다.</li>\n<li><strong>노랑</strong> 동맹들은 공격 굴림에 +1 상황 보너스를 얻고 성공적인 근접 타격에 추가 1d4 음파 피해를 줍니다.</li>\n</ul>"
+    },
+    "Effect: Conduct the Experiment": {
+      "name": "효과: 실험 수행",
+      "description": "<p>당신의 근접 타격은 표시된 생물에 대해 추가 2d8 정밀 피해를 줍니다.</p>"
     },
     "Effect: Conductive Downpour": {
-      "name": "효과 : 전도성 폭우",
-      "description": "<p>오라에 있는 생물은 전기에 대한 약점이 10 증가합니다.</p>"
+      "name": "효과: 전도성 폭우",
+      "description": "<p>오라 내의 생물들은 전기에 약점 10을 얻습니다.</p>"
+    },
+    "Effect: Construct Trap": {
+      "name": "효과: 골렘 함정",
+      "description": "<p>당신은 모든 속도에 -5 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Consume Flesh": {
+      "name": "효과: 살점 소비",
+      "description": "<p>당신은 모든 기술 판정에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Consume Memories": {
-      "name": "효과 : 메모리 소비",
-      "description": "<p>보르다카이가 소비한 기억으로 인해 1분 동안 모든 스킬 체크에 +1 상태 보너스를 받습니다.</p>"
+      "name": "효과: 기억 소비",
+      "description": "<p>보르다카이는 소비된 기억의 결과로 1분 동안 모든 기술 판정에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Consume Organ": {
-      "name": "효과 : 장기 소비",
-      "description": "<p>생물이 임시 체력 15와 공격 및 피해 굴림에 +1 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 장기 소비",
+      "description": "<p>생물은 15의 임시 생명점과 공격과 피해 굴림에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Consume Soul": {
-      "name": "효과 : 영혼 소비",
-      "description": "<p>오시시데몬이 다음 효과 중 하나를 선택합니다.</p>\n<p><em>강화 주문</em> 오시시데몬은 다음 턴이 끝날 때까지 주문 DC와 주문 공격 굴림에 +2 상태 보너스를 얻습니다.</p>\n<p><em>강화 무기</em> 오시시데몬의 무기는 다음 턴이 끝날 때까지 더 큰 화염, 더 큰 서리, 더 큰 충격 또는 상처 룬의 효과를 얻습니다.</p>"
+      "name": "효과: 영혼 소비",
+      "description": "<p>옵시시다이몬은 다음 효과 중 하나를 선택합니다.</p>\n<p><em>주문 강화</em> 옵시시다이몬은 다음 턴 끝까지 주문 DC와 주문 공격 굴림에 +2 상황 보너스를 얻습니다.</p>\n<p><em>무기 강화</em> 옵시시다이몬의 무기는 다음 턴 끝까지 상급 화염, 상급 서리, 상급 충격, 또는 상처 룬의 효과를 얻습니다.</p>"
+    },
+    "Effect: Consumed by Bloodlust": {
+      "name": "효과: 피의 욕망에 소비됨",
+      "description": "<p>블랙핑거는 단검으로 공격과 피해에 +2 상황 보너스를 얻지만 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2}가 됩니다.</p>"
     },
     "Effect: Countered by Fire": {
-      "name": "효과 : 불에 맞음",
-      "description": "<p>생물은 공격 굴림과 AC에 -1의 상황 패널티를 받고, 턱 공격은 전기 피해를 주지 않습니다.</p>"
+      "name": "효과: 화염에 의해 상쇄됨",
+      "description": "<p>생물은 공격 굴림과 AC에 -1 상황 페널티를 받고, 턱 타격은 전기 피해를 주지 않습니다.</p>"
     },
     "Effect: Countered by Water": {
-      "name": "효과 : 물로 반격",
-      "description": "<p>생물은 공격 굴림에 -1의 상황 패널티를 받고, 턱 공격은 화염 피해를 주지 않습니다.</p>"
+      "name": "효과: 물에 의해 상쇄됨",
+      "description": "<p>생물은 공격 굴림에 -1 상황 페널티를 받고, 턱 타격은 화염 피해를 주지 않습니다.</p>"
+    },
+    "Effect: Create Opening": {
+      "name": "효과: 빈틈 만들기",
+      "description": "<p>당신은 당신에 대한 다음 타격에 대해 AC에 -2 상황 페널티를 받습니다.</p>"
     },
     "Effect: Crocodile Form": {
-      "name": "효과 : 악어 형태",
-      "description": "<p>번입의 착지 속도가 20피트 증가하지만, 턱 공격으로 지속적인 출혈 피해를 잃습니다.</p>"
+      "name": "효과: 악어 형태",
+      "description": "<p>부닙은 20피트의 육상 속도를 얻지만 턱 타격은 지속 출혈 피해를 잃습니다.</p>"
     },
     "Effect: Crush Chitin": {
-      "name": "효과 : 크러쉬 키틴",
-      "description": "<p>생물은 AC에 -2 상황 패널티를 받습니다.</p>"
+      "name": "효과: 키틴 분쇄",
+      "description": "<p>생물은 AC에 -2 상황 페널티를 받습니다.</p>"
     },
     "Effect: Crush of Hundreds": {
-      "name": "효과 : 수백의 호감",
-      "description": "<p>생물이 모든 속도에 -10피트 패널티를 받습니다.</p>"
+      "name": "효과: 수백의 압박",
+      "description": "<p>생물은 모든 속도에 -10피트 페널티를 받습니다.</p>"
     },
     "Effect: Crushing Spirits": {
-      "name": "효과 : 영혼 분쇄",
-      "description": "<p>생물은 모든 속도에 -10피트 상황 패널티를 받습니다.</p>"
+      "name": "효과: 영혼 분쇄",
+      "description": "<p>생물은 모든 속도에 -10피트 상황 페널티를 받습니다.</p>"
     },
     "Effect: Crystalline Dust Form": {
-      "name": "효과 : 결정성 먼지 형태",
-      "description": "<p>생물이 40피트의 비행 속도를 얻습니다.</p>"
+      "name": "효과: 결정성 먼지 형태",
+      "description": "<p>생물은 40피트의 비행 속도를 얻습니다.</p>"
     },
     "Effect: Curl Up": {
-      "name": "Effect: Curl Up",
-      "description": "<p>생물이 AC에 +2 상황 보너스를 얻습니다.</p>"
+      "name": "효과: 웅크리기",
+      "description": "<p>생물은 AC에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Curse of Boiling Blood": {
-      "name": "효과 : 끓는 피의 저주",
-      "description": "<p>생물이 20 발사에 대한 약점을 얻고 항상 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{둔화 1}입니다.</p>"
+      "name": "효과: 끓는 피의 저주",
+      "description": "<p>생물은 화염에 약점 20을 얻고 항상 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}이 됩니다.</p>"
     },
     "Effect: Curse of Fire": {
-      "name": "효과 : 불의 저주",
-      "description": "<p>생물이 화염에 약해집니다.</p>"
+      "name": "효과: 화염의 저주",
+      "description": "<p>생물은 화염에 약점 15를 얻습니다.</p>"
     },
     "Effect: Curse of Frost": {
-      "name": "효과 : 프로스트의 저주",
-      "description": "<p>생물이 추위에 약해집니다.</p>"
+      "name": "효과: 서리의 저주",
+      "description": "<p>생물은 냉기에 약점 15를 얻습니다.</p>"
     },
     "Effect: Curse of Stone": {
-      "name": "효과 : 돌의 저주",
-      "description": "<p>생물이 AC에 +1 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 돌의 저주",
+      "description": "<p>생물은 AC에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Curse of the Baneful Venom": {
-      "name": "효과 : 사악한 독의 저주",
-      "description": "<p>생물은 즉시 -2 상태 패널티가 붙은 독에 대한 다음 내성 굴림을 시도합니다.</p>"
+      "name": "효과: 해로운 독의 저주",
+      "description": "<p>생물은 즉시 독에 대한 다음 내성 판정을 -2 상황 페널티와 함께 시도합니다.</p>"
     },
     "Effect: Curse Trespassers": {
-      "name": "효과 : 저주 침입자",
-      "description": "<p>내성 굴림에 -2 패널티를 받습니다.</p>"
+      "name": "효과: 침입자 저주",
+      "description": "<p>당신은 의지 내성에 -2 페널티를 받습니다.</p>"
     },
     "Effect: Darivan's Bloodline Magic": {
-      "name": "효과 : 다리반의 혈통 마법",
-      "description": "<p>대리반의 혈통 마법이 활성화되면, 그의 움직임이 초자연적으로 우아하고 산만해져 1라운드 동안 외교 체크에 +1 상태 보너스를 부여하거나 1라운드 동안 한 대상의 의지 내성 굴림에 -1 상태 패널티를 부과합니다.</p>"
+      "name": "효과: 다리반의 혈통 마법",
+      "description": "<p>다리반의 혈통 마법이 활성화되면, 그의 움직임이 초자연적으로 우아하고 산만해져서 1라운드 동안 외교 판정에 +1 상황 보너스를 부여하거나 1라운드 동안 한 대상의 의지 내성에 -1 상황 페널티를 부과합니다.</p>"
     },
     "Effect: Death Gasp": {
-      "name": "효과 : 죽음의 헐떡임",
-      "description": "<p>생물이 언데드 특성을 획득하고 출혈, 사망 효과, 질병, 마비, 독, 수면에 면역이 됩니다.</p>"
+      "name": "효과: 죽음의 헐떡임",
+      "description": "<p>생물은 언데드 특성을 얻고 출혈, 사망 효과, 질병, 마비, 독, 수면에 면역이 됩니다.</p>"
     },
     "Effect: Death Gasp (Etioling)": {
-      "name": "효과 : 죽음의 헐떡임(에티올링)",
-      "description": "<p>생물이 언데드와 무생물 특성을 얻고, 비행 속도가 25피트, 모든 피해(힘, 유령 접촉, 활력 제외, 비마법 대비 이 저항의 2배)에 대한 저항 10을 얻으며 출혈, 사망 효과, 질병, 마비, 독, 수면에 면역이 됩니다.</p>"
+      "name": "효과: 죽음의 헐떡임 (에티올링)",
+      "description": "<p>생물은 언데드와 무형 특성, 25피트 비행 속도, 모든 피해에 대한 저항 10(역장, 유령 터치, 활력 제외; 비마법적 피해에 대해서는 이 저항이 2배)을 얻고 출혈, 사망 효과, 질병, 마비, 독, 수면에 면역이 됩니다.</p>"
     },
     "Effect: Deceitful Feast (Failure)": {
-      "name": "효과 : 기만적인 잔치 (실패)",
-      "description": "<p>생물은 브루가대치의 주문이나 능력에 대한 내성 굴림에 -1의 상황 패널티를 받습니다. 패널티는 내성 굴림에 실패할 때마다 증가하여 최대 -5까지 증가합니다.</p>"
+      "name": "효과: 기만적인 잔치 (실패)",
+      "description": "<p>생물은 브루가다치의 주문이나 능력에 대한 의지 내성에 -1 상황 페널티를 받습니다. 페널티는 실패한 내성마다 증가하여 최대 -5까지 증가합니다.</p>"
     },
     "Effect: Deceptive Heads": {
-      "name": "효과 : 기만적인 머리",
-      "description": "<p>티라프디르가 현재 가지고 있는 기만적인 헤드의 수입니다.</p>"
+      "name": "효과: 기만적인 머리",
+      "description": "<p>티라프디르가 현재 가지고 있는 기만적인 머리의 수입니다.</p>"
     },
     "Effect: Defensive Assault": {
-      "name": "효과 : 방어 공격",
-      "description": "<p>생물은 방어에 사용한 무기에 따라 AC에 상황 보너스를 얻습니다.</p>"
+      "name": "효과: 방어적 공격",
+      "description": "<p>생물은 방어에 사용된 무기에 따라 AC에 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Defensive Slam": {
-      "name": "효과 : 방어 슬램",
+      "name": "효과: 방어적 강타",
       "description": "<p>생물은 AC에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Defensive Slice": {
-      "name": "효과 : 방어 슬라이스",
-      "description": "<p>바론 드렐브가 무기를 꺼내 방어 자세를 취한 다음 근접 공격을 시도합니다. 그는 이 공격을 포함한 모든 공격에서 -2 상태 패널티를 받고 다음 턴이 시작될 때까지 AC에 +2 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 방어적 베기",
+      "description": "<p>드렐레프 남작은 무기를 꺼내고 방어 자세를 취한 후 근접 타격을 시도합니다. 그는 모든 타격(이것 포함)에 -2 상황 페널티를 받고 다음 턴 시작까지 AC에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Demon-Touched Weapon": {
-      "name": "효과 : 악마의 손길이 닿은 무기",
-      "description": "<p>셍가가 근접 공격으로 추가 1d6 출혈 피해를 줍니다.</p>"
+      "name": "효과: 악마가 닿은 무기",
+      "description": "<p>셴가는 근접 타격에 추가 1d6 출혈 피해를 줍니다.</p>"
+    },
+    "Effect: Deny Fate": {
+      "name": "효과: 운명 거부",
+      "description": "<p>선제권을 굴릴 때 자동으로 1을 굴립니다.</p>"
     },
     "Effect: Dero Medicine": {
-      "name": "효과 : 데로 의학",
-      "description": "<p>대상이 1시간 동안 베기 약점 2를 얻고, 이후 데로 약 사용에 면역이 됩니다.</p>"
+      "name": "효과: 데로 의약",
+      "description": "<p>당신은 참격에 약점 2를 얻습니다.</p>"
+    },
+    "Effect: Dero Medicine (Deg)": {
+      "name": "효과: 데로 의약 (데그)",
+      "description": "<p>당신은 참격에 약점 5를 얻습니다.</p>"
     },
     "Effect: Despair": {
-      "name": "Effect: Despair",
-      "description": "<p>생명체는 절망의 기운이 있는 동안 1만큼 겁을 먹습니다. 해당 지역에 있는 동안에는 이 공포에서 자연적으로 회복할 수 없지만, 해당 지역을 벗어나면 즉시 회복합니다.</p>"
+      "name": "효과: 절망",
+      "description": "<p>살아있는 생물들은 절망 오라 안에서 두려움 1이 됩니다. 영역 안에서는 이 두려움으로부터 자연스럽게 회복할 수 없지만 영역을 벗어나면 즉시 회복됩니다.</p>"
     },
     "Effect: Despoiler": {
-      "name": "Effect: Despoiler",
-      "description": "<p>생물은 독, 질병, 약물에 대한 모든 내성 굴림에 -2 상황 패널티를 받습니다.</p>"
+      "name": "효과: 파괴자",
+      "description": "<p>생물은 독, 질병, 약물에 대한 모든 내성에 -2 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Destructive Vengeance": {
+      "name": "효과: 파괴적인 복수",
+      "description": "<p>챔피언은 유발 생물에 대한 타격에 추가 2의 영혼 또는 공허 피해를 줍니다.</p>"
     },
     "Effect: Devil's Cursed Breath": {
-      "name": "효과 : 악마의 저주받은 숨결",
-      "description": "<p>저주받은 생물이 모든 공격에 -2 상태 패널티를 받습니다.</p>"
+      "name": "효과: 악마의 저주받은 숨결",
+      "description": "<p>저주받은 생물은 모든 공격에 -2 상황 페널티를 받습니다.</p>"
     },
     "Effect: Devour Soul": {
-      "name": "효과 : 영혼 삼키기",
-      "description": "<p>생물이 임시 체력 10과 공격 및 피해 굴림에 +2 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 영혼 먹기",
+      "description": "<p>생물은 10의 임시 생명점과 공격과 피해 굴림에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Devour Soul (Victim Level 15 or Higher)": {
-      "name": "효과 : 영혼 삼키기 (피해자 레벨 15 이상)",
-      "description": "<p>생물은 임시 체력 10과 공격 및 피해 굴림에 +2 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 영혼 먹기 (희생자 레벨 15 이상)",
+      "description": "<p>생물은 10의 임시 생명점과 공격과 피해 굴림에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Diplomatic Immunity": {
+      "name": "효과: 외교적 면역",
+      "description": "<p>공격자는 외교적 면역이 지속되는 동안 공격이 방해되었는지 여부에 관계없이 사절의 동맹들로부터의 모든 피해에 약점 2를 얻습니다.</p>"
     },
     "Effect: Dire Warning": {
-      "name": "Effect: 심각한 경고",
-      "description": "<p>생물은 공격 굴림과 피해 굴림에 +1 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 끔찍한 경고",
+      "description": "<p>생물은 공격 굴림과 피해 굴림에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Dirty Bomb": {
-      "name": "Effect: 더티 폭탄",
-      "description": "<p>생물은 화학자의 조잡한 폭탄에 대한 내성 굴림에 -2의 상황 패널티를 받습니다.</p>"
+      "name": "효과: 더러운 폭탄",
+      "description": "<p>생물은 화학자의 조잡한 폭탄에 대한 인내 내성에 -2 상황 페널티를 받습니다.</p>"
     },
     "Effect: Dirty Bomb (Critical Failure)": {
-      "name": "효과 : 더티 폭탄 (대실패)",
-      "description": "<p>생물은 화학자의 조잡한 폭탄에 대한 내성 굴림에 -3의 상황 패널티를 받습니다.</p>"
+      "name": "효과: 더러운 폭탄 (치명적 실패)",
+      "description": "<p>생물은 화학자의 조잡한 폭탄에 대한 인내 내성에 -3 상황 페널티를 받습니다.</p>"
     },
     "Effect: Discerning Aura": {
-      "name": "효과 : 분별력 있는 오라",
-      "description": "<p>오라 안의 모든 언데드가 파란색으로 빛나며 5피트 반경에 희미한 빛을 발산합니다. </p>"
+      "name": "효과: 식별하는 오라",
+      "description": "<p>오라 내의 모든 언데드는 파란색으로 빛나며 5피트 반경에 희미한 빛을 발합니다.</p>"
     },
     "Effect: Distracting Frolic": {
-      "name": "효과 : 주의를 분산시키는 장난",
-      "description": "<p>대상 아군이 내성 굴림을 두 번 굴려 더 나은 결과를 가져갈 수 있습니다.</p>"
+      "name": "효과: 산만하게 하는 장난",
+      "description": "<p>대상 동맹은 내성을 두 번 굴려서 좋은 결과를 취할 수 있습니다.</p>"
     },
     "Effect: Distracting Giggle": {
-      "name": "효과 : 주의를 분산시키는 낄낄거림",
-      "description": "<p>생물은 의지 내성 굴림에 -1 상태 패널티를 받습니다.</p>"
+      "name": "효과: 산만하게 하는 킥킥거림",
+      "description": "<p>생물들은 의지 내성에 -1 상황 페널티를 받습니다.</p>"
     },
     "Effect: Disturbing Vision": {
-      "name": "효과 : 시야 방해",
-      "description": "<p>환각은 [[/br 1d4 #라운드]]{1d4 라운드} 동안 지속되며, 지속되는 동안 해당 구역의 모든 악한 생명체는 모든 @Check에 +1 상태 보너스를 받습니다.</p>"
+      "name": "효과: 교란하는 환영",
+      "description": "<p>환영은 [[/gmr 1d4 #rounds]]{1d4 라운드} 지속되며, 그 동안 영역 내의 모든 악한 생물들은 모든 판정에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Divine Aegis": {
-      "name": "효과 : 신성한 이지스",
-      "description": "<p>생물은 비신성 마법 효과에 대한 내성 굴림에 +1 상황 보너스를 얻고, 신성 효과에 대한 내성 굴림에 -1 상황 패널티를 받습니다.</p>"
+      "name": "효과: 신성한 방패",
+      "description": "<p>생물은 비신성 마법 효과에 대한 내성에 +1 상황 보너스와 신성 효과에 대한 내성에 -1 상황 페널티를 얻습니다.</p>"
+    },
+    "Effect: Divine Frenzy": {
+      "name": "효과: 신성한 광분",
+      "description": "<p>당신은 지각 판정과 의지 내성에 -2 페널티를 받고 주문 DC와 주문 공격 수정치에 +2 상황 보너스를 얻습니다. 주문 시전이나 탐색하지 않는 한 집중 특성을 가진 행동을 사용할 수 없습니다.</p>"
     },
     "Effect: Divine Weapon": {
-      "name": "효과 : 신성한 무기",
-      "description": "<p><span style=\"font-family:Roboto, sans-serif\">매리 수녀의 톱니 검이 추가로 1d4의 영혼 피해를 줍니다.</span></p>"
+      "name": "효과: 신성한 무기",
+      "description": "<p>마에리 수녀의 톱니 검은 추가 1d4 영혼 피해를 줍니다.</p>"
+    },
+    "Effect: Divine Weapon (Chelaxian Cleric)": {
+      "name": "효과: 신성한 무기 (셸락시아 클레릭)",
+      "description": "<p>셸락시아 클레릭의 타격은 불경한 특성을 얻고 추가 1d4 영혼 피해를 줍니다. 신성 특성을 가진 생물에 대해서는 이 피해가 2d4로 증가합니다.</p>"
+    },
+    "Effect: Don Mask": {
+      "name": "효과: 가면 착용",
+      "description": "<p>머머는 원시의 축복을 얻습니다:</p><ul><li><strong>불타는 아카로크</strong> 머머의 근접 타격은 추가 2d6 화염 피해를 줍니다.</li><li><strong>하지 제피르-본</strong> 머머는 20피트 비행 속도를 얻습니다.</li><li><strong>폭풍의 왕</strong> 머머는 꼬리로만 사용할 수 있는 기회공격 반응을 얻습니다.</li><li><strong>파도춤추는 네섹</strong> 머머의 발톱 타격은 추가 2d4 지속 출혈 피해를 줍니다.</li><li><strong>검은 항구에 부름받은 잘록</strong> 머머는 육상 속도와 수영 속도에 +10피트 상황 보너스를 얻습니다.</li></ul>"
     },
     "Effect: Downcast": {
-      "name": "효과 : 다운캐스트",
-      "description": "<p>생물은 공격 굴림에 -1 상태 패널티를 받습니다</p>"
+      "name": "효과: 우울함",
+      "description": "<p>생물은 공격 굴림에 -1 상황 페널티를 받습니다</p>"
     },
     "Effect: Draconic Breath Weapon Aura": {
-      "name": "효과 : 드라코닉 브레스 무기 오라",
-      "description": "<p>용이 숨결 무기를 사용한 후, 1라운드 동안 오라가 몸을 감쌉니다.</p>"
+      "name": "효과: 용의 숨결 무기 오라",
+      "description": "<p>용이 숨결 무기를 사용한 후, 1라운드 동안 그 몸 주변에 오라가 생깁니다.</p>"
+    },
+    "Effect: Drain Blood": {
+      "name": "효과: 피 흡수",
+      "description": "<p>당신은 4d4 임시 생명점을 얻습니다.</p>"
+    },
+    "Effect: Drain Life": {
+      "name": "효과: 생명 흡수",
+      "description": "<p>와이트 주문 저격수는 2d6 임시 생명점을 얻습니다.</p>"
     },
     "Effect: Drain Luck": {
-      "name": "효과 : 드래인 럭",
-      "description": "<p>생물은 모든 체크에 상태 패널티를 받습니다.</p>"
+      "name": "효과: 행운 흡수",
+      "description": "<p>생물은 모든 판정에 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Drain Luck (Critical Failure)": {
+      "name": "효과: 행운 흡수 (치명적 실패)",
+      "description": "<p>행운 흡수에 의해 부여됨.</p>\n<p>모든 판정에서 두 번 굴려서 나쁜 결과를 취해야 합니다.</p>"
+    },
+    "Effect: Drain Luck (Failure)": {
+      "name": "효과: 행운 흡수 (실패)",
+      "description": "<p>행운 흡수에 의해 부여됨.</p>\n<p>모든 판정에서 두 번 굴려서 나쁜 결과를 취해야 합니다.</p>"
+    },
+    "Effect: Drain Luck (Success)": {
+      "name": "효과: 행운 흡수 (성공)",
+      "description": "<p>행운 흡수에 의해 부여됨.</p>\n<p>모든 판정에서 두 번 굴려서 나쁜 결과를 취해야 합니다.</p>"
+    },
+    "Effect: Drain Vigor": {
+      "name": "효과: 활력 흡수",
+      "description": "<p>암브랄 드래곤은 20의 임시 생명점을 얻습니다.</p>"
     },
     "Effect: Drink Emotions": {
-      "name": "효과 : 감정 마시기",
-      "description": "<p>감정 이입자는 흥분한 상태에서 AC에 -1 패널티를 받고, 공격 굴림에 +1 상태 보너스를 받으며, 근접 공격으로 추가로 1d4 정신 피해를 입힙니다.</p>"
+      "name": "효과: 감정 마시기",
+      "description": "<p>흥분한 동안, 무감정한 공감자는 AC에 -1 페널티를 받고, 공격 굴림에 +1 상황 보너스를 얻으며, 근접 타격에 추가 1d4 정신 피해를 줍니다.</p>"
+    },
+    "Effect: Drink Life": {
+      "name": "효과: 생명 마시기",
+      "description": "<p>당신은 25의 임시 생명점을 얻습니다.</p>"
     },
     "Effect: Droning Wings": {
-      "name": "효과 : 드론 날개",
-      "description": "<p>콜록서스가 음파 피해에 면역을 얻습니다.</p>"
+      "name": "효과: 윙윙거리는 날개",
+      "description": "<p>콜록서스는 음파 피해에 면역이 됩니다.</p>"
+    },
+    "Effect: Dueling Dance": {
+      "name": "효과: 결투의 춤",
+      "description": "<p>보렌스는 다음 턴 시작까지 AC에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Dust Eternal": {
-      "name": "효과 : 더스트 이터널",
-      "description": "<p>오라의 모든 것은 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}.</p>"
+      "name": "효과: 영원한 먼지",
+      "description": "<p>오라 내의 모든 것이 가려집니다.</p>"
+    },
+    "Effect: Eat a Pickle": {
+      "name": "효과: 피클 먹기",
+      "description": "<p>당신은 4의 임시 생명점을 얻습니다.</p>"
     },
     "Effect: Ectoplasmic Form (Physical)": {
-      "name": "효과 : 외형 형태 (물리적)",
-      "description": "<p>생물이 무생물 특성, 정밀 피해에 대한 면역 및 모든 저항을 잃습니다. 특정 생물에 따라 임시 체력과 AC에 보너스를 얻고, 턱 공격은 관통 피해를 입히고 발톱 공격은 음 피해 대신 베기 피해를 입힙니다.</p>"
+      "name": "효과: 외질 형태 (물리적)",
+      "description": "<p>생물은 무형 특성, 정밀 피해에 대한 면역과 모든 저항을 잃습니다. 특정 생물에 따라 임시 생명점과 증가된 방어등급을 얻으며, 턱 타격은 관통 피해를, 발톱 타격은 참격 피해를 부정적 피해 대신 줍니다.</p>"
+    },
+    "Effect: Electric Surge": {
+      "name": "효과: 전기 폭발",
+      "description": "<p>섬블러는 12의 임시 생명점을 얻고 신속화됩니다.</p>"
+    },
+    "Effect: Electricity Absorption": {
+      "name": "효과: 전기 흡수",
+      "description": "<p>전기 피해를 받은 후, 쇼크 좀비는 평소의 느려짐 1 상태를 잃고, 반응을 사용할 수 있는 능력을 얻으며, 속도에 +10피트 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Elemental Field": {
-      "name": "효과 : 원소 필드",
+      "name": "효과: 원소 장",
       "description": ""
     },
     "Effect: Emotion Vulnerability": {
-      "name": "효과 : 감정 취약성",
-      "description": "<p>푸레리코가 정신 취약 15를 얻습니다. </p>"
+      "name": "효과: 감정 취약점",
+      "description": "<p>퍼네리코는 정신에 약점 15를 얻습니다.</p>"
     },
     "Effect: Energy Ward": {
-      "name": "효과 : 에너지 와드",
-      "description": "<p>캐스케이더가 발동하는 피해에 15의 저항을 얻으며, 이 능력으로 얻는 다른 저항을 대체합니다. 캐스케이더의 근접 공격은 또한 이 유형의 추가 4d10 피해를 줍니다.</p>"
+      "name": "효과: 에너지 방어막",
+      "description": "<p>캐스케이더는 유발 피해에 대한 저항 15를 얻으며, 이 능력으로부터 얻은 다른 저항을 대체합니다. 캐스케이더의 근접 타격은 또한 이 유형의 추가 4d10 피해를 줍니다.</p>"
+    },
+    "Effect: Engulf and Swallow Whole": {
+      "name": "효과: 삼키기와 통째로 삼키기",
+      "description": "<p>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.zU3Ovaet4xQ5Gmvy]{삼키기} 또는 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]{통째로 삼키기}에 의해 부여됨</p>\n<p>당신은 붙잡힘, 느려짐 1이 되고, 숨을 참거나 질식하기 시작해야 합니다. 비무장 공격이나 경량 무기로만 기원을 공격할 수 있으며, 기원은 공격에 대해 무방비입니다. 기원이 단일 공격이나 주문으로 나열된 파열 값과 같거나 초과하는 관통이나 참격 피해를 받으면, 당신은 자유로워집니다.</p>"
     },
     "Effect: Enraging Whistle": {
-      "name": "효과 : 분노의 휘파람",
-      "description": "<p>동물은 공격 굴림과 피해 굴림에 +1 상태 보너스를 받습니다.</p>"
+      "name": "효과: 분노시키는 휘파람",
+      "description": "<p>동물들은 공격과 피해에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Ensnare": {
-      "name": "효과 : Ensnare",
-      "description": "<p>생물이 속도에 -10피트 상태 패널티를 받습니다.</p>"
+      "name": "효과: 덫",
+      "description": "<p>생물은 속도에 -10피트 상황 페널티를 받습니다.</p>"
     },
     "Effect: Entangling Slime": {
-      "name": "효과 : 얽히는 슬라임",
-      "description": "<p>생물이 서투름 1이 되고 속도에 -5피트 패널티를 받습니다.</p>"
+      "name": "효과: 얽히는 점액",
+      "description": "<p>생물은 둔중 1이 되고 속도에 -5피트 페널티를 받습니다.</p>"
     },
     "Effect: Entangling Train": {
-      "name": "효과 : 얽히는 기차",
-      "description": "<p>생물이 속도에 -15피트 상황 패널티를 받습니다.</p>"
+      "name": "효과: 얽히는 기차",
+      "description": "<p>생물은 모든 속도에 -15피트 상황 페널티를 받습니다.</p>"
     },
     "Effect: Exalt the Little Ones": {
-      "name": "효과 : 작은 자를 높이세요",
-      "description": "<p>동물 특성을 가진 생물은 공격 굴림, 피해 굴림, 내성 굴림에 +1 상태 보너스를 받습니다. 동물이 군체 특성을 가지고 있다면, 피해 행동에 저항하기 위한 내성 굴림 DC는 +1 상태 보너스를 받습니다. 이 보너스는 레벨이 2 이하인 아군의 경우 +2로 증가합니다.</p>"
+      "name": "효과: 작은 자들 찬양",
+      "description": "<p>동물 특성을 가진 생물들은 공격 굴림, 피해 굴림, 내성에 +1 상황 보너스를 얻습니다. 동물들이 무리 특성을 가지고 있다면, 그들의 피해 행동에 대한 내성 DC는 +1 상황 보너스를 얻습니다. 이 보너스는 레벨이 2 이하인 동맹들에게는 +2로 증가합니다.</p>"
+    },
+    "Effect: Exalted Retributive Strike": {
+      "name": "효과: 고양된 응보 타격",
+      "description": "<p>당신은 유발 피해에 대한 모든 피해에 저항 14를 얻습니다.</p>"
+    },
+    "Effect: Extract Bones": {
+      "name": "효과: 뼈 추출",
+      "description": "<p>당신은 50의 임시 생명점을 얻습니다.</p>"
     },
     "Effect: Fan Bolt": {
-      "name": "효과 : 팬 볼트",
-      "description": "<p>생물이 수영 속도에 -10피트 상태 패널티를 받습니다.</p>"
+      "name": "효과: 부채 화살",
+      "description": "<p>생물은 수영 속도에 -10피트 상황 페널티를 받습니다.</p>"
     },
     "Effect: Fanatical Frenzy": {
-      "name": "효과 : 광란의 광란",
-      "description": "<p>생물은 공격 굴림에 +1 상태 보너스와 피해 굴림에 +2 상태 보너스를 얻고, AC에 -2 상태 패널티를 받습니다.</p>"
+      "name": "효과: 광신적 광분",
+      "description": "<p>당신은 공격 굴림에 +1 상황 보너스와 피해 굴림에 +2 상황 보너스를 얻고, AC에 -2 상황 페널티를 받습니다.</p>"
     },
     "Effect: Feast on Illness": {
-      "name": "효과 : 질병에 대한 향연",
-      "description": "<p>푸레리코가 임시 체력 30을 얻습니다.</p>"
+      "name": "효과: 질병에 잔치",
+      "description": "<p>퍼네리코는 30의 임시 생명점을 얻습니다.</p>"
     },
     "Effect: Fed by Metal": {
-      "name": "효과 : 금속에 의해 공급됨",
-      "description": "<p>생물이 AC에 +1 아이템 보너스를 얻습니다.</p>"
+      "name": "효과: 금속에 의해 먹임",
+      "description": "<p>생물은 AC에 +1 아이템 보너스를 얻습니다.</p>"
     },
     "Effect: Fed by Wood": {
-      "name": "효과 : 나무에 의해 공급됨",
-      "description": "<p>생물의 턱이 주는 화염 피해가 주사위 1개만큼 증가합니다.</p>"
+      "name": "효과: 나무에 의해 먹임",
+      "description": "<p>생물의 턱으로부터의 화염 피해가 주사위 하나 증가합니다.</p>"
     },
     "Effect: Feed": {
-      "name": "Effect: 피드",
-      "description": "<p>생물은 피드 능력을 얼마나 자주 사용했는지에 따라 체크와 DC에 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 먹이",
+      "description": "<p>생물은 먹이 능력을 얼마나 자주 사용했는지에 따라 판정과 DC에 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Feel No Pain": {
-      "name": "효과 : 통증 없음",
-      "description": "<p>군체가 임시 체력 10을 얻습니다.</p>"
+      "name": "효과: 고통을 느끼지 않음",
+      "description": "<p>무리는 10의 임시 생명점을 얻습니다.</p>"
     },
     "Effect: Fetid Fumes": {
-      "name": "효과 : 악취",
-      "description": "<p>오라 내의 모든 것이 연기로 가려집니다. </p>"
+      "name": "효과: 악취 연기",
+      "description": "<p>오라 내의 모든 것이 연기에 의해 가려집니다.</p>"
     },
     "Effect: Fetid Screech (Critical Failure)": {
-      "name": "효과 : 악취 나는 비명 (대실패)",
-      "description": "<p>생물이 이동 속도에 -5 피트 상태 패널티를 받습니다.</p>"
+      "name": "효과: 악취 비명 (치명적 실패)",
+      "description": "<p>생물은 모든 속도에 -5피트 상황 페널티를 받습니다.</p>"
     },
     "Effect: Fettering Fedora": {
-      "name": "효과 : 페도라 속박",
-      "description": "<p>생물이 속도에 -10피트 상황 패널티를 받습니다.</p>"
+      "name": "효과: 속박하는 페도라",
+      "description": "<p>생물은 모든 속도에 -10피트 상황 페널티를 받습니다.</p>"
     },
     "Effect: Fiddle": {
-      "name": "Effect: Fiddle",
-      "description": "<p>귀에 익은 바이올린 선율이 생물을 춤추게 합니다.</p>\n<p><strong>실패</strong> 무방비 및 속도에 -10피트 상태 패널티<br /><strong>대실패</strong>와 함께 실패로 간주하고 느려짐 1</p>"
+      "name": "효과: 바이올린",
+      "description": "<p>중독성 있는 바이올린 곡조가 생물을 춤추게 만듭니다.</p>\n<p><strong>실패</strong> 무방비와 속도에 -10피트 상황 페널티</p>\n<p><strong>치명적 실패</strong> 실패와 같고, 또한 느려짐 1</p>"
+    },
+    "Effect: Field of Past Regrets": {
+      "name": "효과: 과거 후회의 장",
+      "description": "<p>PC들은 정신 효과에 대한 내성에 +1 상황 보너스를 얻습니다. 살아있는, 닌도루가 아닌 생물들은 정신 피해에 약점 3을 얻습니다.</p>"
+    },
+    "Effect: Field of Slaughter (Bleed)": {
+      "name": "효과: 학살의 장 (출혈)",
+      "description": "<p>오라 내의 치명적 타격은 3d6 지속 출혈 피해를 줍니다.</p>"
+    },
+    "Effect: Field of Slaughter (Keen)": {
+      "name": "효과: 학살의 장 (예리함)",
+      "description": "<p>당신의 무기와 비무장 타격은 <em>예리함</em> 룬을 얻습니다.</p>"
     },
     "Effect: Field of Undeath": {
-      "name": "효과 : 밑의 필드",
-      "description": "<p>공허 치유력이 있는 오라 내의 아군이 빠른 치유를 얻습니다.</p>"
+      "name": "효과: 언데드의 장",
+      "description": "<p>공허 치유를 가진 오라 내 동맹들은 빠른 치유를 얻습니다.</p>"
     },
     "Effect: Fiery Form": {
-      "name": "효과 : Fiery Form",
-      "description": "<p>피의 노파가 불 속성과 60피트의 비행 속도를 얻고, 불에 면역이 되며, 횃불처럼 빛을 방출합니다.</p>"
+      "name": "효과: 화염 형태",
+      "description": "<p>블러드 해그는 화염 특성과 60피트 비행 속도를 얻고, 화염에 면역이 되며, 횃불처럼 빛을 발합니다.</p>"
+    },
+    "Effect: Fiery Rhetoric": {
+      "name": "효과: 화염 수사학",
+      "description": "<p>당신은 지각과 의지 내성에 -2 상황 페널티를 받습니다.</p>"
     },
     "Effect: Filth Wave": {
-      "name": "효과 : 필스 웨이브",
-      "description": "<p>생물이 이동 속도에 -10피트 패널티를 받습니다.</p>"
+      "name": "효과: 오염 파도",
+      "description": "<p>당신은 모든 속도에 페널티를 받습니다.</p>"
     },
     "Effect: Flammable": {
-      "name": "효과 : 가연성",
-      "description": "<p>불타는 동안 바케네코의 공격은 추가로 1d6의 화염 피해를 입힙니다.</p>"
+      "name": "효과: 가연성",
+      "description": "<p>타는 동안, 바케네코의 타격은 추가 1d6 화염 피해를 줍니다.</p>"
+    },
+    "Effect: Flesh Mutation": {
+      "name": "효과: 살점 돌연변이",
+      "description": "<p>당신은 결과에 따라 효과의 영향을 받습니다.</p>\n<p><strong>1 스폰지 살점</strong> 생물은 물리 피해에 약점 5를 가집니다.</p>\n<p><strong>2 부식성 피</strong> 생물은 @Damage[2d4[persistent,acid]] 피해를 받으며, 이는 정상적으로 제거할 수 없지만 돌연변이가 끝나면 끝납니다.</p>\n<p><strong>3 돋아나는 눈</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈가림}이지만 측면 공격에 면역입니다.</p>\n<p><strong>4 돌연변이된 정신</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란}입니다. 여전히 상태에 명시된 대로 회복할 수 있지만, 회복해도 돌연변이가 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{무방비} 상태로 남습니다.</p>"
     },
     "Effect: Focused Assault": {
-      "name": "효과 : 집중 공격",
-      "description": "<p>생물이 휘두르는 장검의 양에 따라 추가 피해를 줍니다.</p>"
+      "name": "효과: 집중 공격",
+      "description": "<p>생물은 휘두르는 롱소드의 수에 따라 추가 피해를 줍니다.</p>"
     },
     "Effect: Fold Form": {
-      "name": "Effect: 접기 형태",
-      "description": "<p>킨자루크가 동물 형태 옵션에서 선택한 새로운 형태로 몸을 빠르게 펼쳤다가 다시 접습니다. 이렇게 하면 선택한 형태의 이동 속도와 AC가 증가하지만 다른 이점은 없습니다. 공격 보너스는 변경되지 않으며, 피해 보너스는 +3입니다.</p>"
+      "name": "효과: 접기 형태",
+      "description": "<p>킨자루크는 빠르게 몸을 펼치고 동물 형태 옵션에서 선택한 새로운 모양으로 다시 접습니다. 이는 선택한 형태의 이동 속도와 타격을 부여하지만 다른 이점은 없습니다. 공격 보너스는 변경되지 않고, 피해 보너스는 +3입니다.</p>"
+    },
+    "Effect: Follow Me": {
+      "name": "효과: 나를 따라와",
+      "description": "<p>당신은 기만과 은밀 판정에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Forgiven Defaced Naiad Queen's Thanks": {
-      "name": "효과 : 용서받은 훼손된 나이아드 여왕의 감사",
-      "description": "<p>공포 효과에 대한 지식 확인과 내성 굴림에 +3 상태 보너스를 받습니다.</p>"
+      "name": "효과: 용서받은 훼손된 나이아드 여왕의 감사",
+      "description": "<p>당신은 지식 판정과 두려움 효과에 대한 내성에 +3 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Form a Phalanx": {
-      "name": "효과 : 지골 형성",
+      "name": "효과: 팔랑크스 형성",
       "description": "<p>생물은 AC에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Fortune's Favor": {
-      "name": "효과 : 행운의 호의",
-      "description": "<p>생물이 특정 유형의 내성 굴림을 시도할 때마다, 두 번 굴려서 더 높은 결과를 가져갑니다. 내성 굴림의 유형은 해로우 판독에서 가장 눈에 띄게 나타난 수트에 따라 결정됩니다: 불굴(망치 또는 방패), 반사(열쇠 또는 책), 의지(별 또는 왕관)</p>"
+      "name": "효과: 운명의 은총",
+      "description": "<p>생물이 특정 유형의 내성 판정을 시도할 때마다 두 번 굴려서 높은 결과를 취합니다. 내성 판정의 유형은 하로우 점에서 가장 두드러진 무늬에 의해 결정됩니다: 인내 (망치 또는 방패), 반사 (열쇠 또는 책), 의지 (별 또는 왕관)</p>"
     },
     "Effect: Fox's Wager": {
-      "name": "효과 : 여우의 내기",
-      "description": "<p>대상은 공격 굴림에 +1 상태 보너스를 얻고, 인간형가 건설한 구조물, 물체, 구조물에 대한 피해에 +5 상태 보너스를 얻습니다. 또한 인간형에 대한 은신 체크에 +2 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 여우의 내기",
+      "description": "<p>대상은 공격 굴림에 +1 상황 보너스와 인간형이 건설한 골렘, 물체, 구조물에 대한 피해에 +5 상황 보너스를 얻습니다. 또한 인간형에 대한 은밀 판정에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Funereal Dirge": {
-      "name": "효과 : 장례식 더지",
-      "description": "<p>생물은 생명력 소모에 대한 내성 굴림에 -2 상태 패널티를 받습니다.</p>"
+      "name": "효과: 장례 비가",
+      "description": "<p>생물은 생명 흡수에 대한 내성에 -2 상황 페널티를 받습니다.</p>"
     },
     "Effect: Furious Possession": {
-      "name": "효과 : 격노한 빙의",
-      "description": "<p>생물은 빙의가 끝나면 사라지는 임시 체력 12를 얻습니다. 빙의하는 동안 생물은 격노의 기운을 발산합니다. 빙의된 생물이 근접 공격을 할 때마다, 영혼은 생물의 자체 능력치 대신 일시적인 발톱 공격 능력치, 피해량, 또는 둘 다를 대체할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.GC5441z8i7N8swk1]{효과 : 격노의 펄스}</p>"
+      "name": "효과: 격렬한 빙의",
+      "description": "<p>생물은 빙의가 끝나면 잃는 12의 임시 생명점을 얻습니다. 빙의 동안 생물은 격노의 맥박 오라를 가집니다. 빙의된 생물이 근접 타격을 할 때마다, 영혼은 생물의 자신의 통계 대신 그들의 순간적인 발톱 공격 수정치, 피해량, 또는 둘 다를 대체할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.GC5441z8i7N8swk1]{효과: 격노의 맥박}</p>"
     },
     "Effect: Ganzi Resistance": {
-      "name": "효과 : 간지 저항",
-      "description": "<p>생물이 특정 생물에 따라 산, 전기, 음파(매일 무작위로 선택)에 대한 저항력을 일정량 얻습니다.</p>"
+      "name": "효과: 간지 저항",
+      "description": "<p>생물은 특정 생물에 따라 산성, 전기, 또는 음파(매일 무작위로 선택됨)에 대한 저항을 얻습니다.</p>"
     },
     "Effect: Ghonhatine Feed": {
-      "name": "효과 : 곤하틴 피드",
-      "description": "<p>생물이 빠른 치유 5와 피해 굴림에 +2 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 곤하틴 먹이",
+      "description": "<p>생물은 빠른 치유 5와 피해 굴림에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Gift of Hospitality": {
-      "name": "효과 : 환대의 선물",
-      "description": "<p>생물은 사회 및 외교 체크에 +2 상태 보너스를 받습니다.</p>\n<p>대상자가 적대적으로 행동하거나 페이단이 수령자를 포기하면 선물은 종료됩니다.</p>"
+      "name": "효과: 환대의 선물",
+      "description": "<p>생물은 사회와 외교 판정에 +2 상황 보너스를 얻습니다.</p>\n<p>대상이 적대적으로 행동하거나 페이단이 수령자를 거부하면 선물이 끝납니다.</p>"
     },
     "Effect: Gird in Prayer": {
-      "name": "효과 : 기도의 띠",
-      "description": "<p>생물은 죽음, 정신, 빙의 효과에 대한 내성 굴림에 +2 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 기도로 무장",
+      "description": "<p>생물은 사망, 정신, 빙의 효과에 대한 내성에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Gleaming Armor": {
-      "name": "효과 : 빛나는 갑옷",
-      "description": "<p>생물은 특정 생물에 따라 AC와 에너지 피해에 대한 저항에 +2 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 빛나는 갑옷",
+      "description": "<p>생물은 AC에 +2 상황 보너스와 특정 생물에 따른 에너지 피해에 대한 저항을 얻습니다.</p>"
     },
     "Effect: Gloom Aura": {
-      "name": "효과 : 어둠 아우라",
-      "description": "<p>생물은 감정 효과에 저항하기 위해 던지는 내성 굴림에 -1의 상황 패널티를 받습니다.</p>"
+      "name": "효과: 우울 오라",
+      "description": "<p>생물은 감정 효과에 대한 내성에 -1 상황 페널티를 받습니다.</p>"
     },
     "Effect: Glowing Spores": {
-      "name": "효과 : 빛나는 포자",
-      "description": "<p>대상은 은신 체크에 -4의 패널티를 받습니다.</p>"
+      "name": "효과: 빛나는 포자",
+      "description": "<p>생물은 은밀 판정에 -4 페널티를 받습니다.</p>"
+    },
+    "Effect: Glutton's Feast": {
+      "name": "효과: 탐식자의 잔치",
+      "description": "<p>오우거 탐식자는 1d4 임시 생명점을 얻거나, 탐식자의 돌진 후에는 2d4를 얻습니다.</p>"
     },
     "Effect: Goblin Song": {
-      "name": "효과 : 고블린 노래",
-      "description": "<p>생물이 지각 체크에 -1 상태 패널티를 받고 내성 굴림이 저장됩니다.</p>"
+      "name": "효과: 고블린 노래",
+      "description": "<p>생물은 지각 판정과 의지 내성에 -1 상황 페널티를 받습니다.</p>"
     },
     "Effect: Grab Debris": {
-      "name": "효과 : 잔해 잡기",
-      "description": "<p>갈매기는 던져진 조각을 사용하여 파편을 버리거나 파편을 방출할 때까지 나열된 능력을 사용할 수 있습니다. 부리로 파편을 잡는 동안에는 부리 공격을 사용할 수 없습니다.</p><ol><li><p><strong>갑옷 조각</strong> 부리새는 AC에 +2의 상황 보너스를 얻습니다.</p></li><li><p><strong>부러진 칼날</strong> 부러진 칼날 근접 공격에 +12의 공격 증폭치가 붙은 2d10+6 절단 피해를 주는 공격을 얻습니다.</p></li><li><p><strong>폭발하지 않은 폭탄</strong> 부스러기 깃털이 던진 조각으로 이걸 던지면 모든 피해가 화염 피해로 변하고 폭탄은 3의 화염 비산 피해도 줍니다.</p></li><li><p><strong>결함 지팡이</strong> 부스러기 깃털은 2d6+6 역장 피해를 주는 +14의 공격 배수 증가 마법 화살 원거리 공격을 얻습니다.</p></li></ol>"
+      "name": "효과: 파편 잡기",
+      "description": "<p>스크라운지피더는 파편을 버리기 위해 던진 부스러기를 사용하거나 파편을 놓을 때까지 나열된 능력에 접근할 수 있습니다. 스크라운지피더는 부리를 사용하여 파편을 잡는 동안 부리 공격을 사용할 수 없습니다.</p><ol><li><p><strong>갑옷 부스러기</strong> 스크라운지피더는 AC에 +2 상황 보너스를 얻습니다.</p></li><li><p><strong>부서진 칼날</strong> 스크라운지피더는 +12 공격 수정치로 2d10+6 참격 피해를 주는 부서진 칼날 근접 타격을 얻습니다.</p></li><li><p><strong>폭발하지 않은 폭탄</strong> 스크라운지피더가 던진 부스러기로 이것을 던질 때, 모든 피해는 화염 피해이고, 폭탄은 또한 3의 화염 스플래시 피해를 줍니다.</p></li><li><p><strong>결함이 있는 지팡이</strong> 스크라운지피더는 +14 공격 수정치로 2d6+6 역장 피해를 주는 마법 화살 원거리 타격을 얻습니다.</p></li></ol>"
     },
     "Effect: Grasp of the Deep": {
-      "name": "효과 : 심연의 파악",
-      "description": "<p>생물이 냉기 약점 10을 얻고 내성 굴림에 -2 상태 패널티를 받습니다.</p>"
+      "name": "효과: 심연의 움켜쥠",
+      "description": "<p>생물은 냉기에 약점 10을 얻고 인내 내성에 -2 상황 페널티를 받습니다.</p>"
     },
     "Effect: Grasping Tendrils": {
-      "name": "효과 : 덩굴손 잡기",
-      "description": "<p>아카타는 움켜쥐는 덩굴손 범위 내의 대상에 대한 공격 굴림에 +2의 상황 보너스를 얻습니다.</p>"
+      "name": "효과: 움켜쥐는 촉수",
+      "description": "<p>아카타는 움켜쥐는 촉수의 영역 내 대상에 대한 공격 굴림에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Graveknight's Curse": {
-      "name": "효과 : 그레이브나이트의 저주",
-      "description": "<p>생물의 이동 속도가 10만큼 감소합니다.</p>"
+      "name": "효과: 무덤기사의 저주",
+      "description": "<p>생물의 속도가 10 감소합니다.</p>"
+    },
+    "Effect: Greased Palms": {
+      "name": "효과: 기름칠된 손바닥",
+      "description": "<p>당신은 보안관의 정착지에서 정보 수집에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Guard's Parry (Guard)": {
+      "name": "효과: 경비병의 막기 (경비병)",
+      "description": "<p>궁전 경비병은 다음 턴 끝까지 공격과 피해 굴림에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Guard's Parry (Liege)": {
+      "name": "효과: 경비병의 막기 (군주)",
+      "description": "<p>군주는 유발 공격에 대한 AC에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Guardian's Aegis": {
-      "name": "효과 : 가디언의 이지스",
-      "description": "<p>생물은 마법 효과에 대한 내성 굴림에 +1 상태 보너스를 얻습니다. 효과가 악마나 다른 혼돈 악로부터 비롯된 것이라면 보너스는 +2로 증가합니다.</p>"
+      "name": "효과: 수호자의 방패",
+      "description": "<p>생물은 마법 효과에 대한 내성에 +1 상황 보너스를 얻습니다. 효과가 악마나 다른 혼돈 악 악마로부터 비롯되었다면 보너스가 +2로 증가합니다.</p>"
     },
     "Effect: Guide's Warning": {
-      "name": "효과 : 가이드의 경고",
-      "description": ""
+      "name": "효과: 안내자의 경고",
+      "description": "<p>당신은 선제권 굴림에 +1 상황 보너스를 얻습니다. 안내자가 정찰 중이었다면 이 보너스가 +2로 증가합니다.</p>"
     },
     "Effect: Guiding Words": {
-      "name": "효과 : 안내 단어",
-      "description": ""
+      "name": "효과: 안내하는 말",
+      "description": "<p>당신은 표시된 생물에 대한 공격과 피해 굴림에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Guiding Words (Guide)": {
+      "name": "효과: 안내하는 말 (안내자)",
+      "description": "<p>당신은 표시된 생물에 대한 공격 굴림에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Guildmaster's Lead": {
-      "name": "효과 : 길드 마스터의 리드",
-      "description": ""
+      "name": "효과: 길드장의 선도",
+      "description": "<p>구리 손의 구성원은 처음으로 피해를 줄 때 추가 1d6 정밀 피해를 줍니다.</p>"
     },
     "Effect: Hallucinogenic Pollen (Critical Failure)": {
-      "name": "효과 : 환각성 꽃가루(대실패)",
-      "description": "<p>생물은 지각 체크에 -4 상태 패널티를 받고 정신적 효과에 대한 내성 굴림을 얻습니다.</p>"
+      "name": "효과: 환각성 꽃가루 (치명적 실패)",
+      "description": "<p>생물은 지각 판정과 정신 효과에 대한 내성에 -4 상황 페널티를 받습니다.</p>"
     },
     "Effect: Hallucinogenic Pollen (Failure)": {
-      "name": "효과 : 환각성 꽃가루 (실패)",
-      "description": "<p>생물은 지각 체크에 -2 상태 패널티를 받고 정신 효과에 대한 내성 굴림을 방지합니다.</p>"
+      "name": "효과: 환각성 꽃가루 (실패)",
+      "description": "<p>생물은 지각 판정과 정신 효과에 대한 내성에 -2 상황 페널티를 받습니다.</p>"
     },
     "Effect: Hamstring": {
-      "name": "효과 : 햄스트링",
-      "description": "<p>대상이 속도에 -10피트 상태 패널티를 받습니다.</p>"
+      "name": "효과: 햄스트링",
+      "description": "<p>대상은 모든 속도에 -10피트 상황 페널티를 받습니다.</p>"
     },
     "Effect: Harmonizing Aura (Allies)": {
-      "name": "효과 : 조화로운 오라 (아군)",
-      "description": "<p>생물은 음파 피해 굴림에 +2 상태 보너스를, AC에 +1 상태 보너스를 얻고 음파 및 청각 효과에 대한 모든 내성 굴림을 얻습니다</p>"
+      "name": "효과: 조화 오라 (동맹)",
+      "description": "<p>생물은 음파 피해 굴림에 +2 상황 보너스와 음파 및 청각 효과에 대한 AC와 모든 내성에 +1 상황 보너스를 얻습니다</p>"
     },
     "Effect: Harmonizing Aura (Enemies)": {
-      "name": "효과 : 조화로운 오라(적)",
-      "description": "<p>생물은 음파 피해 굴림에 -2 상태 보너스를, AC에 -1 상태 보너스를 얻고 음파 및 청각 효과에 대한 모든 내성 굴림을 얻습니다</p>"
+      "name": "효과: 조화 오라 (적)",
+      "description": "<p>생물은 음파 피해 굴림에 -2 상황 보너스와 음파 및 청각 효과에 대한 AC와 모든 내성에 -1 상황 보너스를 얻습니다</p>"
+    },
+    "Effect: Harness Wickedness": {
+      "name": "효과: 악행 활용",
+      "description": "<p>당신의 타격은 추가 주사위 피해를 주고 불경한 특성을 얻습니다. 당신은 또한 10의 임시 생명점, 속도에 +5피트 상황 보너스, 신성에 약점 5를 얻습니다.</p>"
     },
     "Effect: Harrow Burst": {
-      "name": "효과 : 해로우 버스트",
-      "description": "<p>내성 굴림에 실패한 생물은 1d6을 굴려 카드 한 벌을 결정합니다: 1 = 망치 (근력), 2 = 열쇠 (민첩), 3 = 방패 (체력), 4 = 책 (지능), 5 = 별 (지혜), 6 = 왕관 (카리스마). 생물은 1라운드 동안 해당 능력 점수와 관련된 모든 체크에서 -1 상태 패널티를 받습니다(대실패 시 -2 상태 패널티)</p>"
+      "name": "효과: 하로우 폭발",
+      "description": "<p>내성에 실패한 생물은 카드 무늬를 결정하기 위해 1d6를 굴립니다: 1 = 망치 (힘), 2 = 열쇠 (민첩), 3 = 방패 (건강), 4 = 책 (지능), 5 = 별 (지혜), 6 = 왕관 (매력). 생물은 1라운드 동안 그 능력치와 관련된 모든 판정에 -1 상황 페널티를 받습니다(치명적 실패 시 -2 상황 페널티)</p>"
     },
     "Effect: Harrowing Misfortune": {
-      "name": "효과 : 불운을 불러일으킴",
-      "description": "<p>그 생물은 두 번 굴려서 카드의 수트에 따라 결정되는 특정 유형의 다음 롤에서 더 낮은 결과를 가져와야 합니다. 수트와 그 효과는 다음과 같습니다: 망치 (근접 공격 굴림), 열쇠 (반사 내성 굴림), 방패 (내성 굴림), 책 (스킬 체크), 별 (의지 굴림), 왕관 (주문 공격 굴림)</p>"
+      "name": "효과: 하로우 불운",
+      "description": "<p>생물은 카드의 무늬에 의해 결정된 특정 유형의 다음 굴림에서 두 번 굴려서 낮은 결과를 취해야 합니다. 무늬와 그 효과는: 망치 (근접 공격 굴림), 열쇠 (반사 내성), 방패 (인내 내성), 책 (기술 판정), 별 (의지 내성), 왕관 (주문 공격 굴림)입니다.</p>"
     },
     "Effect: Haywire": {
-      "name": "효과 : 헤이와이어",
-      "description": "<p>생물이 공격에 -1의 상황 패널티를 받지만, 추가 @Damage[1d6[bludgeoning]] 피해와 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu]{Knockdown} 피해를 줍니다.</p>"
+      "name": "효과: 고장",
+      "description": "<p>생물은 타격에 -1 상황 페널티를 받지만 추가 @Damage[1d6[bludgeoning]] 피해와 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu]{넘어뜨리기}를 줍니다.</p>"
+    },
+    "Effect: Heart Break": {
+      "name": "효과: 심장 파열",
+      "description": "<p>나르셀라의 60피트 내의 각 적은 다음 턴 끝까지 의지 내성에 -1 아이템 페널티를 받습니다.</p>"
     },
     "Effect: Hope Vulnerability": {
-      "name": "효과 : 희망 취약성",
-      "description": "<p>엘렉시드는 파멸의 확신에 이끌려 어떤 희망에도 약해집니다. 매 라운드마다 생물이 정복자에 대한 공격이나 스킬 체크에서 처음으로 대실패하면, 희망이 폭발하여 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1}.</p>"
+      "name": "효과: 희망 취약점",
+      "description": "<p>생물이 엘레지사이드에 대한 공격이나 기술 판정에서 치명적 실패를 할 때마다 라운드당 처음 한 번, 희망의 폭발을 경험하여 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1}이 됩니다.</p>"
     },
     "Effect: Howl of Vengeful Fury": {
-      "name": "효과 : 복수심에 찬 분노의 울부짖음",
-      "description": "<p>부화 새끼가 임시 체력 5와 공격 및 내성 굴림에 +1 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 복수심의 포효",
+      "description": "<p>대치링은 5의 임시 생명점과 타격과 내성 굴림에 +1 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Hunt Will": {
+      "name": "효과: 사냥 의지",
+      "description": "<p>탈것은 사냥감을 찾기 위한 지각 판정과 사냥감을 추적하기 위한 생존 판정에 +2 상황 보너스를 얻습니다. 탈것이 라운드에서 지정된 사냥감을 처음으로 명중시킬 때, 추가 1d8 정밀 피해를 줍니다.</p>"
     },
     "Effect: Hunted Fear": {
-      "name": "효과 : 사냥된 공포",
-      "description": "<p>생물이 길을 잃지 않기 위해 생존 체크에 -2 상황 패널티를 받습니다.</p>"
+      "name": "효과: 사냥당하는 공포",
+      "description": "<p>생물은 길을 잃지 않기 위한 생존 판정에 -2 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Hunter's Onslaught": {
+      "name": "효과: 사냥꾼의 돌진",
+      "description": "<p>당신은 표시된 생물에 매료되고 돌진이 지속되는 동안 지속되는 10의 임시 생명점을 얻습니다. 당신은 표시된 적에 대한 피해 굴림에 +8 상태 보너스를 얻고, 사냥꾼 주변 30피트 오라 내의 동맹들은 그 보너스의 절반을 얻습니다.</p>"
     },
     "Effect: Hurl Net": {
-      "name": "효과 : 그물망",
-      "description": "<p>생물이 속도에 -10피트 상황 패널티를 받습니다.</p>"
+      "name": "효과: 그물 던지기",
+      "description": "<p>명중 시, 당신은 무방비가 되고 속도에 -10피트 상황 페널티를 받습니다. 치명적 명중 시, 대신 구속됩니다.</p>"
     },
     "Effect: Hurtful Critique": {
-      "name": "효과 : 해로운 비판",
-      "description": "<p>생물은 공격 굴림에 -1의 상황 패널티를 받습니다(대실패 시 -2).</p>"
+      "name": "효과: 상처주는 비평",
+      "description": "<p>생물은 공격 굴림에 -1 상황 페널티를 받습니다(치명적 실패 시 -2).</p>"
     },
     "Effect: Hydra Heads": {
-      "name": "효과 : 히드라 헤드",
-      "description": "<p>하이드라가 현재 가지고 있는 헤드 수입니다.</p>"
+      "name": "효과: 히드라 머리",
+      "description": "<p>히드라가 현재 가지고 있는 머리의 수입니다.</p>"
     },
     "Effect: Hypnotic Stare": {
-      "name": "효과 : 최면 응시",
-      "description": "<p>이 대상은 의지 내성 굴림에 -2 패널티를 받습니다.</p>"
+      "name": "효과: 최면적 응시",
+      "description": "<p>해당 대상은 의지 내성에 -2 페널티를 받습니다.</p>"
+    },
+    "Effect: Icy Protection": {
+      "name": "효과: 얼음 보호",
+      "description": "<p>당신은 냉기에 대한 저항을 얻습니다.</p>"
     },
     "Effect: Ill Omen": {
-      "name": "효과 : 불길한 징조",
-      "description": "<p>생물은 불길한 징조 오라에 있는 동안 공격 굴림, 스킬 체크, 공격 굴림에 -1 패널티를 받고 1일 동안 행운 효과에 면역이 됩니다.</p>"
+      "name": "효과: 불길한 징조",
+      "description": "<p>생물은 불길한 징조 오라 내에서 공격 굴림, 기술 판정, 내성 굴림에 -1 페널티를 받고 1일 동안 행운 효과에 면역이 됩니다.</p>"
+    },
+    "Effect: Imbue Righteousness": {
+      "name": "효과: 정의 주입",
+      "description": "<p>해당 무기로 하는 당신의 타격은 신성 특성을 얻고 불경한 생물에게 추가 1d6 영혼 피해를 줍니다.</p>"
     },
     "Effect: Impaling Chain": {
-      "name": "효과 : 관통 사슬",
-      "description": "<p>대상이 찔려 사슬에 묶여 제자리에 고정됩니다. 대상은 풀려날 때까지 지속적인 출혈 피해를 회복할 수 없습니다.</p>"
+      "name": "효과: 관통 사슬",
+      "description": "<p>대상은 관통되어 제자리에 고정되고 사슬에 붙잡힙니다. 생물은 자유로워질 때까지 지속적인 출혈 피해로부터 회복할 수 없습니다.</p>"
     },
     "Effect: Impersonated Ability": {
-      "name": "효과 : 가장 능력",
-      "description": "<p>노페라보 사칭자가 사칭한 능력 중에서 선택합니다.</p>"
+      "name": "효과: 모방 능력",
+      "description": "<p>노페라보 모방자는 모방한 능력들 중에서 선택합니다.</p>"
     },
     "Effect: Incendiary Dollop": {
-      "name": "효과 : 방화 덩어리",
-      "description": "<p>다음 1분 동안, 또는 생물이 한 번의 상호작용 행동으로 기름 덩어리를 닦아낼 때까지, 생물이 지속적인 화염 피해로부터 회복하기 위한 확인의 DC가 2만큼 증가합니다.</p>"
+      "name": "효과: 연소 덩어리",
+      "description": "<p>다음 1분 동안, 또는 생물이 단일 상호작용 행동으로 기름 덩어리를 닦아내기까지, 생물의 지속적 화염 피해로부터 회복하기 위한 판정의 난이도가 2 증가합니다.</p>"
     },
     "Effect: Infectious Aura": {
-      "name": "효과 : 감염성 오라",
-      "description": "<p>생물은 -2 상태 패널티를 받아 질병 효과에 대한 내성 굴림을 방지합니다.</p>\n<p>범위 내에 있는 생물이 질병에 걸리거나 진행하면, 인접한 모든 생물이 동일한 DC로 동일한 질병에 노출됩니다.</p>"
+      "name": "효과: 전염성 오라",
+      "description": "<p>생물은 질병 효과에 대한 내성에 -2 상태 페널티를 받습니다.</p>\n<p>범위 내의 생물이 질병에 걸리거나 진행되면, 모든 인접한 생물은 같은 질병에 같은 난이도로 노출됩니다.</p>"
     },
     "Effect: Infernal Wound": {
-      "name": "효과 : 지옥의 상처",
-      "description": "<p>출혈을 멈추기 위한 플랫 체크는 DC 20부터 시작됩니다. 출혈 중인 생명체나 아군이 회복을 성공적으로 돕는 경우에만 DC가 15로 감소합니다.</p>"
+      "name": "효과: 지옥의 상처",
+      "description": "<p>출혈을 멈추기 위한 평면 판정은 난이도 20에서 시작합니다. 출혈하는 생물이나 동맹이 회복을 성공적으로 도와야만 난이도가 15로 감소합니다.</p>"
     },
     "Effect: Inspirational Presence": {
-      "name": "효과 : 영감의 존재",
-      "description": "<p>교사의 오라에 있는 제자 중 누구라도 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 회상}에 +1 상황 보너스를 받습니다.</p>"
+      "name": "효과: 영감을 주는 존재",
+      "description": "<p>오라 내의 교사의 학생 중 누구든 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 회상}에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Inspire Courage (Love Siktempora)": {
-      "name": "효과 : 용기 고취(사랑의 식템포라)",
-      "description": "<p>생물은 공격 굴림, 피해 굴림, 공포 효과에 대한 내성 굴림에 +2 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 용기 고취 (러브 식템포라)",
+      "description": "<p>생물은 공격 굴림, 피해 굴림, 공포 효과에 대한 내성에 +2 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Inspire Defense (Love Siktempora)": {
-      "name": "효과 : 방어력 고취(사랑의 식템포라)",
-      "description": "<p>생물은 AC와 내성 굴림에 +2 상태 보너스와 물리 피해에 대한 저항 4를 얻습니다.</p>"
+      "name": "효과: 방어 고취 (러브 식템포라)",
+      "description": "<p>생물은 AC와 내성 굴림에 +2 상태 보너스와 물리 피해에 대한 4의 저항을 얻습니다.</p>"
     },
     "Effect: Inspire Envoy": {
-      "name": "효과 : 영감 사절",
-      "description": "<p>생물은 공격 굴림, AC, 또는 다음 중 하나에 대한 상태 보너스를 얻습니다: 지각, 의지 굴림, 매력 기반 스킬 체크. 보너스의 값은 이 효과를 부여하는 특정 생물에 따라 다릅니다.</p>"
+      "name": "효과: 사절 고취",
+      "description": "<p>생물은 공격 굴림, AC, 또는 다음 모두에 상태 보너스를 얻습니다: 지각, 의지 내성, 매력 기반 기술 판정. 보너스의 값은 이 효과를 부여하는 특정 생물에 따라 달라집니다.</p>"
     },
     "Effect: Inspired Feast": {
-      "name": "효과 : 영감받은 잔치",
-      "description": "<p>생물은 공격 굴림에 +1 상태 보너스를, 피해 굴림에 +2 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 영감받은 잔치",
+      "description": "<p>생물은 공격 굴림에 +1 상태 보너스와 피해 굴림에 +2 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Inspired Recitation": {
-      "name": "효과 : 영감받은 암송",
-      "description": "<p>60피트 내의 모든 아군이 1분 동안 내성 굴림에 +1 상태 보너스와 임시 체력 10을 얻습니다.</p>"
+      "name": "효과: 영감받은 낭송",
+      "description": "<p>60피트 내의 모든 동맹은 내성 굴림에 +1 상태 보너스와 1분 동안 지속되는 10의 임시 생명점을 얻습니다.</p>"
+    },
+    "Effect: Inspiring Aura": {
+      "name": "효과: 고취 오라",
+      "description": "<p>당신은 선제권 굴림과 공포 효과에 대한 내성에 +1 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Inspiring Display": {
-      "name": "효과 : 영감을 주는 디스플레이",
-      "description": "<p>이 대상은 동굴 마법사의 다음 턴이 시작될 때까지 지속되는 임시 체력 4점을 얻습니다.</p>"
+      "name": "효과: 고취하는 연출",
+      "description": "<p>해당 대상은 동굴 마법사의 다음 턴 시작까지 지속되는 4의 임시 생명점을 얻습니다.</p>"
     },
     "Effect: Inspiring Presence": {
-      "name": "효과 : 영감의 존재",
-      "description": "<p>생물이 공포 효과에 대한 내성 굴림에 +2의 상황 보너스를 받습니다.</p>"
+      "name": "효과: 고취하는 존재",
+      "description": "<p>생물은 공포 효과에 대한 내성에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Inspiring Presence (Empyreal Dragon)": {
-      "name": "효과 : 영감의 존재 (임페리얼 드래곤)",
-      "description": "<p>오라 안에 있는 생물은 내성 굴림과 스킬 체크에 +1 상태 보너스를 받습니다.</p>"
+      "name": "효과: 고취하는 존재 (천상의 드래곤)",
+      "description": "<p>오라 내의 생물은 내성 굴림과 기술 판정에 +1 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Instinctual Tinker (Critical Success)": {
-      "name": "효과 : 본능적 땜장이 (대성공)",
-      "description": "<p>생물이 공격 굴림에 +1 상황 보너스를 얻습니다.</p>"
+      "name": "효과: 본능적 땜장이 (치명적 성공)",
+      "description": "<p>생물은 공격 굴림에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Interest is Due!": {
+      "name": "효과: 이자가 지급됩니다!",
+      "description": "<p>당신의 타격은 추가 1d6 정신 피해를 줍니다.</p>"
     },
     "Effect: Interpose": {
-      "name": "효과 : 끼어들기",
+      "name": "효과: 개입",
       "description": "<p>생물은 AC에 +2 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Invigorating Passion": {
-      "name": "효과 : 활기찬 열정",
-      "description": "<p>생물이 공격 굴림에 상태 보너스 +1과 임시 체력 10을 얻습니다.</p>"
+      "name": "효과: 활기를 주는 열정",
+      "description": "<p>생물은 공격 굴림에 +1 상태 보너스와 10의 임시 생명점을 얻습니다.</p>"
     },
     "Effect: Invoke Rune": {
-      "name": "효과 : 룬 호출",
-      "description": "<p>소환 룬의 빛나는 사본이 거인이 들고 있는 무기 하나에 나타나서 거인이 선택한 효과 하나를 무기에 부여합니다.</p>"
+      "name": "효과: 룬 소환",
+      "description": "<p>소환된 룬의 빛나는 복사본이 거인이 들고 있는 단일 무기에 나타나, 거인이 선택한 하나의 효과를 무기에 부여합니다.</p>"
+    },
+    "Effect: Iron Command (Extra Damage)": {
+      "name": "효과: 철의 명령 (추가 피해)",
+      "description": "<p>셀데그의 유발 생물에 대한 타격은 다음 턴 끝까지 추가 3 피해를 줍니다. 셀데그는 이 반응을 사용할 때마다 추가 피해가 영혼인지 공허인지 선택합니다.</p>"
+    },
+    "Effect: Ironblood Stance": {
+      "name": "효과: 철혈 자세",
+      "description": "<p>나카샤는 뚫을 수 없는 철의 자세에 들어갑니다. 이 자세에 있는 동안, 나카샤는 주먹으로 철 휩쓸기 타격을 할 수 있고 모든 피해에 대한 2의 저항을 얻습니다.</p>"
     },
     "Effect: Jury-Rig": {
-      "name": "Effect: 배심원-리그",
-      "description": "<p>대상이 임시 체력 10을 얻습니다.</p>"
+      "name": "효과: 임시 수리",
+      "description": "<p>대상은 10의 임시 생명점을 얻습니다.</p>"
+    },
+    "Effect: Keep Up With Me!": {
+      "name": "효과: 나를 따라와!",
+      "description": "<p>당신은 다음에 하는 타격의 공격 굴림에 +3 상태 보너스를 얻거나, 당신이 부대라면 다음 공격 능력의 난이도에 +3 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Keeper's Ward": {
+      "name": "효과: 수호자의 보호",
+      "description": "<p>당신은 마법 효과에 대한 내성에 +1 상태 보너스를 얻습니다. 효과가 수중 생물로부터 비롯되었다면 보너스가 +2로 증가합니다.</p>"
     },
     "Effect: Kharna's Blessing": {
-      "name": "효과 : 카르나의 축복",
+      "name": "효과: 카르나의 축복",
       "description": ""
+    },
+    "Effect: Kingpin's Presence": {
+      "name": "효과: 보스의 존재",
+      "description": "<p>당신은 정신 효과에 대한 내성에 +2 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Lantern of Hope": {
-      "name": "효과 : 희망의 등불",
-      "description": "<p>생물은 피해 굴림과 @UUID[Compendium.pf2e.spells-srd.Item.GaRQlC9Yw1BGKHfN]{절망의 파도}에 대한 내성 굴림에 +1 상태 보너스를 받습니다.</p>"
+      "name": "효과: 희망의 등불",
+      "description": "<p>생물은 피해 굴림과 @UUID[Compendium.pf2e.spells-srd.Item.GaRQlC9Yw1BGKHfN]{절망의 파도}에 대한 내성에 +1 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Lantern of Hope (Gestalt)": {
-      "name": "효과 : 희망의 등불 (게슈탈트)",
-      "description": "<p>생물은 피해 굴림과 @UUID[Compendium.pf2e.spells-srd.Item.GaRQlC9Yw1BGKHfN]{절망의 파도}에 대한 내성 굴림에 상태 보너스 +3을 받습니다.</p>"
+      "name": "효과: 희망의 등불 (게슈탈트)",
+      "description": "<p>생물은 피해 굴림과 @UUID[Compendium.pf2e.spells-srd.Item.GaRQlC9Yw1BGKHfN]{절망의 파도}에 대한 내성에 +3 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Lawbringer": {
+      "name": "효과: 법의 집행자",
+      "description": "<p>방패마샬은 적을 심판을 위해 표시합니다.</p>"
     },
     "Effect: Leader's Command": {
-      "name": "효과 : 리더의 명령",
-      "description": "<p>생물은 공격 굴림에 +2 상태 보너스 또는 속도에 +10피트 상태 보너스 중 리더가 선택한 것을 얻습니다.</p>"
+      "name": "효과: 지도자의 명령",
+      "description": "<p>생물들은 지도자가 선택한 공격 굴림에 +2 상태 보너스 또는 속도에 +10피트 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Liberating Step": {
+      "name": "효과: 해방의 걸음",
+      "description": "<p>당신은 유발 피해에 대한 모든 피해에 10의 저항을 얻습니다.</p>"
     },
     "Effect: Light of Truth": {
-      "name": "효과 : 진실의 빛",
-      "description": "<p>이 빛의 영향을 받는 생물에 대해, 조아엠과 그 아군은 피해 굴림과 지식 회상 체크에 +1 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 진실의 빛",
+      "description": "<p>이 빛에 영향을 받는 생물에 대해서, 조아엠과 그들의 동맹들은 피해 굴림과 지식 회상 판정에 +1 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Lightning Powered": {
-      "name": "효과 : 라이트닝 파워",
-      "description": "<p>30피트 내의 충격 좀비 하나당 충격 좀비가 빠른 치유 2를 얻습니다(최대 빠른 치유 10까지).</p>"
+      "name": "효과: 번개 동력",
+      "description": "<p>30피트 내의 각 쇼크 좀비마다, 쇼크 좀비는 빠른 치유 2를 얻습니다(최대 빠른 치유 10까지).</p>"
     },
     "Effect: Living Shield": {
-      "name": "효과 : 리빙 쉴드",
-      "description": "<p>레켑은 인접한 아군이 더 이상 인접하지 않을 때까지 또는 집정관의 다음 턴이 시작될 때까지 둘 중 먼저 도래하는 시점까지 AC에 +2 상황 보너스를 부여합니다.</p>"
+      "name": "효과: 살아있는 방패",
+      "description": "<p>레켑은 인접한 동맹에게 더 이상 인접하지 않거나 아르콘의 다음 턴 시작 중 먼저 오는 때까지 AC에 +2 상황 보너스를 부여합니다.</p>"
     },
     "Effect: Lost Plates": {
-      "name": "효과 : 분실된 접시",
-      "description": "<p>생물은 분실된 판의 수만큼 AC에 상태 패널티를 받습니다.</p>"
+      "name": "효과: 잃어버린 판",
+      "description": "<p>생물은 잃어버린 판의 수만큼 AC에 상태 페널티를 받습니다.</p>"
     },
     "Effect: Lost Red Cap": {
-      "name": "효과 : 빨간 모자 분실",
-      "description": "<p>생물은 피해 굴림에 -4 상태 패널티를 받습니다.</p>"
+      "name": "효과: 잃어버린 빨간 모자",
+      "description": "<p>생물은 피해 굴림에 -4 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Lunar Blaze": {
+      "name": "효과: 달의 불꽃",
+      "description": "<p>디스카는 화염 피해에 면역이 되고 그녀의 근접 타격은 추가 1d6 지속적 화염 피해를 줍니다.</p>"
     },
     "Effect: Lurker's Glow (Critical Failure)": {
-      "name": "효과 : 잠복자의 빛 (대실패)",
-      "description": "<p>생물이 효과가 지속되는 동안 20피트 범위에서 밝은 빛을 발산합니다.</p>"
+      "name": "효과: 잠복자의 빛 (치명적 실패)",
+      "description": "<p>생물은 효과 지속 동안 20피트 범위에 밝은 빛을 발산합니다.</p>"
+    },
+    "Effect: Magnificent…!": {
+      "name": "효과: 장관이군요…!",
+      "description": "<p>당신은 표시된 생물에 대한 공격과 피해 굴림에 +1 상태 보너스를 얻습니다.</p>\n<p>학자는 그 생물을 명중시키는 무기와 비무장 타격으로 추가 3d6 정밀 피해를 줍니다.</p>"
     },
     "Effect: Mammoth Land Star Limbs": {
-      "name": "효과 : 매머드 랜드 별 팔다리",
-      "description": "<p>매머드 육지 별이 현재 가지고 있는 팔다리 수입니다.</p>"
+      "name": "효과: 매머드 랜드 스타 사지",
+      "description": "<p>매머드 랜드 스타가 현재 가지고 있는 사지의 수입니다.</p>"
     },
     "Effect: Mangling Rend": {
-      "name": "Effect: 망글링 렌드",
-      "description": "<p>대상은 다음 턴이 끝날 때까지 모든 속도에 -20피트 상태 패널티를 받습니다.</p>"
+      "name": "효과: 찢어발기기",
+      "description": "<p>대상은 다음 턴 끝까지 모든 속도에 -20피트 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Manipulate Luck - Drusilla (Good)": {
+      "name": "효과: 행운 조작 - 드루실라 (좋음)",
+      "description": "<p>영향받은 생물은 다음 하루 내에 한 번의 d20 굴림에서 두 번 굴려서 높은 결과를 사용할 수 있습니다.</p>"
     },
     "Effect: Manipulate Luck (Bad)": {
-      "name": "효과 : 운 조작 (나쁨)",
-      "description": "<p>생물은 두 번 굴려서 다음 d20 굴림에서 더 낮은 결과를 사용해야 합니다.</p>"
+      "name": "효과: 행운 조작 (나쁨)",
+      "description": "<p>생물은 다음 d20 굴림에서 두 번 굴려서 낮은 결과를 사용해야 합니다.</p>"
     },
     "Effect: Manipulate Luck (Good)": {
-      "name": "효과 : 행운 조작 (좋음)",
-      "description": "<p>영향을 받은 생물은 다음 1분 이내에 한 번의 d20 주사위를 두 번 굴려 더 높은 결과를 사용할 수 있습니다.</p>"
+      "name": "효과: 행운 조작 (좋음)",
+      "description": "<p>영향받은 생물은 다음 1분 내에 한 번의 d20 굴림에서 두 번 굴려서 높은 결과를 사용할 수 있습니다.</p>"
+    },
+    "Effect: Mark of Fate": {
+      "name": "효과: 운명의 표시",
+      "description": "<p>당신은 불경함에 약점 10을 얻고 우르가토아의 추종자에 대한 매력 기반 기술 판정에 -2 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Medical Malpractice": {
+      "name": "효과: 의료 과실",
+      "description": "<p>외과의사의 근접 타격은 표시된 생물에 대해 추가 정밀 피해를 줍니다.</p>"
     },
     "Effect: Metallify": {
-      "name": "Effect: 금속화",
-      "description": "<p>오줌이 물리 피해(아다만틴 제외)에 대한 저항력을 5 얻고, 속도에 -5 피트 패널티를 받으며, 유사체 공격은 다용도 S 또는 P 무기 특성을 얻습니다.</p>"
+      "name": "효과: 금속화",
+      "description": "<p>오즈는 물리 피해에 대한 5의 저항을 얻습니다(아다만틴 제외), 속도에 -5피트 페널티를 받고, 그들의 가짜발 타격은 다용도 S 또는 P 무기 특성을 얻습니다.</p>"
     },
     "Effect: Mist Cloud": {
-      "name": "Effect: 안개 구름",
-      "description": "<p>오라에 있는 크리처가 숨겨집니다. </p>"
+      "name": "효과: 안개 구름",
+      "description": "<p>오라 내의 생물들은 가려집니다.</p>"
+    },
+    "Effect: Monologue": {
+      "name": "효과: 독백",
+      "description": "<p>당신은 의지 내성에 +1 상태 보너스와 주문의 피해 굴림에 +2 상태 보너스를 얻습니다. 이 행동을 다시 취할 때마다, 보너스가 각각 1과 2씩 증가합니다.</p>"
     },
     "Effect: Moon Frenzy": {
-      "name": "효과 : 달 광란",
-      "description": "<p>생물이 한 크기가 커지고, 사거리가 5피트 증가하며, 턱 공격(또는 이와 유사한 공격)의 피해가 2 증가합니다.</p>"
+      "name": "효과: 달의 광분",
+      "description": "<p>생물은 한 단계 크기가 커지고, 길이를 5피트 증가시키며, 턱 타격(또는 유사한 타격)의 피해를 2 증가시킵니다.</p>"
     },
     "Effect: Mortal Reflection": {
-      "name": "효과 : 필멸자 반사",
-      "description": "<p>불완전한 오토마톤이 대상의 감정을 끌어들여 필멸자의 느낌을 떠올리고, 1분 동안 속도에 +5피트 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 필멸자의 반영",
+      "description": "<p>불완전한 자동인형은 대상의 감정을 끌어와서 필멸자의 감정의 유사함을 회상하고, 1분 동안 속도에 +5피트 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Motivating Assault": {
-      "name": "효과 : 공격 동기 부여",
-      "description": "<p>공포 효과에 대한 공격 굴림, 피해 굴림, 내성 굴림에 +1 상태 보너스를 받습니다.</p>"
+      "name": "효과: 동기부여 공격",
+      "description": "<p>당신은 공격 굴림, 피해 굴림, 공포 효과에 대한 내성에 +1 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Musk": {
-      "name": "Effect: 머스크",
-      "description": "<p>대상은 은신 체크에 -2 패널티를 받습니다.</p>"
+      "name": "효과: 악취",
+      "description": "<p>생물은 은밀 판정에 -2 페널티를 받습니다.</p>"
     },
     "Effect: Mutilating Bite": {
-      "name": "효과 : 절단 물기",
-      "description": "<p>대상은 매력 기반 체크에 -1 상태 패널티를 받습니다. 이 패널티는 최대 -3까지 누적됩니다.</p>"
+      "name": "효과: 절단 물기",
+      "description": "<p>생물은 그 다음 매력 기반 판정에 -1 상태 페널티를 받습니다. 이 페널티는 최대 -3까지 누적됩니다.</p>"
+    },
+    "Effect: My Turn!": {
+      "name": "효과: 내 차례야!",
+      "description": "<p>카르는 공격 굴림, 내성 굴림, 기술 판정에 +1 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Nanite Surge (Glow)": {
-      "name": "효과 : 나나이트 서지 (글로우)",
-      "description": "<p>생물이 10피트 범위에서 희미한 빛을 발산합니다.</p>"
+      "name": "효과: 나노머신 급증 (빛남)",
+      "description": "<p>생물은 10피트 범위에 희미한 빛을 발산합니다.</p>"
+    },
+    "Effect: Natural Disguise": {
+      "name": "효과: 자연스러운 변장",
+      "description": "<p>당신은 자연 환경에서 다음 일일 준비까지 또는 변장이 망가질 때까지(둘 중 먼저 오는 때) 은밀 판정에 +2 아이템 보너스를 얻습니다.</p>"
     },
     "Effect: Nature's Infusion": {
-      "name": "효과 : 자연의 인퓨전",
-      "description": "<p>블러듀웨드가 임시 체력 15를 얻습니다.</p>"
+      "name": "효과: 자연의 주입",
+      "description": "<p>블로드우웨드는 15의 임시 생명점을 얻습니다.</p>"
+    },
+    "Effect: Near-Death Experience": {
+      "name": "효과: 임사 체험",
+      "description": "<p>당신은 회복 판정의 난이도를 2 감소시킵니다.</p>"
+    },
+    "Effect: Near-Death Experience Healing": {
+      "name": "효과: 임사 체험 치유",
+      "description": "<p>당신은 빠른 치유를 얻습니다.</p>"
     },
     "Effect: Necrotic Field": {
-      "name": "효과 : 괴사 필드",
-      "description": "<p>아우라 안에 있는 언데드가 자연 공격으로 추가 @Damage[1d6[void]] 피해를 줍니다.</p>"
+      "name": "효과: 괴사 영역",
+      "description": "<p>오라 내의 언데드는 자연 공격으로 추가 @Damage[1d6[void]] 피해를 줍니다.</p>"
+    },
+    "Effect: Never off the Hook": {
+      "name": "효과: 절대 놓치지 않아",
+      "description": "<p>당신은 기원의 위협이나 강요 시도에 대한 의지 난이도에 -3 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: No Fight Fair": {
+      "name": "효과: 공정한 싸움 없음",
+      "description": "<p>당신은 속도에 상태 페널티를 받습니다.</p>"
     },
     "Effect: No Quarter!": {
-      "name": "효과 : 분기 없음!",
-      "description": "<p>선장은 함선원들에게 자비 없이 싸우라고 명령합니다. 함장으로부터 20피트 이내에 있는 같은 레벨 이하의 모든 아군 생물은 함장의 다음 턴이 끝날 때까지 공격 굴림과 피해 굴림에 상태 보너스 +1을 받습니다.</p>"
+      "name": "효과: 용서 없음!",
+      "description": "<p>선장은 선원들에게 자비 없이 싸우라고 명령합니다. 선장 20피트 내의 동등하거나 낮은 레벨의 모든 동맹 생물들은 선장의 다음 턴 끝까지 공격 굴림과 피해 굴림에 +1 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Noxious Exhalation": {
-      "name": "효과 : 유독한 호기",
-      "description": "<p>생물이 정신력 10에 약해지고 의지 굴림에 -1 상태 패널티를 받습니다.</p>"
+      "name": "효과: 유독한 호흡",
+      "description": "<p>생물은 정신에 약점 10과 의지 내성에 -1 상태 페널티를 얻습니다.</p>"
     },
     "Effect: Noxious Smog": {
-      "name": "효과 : 유해한 스모그",
-      "description": "<p>오라 안의 생물이 숨겨집니다. </p>"
+      "name": "효과: 유독한 스모그",
+      "description": "<p>오라 내의 생물들은 가려집니다.</p>"
     },
     "Effect: Nymph Queen's Inspiration": {
-      "name": "효과 : 님프 여왕의 영감",
-      "description": "<p>생물은 모든 제작 체크, 공연 체크, 내성 굴림에 +1 상태 보너스를 받습니다.</p>\n<p>바드은 추가 혜택을 받습니다 :</p>\n<ul>\n<li><strong>에니그마 뮤즈:</strong> 모든 지식 체크에 +1 상태 보너스 <em>(포함되지 않음)</em></li>\n<li><strong>마에스트로 뮤즈:</strong> 작곡의 효과를 확인하기 위한 공연 체크에 상태 보너스 +2</li>\n<li><strong>폴리매스 뮤즈:</strong> 훈련하지 않은 스킬 체크에 상태 보너스 +4</li>\n<li><strong>기타 뮤즈:</strong> 페이에 대한 의지 굴림에 상태 보너스 +2</li>\n</ul>"
+      "name": "효과: 님프 여왕의 영감",
+      "description": "<p>생물은 모든 제작 판정, 연기 판정, 의지 내성에 +1 상태 보너스를 얻습니다.</p>\n<p>바드는 추가 혜택을 받습니다:</p>\n<ul>\n<li><strong>수수께끼 뮤즈:</strong> 모든 지식 판정에 +1 상태 보너스 <em>(포함되지 않음)</em></li>\n<li><strong>지휘자 뮤즈:</strong> 작곡의 효과를 결정하기 위한 연기 판정에 +2 상태 보너스</li>\n<li><strong>박식가 뮤즈:</strong> 비훈련 기술 판정에 +4 상태 보너스</li>\n<li><strong>기타 뮤즈:</strong> 페이에 대한 의지 내성에 +2 상태 보너스</li>\n</ul>"
     },
     "Effect: Oceanic Armor": {
-      "name": "효과 : 오션 아머",
+      "name": "효과: 해양 갑옷",
       "description": "<p>생물은 AC에 +2 상황 보너스를 얻습니다.</p>"
     },
+    "Effect: On Guard": {
+      "name": "효과: 경계",
+      "description": "<p>당신은 선제권 굴림에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: One for All": {
+      "name": "효과: 모두를 위한 하나",
+      "description": "<p>당신은 AC에 +1 상황 보너스를 얻습니다. 만약 당신이 둘 이상의 생물의 모두를 위한 하나 능력의 혜택을 받는다면, 보너스는 +1 대신 +2입니다.</p>"
+    },
     "Effect: Overdrive Engine": {
-      "name": "효과 : 과부하 엔진",
-      "description": "<p>레지날드가 임시 체력 200, 속도 +15 피트 상태 보너스, 근접 공격 굴림 상태 보너스 +2를 얻습니다.</p>"
+      "name": "효과: 과부하 엔진",
+      "description": "<p>레지널드는 200의 임시 생명점, 속도에 +15피트 상태 보너스, 근접 공격 굴림에 +2 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Overtake Soul": {
-      "name": "효과 : 추월 영혼",
+      "name": "효과: 영혼 장악",
       "description": ""
     },
+    "Effect: Owe Money": {
+      "name": "효과: 빚",
+      "description": "<p>당신은 빚을 지고 있습니다.</p>"
+    },
     "Effect: Pain Frenzy": {
-      "name": "효과 : 고통 광란",
-      "description": "<p>생물은 공격 및 피해 굴림에 +2 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 고통의 광분",
+      "description": "<p>생물은 공격과 피해 굴림에 +2 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Paired Spikes": {
-      "name": "효과 : 페어링된 스파이크",
-      "description": "<p>생물이 전기 피해에 15의 약점을 얻습니다.</p>"
+      "name": "효과: 쌍둥이 가시",
+      "description": "<p>생물은 전기 피해에 약점 15를 얻습니다.</p>"
     },
     "Effect: Parry Dance": {
-      "name": "효과 : 패리 댄스",
-      "description": "<p>갈퀴는 다음 턴이 끝날 때까지 AC에 +2 상황 보너스를 얻습니다.</p>"
+      "name": "효과: 막기 춤",
+      "description": "<p>레이크는 다음 턴 끝까지 AC에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Partial Armor": {
+      "name": "효과: 부분 갑옷",
+      "description": "<p>일시적 효과</p>\n<p>원거리나 길이 무기로 하는 타격은 마르구크에 대한 공격 굴림에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Perfect Formation": {
+      "name": "효과: 완벽한 진형",
+      "description": "<p>부대는 AC에 +2 아이템 보너스와 반사 내성에 +2 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Pest Haven": {
-      "name": "효과 : 해충 피난처",
-      "description": "<p>스킨스티치와 공간을 공유하는 모든 동물 군체는 빠른 치유 3을 얻습니다. </p>"
+      "name": "효과: 해충의 안식처",
+      "description": "<p>스킨스티치와 같은 공간을 공유하는 모든 동물 무리는 빠른 치유 3을 얻습니다.</p>"
     },
-    "Effect: PFS Level Bump": {
-      "name": "효과 : PFS 레벨 범프",
-      "description": "<p>시나리오와 퀘스트는 주어진 레벨 범위에서 평균 레벨이 두 레벨 중 낮은 PC에 도전하도록 설계되었습니다(즉, 레벨 범위 1-2는 1레벨 PC에 도전하도록 만들어졌고 레벨 범위 3-4는 3레벨 PC에 도전하도록 만들어졌습니다). 일반적으로 도전 점수 합계가 그룹의 전체 전력이 레벨 범위의 상위 레벨(예: 레벨 범위 1-2의 2레벨)과 같다고 판단되면 시나리오의 스케일이 이에 맞게 조정됩니다.</p>\n<p>하지만 시나리오의 스케일이 캐릭터 수에 기반하거나 시나리오에 16-18단계 스케일이 부족한 경우와 같이 레벨 범프를 추가해야 하는 경우도 있습니다.</p>\n<ul>\n<li>공격 계수, 공격 피해, 주문 피해, 구사력 계수, 기술 계수, 지각 계수, AC를 1씩 증가시킵니다.</li>\n<li>HP 총계를 10 또는 10% 중 높은 값으로 증가시킵니다.</li>\n</ul>"
+    "Effect: PFS Level Bump (NPC)": {
+      "name": "효과: PFS 레벨 상승 (NPC)",
+      "description": "<p>시나리오와 퀘스트는 주어진 레벨 범위에서 두 레벨 중 낮은 레벨의 평균 레벨을 가진 PC들을 도전하도록 설계됩니다(즉, 레벨 범위 1-2는 1레벨 PC를 도전하도록, 레벨 범위 3-4는 3레벨 PC를 도전하도록 구축됨). 일반적으로, 도전 포인트 총합이 그룹의 전체 힘이 레벨 범위의 높은 레벨(예: 레벨 범위 1-2에서 2레벨)과 동등하다고 판단할 때, 시나리오의 스케일링이 이를 위해 조정됩니다.</p>\n<p>그러나 때로는 레벨 상승을 추가해야 할 때가 있습니다. 예를 들어 시나리오의 스케일링이 플레이어 수에 기반하거나, 시나리오에 낮은 티어 16-18 스케일링이 부족한 경우입니다.</p>\n<ul>\n<li>공격 수정치, 공격 피해, 주문 피해, 내성 수정치, 기술 수정치, 지각 수정치, AC를 1씩 증가시킵니다.</li>\n<li>생명점 총합을 10 또는 10% 중 더 높은 값으로 증가시킵니다.</li>\n</ul>"
     },
     "Effect: Phalanx Fighter": {
-      "name": "효과 : 지골 파이터",
+      "name": "효과: 팔랑크스 전사",
       "description": "<p>생물은 AC에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Phantasmagoric Fog": {
-      "name": "효과 : 환상적인 안개",
-      "description": "<p>홀이 보라색 안개로 채워져 그 안에 있는 모든 생물에게 지각 체크에 -2 상황 패널티를 부과하고, 그 안에 들어오는 모든 생명체를 환상 안개에 노출시킵니다.</p>"
+      "name": "효과: 환상적 안개",
+      "description": "<p>홀은 보라색 안개로 가득 차며, 그 안의 모든 생물들에게 지각 판정에 -2 상황 페널티를 부과하고 그 안에 들어가는 모든 사람을 환상적 안개에 노출시킵니다.</p>"
     },
     "Effect: Phytohydra Heads": {
-      "name": "효과 : 피토히드라 헤드",
-      "description": "<p>하이드라가 현재 가지고 있는 머리 수입니다. </p>"
+      "name": "효과: 식물히드라 머리",
+      "description": "<p>히드라가 현재 가지고 있는 머리의 수입니다.</p>"
     },
     "Effect: Pilgrim's Ward": {
-      "name": "효과 : 필그림의 병동",
-      "description": "<p>모든 종교학 체크 및 내성 굴림에 +1 상태 보너스를 받습니다.</p>"
+      "name": "효과: 순례자의 보호",
+      "description": "<p>당신은 모든 종교 판정과 의지 내성에 +1 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Pinpoint Weakness": {
-      "name": "효과 : 약점 정확히 파악",
-      "description": "<p>치만이 30피트 내에 있는 생물의 약점을 지적합니다. 치만과 그녀를 보고 들을 수 있는 모든 아군은 다음 턴이 시작될 때까지 해당 생물에 대한 공격 및 피해 굴림에 상태 보너스 +1을 얻습니다.</p>"
+      "name": "효과: 정확한 약점",
+      "description": "<p>치마안은 30피트 내의 생물의 약점을 가리킵니다. 치마안과 그녀를 보고 들을 수 있는 모든 동맹들은 그녀의 다음 턴 시작까지 그 생물에 대한 공격과 피해 굴림에 +1 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Poison Frenzy": {
-      "name": "효과 : 독 광란",
-      "description": "<p>독을 먹는 자가 1분 동안 지속되는 광란에 빠집니다. 광란 상태에 있는 동안 독을 먹는 자는 근접 공격 굴림에 +1 상태 보너스를 얻고, 근접 타격 피해 굴림에 +4 상태 보너스를 얻고, 광란이 끝날 때까지 임시 체력 20을 얻고, AC에 -2 상태 패널티를 받습니다.</p>"
+      "name": "효과: 독 광분",
+      "description": "<p>독 먹는 자는 1분 동안 지속되는 광분에 빠집니다. 광분 중에는, 독 먹는 자는 근접 타격의 공격 굴림에 +1 상태 보너스, 근접 타격의 피해 굴림에 +4 상태 보너스, 광분이 끝날 때까지 20의 임시 생명점, AC에 -2 상태 페널티를 얻습니다.</p>"
     },
     "Effect: Pollution Infusion": {
-      "name": "효과 : 오염 주입",
+      "name": "효과: 오염 주입",
       "description": ""
     },
+    "Effect: Posse's Edge": {
+      "name": "효과: 무리의 우위",
+      "description": "<p>당신은 선제권 굴림에 +1 상황 보너스를 얻습니다.</p>"
+    },
     "Effect: Powder Burst": {
-      "name": "효과 : 파우더 버스트",
-      "description": "<p>정신 효과에 대한 지각 체크 및 내성 굴림에 -2 상태 패널티가 적용됩니다. </p>"
+      "name": "효과: 분말 폭발",
+      "description": "<p>지각 판정과 정신 효과에 대한 내성에 -2 상태 페널티.</p>"
     },
     "Effect: Praise Adachros": {
-      "name": "효과 : 아다크로스 찬양",
-      "description": "<p>생물은 공격 굴림, 지각 체크, 내성 굴림, 스킬 체크에 +1 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 아다크로스 찬양",
+      "description": "<p>생물은 공격 굴림, 지각 판정, 내성 굴림, 기술 판정에 +1 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Pray to the Rotting God": {
+      "name": "효과: 썩는 신에게 기도",
+      "description": "<p>당신은 공격 굴림에 +1 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Prepare Fangs": {
-      "name": "효과 : 송곳니 준비",
-      "description": "<p>단검이 카운터 값과 같은 추가 독 피해를 줍니다.</p>"
+      "name": "효과: 송곳니 준비",
+      "description": "<p>단검은 계수값과 같은 추가 독 피해를 줍니다.</p>"
     },
     "Effect: Primal Sink": {
-      "name": "효과 : 원시 싱크",
-      "description": "<p>동물 특성을 가진 생물은 공격 굴림, 피해 굴림, 내성 굴림에 +1 상태 보너스를 받습니다. 동물이 군체 특성을 가지고 있다면, 피해 행동에 저항하기 위한 내성 굴림 DC에 +1 상태 보너스를 얻습니다. 이 보너스는 레벨이 2 이하인 아군의 경우 +2로 증가합니다.</p>"
+      "name": "효과: 원시 흡수",
+      "description": "<p>동물 특성을 가진 생물들은 공격 굴림, 피해 굴림, 내성 굴림에 +1 상태 보너스를 얻습니다. 만약 동물들이 무리 특성을 가지고 있다면, 그들의 피해 행동에 대한 내성 난이도에 +1 상태 보너스를 얻습니다. 이 보너스는 레벨이 2 이하인 동맹들에게는 +2로 증가합니다.</p>"
     },
     "Effect: Profane Gift": {
-      "name": "효과 : 부정한 선물",
-      "description": "<p>생물은 공격 굴림, 스킬 체크, 내성 굴림에 +1 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 불경한 선물",
+      "description": "<p>생물은 공격 굴림, 기술 판정, 내성 굴림에 +1 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Protean Anatomy": {
-      "name": "효과 : 프로테안 해부학",
-      "description": "<p>생물이 프로테안 해부학에 따라 산, 전기 또는 음파에 대한 저항력을 얻습니다.</p>"
-    },
-    "Effect: Pry": {
-      "name": "Effect: Pry",
-      "description": "<p>생물은 매력 기반 스킬 체크에 -1 상태 패널티를 받습니다.</p>"
+      "name": "효과: 프로테안 해부학",
+      "description": "<p>생물은 그들의 프로테안 해부학에 따라 산성, 전기, 또는 음파에 대한 저항을 얻습니다.</p>"
     },
     "Effect: Psychic Daze": {
-      "name": "효과 : 심령 현혹",
+      "name": "효과: 정신적 혼미",
       "description": ""
     },
     "Effect: Pulse of Rage": {
-      "name": "효과 : 격노의 펄스",
-      "description": "<p>생물이 AC에 -1 상태 패널티를 받습니다.</p>"
+      "name": "효과: 격노의 맥박",
+      "description": "<p>생물은 AC에 -1 상태 페널티를 받습니다.</p>"
     },
     "Effect: Putrid Blast": {
-      "name": "효과 : 부패한 폭발",
-      "description": "<p>생물은 1분 동안 쥴가스 담즙에 대한 내성 굴림에 -2의 상황 패널티를 받습니다.</p>"
+      "name": "효과: 부패 폭발",
+      "description": "<p>생물은 1분 동안 줄가스 담즙에 대한 인내 내성에 -2 상황 페널티를 받습니다.</p>"
     },
     "Effect: Putrid Stench": {
-      "name": "효과 : 썩은 악취",
-      "description": "<p>생물이 속도에 -5피트 상태 패널티를 받습니다.</p>"
+      "name": "효과: 부패한 악취",
+      "description": "<p>생물은 모든 속도에 -5피트 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Queen's Presence": {
+      "name": "효과: 여왕의 존재",
+      "description": "<p>당신은 감정 효과에 대한 내성에 +2 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Quicken the Rot": {
+      "name": "효과: 부패 가속화",
+      "description": "<p>당신은 30의 임시 생명점을 얻습니다.</p>"
+    },
+    "Effect: Raise Defenses": {
+      "name": "효과: 방어 상승",
+      "description": "<p>장교의 분열된 영혼을 공유하는 각 언데드는 AC에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Raise Guard": {
-      "name": "효과 : 가드 올리기",
+      "name": "효과: 경계 상승",
       "description": "<p>생물은 AC에 +2 상황 보너스를 얻습니다.</p>"
     },
+    "Effect: Rally": {
+      "name": "효과: 집결",
+      "description": "<p>당신은 AC와 내성 굴림에 +1 상황 보너스를 얻습니다.</p>"
+    },
     "Effect: Rapid Evolution - Energy Gland": {
-      "name": "효과 : 빠른 진화 - 에너지 샘",
-      "description": "<p>생물이 트리거 유형과 유사한 에너지 피해 저항을 얻습니다.</p>"
+      "name": "효과: 급속 진화 - 에너지 선",
+      "description": "<p>생물은 유발 유형과 유사한 에너지 피해 저항을 얻습니다.</p>"
     },
     "Effect: Rapid Evolution - Husk": {
-      "name": "효과 : 빠른 진화 - 허스크",
-      "description": "<p>생물이 트리거 유형과 유사한 물리 피해 저항을 얻습니다.</p>"
+      "name": "효과: 급속 진화 - 껍질",
+      "description": "<p>생물은 유발 유형과 유사한 물리 피해 저항을 얻습니다.</p>"
     },
     "Effect: Ravenous Young": {
-      "name": "효과 : 굶주린 젊은",
-      "description": "<p>유충이 부착되면 대상은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}이 됩니다. 유충이 부착되어 있는 동안 대상은 지속적인 출혈에서 회복할 수 없습니다.</p>"
+      "name": "효과: 탐욕스러운 새끼",
+      "description": "<p>유충이 부착되면, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}이 됩니다. 유충이 부착된 상태로 남아있는 동안, 대상은 지속적 출혈로부터 회복할 수 없습니다.</p>"
     },
     "Effect: Read the Cards": {
-      "name": "효과 : 카드 읽기",
-      "description": "<p>1d6을 굴려 수트를 결정합니다. 해로우킨은 1분 동안 해당 수트의 효과를 얻습니다. 수트가 해로우킨의 수트와 일치하면 그 값은 두 배가 됩니다.</p>\n<p><strong>해머</strong> 해로우킨이 피해 굴림에 상태 보너스 +2를 얻습니다.</p>\n<p><strong>키</strong> 해로우킨이 AC에 상태 보너스 +1을 얻습니다.</p>\n<p><strong>실드</strong> 해로우킨이 빠른 치유 5를 얻습니다.</p>\n<p><strong>책</strong> 해로우킨이 스킬 체크에 +1 상태 보너스를 받습니다.</p>\n<p><strong>별</strong> 해로우킨이 내성 굴림에 +1 상태 보너스를 받습니다.</p>\n<p><strong>왕관</strong> 해로우킨은 다음 1분 내에 1회의 체크 재롤을 하고 높은 결과를 가져갈 수 있습니다. 이것은 행운 효과입니다.</p>"
+      "name": "효과: 카드 읽기",
+      "description": "<p>무늬를 결정하기 위해 1d6를 굴립니다. 하로우킨은 1분 동안 무늬의 효과를 얻습니다. 만약 무늬가 하로우킨의 무늬와 일치한다면, 값이 두 배가 됩니다.</p>\n<p><strong>망치</strong> 하로우킨은 피해 굴림에 +2 상태 보너스를 얻습니다.</p>\n<p><strong>열쇠</strong> 하로우킨은 AC에 +1 상태 보너스를 얻습니다.</p>\n<p><strong>방패</strong> 하로우킨은 빠른 치유 5를 얻습니다.</p>\n<p><strong>책</strong> 하로우킨은 기술 판정에 +1 상태 보너스를 얻습니다.</p>\n<p><strong>별</strong> 하로우킨은 내성 굴림에 +1 상태 보너스를 얻습니다.</p>\n<p><strong>왕관</strong> 하로우킨은 다음 1분 내에 한 번의 판정을 다시 굴려서 높은 결과를 취할 수 있습니다. 이는 행운 효과입니다.</p>"
     },
     "Effect: Read the Stars (Critical Success)": {
-      "name": "효과 : 별 읽기 (대성공)",
+      "name": "효과: 별 읽기 (치명적 성공)",
       "description": "<p>생물은 내성 굴림에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Regression": {
-      "name": "Effect: 회귀",
-      "description": "<p>생물이 한 사이즈 줄어들고 대상의 모든 숙련도(전문 이상)가 숙련으로 감소합니다.</p>"
+      "name": "효과: 퇴행",
+      "description": "<p>생물은 한 단계 크기가 작아지고 대상의 모든 전문 이상의 숙련도가 훈련으로 감소됩니다.</p>"
     },
     "Effect: Reminder of Doom": {
-      "name": "효과 : 리마인더 오브 둠",
+      "name": "효과: 운명의 상기",
       "description": "<p>생물은 공격 굴림과 피해 굴림에 +2 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Remove Face": {
-      "name": "효과 : 얼굴 제거",
-      "description": "<p>생물은 매력 체크와 카리스마 기반 스킬 체크에 영구적으로 -4 상태 패널티를 받습니다. 이 패널티는 피해자가 얼굴을 회복하고 @UUID[Compendium.pf2e.spells-srd.Item.SnaLVgxZ9ryUFmUr]{복원} 주문을 시전한 경우에만 제거할 수 있습니다.</p>"
+      "name": "효과: 얼굴 제거",
+      "description": "<p>생물은 매력 판정과 매력 기반 기술 판정에 영구적인 -4 상태 페널티를 받습니다. 이 페널티는 피해자가 얼굴을 회복하고 @UUID[Compendium.pf2e.spells-srd.Item.SnaLVgxZ9ryUFmUr]{회복} 주문을 받았을 때만 제거될 수 있습니다.</p>"
+    },
+    "Effect: Repentant Defiance": {
+      "name": "효과: 회개하는 반항",
+      "description": "<p>당신은 물리 피해에 대한 3의 저항을 얻습니다.</p>"
     },
     "Effect: Replenishment of War (Endlo)": {
-      "name": "효과 : 전쟁 보충(엔들로)",
-      "description": "<p>엔들로가 대검 공격으로 생물에게 피해를 입히면, 다음 턴이 시작될 때까지 임시 체력 6점을 얻습니다. 공격이 치명타였다면, 그는 대신 12의 임시 체력을 얻습니다.</p>"
+      "name": "효과: 전쟁의 보충 (엔들로)",
+      "description": "<p>엔들로가 대검 타격으로 생물에게 피해를 줄 때, 그는 다음 턴 시작까지 6의 임시 생명점을 얻습니다. 만약 타격이 치명적 명중이었다면, 대신 12의 임시 생명점을 얻습니다.</p>"
     },
     "Effect: Resonance": {
-      "name": "Effect: 공명",
-      "description": "<p>생물은 선택한 특성을 가진 효과에 대한 공격 및 피해 굴림에 +1 상태 보너스를 얻습니다; 원소 및 선택한 특성을 가진 생물은 모든 공격 및 피해 굴림에 이 보너스를 얻습니다.</p>"
+      "name": "효과: 공명",
+      "description": "<p>생물은 선택된 특성을 가진 효과에 대한 공격과 피해 굴림에 +1 상태 보너스를 얻습니다; 원소와 선택된 특성을 가진 생물은 모든 공격과 피해 굴림에 이 보너스를 얻습니다.</p>"
     },
     "Effect: Revert Form": {
-      "name": "Effect: 양식 되돌리기",
-      "description": "<p>생물은 공격 굴림, 피해 굴림, 내성 굴림, 스킬 체크에 +2 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 형태 복원",
+      "description": "<p>생물은 공격 굴림, 피해 굴림, 내성 굴림, 기술 판정에 +2 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Riding Zogototaru": {
-      "name": "효과 : 조고토타루 타기",
-      "description": "<p>조고토타루의 채찍질에 대한 반사 내성 굴림에 -2의 상황 패널티를 받습니다.</p>"
+      "name": "효과: 조고토타루 탑승",
+      "description": "<p>당신은 조고토타루의 난타에 대한 반사 내성에 -2 상황 페널티를 받습니다.</p>"
     },
     "Effect: Roast": {
-      "name": "Effect: 로스트",
-      "description": "<p>구워진 생물은 서브에 대한 내성 굴림에 -2의 상황 패널티를 받습니다.</p>"
+      "name": "효과: 구워짐",
+      "description": "<p>구워진 생물들은 서빙에 대한 인내 내성에 -2 상황 페널티를 받습니다.</p>"
     },
     "Effect: Rockfall Critical Failure": {
-      "name": "효과 : 낙석 대실패",
-      "description": "<p>영향을 받은 생물이 2라운드 동안 이동 속도에 -20피트 상황 패널티를 받습니다.</p>"
+      "name": "효과: 낙석 치명적 실패",
+      "description": "<p>영향받은 생물은 2라운드 동안 이동 속도에 -20피트 상황 페널티를 받습니다.</p>"
     },
     "Effect: Rockfall Failure": {
-      "name": "효과 : 낙석 실패",
-      "description": "<p>영향을 받은 생물이 1라운드 동안 이동 속도에 -10피트 상황 패널티를 받습니다.</p>"
+      "name": "효과: 낙석 실패",
+      "description": "<p>영향받은 생물은 1라운드 동안 이동 속도에 -10피트 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Root in Place": {
+      "name": "효과: 제자리에 뿌리",
+      "description": "<p>당신의 속도는 0으로 감소하고 AC에 +1 상황 보너스와 2의 임시 생명점을 얻습니다.</p>"
     },
     "Effect: Rope Snare": {
-      "name": "효과 : 로프 올무",
-      "description": "<p>생물이 속도에 10피트 상황 패널티를 받습니다.</p>"
+      "name": "효과: 밧줄 덫",
+      "description": "<p>생물은 속도에 10피트 상황 페널티를 받습니다.</p>"
     },
     "Effect: Rotting Stench": {
-      "name": "효과 : 썩은 악취",
-      "description": "<p>오라 안에 있는 동안 생물은 공포에 대한 내성 굴림과 병든 상태 회복에 -2의 상황 패널티를 받습니다.</p>"
-    },
-    "Effect: Rune of Destruction (Greatsword)": {
-      "name": "효과 : 파괴의 룬 (대검)",
-      "description": "<p>대검은 3d12로 치명적인 특성을 얻고, 대검에 맞은 생물은 @Check[fortitude|dc:35|name:파괴의 룬|traits:arcane] 내성 굴림에 실패하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}이 됩니다.</p>"
-    },
-    "Effect: Rune of Destruction (Longspear)": {
-      "name": "효과 : 파괴의 룬 (장창)",
-      "description": "<p>장창은 3d8로 치명적인 특성을 얻고, 장창에 맞은 생물은 @Check[fortitude|dc:35|name:파괴의 룬|traits:arcane] 내성 굴림에 실패하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}이 됩니다. </p>"
-    },
-    "Effect: Rune of Destruction (Rock)": {
-      "name": "효과 : 파괴의 룬 (바위)",
-      "description": "<p>바위는 3d12로 치명적인 특성을 얻고, 바위에 맞은 생물은 @Check[fortitude|dc:35|name:파괴의 룬|traits:arcane] 내성 굴림에 실패하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}이 됩니다.</p>"
-    },
-    "Effect: Rune of Flames (Greatsword)": {
-      "name": "효과 : 화염의 룬 (대검)",
-      "description": "<p>대검이 모든 공격에 추가로 3d6의 화염 피해를 줍니다.</p>"
-    },
-    "Effect: Rune of Flames (Longspear)": {
-      "name": "효과 : 화염의 룬 (장창)",
-      "description": "<p>장창으로 모든 공격에 추가로 3d6의 화염 피해를 줍니다.</p>"
-    },
-    "Effect: Rune of Flames (Rock)": {
-      "name": "효과 : 화염의 룬 (바위)",
-      "description": "<p>바위가 모든 공격에 추가로 3d6의 화염 피해를 줍니다.</p>"
-    },
-    "Effect: Rune of Smiting (Greatsword)": {
-      "name": "효과 : 타격의 룬 (대검)",
-      "description": "<p>대검이 적중하면 거인이 대상을 10피트 뒤로 밀거나, 치명타 시 20피트 뒤로 밀 수 있습니다.</p>"
-    },
-    "Effect: Rune of Smiting (Longspear)": {
-      "name": "효과 : 타격의 룬 (장창)",
-      "description": "<p>장창이 적중하면 거인이 대상을 10피트 뒤로 밀거나, 치명타 시 20피트 뒤로 밀 수 있습니다.</p>"
-    },
-    "Effect: Rune of Smiting (Rock)": {
-      "name": "효과 : 타격의 룬 (바위)",
-      "description": "<p>바위가 적중하면 거인이 대상을 10피트 뒤로 밀거나, 치명타 시 20피트 뒤로 밀 수 있습니다.</p>"
+      "name": "효과: 썩는 악취",
+      "description": "<p>오라 내에서, 생물들은 또한 공포에 대한 내성과 역함 상태로부터 회복하기 위한 판정에 -2 상황 페널티를 받습니다.</p>"
     },
     "Effect: Runic Resistance": {
-      "name": "효과 : 룬 저항",
-      "description": "<p>생물이 한 가지 피해 유형에 대해 5의 저항을 얻습니다.</p>"
+      "name": "효과: 룬 저항",
+      "description": "<p>생물은 한 피해 유형에 대한 5의 저항을 얻습니다.</p>"
     },
     "Effect: Sacrifice Armor": {
-      "name": "효과 : 방어구 희생",
-      "description": "<p>스크랩본의 AC가 24시간 동안 감소합니다. 이런 식으로 스크랩본의 AC를 16 이하로 낮출 수 없습니다.</p>"
+      "name": "효과: 갑옷 희생",
+      "description": "<p>스크랩본의 AC는 24시간 동안 낮아집니다. 스크랩본의 AC는 이 방법으로 16 이하로 감소할 수 없습니다.</p>"
+    },
+    "Effect: Sage's Analysis": {
+      "name": "효과: 현자의 분석",
+      "description": "<p>현자는 표시된 생물에 대한 공격 굴림과 AC에 +2 상황 보너스를 얻고 무기 공격으로 그 생물에게 추가 2d6 피해를 줍니다.</p>"
     },
     "Effect: Sandstorm": {
-      "name": "효과 : 모래폭풍",
-      "description": "<p>생물은 지각 체크에 -4의 상황 패널티를 받습니다.</p>"
+      "name": "효과: 모래폭풍",
+      "description": "<p>생물은 지각 판정에 -4 상황 페널티를 받습니다.</p>"
     },
     "Effect: Sanguine Rain": {
-      "name": "효과 : 상쾌한 비",
-      "description": "<p>(흡혈귀나 뱀파이어처럼) 피를 섭취하여 이득을 얻는 생물은 해당 지역에 있는 동안 빠른 치유 10을 얻습니다.</p>"
+      "name": "효과: 피비",
+      "description": "<p>피를 섭취하는 혜택을 받는 생물(예: 블러드시커나 뱀파이어)은 그 영역에 있는 동안 빠른 치유 10을 얻습니다.</p>"
+    },
+    "Effect: Scent of Blood": {
+      "name": "효과: 피의 냄새",
+      "description": "<p>당신은 10의 임시 생명점과 비무장 공격의 피해 굴림에 +4 상태 보너스를 얻지만 무방비가 됩니다.</p>"
     },
     "Effect: Scraping Clamor": {
-      "name": "효과 : 스크래핑 소란",
-      "description": "<p>청각 주문이나 능력에 저항하는 내성 굴림에 +1 상황 보너스를 받습니다.</p>"
+      "name": "효과: 긁는 소음",
+      "description": "<p>당신은 청각 주문이나 능력에 대한 내성에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Sea Chantey": {
-      "name": "효과 : 바다 찬티",
-      "description": "<p>60피트 내의 모든 악마가 공격 굴림, 피해 굴림, 공포 효과에 대한 내성 굴림에 +1 상태 보너스를 받습니다.</p>"
+      "name": "효과: 바다 노래",
+      "description": "<p>60피트 내의 모든 악마들은 공격 굴림, 피해 굴림, 공포 효과에 대한 내성에 +1 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Sepulchral Drain": {
-      "name": "효과 : 무덤 배수",
-      "description": "<p>생물이 무효화 피해에 대한 약점 2를 얻습니다.</p>"
+      "name": "효과: 무덤의 흡수",
+      "description": "<p>생물은 공허 피해에 약점 2를 얻습니다.</p>"
     },
     "Effect: Serpent Mode": {
-      "name": "효과 : 뱀 모드",
-      "description": "<p>시계뱀이 다른 모드로 변신합니다. 1d3을 굴려 아래 옵션을 참조하세요.</p>\n<p><strong>1 코브라 모드</strong> 시계뱀이 위협적인 후드를 사용할 수 있습니다.</p>\n<p><strong>2 뱀 모드</strong> 시계뱀이 코일을 사용하여 공격하고 수축할 수 있습니다.</p>\n<p><strong>3 방울뱀 모드</strong> 시계뱀이 부서지는 딸랑이를 사용할 수 있습니다.</p>"
+      "name": "효과: 뱀 모드",
+      "description": "<p>시계장치 뱀은 다른 모드로 변형됩니다. 1d3을 굴려서 아래 옵션을 참조하세요.</p>\n<p><strong>1 코브라 모드</strong> 시계장치 뱀은 위협적 후드를 사용할 수 있습니다.</p>\n<p><strong>2 보아 모드</strong> 시계장치 뱀은 그들의 감싸기 타격을 사용할 수 있고 감싸기를 할 수 있습니다.</p>\n<p><strong>3 방울뱀 모드</strong> 시계장치 뱀은 파괴적 방울을 사용할 수 있습니다.</p>"
+    },
+    "Effect: Shackling Cold": {
+      "name": "효과: 속박하는 추위",
+      "description": "<p>당신은 속도에 -10 상황 페널티를 받습니다.</p>"
     },
     "Effect: Shadow Rapier": {
-      "name": "효과 : 섀도우 레이피어",
-      "description": "<p>갈퀴가 검을 공허 에너지로 뒤덮어 피해 유형을 공허로 변경합니다.</p>"
+      "name": "효과: 그림자 레이피어",
+      "description": "<p>레이크는 검을 공허 에너지로 감싸서 피해 유형을 공허로 변경합니다.</p>"
     },
     "Effect: Share Defenses": {
-      "name": "효과 : 방어 공유",
-      "description": "<p>생물이 냉기 저항 10을 얻습니다.</p>"
+      "name": "효과: 방어 공유",
+      "description": "<p>생물은 냉기에 대한 10의 저항을 얻습니다.</p>"
     },
     "Effect: Share Pain": {
-      "name": "효과 : 고통 공유",
-      "description": "<p>생물이 내성 굴림 결과에 따라 속도에 상태 패널티를 받습니다.</p>"
+      "name": "효과: 고통 공유",
+      "description": "<p>생물은 내성 결과에 기반하여 속도에 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Shields Up!": {
+      "name": "효과: 방패 올려!",
+      "description": "<p>당신은 AC와 반사 내성에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Sic 'Em!": {
+      "name": "효과: 물어라!",
+      "description": "<p>당신은 공격 굴림에 +1 상태 보너스와 피해 굴림에 +2 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Sight Prey": {
+      "name": "효과: 사냥감 조준",
+      "description": "<p>전쟁광의 표시된 생물에 대한 원거리 타격은 공격 굴림에 +1 상황 보너스를 얻고 추가 3d6 정밀 피해를 줍니다. 전쟁광이 그 생물을 원거리 타격으로 명중시킬 때마다, 생물은 1분 동안 속도에 -10피트 페널티를 받고 비행 중이라면 20피트 떨어집니다.</p>"
+    },
+    "Effect: Sight Prey (Speed Penalty)": {
+      "name": "효과: 사냥감 조준 (속도 페널티)",
+      "description": "<p>당신은 속도에 페널티를 받습니다.</p>"
     },
     "Effect: Silent Aura": {
-      "name": "효과 : 사일런트 오라",
-      "description": "<p>침묵의 스토커는 소리를 내지 않아 청각이나 비슷한 감각만으로는 생물이 알아차리지 못합니다. 이 침묵은 그 안에 있거나 통과하는 모든 소리를 멈춥니다. 침묵의 스토커와 아우라 내의 모든 생물은 청각 특성을 가진 음파 공격이나 액션을 사용할 수 없으며, 이로 인해 생물은 언어 구성 요소가 있는 주문을 시전하거나 명령 구성 요소가 있는 아이템을 활성화할 수 없습니다.</p>"
+      "name": "효과: 침묵 오라",
+      "description": "<p>침묵하는 추적자는 소리를 내지 않아 생물들이 청각이나 유사한 감각만으로 그들을 알아차리는 것을 방지합니다. 이 침묵은 그 안의 모든 소리나 통과하는 소리를 멈춥니다. 침묵하는 추적자와 오라 내의 모든 생물들은 음파 공격이나 청각 특성을 가진 행동을 사용할 수 없습니다; 이는 생물들이 구두 성분이 있는 주문을 시전하거나 명령 성분이 있는 아이템을 활성화하는 것을 방지합니다.</p>"
     },
     "Effect: Sinful Bite": {
-      "name": "효과 : 죄악의 물림",
-      "description": "<p>생물이 이동 속도에 -10피트 상태 패널티를 받습니다.</p>"
+      "name": "효과: 죄악스러운 물기",
+      "description": "<p>당신은 모든 속도에 -10피트 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Siphon Will": {
+      "name": "효과: 의지 흡수",
+      "description": "<p>탈것은 20의 임시 생명점을 얻습니다.</p>"
     },
     "Effect: Sixfold Flurry": {
-      "name": "Effect: 여섯 배의 소용돌이",
-      "description": "<p>생물이 받지 않기로 선택한 공격에 따라 AC에 상황 보너스를 얻습니다.</p>"
+      "name": "효과: 육중 질풍",
+      "description": "<p>생물은 취하지 않기로 선택한 타격에 기반하여 AC에 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Skin Net": {
+      "name": "효과: 피부 그물",
+      "description": "<p>당신은 모든 속도에 -10피트 상황 페널티를 받습니다.</p>"
     },
     "Effect: Slime Trap": {
-      "name": "효과 : 슬라임 트랩",
-      "description": "<p>생물이 이동 속도에 -10피트 상황 패널티를 받습니다.</p>"
+      "name": "효과: 점액 덫",
+      "description": "<p>생물은 모든 속도에 -10피트 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Slithering Vine": {
+      "name": "효과: 기어다니는 덩굴",
+      "description": "<p>스텔레모라는 턴 끝까지 덩굴 타격의 길이를 10피트 증가시킵니다.</p>"
     },
     "Effect: Smash Kneecaps": {
-      "name": "효과 : 스매시 슬개골",
-      "description": "<p>생물의 이동 속도가 10피트 감소합니다.</p>"
+      "name": "효과: 무릎뼈 부수기",
+      "description": "<p>생물의 속도는 10피트 감소합니다.</p>"
     },
     "Effect: Snake Form": {
-      "name": "효과 : 뱀 형태",
-      "description": "<p>뱀의 꼬리 공격 사거리가 10에 도달하고 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{붙잡기}, 턱 공격으로 지속 출혈 피해를 잃습니다.</p>"
+      "name": "효과: 뱀 형태",
+      "description": "<p>부닙의 꼬리 타격은 길이 10과 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{붙잡기}를 얻지만, 턱 타격은 지속적 출혈 피해를 잃습니다.</p>"
+    },
+    "Effect: Solidarity": {
+      "name": "효과: 연대",
+      "description": "<p>시위를 이끌면서, 노동조합 조직자는 자신과 동맹들에게 피로와 정신 효과에 대한 내성에 +1 상황 보너스를 부여합니다.</p>"
     },
     "Effect: Song of Freedom": {
-      "name": "효과 : 자유의 노래",
-      "description": "<p>부대의 의지 내성 굴림이 모든 정신 효과에 대해 +29 증가합니다.</p>"
+      "name": "효과: 자유의 노래",
+      "description": "<p>부대의 의지 내성은 모든 정신 효과에 대해 +29로 증가합니다.</p>"
     },
     "Effect: Song of the Skies": {
-      "name": "효과 : 하늘의 노래",
-      "description": "<p>비행 속도가 60피트 증가합니다.</p>"
+      "name": "효과: 하늘의 노래",
+      "description": "<p>당신은 60피트의 비행 속도를 얻습니다.</p>"
     },
     "Effect: Song of the Swamp": {
-      "name": "효과 : 늪의 노래",
-      "description": "<p>생물은 피해 굴림에 +2 상태 보너스를 얻고 공포에 대한 내성 굴림을 얻습니다.</p>"
+      "name": "효과: 늪의 노래",
+      "description": "<p>생물은 피해 굴림과 공포에 대한 내성에 +2 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Soul Crush (Healing)": {
-      "name": "효과 : 소울 크러쉬 (치유)",
-      "description": "<p>다나에몬이 1분 동안 빠른 치유 15를 얻습니다.</p>"
+      "name": "효과: 영혼 분쇄 (치유)",
+      "description": "<p>타나다이몬은 1분 동안 빠른 치유 15를 얻습니다.</p>"
     },
     "Effect: Soul Lock (Healing)": {
-      "name": "효과 : 영혼 잠금 (치유)",
-      "description": "<p>카코데몬이 1분 동안 빠른 치유 5를 얻습니다.</p>"
+      "name": "효과: 영혼 잠금 (치유)",
+      "description": "<p>카코다이몬은 1분 동안 빠른 치유 5를 얻습니다.</p>"
     },
     "Effect: Soul Siphon": {
-      "name": "효과 : 영혼 사이펀",
-      "description": "<p>생물은 임시 체력 5와 공격 및 피해 굴림에 +1 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 영혼 흡수",
+      "description": "<p>생물은 5의 임시 생명점과 공격과 피해 굴림에 +1 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Spear Parry": {
+      "name": "효과: 창 막기",
+      "description": "<p>당신은 다음 턴 시작까지 AC에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Spill Secrets": {
+      "name": "효과: 비밀 누설",
+      "description": "<p>당신은 표시된 생물에 대한 AC와 내성에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Spiritual Warden": {
-      "name": "효과 : 영적 감시자",
-      "description": "<p>아우라에 있는 아군은 사망 효과와 영혼을 대상으로 하거나 조종하는 효과에 대한 내성 굴림에 +2 상태 보너스를 받습니다.</p>"
+      "name": "효과: 영적 수호자",
+      "description": "<p>오라 내의 동맹들은 사망 효과와 그들의 영혼을 대상으로 하거나 조작하는 효과에 대한 내성에 +2 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Splintered Ground": {
-      "name": "효과 : 쪼개진 땅",
-      "description": "<p>생물이 모든 속도에 -10피트 상황 패널티를 받습니다.</p>"
+      "name": "효과: 파편 땅",
+      "description": "<p>생물은 모든 속도에 -10피트 상황 페널티를 받습니다.</p>"
     },
     "Effect: Splintered Ground (Critical Failure)": {
-      "name": "효과 : 쪼개진 땅 (대실패)",
-      "description": "<p>생물이 모든 속도에 -15피트 상황 패널티를 받습니다.</p>"
+      "name": "효과: 파편 땅 (치명적 실패)",
+      "description": "<p>생물은 모든 속도에 -15피트 상황 페널티를 받습니다.</p>"
     },
     "Effect: Spotlight": {
-      "name": "효과 : 스포트라이트",
-      "description": "<p>대상은 공연 체크에 +2 상태 보너스를 얻고 정신적 피해에 대한 저항력이 10 증가합니다.</p>"
+      "name": "효과: 스포트라이트",
+      "description": "<p>대상은 연기 판정에 +2 상태 보너스와 정신 피해에 대한 10의 저항을 얻습니다.</p>"
     },
     "Effect: Spray Toxic Oil": {
-      "name": "효과 : 독성 오일 분사",
-      "description": "<p>생물은 화염 5에 대한 약점을 얻고, 휘두른 무기로 공격 굴림에 치명타로 실패할 때마다 무기를 떨어뜨립니다.</p>"
+      "name": "효과: 유독한 기름 분사",
+      "description": "<p>생물은 화염에 약점 5를 얻고, 생물이 휘두르는 무기로 공격 굴림에서 치명적 실패를 할 때마다 무기를 떨어뜨립니다.</p>"
+    },
+    "Effect: Stab it! Stab it! Stab it!": {
+      "name": "효과: 찔러라! 찔러라! 찔러라!",
+      "description": "<p>표시된 대상에 대한 당신의 공격은 추가 1 피해 주사위를 줍니다.</p>"
     },
     "Effect: Static Field": {
-      "name": "Effect: 스태틱 필드",
-      "description": "<p>식물 생물이 임시 체력 5를 얻습니다.</p>"
+      "name": "효과: 정전기 영역",
+      "description": "<p>식물 생물들은 5의 임시 생명점을 얻습니다.</p>"
+    },
+    "Effect: Stay in the Fight!": {
+      "name": "효과: 싸움에 남아있어!",
+      "description": "<p>당신은 10의 임시 생명점을 얻습니다.</p>"
+    },
+    "Effect: Stay Strong!": {
+      "name": "효과: 강하게 있어!",
+      "description": "<p>동맹 동물은 내성에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Stench": {
-      "name": "Effect: Stench",
-      "description": "<p>생물이 -2 상황 패널티를 받아 질병에 대한 내성 굴림과 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약} 조건에서 회복합니다.</p>"
+      "name": "효과: 악취",
+      "description": "<p>생물은 질병에 대한 내성과 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{역함} 상태로부터 회복하기 위한 판정에 -2 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Steward of the Faithful": {
+      "name": "효과: 신실한 자들의 관리자",
+      "description": "<p>오라 내의 파라스마를 숭배하는 각 동맹은 공허에 대한 5의 저항과 의지 내성, 외교 판정, 의학 판정에 +1 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Stick a Fork in It": {
-      "name": "효과 : 포크 집어넣기",
-      "description": "<p>생물이 속도에 -10피트 상황 패널티를 받습니다.</p>"
+      "name": "효과: 포크를 꽂아라",
+      "description": "<p>생물은 모든 속도에 -10피트 상황 페널티를 받습니다.</p>"
     },
     "Effect: Sticky Spores": {
-      "name": "효과 : 끈적끈적한 포자",
-      "description": "<p>생물이 모든 이동 속도에 -10피트 상태 패널티를 받습니다.</p>"
+      "name": "효과: 끈적한 포자",
+      "description": "<p>생물은 모든 속도에 -10피트 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Still Got It!": {
+      "name": "효과: 아직 할 수 있어!",
+      "description": "<p>은퇴한 생물은 전투가 끝날 때까지 지속되는 레벨과 같은 임시 생명점을 얻습니다. 은퇴한 생물은 또한 전투가 끝날 때까지 녹슨 상태의 효과를 억제합니다.</p>"
     },
     "Effect: Sting of the Lash": {
-      "name": "효과 : 속눈썹 찌르기",
-      "description": "<p>생물이 임시 체력 5를 얻습니다.</p>"
+      "name": "효과: 채찍의 쏘임",
+      "description": "<p>생물은 5의 임시 생명점을 얻습니다.</p>"
     },
     "Effect: Stink Sap": {
-      "name": "효과 : 악취 수액",
-      "description": "<p>수액에 코팅된 생물과 장비에서 끔찍한 냄새가 납니다. 기운에 휩싸인 생물은 @Check[fortitude|dc:16] 내성 굴림을 해야 합니다. 실패하면 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}이 되고, 대실패하면 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1}이 됩니다. 기운 안에 있는 동안 생물은 병든 상태에서 회복하기 위해 내성에 -2의 상황 패널티를 받습니다. 굴림에 성공한 생물은 1분 동안 악취 수액에 면역이 됩니다. 생물은 탐사 모드에서는 이 효과에 대한 구제를 받지 않으며 일시적으로 면역이 되지 않지만, 악취 수액이 묻은 생물은 교전 모드에서 주도권을 굴릴 때 자신의 오라에 맞서 굴려야 합니다. 수액은 10시간이 지나면 사라지며, 비누와 물로 10분간 수액을 씻어내면 지속 시간이 1시간 줄어듭니다.</p>"
+      "name": "효과: 악취 수액",
+      "description": "<p>수액으로 덮인 생물들과 그들의 장비는 끔찍한 냄새를 냅니다. 오라 내의 생물들은 @Check[fortitude|dc:16] 내성을 시도해야 합니다. 실패 시, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{역함 1}이 되고, 치명적 실패 시, 생물은 또한 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1}이 됩니다. 오라 내에서, 생물은 역함 상태로부터 회복하기 위한 내성에 -2 상황 페널티를 받습니다. 내성에 성공한 생물은 1분 동안 악취 수액에 면역이 됩니다. 탐색 모드에서는 생물들이 이 효과에 대해 내성을 굴리지 않고 일시적 면역이 되지 않지만, 악취 수액이 묻은 생물들은 전투 모드에서 선제권을 굴릴 때 자신의 오라에 대해 굴려야 합니다. 수액은 10시간 후에 사라집니다; 비누와 물로 수액을 10분간 닦아내면 지속 시간이 1시간 감소합니다.</p>"
     },
     "Effect: Stoke the Fervent": {
-      "name": "효과 : 열정을 불러일으키다",
-      "description": "<p>소리를 듣는 각 아군은 공격 굴림, 피해 굴림, 내성 굴림에 +1 상태 보너스를 얻고, AC에 -1 상태 패널티를 받습니다. 영향을 받은 아군은 가능한 경우 매 라운드마다 행동 중 하나 이상을 사용하여 공격해야 합니다(아군, 물체, 허공을 공격하는 것이라도).</p>\n<p><em>효과 지속시간은 [[/br 2d4 #라운드]]{2d4 라운드}의 평균 지속시간으로 설정되었습니다. 효과를 추가할 때 지속 시간을 올바른 값으로 설정하세요.</em></p>"
+      "name": "효과: 열정 부추기기",
+      "description": "<p>부름을 듣는 각 동맹은 공격 굴림, 피해 굴림, 내성 굴림에 +1 상태 보너스를 얻고 AC에 -1 상태 페널티를 받습니다. 영향받은 동맹들은 가능하다면 매 라운드에 최소 하나의 행동을 타격에 사용해야 합니다(동맹, 물체, 또는 허공을 공격하는 것이라도).</p>\n<p><em>효과 지속 시간은 [[/gmr 2d4 #rounds]]{2d4 라운드}의 평균 지속 시간으로 설정되었습니다. 효과가 추가될 때 올바른 값으로 지속 시간을 설정하세요.</em></p>"
     },
     "Effect: Stoke the Fervent (High Tormentor)": {
-      "name": "효과 : 열광의 불을 지피다(고뇌자)",
-      "description": "<p>소리를 듣는 각 아군은 공격 굴림과 피해 굴림에 +4 상태 보너스를 얻고, 구사력 굴림에 +2 상태 보너스를 얻으며, AC에 -2 상태 패널티를 받습니다. 영향을 받은 아군은 가능한 경우 매 라운드마다 행동 중 하나 이상을 사용하여 공격해야 합니다(아군, 물체, 허공을 공격하는 것이라도).</p>\n<p><em>효과 지속시간은 [[/br 2d4 #라운드]]{2d4 라운드}의 평균 지속시간으로 설정되었습니다. 효과를 추가할 때 지속 시간을 올바른 값으로 설정하세요.</em></p>"
+      "name": "효과: 열정 부추기기 (고위 고문관)",
+      "description": "<p>부름을 듣는 각 동맹은 공격 굴림과 피해 굴림에 +4 상태 보너스, 내성 굴림에 +2 상태 보너스를 얻고 AC에 -2 상태 페널티를 받습니다. 영향받은 동맹들은 가능하다면 매 라운드에 최소 하나의 행동을 타격에 사용해야 합니다(동맹, 물체, 또는 허공을 공격하는 것이라도).</p>\n<p><em>효과 지속 시간은 [[/gmr 2d4 #rounds]]{2d4 라운드}의 평균 지속 시간으로 설정되었습니다. 효과가 추가될 때 올바른 값으로 지속 시간을 설정하세요.</em></p>"
+    },
+    "Effect: Super Qi Blast": {
+      "name": "효과: 슈퍼 기 폭발",
+      "description": "<p>대가의 몸은 측량할 수 없는 양의 기를 발산할 준비를 하며 확장됩니다. 만약 대가의 다음 행동이 기 폭발의 2행동 버전을 시전하는 것이라면, 원뿔의 크기는 120피트로 증가하고 피해는 16d6로 증가합니다. 대가는 또한 다음 1분 동안 한 단계 크기가 커져서 근접 타격으로 추가 +9 피해를 줍니다. 추가로, 대가는 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}이 됩니다. 이 흡수됨 상태는 누적됩니다.</p>"
+    },
+    "Effect: Surge Forward": {
+      "name": "효과: 앞으로 돌진",
+      "description": "<p>당신은 두려운 폭우 이벤트 동안 과제를 극복하기 위한 다음 기술 판정에 -1 상황 페널티를 받습니다. 치명적 실패 시 이 페널티는 -2입니다.</p>"
     },
     "Effect: Surgical Rend": {
-      "name": "Effect: 외과적 렌드",
-      "description": "<p>생물이 최대 체력을 회복하여 상처를 봉합할 때까지, 생물에 대한 공격은 1d6 추가 정밀 피해를 줍니다.</p>"
+      "name": "효과: 외과적 찢기",
+      "description": "<p>생물이 최대 생명점으로 회복되어 상처가 닫힐 때까지, 생물에 대한 타격은 추가 1d6 정밀 피해를 줍니다.</p>"
     },
     "Effect: Susceptible to Mockery (Critical Failure)": {
-      "name": "효과 : 조롱에 취약 (대실패)",
-      "description": "<p>생물은 적에 대한 공격과 피해 굴림에 +1 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 조롱에 취약 (치명적 실패)",
+      "description": "<p>생물은 적에 대한 타격과 피해 굴림에 +1 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Swarming Bites": {
-      "name": "효과 : 군체 물기",
-      "description": "<p>군체 물림에 대한 내성 굴림에 실패한 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투름 1}이 됩니다. 생물이 영향을 받은 상태에서 집중 또는 조작 액션을 시도하는 경우, @Check[flat|dc:5]로 성공해야 하며, 그렇지 않으면 액션을 잃고, 액션을 사용한 후 효과가 적용되기 전에 점검을 굴립니다.</p>"
+      "name": "효과: 무리 물기",
+      "description": "<p>무리 물기에 대한 내성에 실패한 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{둔중 1}이 됩니다. 생물이 영향받는 동안 집중이나 조작 행동을 시도한다면, @Check[flat|dc:5]에 성공해야 하거나 행동이 손실됩니다; 행동을 소비한 후, 하지만 어떤 효과도 적용되기 전에 판정을 굴립니다.</p>"
     },
     "Effect: Swell": {
-      "name": "Effect: 팽창",
-      "description": "<p>생물이 거대한 크기로 성장하고 사거리가 15피트로 증가합니다. 또한 임시 체력을 12 증가하고, 타격에 대한 내성이 5, 피해 굴림에 +2 상태 보너스를 받습니다</p>"
+      "name": "효과: 부풀기",
+      "description": "<p>생물은 거대 크기로 성장하고 길이는 15피트로 증가합니다. 또한 12의 임시 생명점, 타격에 대한 5의 저항, 피해 굴림에 +2 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Swig": {
-      "name": "Effect: Swig",
-      "description": "<p>도크핸드는 근접 피해 굴림과 공포에 대한 내성 굴림에 +2 아이템 보너스를 얻지만, 서투르게 됩니다 1</p>"
+      "name": "효과: 한 모금",
+      "description": "<p>당신은 근접 피해 굴림과 공포에 대한 내성에 +2 아이템 보너스를 얻지만 무방비가 됩니다.</p>"
+    },
+    "Effect: Swig (Clumsy)": {
+      "name": "효과: 한 모금 (둔중)",
+      "description": "<p>당신은 근접 피해 굴림과 공포에 대한 내성에 +2 아이템 보너스를 얻지만 둔중 1이 됩니다.</p>"
     },
     "Effect: Sylvan Wine": {
-      "name": "효과 : 실반 와인",
-      "description": "<p>생물은 의지 굴림에 +1 아이템 보너스를 얻고 공포 효과에 대한 의지 굴림에 +3 아이템 보너스를 받습니다.</p>"
+      "name": "효과: 숲의 와인",
+      "description": "<p>생물은 의지 내성에 +1 아이템 보너스와 공포 효과에 대한 의지 내성에 +3 아이템 보너스를 얻습니다.</p>"
     },
     "Effect: Sylvan Wine (Horned Hunter)": {
-      "name": "효과 : 실반 와인(뿔 달린 사냥꾼)",
-      "description": "<p>생물이 의지 내성 굴림에 +3 아이템 보너스를 받습니다.</p>"
+      "name": "효과: 숲의 와인 (뿔 사냥꾼)",
+      "description": "<p>생물은 의지 내성에 +3 아이템 보너스를 얻습니다.</p>"
     },
-    "Effect: Tail Lash (Attack Roll)": {
-      "name": "효과 : 꼬리 채찍 (공격 굴림)",
-      "description": "<p>생물은 발동하는 공격 굴림에 -2 상황 패널티를 받습니다.</p>"
+    "Effect: Symbol of Loyalty": {
+      "name": "효과: 충성의 상징",
+      "description": "<p>오라 내의 14레벨 이하이고 대심문관의 대의에 충성하는 동맹들은 의지 내성에 +3 상태 보너스를 얻습니다.</p>"
     },
-    "Effect: Tail Lash (Skill Check)": {
-      "name": "효과 : 테일 래쉬 (스킬 체크)",
-      "description": "<p>생물은 발동하는 스킬 체크에 -2 상황 패널티를 받습니다.</p>"
+    "Effect: Tactical Command": {
+      "name": "효과: 전술적 명령",
+      "description": "<p>생물은 베테랑 귀족이 그 생물이나 그 생물이 속한 조직을 이전에 다뤘다면 타격에 +2 상태 보너스를 얻습니다. 베테랑이 고생해서 얻은 전술적 조언을 제공하기 때문입니다.</p>"
+    },
+    "Effect: Tail Lash": {
+      "name": "효과: 꼬리 채찍",
+      "description": "<p>생물은 유발 굴림에 -2 상황 페널티를 받습니다.</p>"
     },
     "Effect: Take Them Down!": {
-      "name": "효과 : 쓰러뜨리세요!",
+      "name": "효과: 쓰러뜨려라!",
       "description": "<p>생물은 공격 굴림과 피해 굴림에 +1 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Technology Control": {
-      "name": "효과 : 기술 제어",
-      "description": "<p>대상은 평소라면 공격하지 않았을 생물에 대한 공격 굴림과 AC에 -2 상황 패널티를 받습니다.</p>\n<hr />\n<p><em>주: 이 효과가 활성화된 동안에는 모든 굴림과 AC에 패널티를 적용합니다.</em></p>"
+      "name": "효과: 기술 통제",
+      "description": "<p>대상은 정상적으로 공격하지 않을 생물에 대한 공격 굴림과 난이도에 -2 상황 페널티를 받습니다.</p>\n<hr />\n<p><em>참고: 이 효과는 활성화된 동안 모든 굴림과 난이도에 페널티를 적용합니다.</em></p>"
+    },
+    "Effect: Temper Armament": {
+      "name": "효과: 무기 단련",
+      "description": "<p>갑옷이나 방패를 단련하면 경도가 1 증가합니다. 무기를 단련하면 무기에 피해 굴림에 +1 상황 보너스를 부여합니다.</p>"
     },
     "Effect: Tenacious Flames": {
-      "name": "효과 : 끈질긴 불꽃",
-      "description": "<p>범위 속 생물은 지속적인 화염 피해로부터 회복할 수 없습니다.</p>"
+      "name": "효과: 끈질긴 불꽃",
+      "description": "<p>발산 내의 생물들은 지속적 화염 피해로부터 회복할 수 없습니다.</p>"
     },
     "Effect: Timely Advice": {
-      "name": "효과 : 시기적절한 조언",
-      "description": "<p>현자가 아군에게 귀중한 통찰력을 제공하는 현명한 조언을 제공합니다. 아군은 트리거 굴림에 +2 상황 보너스를 받습니다.</p>"
+      "name": "효과: 적절한 조언",
+      "description": "<p>현자는 동맹에게 가치 있는 통찰력을 제공하는 현명한 조언을 줍니다. 동맹은 유발 굴림에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Tip the Scales": {
+      "name": "효과: 저울 기울이기",
+      "description": "<p>당신은 다음 턴 끝까지 다음 d20 굴림에서 두 번 굴려서 더 나은 결과를 취합니다.</p>"
+    },
+    "Effect: Tooth Tug": {
+      "name": "효과: 이빨 잡아당기기",
+      "description": "<p>당신은 매력 기반 기술 판정에 -1 상태 페널티를 받고, 그 주문이 미묘한 특성을 가지고 있지 않다면 주문 시전을 위해 난이도 5의 평면 판정에 성공해야 합니다.</p>"
     },
     "Effect: Totems of the Past": {
-      "name": "효과 : 과거의 토템",
-      "description": "<p>지역 내 도마뱀족 아군이 영감을 받아 공격 굴림에 +1 상태 보너스를 받습니다.</p>"
+      "name": "효과: 과거의 토템",
+      "description": "<p>영역 내의 모든 리자드폴크 동맹들은 영감을 받아 공격 굴림에 +1 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Towering Stance (Disbelieved)": {
-      "name": "효과 : 우뚝 솟은 자세 (불신)",
-      "description": "<p>생물이 중형이 됩니다.</p>"
+      "name": "효과: 우뚝한 자세 (믿지 않음)",
+      "description": "<p>생물은 중간 크기가 됩니다.</p>"
     },
     "Effect: Toxic Effluvium": {
-      "name": "효과 : 독성 삼출물",
-      "description": "<p>칸커의 근접 공격이 추가로 2d6의 독 피해를 줍니다.</p>"
+      "name": "효과: 독성 악취",
+      "description": "<p>캔커의 근접 타격은 추가 2d6 독 피해를 줍니다.</p>"
     },
     "Effect: Transfer Protection": {
-      "name": "효과 : 전송 보호",
-      "description": "<p>생물은 기꺼이 카시시안을 투구로 착용할 수 있습니다. 착용하는 동안 카시시안은 행동할 수 없지만, 착용자의 AC 및 부정한 생물에 대한 내성 굴림에 상태 보너스 1을 부여합니다. 카시시안은 언제든지 한 번의 행동으로 착용자에게서 분리할 수 있습니다.</p>"
+      "name": "효과: 보호 이전",
+      "description": "<p>생물은 자원하는 카시시안을 헬멧으로 착용할 수 있습니다. 그렇게 하는 동안, 카시시안은 행동할 수 없지만, 카시시안은 불경한 생물에 대한 AC와 내성에 +1 상태 보너스를 착용자에게 확장합니다. 언제든지, 카시시안은 단일 행동으로 착용자로부터 분리될 수 있습니다.</p>"
     },
     "Effect: Uncanny Tinker": {
-      "name": "효과 : 언캐니 팅커",
+      "name": "효과: 기이한 땜장이",
       "description": "<p>생물은 공격 굴림에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Undead Mastery": {
-      "name": "효과 : 언데드 통달",
-      "description": "<p>생물은 공격 굴림, 피해 굴림, AC, 내성 굴림, 스킬 체크에 +1 상황 보너스를 얻습니다.</p>"
+      "name": "효과: 언데드 숙달",
+      "description": "<p>생물은 공격 굴림, 피해 굴림, AC, 내성, 기술 판정에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Effect: Under Command": {
-      "name": "효과 : 명령 중",
-      "description": "<p>근위대 대장의 지휘를 받음. </p>"
+      "name": "효과: 명령 하에",
+      "description": "<p>경비대장의 명령을 받습니다.</p>"
     },
     "Effect: Unluck Aura": {
-      "name": "효과 : 불운 오라",
-      "description": "<p>생물은 두 번 굴려서 모든 체크에서 더 나쁜 결과를 사용해야 합니다.</p>"
+      "name": "효과: 불운 오라",
+      "description": "<p>생물은 모든 판정에서 두 번 굴려서 더 나쁜 결과를 취해야 합니다.</p>"
     },
     "Effect: Unsettled Aura": {
-      "name": "효과 : 불안정한 오라",
-      "description": "<p>고스레그는 생각하는 생물의 정신을 불안정하게 만드는 불협화음 에너지의 장을 투사합니다. 고스레그의 30피트 이내에 있는 정신이 없는 생물은 의지 내성 굴림에 -1의 상태 패널티를 받습니다.</p>"
+      "name": "효과: 불안한 오라",
+      "description": "<p>고스레그는 사고하는 생물들의 마음을 불안하게 하는 불협화음 에너지의 영역을 투영합니다. 고스레그 30피트 내의 모든 비무의식 생물은 의지 내성에 -1 상태 페널티를 받습니다.</p>"
     },
     "Effect: Unsettling Attention": {
-      "name": "효과 : 불안한 주의",
-      "description": "<p><strong>실패</strong> 대상은 불안해지며, 캔들미어가 포함된 헥스 안에 머무는 동안 공포 효과에 대한 모든 내성 굴림에 -2의 패널티를 받습니다.</p>"
+      "name": "효과: 불안한 주의",
+      "description": "<p><strong>실패</strong> 생물은 불안해지고 캔들미어가 포함된 육각형 내에 머물러 있는 한 공포 효과에 대한 모든 내성에 -2 페널티를 받습니다.</p>"
     },
     "Effect: Utter Despair": {
-      "name": "효과 : 완전한 절망",
-      "description": "<p>생명체는 완전한 절망의 기운이 흐르는 동안 2 겁을 먹습니다. 해당 지역에 있는 동안에는 이 공포에서 자연적으로 회복할 수 없으며, 해당 지역을 벗어나면 즉시 공포 상태를 잃습니다.</p>"
+      "name": "효과: 절대적 절망",
+      "description": "<p>살아있는 생물들은 절대적 절망 오라 내에서 두려움 2가 됩니다. 그들은 영역 내에서는 이 공포로부터 자연스럽게 회복할 수 없지만 영역을 떠나면 즉시 두려움 상태를 잃습니다.</p>"
+    },
+    "Effect: Vamollaroth Stench": {
+      "name": "효과: 바몰라로스 악취",
+      "description": "<p>생물은 독에 대한 내성과 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{역함} 상태로부터 회복하기 위한 판정에 -2 상황 페널티를 받습니다.</p>"
     },
     "Effect: Vengeful Fibers": {
-      "name": "효과 : 복수심에 찬 섬유",
-      "description": "<p>대상이 속도에 -10피트 상황 패널티를 받습니다</p>"
+      "name": "효과: 복수심 섬유",
+      "description": "<p>대상은 속도에 -10피트 상황 페널티를 받습니다.</p>"
     },
     "Effect: Vent Energy": {
-      "name": "효과 : 환기 에너지",
-      "description": "<p>하드리넥스의 무기 팔 공격이 에너지 샘의 피해 유형에 따라 추가 2d6 에너지 피해를 줍니다.</p>"
+      "name": "효과: 에너지 배출",
+      "description": "<p>하드린넥스의 무기 팔 타격은 에너지 선의 피해 유형에 따라 추가 2d6 에너지 피해를 줍니다.</p>"
+    },
+    "Effect: Verdant Aria": {
+      "name": "효과: 푸른 아리아",
+      "description": "<p>당신은 AC와 내성 굴림에 +2 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Vicious Bluster": {
-      "name": "효과 : 악의적인 허풍",
-      "description": "<p>가르가르테줄이 적에게 {사기 저하}에 성공하면, 1분 동안 지속되는 1d6의 임시 체력(대성공 시 2d6)을 얻습니다.</p>"
+      "name": "효과: 악랄한 허풍",
+      "description": "<p>가르가르테줄이 적을 성공적으로 @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{위협}할 때, 1분 동안 지속되는 1d6 임시 생명점(치명적 성공 시 2d6)을 얻습니다.</p>"
     },
     "Effect: Vicious Bluster (Critical Success)": {
-      "name": "효과 : 악의적 허풍 (대성공)",
-      "description": "<p>가르가르테줄이 적에게 {사기 저하}에 성공하면, 1분 동안 지속되는 1d6의 임시 체력(대성공 시 2d6)을 얻습니다.</p>"
+      "name": "효과: 악랄한 허풍 (치명적 성공)",
+      "description": "<p>가르가르테줄이 적을 성공적으로 @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{위협}할 때, 1분 동안 지속되는 1d6 임시 생명점(치명적 성공 시 2d6)을 얻습니다.</p>"
     },
     "Effect: Viscous Breath": {
-      "name": "효과 : 점성 호흡",
-      "description": "<p>오라 속에 있는 생물은 마법 이외의 물리 공격을 시도할 때 -2 상태 패널티를 받습니다.</p>"
+      "name": "효과: 점성 호흡",
+      "description": "<p>오라 내의 생물들은 시도하는 모든 비마법적 물리 공격에 -2 상태 페널티를 받습니다.</p>"
     },
     "Effect: Viscous Trap": {
-      "name": "효과 : 점성 트랩",
-      "description": "<p>생물이 모든 속도에 -15피트 상황 패널티를 받습니다.</p>"
+      "name": "효과: 점성 덫",
+      "description": "<p>생물은 모든 속도에 -15피트 상황 페널티를 받습니다.</p>"
     },
     "Effect: Void Shroud": {
-      "name": "효과 : 보이드 장막",
-      "description": "<p>방출물 안에 있는 생명체는 공포와 죽음 효과에 대한 내성 굴림에 -2 상태 패널티를 받습니다.</p>"
+      "name": "효과: 공허의 장막",
+      "description": "<p>발산 내의 살아있는 생물들은 공포와 사망 효과에 대한 내성에 -2 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Void Tendrils": {
+      "name": "효과: 공허 촉수",
+      "description": "<p>당신이 활력 효과로 치유될 때, 치유는 15 감소됩니다.</p>"
     },
     "Effect: Volcanic Purge": {
-      "name": "효과 : 화산 퍼지",
-      "description": "<p>대상이 @Damage[4d6[persistent,fire]] 피해를 받고, 이 지속 화염 피해를 받는 동안 이동 속도에 -10피트 상태 패널티를 받습니다.</p>"
+      "name": "효과: 화산 정화",
+      "description": "<p>대상은 @Damage[4d6[persistent,fire]] 피해를 받고, 이 지속적 화염 피해를 가지고 있는 한 속도에 -10피트 상태 페널티도 받습니다.</p>"
     },
     "Effect: Vomit Tar": {
-      "name": "Effect: 구토 타르",
-      "description": "<p>생물이 1 느려짐과 동시에 화염 약점 5를 얻습니다.</p>"
+      "name": "효과: 타르 토사",
+      "description": "<p>생물은 느려짐 1이 되고 화염 약점 5를 얻습니다.</p>"
     },
     "Effect: Vulnerable to Curved Space": {
-      "name": "효과 : 곡선 공간에 취약함",
-      "description": "<p>틴달로스의 사냥개가 90도 이상의 구조물 각도에 인접하지 않으면, 물리 피해에 대한 저항력이 억제되고 병에 걸립니다 1.</p>"
+      "name": "효과: 곡선 공간에 취약",
+      "description": "<p>틴달로스의 사냥개가 90도(또는 더 예각)의 구조적 각도에 인접하지 않을 때, 물리 피해에 대한 저항이 억제되고 역함 1이 됩니다.</p>"
+    },
+    "Effect: Wallow": {
+      "name": "효과: 뒹굴기",
+      "description": "<p>전쟁 돼지는 임시 생명점을 얻습니다.</p>"
+    },
+    "Effect: War Cry": {
+      "name": "효과: 전쟁 외침",
+      "description": "<p>당신은 타격으로 추가 1d6 피해를 얻습니다.</p>"
     },
     "Effect: War Leader": {
-      "name": "효과 : 전쟁 리더",
-      "description": "<p>생물은 공격 굴림과 스킬 체크에 +1 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 전쟁 지도자",
+      "description": "<p>생물은 공격 굴림과 기술 판정에 +1 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Warded Casting": {
-      "name": "효과 : 보호된 캐스팅",
-      "description": "<p>이말리자가 임시 체력 20과 산성, 냉기, 전기, 화염 피해에 대한 저항 20을 얻습니다.</p>"
+      "name": "효과: 보호된 시전",
+      "description": "<p>에말리자는 20의 임시 생명점과 산성, 냉기, 전기, 또는 화염 피해 중 하나에 대한 20의 저항을 얻습니다.</p>"
     },
     "Effect: Warning Hoot": {
-      "name": "Effect: 경고음",
-      "description": "<p>목표는 우선권 굴림에 +1 상황 보너스를 받습니다.</p>"
+      "name": "효과: 경고 울음",
+      "description": "<p>대상들은 선제권 굴림에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Warshard Healing": {
+      "name": "효과: 전쟁 파편 치유",
+      "description": "<p>당신은 빠른 치유 5를 얻습니다.</p>"
     },
     "Effect: Waterlogged": {
-      "name": "Effect: Waterlogged",
-      "description": "<p>물에 잠긴 상태에서 버베로카는 물보라를 사용할 수 있고, 크기가 거대해지며, 이동 속도가 15피트로 감소합니다.</p>"
+      "name": "효과: 물에 젖음",
+      "description": "<p>물에 젖은 동안, 베르베로카는 물 분사를 사용할 수 있고, 크기가 거대하게 성장하며, 속도는 15피트로 감소합니다.</p>"
     },
     "Effect: Whirlwind Form": {
-      "name": "Effect: 회오리바람 형태",
-      "description": "<p>생물이 물리 피해에 대한 저항 10을 얻습니다.</p>"
+      "name": "효과: 회오리 형태",
+      "description": "<p>생물은 물리 피해에 대한 10의 저항을 얻습니다.</p>"
     },
     "Effect: Wild Shape (Oaksteward)": {
-      "name": "효과 : 와일드 셰이프(오크스튜어드)",
-      "description": "<p>오크스튜어드의 손이 야생의 발톱으로 변합니다.</p>"
+      "name": "효과: 야생 변형 (오크스튜어드)",
+      "description": "<p>오크스튜어드의 손이 야생 발톱으로 변형됩니다.</p>"
+    },
+    "Effect: Will Not Falter": {
+      "name": "효과: 흔들리지 않을 의지",
+      "description": "<p>당신은 공격 굴림과 공포에 대한 내성에 +2 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Winter's Bite": {
+      "name": "효과: 겨울의 물기",
+      "description": "<p>당신은 냉기에 약점을 얻습니다.</p>"
     },
     "Effect: Witchflame (Critical Failure)": {
-      "name": "효과 : 마녀 불꽃 (대실패)",
-      "description": "<p>생물이 화염에 10의 약점을 얻습니다.</p>"
+      "name": "효과: 마녀불꽃 (치명적 실패)",
+      "description": "<p>생물은 화염에 약점 10을 얻습니다.</p>"
     },
     "Effect: Witchflame (Failure)": {
-      "name": "효과 : 마녀 불꽃 (실패)",
-      "description": "<p>생물이 화염에 약점 5를 얻습니다.</p>"
+      "name": "효과: 마녀불꽃 (실패)",
+      "description": "<p>생물은 화염에 약점 5를 얻습니다.</p>"
     },
     "Effect: Witchflame (Success)": {
-      "name": "효과 : 마녀 불꽃 (성공)",
-      "description": "<p>생물이 화염에 대한 약점 5를 얻습니다.</p>"
+      "name": "효과: 마녀불꽃 (성공)",
+      "description": "<p>생물은 화염에 약점 5를 얻습니다.</p>"
     },
     "Effect: Wolf Shape": {
-      "name": "Effect: 늑대 모양",
-      "description": "<p>가장 빠른 속도 40을 얻고 턱이 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu]{Knockdown}을 얻습니다.</p>"
+      "name": "효과: 늑대 형태",
+      "description": "<p>바르게스트는 속도 40을 얻고 턱은 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu]{넘어뜨리기}를 얻습니다.</p>"
+    },
+    "Effect: Words of Encouragement": {
+      "name": "효과: 격려의 말",
+      "description": "<p>당신은 가지고 있는 모든 상황과 상태 페널티를 무시합니다.</p>"
     },
     "Effect: Wrath of Fate": {
-      "name": "효과 : 운명의 분노",
-      "description": "<p>영향을 받은 생물이 공격, 내성 굴림, 스킬 체크를 시도할 때 두 번 굴려서 더 낮은 결과를 선택할 수 있습니다. 그 후 효과가 종료됩니다.</p>"
+      "name": "효과: 운명의 분노",
+      "description": "<p>영향받은 생물은 공격, 내성 굴림, 또는 기술 판정을 시도할 때 두 번 굴려서 낮은 결과를 취하도록 선택할 수 있습니다. 이 후 효과가 끝납니다.</p>"
     },
     "Effect: Wrath of Spurned Hospitality": {
-      "name": "효과 : 배척당한 환대의 분노",
-      "description": "<p>늑대인간은 주먹 공격 굴림의 공격 및 피해 굴림에 +2 상태 보너스를 얻습니다.</p>"
+      "name": "효과: 거절된 환대의 분노",
+      "description": "<p>니크테라는 주먹 타격의 공격과 피해 굴림에 +2 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Xulgath Stench": {
-      "name": "효과 : 술가스 악취",
-      "description": "<p>생물이 이동 속도에 -5피트 상태 패널티를 받습니다.</p>"
+      "name": "효과: 줄가스 악취",
+      "description": "<p>생물은 모든 속도에 -5피트 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Yobnobby Overdrive": {
+      "name": "효과: 요브노비 과부하",
+      "description": "<p>요브노비는 타격에 추가 피해를 줍니다.</p>"
+    },
+    "Effect: You'll Pay for That": {
+      "name": "효과: 그 대가를 치를 거야",
+      "description": "<p>당신은 표시된 적에 대한 다음 피해 굴림에 +5 상태 보너스를 얻습니다.</p>"
     },
     "Effect: Zinba Restoration": {
-      "name": "효과 : 긴바 복원",
-      "description": "<p>생물이 1분 동안 빠른 치유 5를 얻습니다.</p>"
+      "name": "효과: 진바 회복",
+      "description": "<p>생물은 1분 동안 빠른 치유 5를 얻습니다.</p>"
     },
-    "효과 : Courageous Anthem (Kanya)": {
-      "name": "주문 효과 : 용기찬 애국가 (칸야)",
-      "description": "<p>칸야의 @UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{용기의 찬가}</p>\n<p>공격 굴림, 피해 굴림, 공포 효과에 대한 내성 굴림에 상태 보너스 +2를 얻습니다.</p>"
-    
-}
-}
+    "Spell Effect: Courageous Anthem (Kanya)": {
+      "name": "주문 효과: 용감한 찬가 (칸야)",
+      "description": "<p>칸야의 @UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{용감한 찬가}에 의해 부여됨</p>\n<p>당신은 공격 굴림, 피해 굴림, 공포 효과에 대한 내성에 +2 상태 보너스를 얻습니다.</p>"
+    },
+    "Stance: Hunter's Precision": {
+      "name": "자세: 사냥꾼의 정밀",
+      "description": "<p>당신의 타격은 추가 2d8 정밀 피해를 주고, 원거리 무기 타격의 사거리 증가분은 정상보다 20피트 더 깁니다. 치명적 명중 시, 대상은 또한 2d6 지속적 출혈 피해를 받습니다.</p>"
+    }
   }
+}
